@@ -1,0 +1,6 @@
+#profile-title: Tasmimi
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+warp://[2606:4700:d0::5db:987a:2353:9dcc]:4177?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IPV6-IR&&detour=warp://188.114.98.54:7152#IPV6-Main
+
+warp://188.114.97.207:4177?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IPV4-IR&&detour=warp://188.114.97.207:4177#IPV4-Main
