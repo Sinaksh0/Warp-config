@@ -1,0 +1,6 @@
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval:1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/hiddify
+//profile-web-page-url: https://hiddify.com
+warp://162.159.195.189:3138?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IPV4-IR&&detour=warp://188.114.98.54:7152#IPV4-Main
