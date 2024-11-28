@@ -508,10 +508,10 @@
     {
       "type": "shadowsocks",
       "tag": "ssbase",
-      "server": "94.131.113.38",
-      "server_port": 37471,
+      "server": "89.23.103.21",
+      "server_port": 51584,
       "method": "chacha20-ietf-poly1305",
-      "password": "gKJuT0D6Aj5R6Uq8gISRn0"
+      "password": "oYQ8JwEldYn4KT2gfZ6eNl"
     }
   ]
 }
