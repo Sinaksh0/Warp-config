@@ -1,5 +1,4 @@
-#profile-title: All Network Support
-#profile-update-interval: 1
+#profile-tirle: All Network Support 
 {
   "outbounds": [
     {
@@ -509,10 +508,10 @@
     {
       "type": "shadowsocks",
       "tag": "sina",
-      "server": "208.67.105.196",
-      "server_port": 42029,
+      "server": "45.87.175.188",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD"
+      "password": "4a2rfixophdjffa8KVA4Aa"
     }
   ]
 }
