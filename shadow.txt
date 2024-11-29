@@ -1,4 +1,5 @@
-#profile-title: MCI
+#profile-title: All Network Support 
+#profile-update-interval: 1
 {
   "outbounds": [
     {
@@ -8,7 +9,7 @@
       "server_port": 443,
       "method": "aes-128-cfb",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -17,7 +18,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -26,7 +27,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -35,7 +36,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -44,7 +45,7 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "hgLCgfLRgB6d",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -53,7 +54,7 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "lWaGPVFjmnag",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -62,7 +63,7 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "5cp9Z3iWnJZ2",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -71,7 +72,7 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "g13S7doXar0A",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -80,7 +81,7 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "9Bvkw5aupNy8",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -89,7 +90,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -98,7 +99,7 @@
       "server_port": 32935,
       "method": "chacha20-ietf-poly1305",
       "password": "FX77Cp2CHKq8JKTHux2xUi",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -107,7 +108,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -116,7 +117,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -125,7 +126,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -134,7 +135,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -143,7 +144,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -152,7 +153,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -161,7 +162,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -170,7 +171,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -179,7 +180,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -188,7 +189,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -197,7 +198,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -206,7 +207,7 @@
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -215,7 +216,7 @@
       "server_port": 17708,
       "method": "chacha20-ietf-poly1305",
       "password": "fxxn5cJIe42ivUvnStDnaE",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -224,7 +225,7 @@
       "server_port": 12575,
       "method": "chacha20-ietf-poly1305",
       "password": "gdt6FA0fOR3pBQdFcyHyfv",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -233,7 +234,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -242,7 +243,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -251,7 +252,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -260,7 +261,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -269,7 +270,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -278,7 +279,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -287,7 +288,7 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -296,7 +297,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -305,7 +306,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -314,7 +315,7 @@
       "server_port": 80,
       "method": "chacha20-ietf-poly1305",
       "password": "JIhN6rBKkaEboLNXVSv5rq",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -323,7 +324,7 @@
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
       "password": "d3837224ed465f00",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -332,7 +333,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -341,7 +342,7 @@
       "server_port": 51348,
       "method": "chacha20-ietf-poly1305",
       "password": "xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -350,7 +351,7 @@
       "server_port": 443,
       "method": "aes-128-ssbasem",
       "password": "shadowsocks",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -359,7 +360,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -368,7 +369,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -377,7 +378,7 @@
       "server_port": 9041,
       "method": "aes-256-cfb",
       "password": "U6qnYRhfyDmn8sgn",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -386,7 +387,7 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -395,7 +396,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -404,7 +405,7 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -413,7 +414,7 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -422,7 +423,7 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "5cp9Z3iWnJZ2",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -431,7 +432,7 @@
       "server_port": 30067,
       "method": "aes-256-ssbasem",
       "password": "iUB0923RBA",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -440,7 +441,7 @@
       "server_port": 9044,
       "method": "aes-256-cfb",
       "password": "KBGjZYcy4SyRShmA",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -449,7 +450,7 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "gDFRe52uiIvVaxqPlqw439",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -458,7 +459,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -467,7 +468,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -476,7 +477,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -485,7 +486,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -494,7 +495,7 @@
       "server_port": 51348,
       "method": "chacha20-ietf-poly1305",
       "password": "vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
@@ -503,15 +504,23 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "detour": "ssbase"
+      "detour": "sina"
     },
     {
-      "type": "shadowsocks",
-      "tag": "ssbase",
-      "server": "89.23.103.21",
-      "server_port": 51584,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oYQ8JwEldYn4KT2gfZ6eNl"
+      "type": "hysteria2",
+      "tag": "sina",
+      "server": "150.241.85.155",
+      "server_port": 22211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "e36216019498c424"
+      },
+      "password": "062c01693a7cc6ac",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     }
   ]
 }
