@@ -507,28 +507,20 @@
       "detour": "sina"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "sina",
-      "server": "158.180.39.156",
-      "server_port": 443,
-      "uuid": "de44b044-8f90-4e18-b742-16591667ff96",
+      "server": "150.241.85.155",
+      "server_port": 22211,
+      "obfs":       {
+        "type": "salamander",
+        "password": "e36216019498c424"
+      },
+      "password": "062c01693a7cc6ac",
       "tls":       {
         "enabled": true,
-        "server_name": "edgetunnel-free.pages.dev",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "edgetunnel-free.pages.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     }
   ]
 }
