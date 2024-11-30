@@ -1,4 +1,4 @@
-#profile-title: Ilia Mahroumi
+#profile-title: All Network 
 {
   "outbounds":   [
     {
