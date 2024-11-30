@@ -1,4 +1,5 @@
 #profile-title: All Network 
+#profile-update-interval: 1
 {
   "outbounds":   [
     {
@@ -254,12 +255,20 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "sina",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mps3FwmDjLrWaOVg"
+      "server": "94.228.164.226",
+      "server_port": 11122,
+      "obfs":       {
+        "type": "salamander",
+        "password": "f6d407e645e57cac"
+      },
+      "password": "a20e411bdcb3f2f1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true
+      }
     }
   ]
 }
