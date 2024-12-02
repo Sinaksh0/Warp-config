@@ -1,4 +1,4 @@
-#profile-title: Irancell & Rightel & WIFI 
+#profile-title: All Network On (W)
 {
   "outbounds":   [
     {
