@@ -1,4 +1,5 @@
 #profile-title: All Network On (W)
+#profile-update-interval: 1
 {
   "outbounds":   [
     {
