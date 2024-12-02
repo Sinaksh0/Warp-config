@@ -1,4 +1,4 @@
-#profile-title: All Network 
+#profile-title: All Network
 #profile-update-interval: 1
 {
   "outbounds":   [
@@ -255,20 +255,21 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "hysteria2",
+      "type": "wireguard",
       "tag": "sina",
-      "server": "94.228.164.226",
-      "server_port": 11122,
-      "obfs":       {
-        "type": "salamander",
-        "password": "f6d407e645e57cac"
-      },
-      "password": "a20e411bdcb3f2f1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true
-      }
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "188.114.99.124",
+      "server_port": 3138,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "5-10",
+      "fake_packets_mode": "m4"
     }
   ]
 }
