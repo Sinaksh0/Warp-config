@@ -1,10 +1,10 @@
-#profile-title: All Network
+#profile-title: All Network 
 #profile-update-interval: 1
 {
   "outbounds":   [
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-38.75.136.49:2375 Â§ 0",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.75.136.49:2375 Â§ 0",
       "detour": "sina",
       "server": "38.75.136.49",
       "server_port": 2375,
@@ -13,7 +13,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-156.146.38.168:443 Â§ 1",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.168:443 Â§ 1",
       "detour": "sina",
       "server": "156.146.38.168",
       "server_port": 443,
@@ -22,7 +22,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-141.98.101.178:443 Â§ 2",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-141.98.101.178:443 Â§ 2",
       "detour": "sina",
       "server": "141.98.101.178",
       "server_port": 443,
@@ -31,7 +31,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡±ðŸ‡¹ LT-45.87.175.181:8080 Â§ 3",
+      "tag": "\ud83c\uddf1\ud83c\uddf9LT-45.87.175.181:8080 Â§ 3",
       "detour": "sina",
       "server": "45.87.175.181",
       "server_port": 8080,
@@ -40,7 +40,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-156.146.38.169:443 Â§ 4",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.169:443 Â§ 4",
       "detour": "sina",
       "server": "156.146.38.169",
       "server_port": 443,
@@ -49,7 +49,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-212.102.47.132:443 Â§ 5",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-212.102.47.132:443 Â§ 5",
       "detour": "sina",
       "server": "212.102.47.132",
       "server_port": 443,
@@ -58,7 +58,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡«ðŸ‡· FR-51.15.27.48:989 Â§ 6",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.15.27.48:989 Â§ 6",
       "detour": "sina",
       "server": "51.15.27.48",
       "server_port": 989,
@@ -67,7 +67,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡·ðŸ‡´ RO-194.14.217.115:989 Â§ 7",
+      "tag": "\ud83c\uddf7\ud83c\uddf4RO-194.14.217.115:989 Â§ 7",
       "detour": "sina",
       "server": "194.14.217.115",
       "server_port": 989,
@@ -76,7 +76,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-212.102.53.193:443 Â§ 8",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.193:443 Â§ 8",
       "detour": "sina",
       "server": "212.102.53.193",
       "server_port": 443,
@@ -85,7 +85,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡«ðŸ‡· FR-195.154.169.198:989 Â§ 9",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-195.154.169.198:989 Â§ 9",
       "detour": "sina",
       "server": "195.154.169.198",
       "server_port": 989,
@@ -94,7 +94,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-212.102.53.196:443 Â§ 10",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.196:443 Â§ 10",
       "detour": "sina",
       "server": "212.102.53.196",
       "server_port": 443,
@@ -103,7 +103,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-212.102.53.78:443 Â§ 11",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.78:443 Â§ 11",
       "detour": "sina",
       "server": "212.102.53.78",
       "server_port": 443,
@@ -112,7 +112,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-104.207.155.64:1633 Â§ 12",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-104.207.155.64:1633 Â§ 12",
       "detour": "sina",
       "server": "104.207.155.64",
       "server_port": 1633,
@@ -121,7 +121,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-212.102.53.197:443 Â§ 13",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.197:443 Â§ 13",
       "detour": "sina",
       "server": "212.102.53.197",
       "server_port": 443,
@@ -130,7 +130,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-205.134.180.151:443 Â§ 14",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-205.134.180.151:443 Â§ 14",
       "detour": "sina",
       "server": "205.134.180.151",
       "server_port": 443,
@@ -139,7 +139,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-184.170.241.194:443 Â§ 15",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-184.170.241.194:443 Â§ 15",
       "detour": "sina",
       "server": "184.170.241.194",
       "server_port": 443,
@@ -148,7 +148,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-212.102.53.195:443 Â§ 16",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.195:443 Â§ 16",
       "detour": "sina",
       "server": "212.102.53.195",
       "server_port": 443,
@@ -157,7 +157,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡±ðŸ‡¹ LT-45.87.175.154:8080 Â§ 17",
+      "tag": "\ud83c\uddf1\ud83c\uddf9LT-45.87.175.154:8080 Â§ 17",
       "detour": "sina",
       "server": "45.87.175.154",
       "server_port": 8080,
@@ -175,7 +175,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-38.107.226.146:1230 Â§ 19",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.107.226.146:1230 Â§ 19",
       "detour": "sina",
       "server": "38.107.226.146",
       "server_port": 1230,
@@ -193,7 +193,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¨ðŸ‡­ CH-91.103.253.151:19057 Â§ 21",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-91.103.253.151:19057 Â§ 21",
       "detour": "sina",
       "server": "91.103.253.151",
       "server_port": 19057,
@@ -202,7 +202,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡«ðŸ‡· FR-51.195.149.115:45816 Â§ 22",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.195.149.115:45816 Â§ 22",
       "detour": "sina",
       "server": "51.195.149.115",
       "server_port": 45816,
@@ -211,7 +211,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¬ðŸ‡§ GB-212.102.53.80:443 Â§ 23",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.80:443 Â§ 23",
       "detour": "sina",
       "server": "212.102.53.80",
       "server_port": 443,
@@ -220,7 +220,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡«ðŸ‡· FR-51.195.220.179:1080 Â§ 24",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.195.220.179:1080 Â§ 24",
       "detour": "sina",
       "server": "51.195.220.179",
       "server_port": 1080,
@@ -229,7 +229,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡ºðŸ‡¸ US-37.19.198.160:443 Â§ 25",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-37.19.198.160:443 Â§ 25",
       "detour": "sina",
       "server": "37.19.198.160",
       "server_port": 443,
@@ -262,8 +262,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.99.124",
-      "server_port": 3138,
+      "server": "188.114.97.222",
+      "server_port": 4198,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
