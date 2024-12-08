@@ -1,4 +1,4 @@
 #profile-title: Vafaei (All)
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-warp://162.159.195.32:8319?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR&&detour=warp://188.114.98.54:7152#Main
+warp://188.114.97.30:1070?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR&&detour=warp://188.114.98.54:7152#Main
