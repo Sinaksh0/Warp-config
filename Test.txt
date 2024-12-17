@@ -1,0 +1,45 @@
+#profile-title: All
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "IR",
+      "server": "162.159.192.144",
+      "server_port": 939,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:84c6:16bb:439d:c415:83d/128"
+      ],
+      "private_key": "CEojIm96DwhMZIR7ZbzwiuoKy60x8yRgmLxM6mQKp1M=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [2,35,77],
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "5-10",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Main",
+      "detour": "IR",
+      "server": "188.114.98.54",
+      "server_port": 7152,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8027:34dc:eb:4008:83c6/128"
+      ],
+      "private_key": "qPS3caJi7MRucjGGNIhA8WEHERFitkLTBKXun76WK34=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [240,147,151],  
+      
+      "mtu": 1120,
+      "fake_packets": "40-80"
+    }
+  ]
+}
