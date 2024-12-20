@@ -176,15 +176,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡§ðŸ‡­ BH-16.24.17.134:443 Â§ 26",
-      "detour": "sina",
-      "server": "16.24.17.134",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Bog0ELmMM9DSxDdQ"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf7\ud83c\uddf8RS",
       "detour": "sina",
       "server": "194.71.126.31",
