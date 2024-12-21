@@ -175,6 +175,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.241-0655 \u00a7 9",
+      "server": "149.22.87.241",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "detour": "sina"
+    },
+    {
       "type": "wireguard",
       "tag": "sina",
       "local_address":       [
