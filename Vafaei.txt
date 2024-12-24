@@ -248,15 +248,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 US-52.41.180.11:443 § 38",
-      "detour": "sina",
-      "server": "52.41.180.11",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇫🇷 FR-149.202.82.172:5003 § 39",
       "detour": "sina",
       "server": "149.202.82.172",
@@ -281,15 +272,6 @@
       "server_port": 9101,
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇭🇺 HU-5.182.38.211:42658 § 42",
-      "detour": "sina",
-      "server": "5.182.38.211",
-      "server_port": 42658,
-      "method": "chacha20-ietf-poly1305",
-      "password": "6W3KNlsw77BkOmhv36B76iKeOzNiECcO1qvmpvP2yTXCuODvctTKgRTNqc5dPRLY"
     },
     {
       "type": "wireguard",
