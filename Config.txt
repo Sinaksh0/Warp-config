@@ -194,15 +194,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-89.185.84.185-0268 \u00a7 25",
-      "server": "89.185.84.185",
-      "server_port": 12575,
-      "method": "chacha20-ietf-poly1305",
-      "password": "gdt6FA0fOR3pBQdFcyHyfv",
-      "detour": "W1"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.161-0639 \u00a7 26",
       "server": "156.146.62.161",
       "server_port": 443,
@@ -293,15 +284,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-77.72.5.150-0649 \u00a7 41",
-      "server": "77.72.5.150",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "detour": "W1"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddf8ES-5.188.181.201-0691 \u00a7 42",
       "server": "5.188.181.201",
       "server_port": 9041,
@@ -316,15 +298,6 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "5cp9Z3iWnJZ2",
-      "detour": "W1"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-154.3.8.151-0577 \u00a7 49",
-      "server": "154.3.8.151",
-      "server_port": 30067,
-      "method": "aes-256-gcm",
-      "password": "iUB0923RBA",
       "detour": "W1"
     },
     {
@@ -346,15 +319,6 @@
       "detour": "W1"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP-54.250.103.70-2509 \u00a7 57",
-      "server": "54.250.103.70",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05",
-      "detour": "W1"
-    },
-    {
       "type": "wireguard",
       "tag": "W1",
       "local_address":       [
@@ -362,8 +326,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.98.145",
-      "server_port": 4198,
+      "server": "188.114.99.213",
+      "server_port": 1180,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
