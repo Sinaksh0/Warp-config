@@ -14,15 +14,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-52.41.180.11:443 Â§ 38",
-      "detour": "sina",
-      "server": "52.41.180.11",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:5003 Â§ 39",
       "detour": "sina",
       "server": "149.202.82.172",
@@ -50,15 +41,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ‡­ðŸ‡º HU-5.182.38.211:42658 Â§ 42",
-      "detour": "sina",
-      "server": "5.182.38.211",
-      "server_port": 42658,
-      "method": "chacha20-ietf-poly1305",
-      "password": "6W3KNlsw77BkOmhv36B76iKeOzNiECcO1qvmpvP2yTXCuODvctTKgRTNqc5dPRLY"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\uddf8US-23.157.40.103:6379 Â§ 43",
       "detour": "sina",
       "server": "23.157.40.103",
@@ -68,7 +50,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ‡ªðŸ‡¸ ES-45.154.206.192:990 Â§ 44",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES-45.154.206.192:990 Â§ 44",
       "detour": "sina",
       "server": "45.154.206.192",
       "server_port": 990,
@@ -104,7 +86,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇩🇪DE-80.92.204.106:9084 Â§ 48",
+      "tag": "ðŸ‡©ðŸ‡ª DE-80.92.204.106:9084 Â§ 48",
       "detour": "sina",
       "server": "80.92.204.106",
       "server_port": 9084,
@@ -122,7 +104,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇮IE-23.92.127.134:989 Â§ 52",
+      "tag": "ðŸ‡®ðŸ‡ª IE-23.92.127.134:989 Â§ 52",
       "detour": "sina",
       "server": "23.92.127.134",
       "server_port": 989,
@@ -158,7 +140,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇩🇪DE-80.92.204.106:9064 Â§ 57",
+      "tag": "ðŸ‡©ðŸ‡ª DE-80.92.204.106:9064 Â§ 57",
       "detour": "sina",
       "server": "80.92.204.106",
       "server_port": 9064,
