@@ -184,6 +184,23 @@
       "detour": "sina"
     },
     {
+      "type": "trojan",
+      "tag": "🇰🇷 KR-144.24.88.133:45101 § 113",
+      "detour": "sina",
+      "server": "144.24.88.133",
+      "server_port": 45101,
+      "password": "xjN4xcuPGg",
+      "tls":       {
+        "enabled": true,
+        "server_name": "a.522226.xyz",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "wireguard",
       "tag": "sina",
       "local_address":       [
