@@ -5,7 +5,7 @@
   "outbounds":   [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.75.136.49:2375 Â§ 0",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.75.136.49:2375 Ã‚Â§ 0",
       "detour": "sina",
       "server": "38.75.136.49",
       "server_port": 2375,
@@ -14,7 +14,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.168:443 Â§ 1",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.168:443 Ã‚Â§ 1",
       "detour": "sina",
       "server": "156.146.38.168",
       "server_port": 443,
@@ -23,7 +23,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-141.98.101.178:443 Â§ 2",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-141.98.101.178:443 Ã‚Â§ 2",
       "detour": "sina",
       "server": "141.98.101.178",
       "server_port": 443,
@@ -32,7 +32,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.169:443 Â§ 4",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.169:443 Ã‚Â§ 4",
       "detour": "sina",
       "server": "156.146.38.169",
       "server_port": 443,
@@ -41,7 +41,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-212.102.47.132:443 Â§ 5",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-212.102.47.132:443 Ã‚Â§ 5",
       "detour": "sina",
       "server": "212.102.47.132",
       "server_port": 443,
@@ -50,7 +50,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.15.27.48:989 Â§ 6",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.15.27.48:989 Ã‚Â§ 6",
       "detour": "sina",
       "server": "51.15.27.48",
       "server_port": 989,
@@ -59,7 +59,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddf4RO-194.14.217.115:989 Â§ 7",
+      "tag": "\ud83c\uddf7\ud83c\uddf4RO-194.14.217.115:989 Ã‚Â§ 7",
       "detour": "sina",
       "server": "194.14.217.115",
       "server_port": 989,
@@ -68,7 +68,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.193:443 Â§ 8",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.193:443 Ã‚Â§ 8",
       "detour": "sina",
       "server": "212.102.53.193",
       "server_port": 443,
@@ -77,7 +77,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-195.154.169.198:989 Â§ 9",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-195.154.169.198:989 Ã‚Â§ 9",
       "detour": "sina",
       "server": "195.154.169.198",
       "server_port": 989,
@@ -86,7 +86,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.196:443 Â§ 10",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.196:443 Ã‚Â§ 10",
       "detour": "sina",
       "server": "212.102.53.196",
       "server_port": 443,
@@ -95,7 +95,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.78:443 Â§ 11",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.78:443 Ã‚Â§ 11",
       "detour": "sina",
       "server": "212.102.53.78",
       "server_port": 443,
@@ -104,7 +104,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-104.207.155.64:1633 Â§ 12",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-104.207.155.64:1633 Ã‚Â§ 12",
       "detour": "sina",
       "server": "104.207.155.64",
       "server_port": 1633,
@@ -113,7 +113,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.197:443 Â§ 13",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.197:443 Ã‚Â§ 13",
       "detour": "sina",
       "server": "212.102.53.197",
       "server_port": 443,
@@ -122,7 +122,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-205.134.180.151:443 Â§ 14",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-205.134.180.151:443 Ã‚Â§ 14",
       "detour": "sina",
       "server": "205.134.180.151",
       "server_port": 443,
@@ -131,7 +131,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-184.170.241.194:443 Â§ 15",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-184.170.241.194:443 Ã‚Â§ 15",
       "detour": "sina",
       "server": "184.170.241.194",
       "server_port": 443,
@@ -140,7 +140,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.195:443 Â§ 16",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.195:443 Ã‚Â§ 16",
       "detour": "sina",
       "server": "212.102.53.195",
       "server_port": 443,
@@ -149,7 +149,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.80:443 Â§ 23",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.80:443 Ã‚Â§ 23",
       "detour": "sina",
       "server": "212.102.53.80",
       "server_port": 443,
@@ -158,7 +158,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-37.19.198.160:443 Â§ 25",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-37.19.198.160:443 Ã‚Â§ 25",
       "detour": "sina",
       "server": "37.19.198.160",
       "server_port": 443,
@@ -167,7 +167,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ‡·ðŸ‡¸RS",
+      "tag": "Ã°Å¸â€¡Â·Ã°Å¸â€¡Â¸RS",
       "detour": "sina",
       "server": "194.71.126.31",
       "server_port": 989,
@@ -184,21 +184,34 @@
       "detour": "sina"
     },
     {
-      "type": "trojan",
-      "tag": "🇰🇷 KR-144.24.88.133:45101 § 113",
+      "type": "vmess",
+      "tag": "🇰🇷 KR-130.162.157.16:23451 § 54",
       "detour": "sina",
-      "server": "144.24.88.133",
-      "server_port": 45101,
-      "password": "xjN4xcuPGg",
-      "tls":       {
-        "enabled": true,
-        "server_name": "a.522226.xyz",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+      "server": "130.162.157.16",
+      "server_port": 23451,
+      "uuid": "64a13a91-df9d-4957-9a06-8923d5648541",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "seoul-1ddns.aboutanime.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 KR-146.56.112.110:8888 § 61",
+      "detour": "sina",
+      "server": "146.56.112.110",
+      "server_port": 8888,
+      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
