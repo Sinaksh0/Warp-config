@@ -68,7 +68,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "DE-80.92.204.106:9020 § 70",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9020 § 70",
       "detour": "sina",
       "server": "80.92.204.106",
       "server_port": 9020,
