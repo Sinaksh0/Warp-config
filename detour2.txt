@@ -195,6 +195,15 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-77.73.70.200:3832",
+      "detour": "sina",
+      "server": "77.73.70.200",
+      "server_port": 3832,
+      "method": "chacha20-ietf-poly1305",
+      "password": "TLzTbRU2xuSDMOU9o8e0QQ"
+    },
+    {
       "type": "wireguard",
       "tag": "sina",
       "local_address":       [
