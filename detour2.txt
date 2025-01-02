@@ -184,24 +184,31 @@
       "detour": "sina"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR-146.56.112.110:8888",
-      "detour": "sina",
-      "server": "146.56.112.110",
-      "server_port": 8888,
-      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-221.150.109.20:6416",
+      "server": "221.150.109.20",
+      "server_port": 6416,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@",
+      "detour": "sina"
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU-77.73.70.200:3832",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-218.234.149.9:2105",
+      "server": "218.234.149.9",
+      "server_port": 2105,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@",
+      "detour": "sina"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-45.151.62.54:28825",
       "detour": "sina",
-      "server": "77.73.70.200",
-      "server_port": 3832,
+      "server": "45.151.62.54",
+      "server_port": 28825,
       "method": "chacha20-ietf-poly1305",
-      "password": "TLzTbRU2xuSDMOU9o8e0QQ"
+      "password": "0zyDRZ1XmNXaaCAN7KEA8a"
     },
     {
       "type": "wireguard",
