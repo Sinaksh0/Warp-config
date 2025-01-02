@@ -284,12 +284,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU-77.73.70.200:3832",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-45.151.62.54:28825",
       "detour": "sina",
-      "server": "77.73.70.200",
-      "server_port": 3832,
+      "server": "45.151.62.54",
+      "server_port": 28825,
       "method": "chacha20-ietf-poly1305",
-      "password": "TLzTbRU2xuSDMOU9o8e0QQ"
+      "password": "0zyDRZ1XmNXaaCAN7KEA8a"
     },
     {
       "type": "wireguard",
