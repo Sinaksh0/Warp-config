@@ -5,15 +5,6 @@
   "outbounds":   [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.75.136.49:2375",
-      "detour": "sina",
-      "server": "38.75.136.49",
-      "server_port": 2375,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.168:443",
       "detour": "sina",
       "server": "156.146.38.168",
@@ -53,15 +44,6 @@
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.15.27.48:989",
       "detour": "sina",
       "server": "51.15.27.48",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddf4RO-194.14.217.115:989",
-      "detour": "sina",
-      "server": "194.14.217.115",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
@@ -119,15 +101,6 @@
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-205.134.180.151:443",
-      "detour": "sina",
-      "server": "205.134.180.151",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "5cp9Z3iWnJZ2"
     },
     {
       "type": "shadowsocks",
