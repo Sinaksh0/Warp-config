@@ -1,6 +1,6 @@
 #profile-title: All Network
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882ðŸ“†
 {
   "outbounds":   [
     {
@@ -41,7 +41,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.15.27.48:989",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-51.15.27.48:989",
       "detour": "sina",
       "server": "51.15.27.48",
       "server_port": 989,
@@ -56,15 +56,6 @@
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-195.154.169.198:989",
-      "detour": "sina",
-      "server": "195.154.169.198",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
@@ -158,15 +149,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR-221.150.109.20:6416",
-      "server": "221.150.109.20",
-      "server_port": 6416,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@",
-      "detour": "sina"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf0\ud83c\uddf7KR-218.234.149.9:2105",
       "server": "218.234.149.9",
       "server_port": 2105,
@@ -191,8 +173,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.97.222",
-      "server_port": 4198,
+      "server": "188.114.97.92",
+      "server_port": 945,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
