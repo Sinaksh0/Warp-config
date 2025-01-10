@@ -184,19 +184,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "sina",
-      "server": "45.89.244.7",
-      "server_port": 8443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Hfkjca43dsckaOKCdeasdRoc253skj"
-      },
-      "password": "yROPDxmS50",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
+      "server": "18.220.162.153",
+      "server_port": 19232,
+      "method": "chacha20-ietf-poly1305",
+      "password": "HYgxuDAYfPxonhtsCFTAHj"
     }
   ]
 }
