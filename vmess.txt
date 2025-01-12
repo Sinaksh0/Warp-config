@@ -150,10 +150,10 @@
     {
       "type": "shadowsocks",
       "tag": "sina",
-      "server": "18.220.162.153",
-      "server_port": 19232,
+      "server": "34.212.168.237",
+      "server_port": 31357,
       "method": "chacha20-ietf-poly1305",
-      "password": "HYgxuDAYfPxonhtsCFTAHj"
+      "password": "vMLWs1qW5iYhrKPQiphtBf"
     }
   ]
 }
