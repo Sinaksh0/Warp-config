@@ -149,12 +149,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR-218.234.149.9:2105",
-      "server": "218.234.149.9",
-      "server_port": 2105,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@",
-      "detour": "sina"
+      "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.241:443",
+      "detour": "sina",
+      "server": "149.22.87.241",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "shadowsocks",
@@ -164,6 +164,15 @@
       "server_port": 28825,
       "method": "chacha20-ietf-poly1305",
       "password": "0zyDRZ1XmNXaaCAN7KEA8a"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-54.180.228.40:443",
+      "detour": "sina",
+      "server": "54.180.228.40",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
       "type": "wireguard",
