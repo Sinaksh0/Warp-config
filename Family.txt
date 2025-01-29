@@ -113,7 +113,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP149.22.87.240:443",
+      "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.240:443",
       "detour": "sina",
       "server": "149.22.87.240",
       "server_port": 443,
