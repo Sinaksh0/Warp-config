@@ -139,6 +139,15 @@
       "password": "amazonskr05"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddf9AT-8388",
+      "detour": "socks",
+      "server": "at1.opensocks.site",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZmQwZjFk"
+    },
+    {
       "type": "wireguard",
       "tag": "socks",
       "local_address":       [
