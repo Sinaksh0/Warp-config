@@ -130,6 +130,15 @@
       "detour": "socks"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-3.36.115.19:443",
+      "detour": "socks",
+      "server": "3.36.115.19",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
       "type": "wireguard",
       "tag": "socks",
       "local_address":       [
