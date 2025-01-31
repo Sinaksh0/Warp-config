@@ -10,7 +10,7 @@
       "server_port": 6679,
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -19,7 +19,7 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -28,7 +28,7 @@
       "server_port": 5500,
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -37,7 +37,7 @@
       "server_port": 443,
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -46,7 +46,7 @@
       "server_port": 8881,
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -55,7 +55,7 @@
       "server_port": 8090,
       "method": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -64,7 +64,7 @@
       "server_port": 8882,
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -73,7 +73,7 @@
       "server_port": 5499,
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -82,7 +82,7 @@
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
@@ -91,12 +91,12 @@
       "server_port": 9057,
       "method": "aes-256-cfb",
       "password": "wjTugX3ZtHMB9c3Z",
-      "detour": "sina"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014"
     },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:8118",
-      "detour": "sina",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "server": "217.182.198.219",
       "server_port": 8118,
       "method": "aes-256-gcm",
@@ -105,7 +105,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.240:443",
-      "detour": "sina",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "server": "149.22.87.240",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -114,7 +114,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf7\ud83c\uddfaRU-45.151.62.54:28825",
-      "detour": "sina",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "server": "45.151.62.54",
       "server_port": 28825,
       "method": "chacha20-ietf-poly1305",
@@ -123,7 +123,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.63.193:990",
-      "detour": "sina",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "server": "154.90.63.193",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -132,7 +132,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde6\ud83c\uddf9AT-95.164.9.144:2927",
-      "detour": "sina",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "server": "95.164.9.144",
       "server_port": 2927,
       "method": "chacha20-ietf-poly1305",
@@ -141,7 +141,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\uddeaBE-192.71.249.146:990",
-      "detour": "sina",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "server": "192.71.249.146",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -149,7 +149,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "sina",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
