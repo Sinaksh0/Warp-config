@@ -10,7 +10,7 @@
       "server_port": 5003,
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -19,7 +19,7 @@
       "server_port": 9054,
       "method": "aes-256-cfb",
       "password": "VcFuyXvND2yQWSFY",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -28,7 +28,7 @@
       "server_port": 7383,
       "method": "chacha20-ietf-poly1305",
       "password": "eSHEdJz96rqNkOCAzd5Csv",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -37,7 +37,7 @@
       "server_port": 6697,
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -46,7 +46,7 @@
       "server_port": 8118,
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -55,7 +55,7 @@
       "server_port": 5004,
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -64,7 +64,7 @@
       "server_port": 6379,
       "method": "aes-256-gcm",
       "password": "zDNVedRFPQexG9v",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -73,7 +73,7 @@
       "server_port": 9064,
       "method": "aes-256-cfb",
       "password": "cp8pRSUAyLhTfVWH",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -82,7 +82,7 @@
       "server_port": 9060,
       "method": "aes-256-cfb",
       "password": "ueLXVkvh4hckhErQ",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -91,7 +91,7 @@
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -100,7 +100,7 @@
       "server_port": 6697,
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
@@ -109,12 +109,12 @@
       "server_port": 9027,
       "method": "aes-256-cfb",
       "password": "EXN3S3eQpjE7EJu8",
-      "detour": "socks"
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233"
     },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddedCZ-195.181.160.6:990",
-      "detour": "socks",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233",
       "server": "195.181.160.6",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -123,7 +123,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:4444",
-      "detour": "socks",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233",
       "server": "217.182.198.219",
       "server_port": 4444,
       "method": "aes-256-gcm",
@@ -132,7 +132,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:9101",
-      "detour": "socks",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233",
       "server": "217.182.198.219",
       "server_port": 9101,
       "method": "aes-256-gcm",
@@ -140,7 +140,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "socks",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
