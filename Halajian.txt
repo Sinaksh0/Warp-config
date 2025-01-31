@@ -32,42 +32,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.75.136.21:5500",
-      "detour": "sina",
-      "server": "38.75.136.21",
-      "server_port": 5500,
-      "method": "aes-256-gcm",
-      "password": "KixLvKzwjekG00rm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.91.100.211:3306",
-      "detour": "sina",
-      "server": "38.91.100.211",
-      "server_port": 3306,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.114.114.69:7306",
-      "detour": "sina",
-      "server": "38.114.114.69",
-      "server_port": 7306,
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.114.114.143:2376",
-      "detour": "sina",
-      "server": "38.114.114.143",
-      "server_port": 2376,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9020",
       "detour": "sina",
       "server": "80.92.204.106",
@@ -86,42 +50,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR-45.89.52.66:9040",
-      "detour": "sina",
-      "server": "45.89.52.66",
-      "server_port": 9040,
-      "method": "aes-256-cfb",
-      "password": "p9z5BVADH2YFs3MN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.75.136.21:9101",
-      "detour": "sina",
-      "server": "38.75.136.21",
-      "server_port": 9101,
-      "method": "aes-256-gcm",
-      "password": "e4FCWrgpkji3QY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.114.114.69:7307",
-      "detour": "sina",
-      "server": "38.114.114.69",
-      "server_port": 7307,
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-69.50.95.103:8008",
-      "detour": "sina",
-      "server": "69.50.95.103",
-      "server_port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:8118",
       "detour": "sina",
       "server": "51.77.53.200",
@@ -131,12 +59,165 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR-45.89.52.66:9003",
+      "tag": "\ud83c\udde6\ud83c\uddf9AT-95.164.9.144:2927",
       "detour": "sina",
-      "server": "45.89.52.66",
-      "server_port": 9003,
-      "method": "aes-256-cfb",
-      "password": "JdmRK9gMEqFgs8nP"
+      "server": "95.164.9.144",
+      "server_port": 2927,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ug4Fu79SEREdFGlt2sUyT4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-23.157.40.95:8008",
+      "detour": "sina",
+      "server": "23.157.40.95",
+      "server_port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:6379",
+      "detour": "sina",
+      "server": "51.77.53.200",
+      "server_port": 6379,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-156.146.38.169:443",
+      "detour": "sina",
+      "server": "156.146.38.169",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-23.157.40.87:5499",
+      "detour": "sina",
+      "server": "23.157.40.87",
+      "server_port": 5499,
+      "method": "aes-256-gcm",
+      "password": "lGqs95QkFHo2NV"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-23.157.40.119:5601",
+      "detour": "sina",
+      "server": "23.157.40.119",
+      "server_port": 5601,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-15.204.87.217:5500",
+      "detour": "sina",
+      "server": "15.204.87.217",
+      "server_port": 5500,
+      "method": "aes-256-gcm",
+      "password": "KixLvKzwjekG00rm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udded\ud83c\uddffHU-91.219.237.102:990",
+      "detour": "sina",
+      "server": "91.219.237.102",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "SG-68.183.190.16:26925",
+      "detour": "sina",
+      "server": "68.183.190.16",
+      "server_port": 26925,
+      "method": "chacha20-ietf-poly1305",
+      "password": "41EpKGSJg75zE790RJxEBJ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-23.150.152.16:5004",
+      "detour": "sina",
+      "server": "23.150.152.16",
+      "server_port": 5004,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-23.157.40.87:7307",
+      "detour": "sina",
+      "server": "23.157.40.87",
+      "server_port": 7307,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:4444",
+      "detour": "sina",
+      "server": "217.182.198.219",
+      "server_port": 4444,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:9101",
+      "detour": "sina",
+      "server": "217.182.198.219",
+      "server_port": 9101,
+      "method": "aes-256-gcm",
+      "password": "e4FCWrgpkji3QY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:6379",
+      "detour": "sina",
+      "server": "217.182.198.219",
+      "server_port": 6379,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:8882",
+      "detour": "sina",
+      "server": "217.182.198.219",
+      "server_port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:7306",
+      "detour": "sina",
+      "server": "149.202.82.172",
+      "server_port": 7306,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-54.36.174.181:8119",
+      "detour": "sina",
+      "server": "54.36.174.181",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:7001",
+      "detour": "sina",
+      "server": "149.202.82.172",
+      "server_port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
     },
     {
       "type": "wireguard",
