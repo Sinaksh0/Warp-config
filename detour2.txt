@@ -167,9 +167,9 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR-54.180.228.40:443",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-3.36.115.19:443",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506",
-      "server": "54.180.228.40",
+      "server": "3.36.115.19",
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05"
