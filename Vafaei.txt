@@ -1,4 +1,4 @@
-#profile-title: Vafaei (All)
+#profile-title: Vafaei
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
@@ -164,6 +164,42 @@
       "server_port": 5500,
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:7306",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987",
+      "server": "217.182.198.219",
+      "server_port": 7306,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE-46.246.93.24:989",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987",
+      "server": "46.246.93.24",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-212.102.47.131:443",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987",
+      "server": "212.102.47.131",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-103.106.1.92:23492",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987",
+      "server": "103.106.1.92",
+      "server_port": 23492,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yMX9WGPgUEcRZmlaa0YHHC"
     },
     {
       "type": "wireguard",
