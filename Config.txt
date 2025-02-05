@@ -95,7 +95,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.194:0112"\ud83d\ude80,
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.194:0112\ud83d\ude80",
       "server": "212.102.53.194",
       "server_port": 443,
       "method": "aes-128-gcm",
