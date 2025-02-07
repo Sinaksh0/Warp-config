@@ -249,7 +249,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE-13.61.190.106:12916\ud83d\ude80",
-      "server": "13.61.190.106",
+      "server": "51.20.115.115",
       "server_port": 12916,
       "method": "chacha20-ietf-poly1305",
       "password": "zIaar1xw6JC1vCWIZ8pAVR"
