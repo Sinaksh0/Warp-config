@@ -222,19 +222,20 @@
     {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-188.245.185.89:4040\ud83d\ude80",
-      "server": "188.245.185.89",
-      "server_port": 4040,
-      "uuid": "58a4b45f-96e9-4647-aba5-0002f26862e0",
+      "server": "91.107.243.233",
+      "server_port": 40161,
+      "uuid": "9f43e546-6c58-4637-88e3-d1cc6997ce98",
       "tls":       {
         "enabled": true,
-        "server_name": "refersion.com",
+        "server_name": "ilovepdf.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "GqpLuqbGhZ3N1oIlSMfuLnpKCNZOoK8JWwHPmqSNxgk"
+          "public_key": "bVq_MJRnzs_9xWxqIG0IB-G5C3jBVn4d7B6ZHE5FxQ4",
+          "short_id": "e2e007bd"
         }
       },
       "packet_encoding": "xudp"
