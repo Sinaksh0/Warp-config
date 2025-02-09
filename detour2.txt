@@ -175,6 +175,15 @@
       "password": "vkQP4Fe2dFEA1rdWx0lAjH"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.91.39.14:1090\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
+      "server": "51.91.39.14",
+      "server_port": 1090,
+      "method": "chacha20-ietf-poly1305",
+      "password": "N_dopECS7fLMYmKXG7lwEw"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
       "local_address":       [
