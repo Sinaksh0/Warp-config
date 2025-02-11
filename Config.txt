@@ -257,7 +257,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde7\ud83c\udde645.156.248.11:990\ud83d\ude80",
+      "tag": "\ud83c\udde7\ud83c\udde6BA-45.156.248.11:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "server": "45.156.248.11",
       "server_port": 990,
