@@ -121,6 +121,15 @@
       "password": "g5MeD6Ft3CWlJId"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfb\ud83c\uddf3VN-160.19.78.75:443\ud83d\ude80",
+      "detour": "\ud83c\udde9\ud83c\uddeaDE-81.28.12.12:443\ud83d\ude80",
+      "server": "160.19.78.75",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Nk9asglDzHzjktVzTkvhaA"
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-81.28.12.12:443\ud83d\ude80",
       "server": "81.28.12.12",
