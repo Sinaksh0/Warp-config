@@ -166,6 +166,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-54.36.174.181:7307\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "54.36.174.181",
+      "server_port": 7307,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
       "local_address":       [
