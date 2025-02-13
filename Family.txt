@@ -202,6 +202,15 @@
       "password": "zDNVedRFPQexG9v"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.63.193:990\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "154.90.63.193",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
