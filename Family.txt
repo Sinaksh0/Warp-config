@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-54.36.174.181:5500\ud83d\ude80",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-54.36.174.181:5500\ud83d\ude80",
       "server": "54.36.174.181",
       "server_port": 5500,
       "method": "aes-256-gcm",
@@ -119,15 +119,6 @@
       "server_port": 49264,
       "method": "chacha20-ietf-poly1305",
       "password": "LI4obOEIDLzDjd7xYlhhTJ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde7\ud83c\udde4BO-185.93.173.218:990\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.93.173.218",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
