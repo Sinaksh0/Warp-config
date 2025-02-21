@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\uddf8US-212.102.47.132:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "212.102.47.132",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -15,7 +15,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL-51.15.27.48:989\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "51.15.27.48",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -24,7 +24,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.197:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "212.102.53.197",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -33,7 +33,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\uddf8US-184.170.241.194:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "184.170.241.194",
       "server_port": 443,
       "method": "aes-128-cfb",
@@ -42,7 +42,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.195:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "212.102.53.195",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -51,7 +51,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\uddf8US-37.19.198.160:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "37.19.198.160",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -60,7 +60,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf7\ud83c\uddf8RS-194.71.126.31:989\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "194.71.126.31",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -69,7 +69,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-54.36.174.181:5003\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "54.36.174.181",
       "server_port": 5003,
       "method": "aes-256-gcm",
@@ -78,7 +78,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:8882\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "149.202.82.172",
       "server_port": 8882,
       "method": "aes-256-gcm",
@@ -87,7 +87,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:8090\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "51.77.53.200",
       "server_port": 8090,
       "method": "aes-256-gcm",
@@ -96,7 +96,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:4444\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "217.182.198.219",
       "server_port": 4444,
       "method": "aes-256-gcm",
@@ -105,7 +105,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.163:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "156.146.62.163",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -114,7 +114,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfb\ud83c\uddf3VN-103.163.218.2:989\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "103.163.218.2",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -123,7 +123,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-169.150.210.233:8080\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "169.150.210.233",
       "server_port": 8080,
       "method": "rc4-md5",
@@ -132,23 +132,35 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-54.36.174.181:443\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
+      "detour": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
       "server": "54.36.174.181",
       "server_port": 443,
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-212.115.124.224:43615\ud83d\ude80",
-      "server": "212.115.124.224",
-      "server_port": 43615,
-      "password": "f901861b-6491-450c-b500-606b2e921625",
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-81.28.12.12:443\ud83d\ude80",
+      "server": "81.28.12.12",
+      "server_port": 443,
+      "uuid": "054d503d-4748-47a6-8118-71a96c51f2d9",
       "tls":       {
         "enabled": true,
-        "server_name": "dxobg4azmk.gafnode.sbs",
-        "insecure": true
-      }
+        "server_name": "gcore.lu",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/VLESS",
+        "headers":         {
+          "Host": "nl50.maxima.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     }
   ]
 }
