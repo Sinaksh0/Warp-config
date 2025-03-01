@@ -95,12 +95,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-38.121.43.71:5600\ud83d\ude80",
+      "tag": "\ud83c\uddfa\ud83c\uddf8US-157.245.119.238:45742\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233\ud83d\ude80",
-      "server": "38.121.43.71",
-      "server_port": 5600,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "server": "157.245.119.238",
+      "server_port": 45742,
+      "method": "chacha20-ietf-poly1305",
+      "password": "rGZBPqTcMQO1No0pYNt3FS"
     },
     {
       "type": "wireguard",
