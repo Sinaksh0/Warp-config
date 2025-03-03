@@ -122,15 +122,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:7001\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "217.182.198.219",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\uddedBH-38.54.2.182:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
       "server": "38.54.2.182",
