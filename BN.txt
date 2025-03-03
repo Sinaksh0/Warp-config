@@ -5,15 +5,6 @@
   "outbounds":   [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-217.182.198.219:7001\ud83d\ude80",
-      "detour": "\ud83c\udde9\ud83c\uddeaDE-165.232.120.176:80\ud83d\ude80",
-      "server": "217.182.198.219",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL-193.29.139.251:8080\ud83d\ude80",
       "detour": "\ud83c\udde9\ud83c\uddeaDE-165.232.120.176:80\ud83d\ude80",
       "server": "193.29.139.251",
