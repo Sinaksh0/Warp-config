@@ -113,12 +113,21 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-165.232.120.176:80\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9027\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "165.232.120.176",
-      "server_port": 80,
+      "server": "80.92.204.106",
+      "server_port": 9027,
+      "method": "aes-256-cfb",
+      "password": "EXN3S3eQpjE7EJu8"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-185.177.229.245:1866\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "185.177.229.245",
+      "server_port": 1866,
       "method": "chacha20-ietf-poly1305",
-      "password": "wHfZvjuscmkgPYQnpvXpRy"
+      "password": "oXGp1+ihlfKg826H"
     },
     {
       "type": "wireguard",
