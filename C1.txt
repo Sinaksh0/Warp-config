@@ -120,22 +120,48 @@
       "password": "UDcjYQ6Z6AIWxViZpqyOmO"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9031\ud83d\ude80",
-      "server": "80.92.204.106",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
-      "server_port": 9031,
-      "method": "aes-256-cfb",
-      "password": "BwcAUZk8hUFAkDGN"
+      "type": "trojan",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-3.78.108.122:22222\ud83d\ude80",
+      "server": "3.78.108.122",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9097\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9097,
-      "method": "aes-256-cfb",
-      "password": "Sn5B7jTqr76aCJT8"
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-57.129.41.216:2083\ud83d\ude80",
+      "server": "57.129.41.216",
+      "server_port": 2083,
+      "uuid": "3967c059-865d-40af-ba3c-8abc9ba5c7f8",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "ov-germany1.09vpn.com",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers":         {
+          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "wireguard",
