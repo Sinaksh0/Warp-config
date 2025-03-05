@@ -78,10 +78,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL-64.225.64.198:80\ud83d\ude80",
-      "server": "64.225.64.198",
-      "server_port": 80,
+      "server": "45.158.171.151",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "K1O7lapGuHTn8KHzYTwRQW"
+      "password": "4a2rfixophdjffa8KVA4Aa"
     }
   ]
 }
