@@ -67,13 +67,19 @@
       "password": "g5MeD6Ft3CWlJId"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9046\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-138.68.86.135:50633\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9046,
-      "method": "aes-256-cfb",
-      "password": "NvS8N4Vf8qAGPSCL"
+      "server": "138.68.86.135",
+      "server_port": 50633,
+      "uuid": "d02828fb-3c5f-44e9-b8d6-3477bebc24cf",
+      "transport":       {
+        "type": "http",
+        "host": "speedtest.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
