@@ -148,6 +148,24 @@
       "password": "0zyDRZ1XmNXaaCAN7KEA8a"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf2\ud83c\udde9MD-86.104.75.103:49264\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
+      "server": "86.104.75.103",
+      "server_port": 49264,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LI4obOEIDLzDjd7xYlhhTJ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddf7AR-38.54.45.129:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
+      "server": "38.54.45.129",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
       "local_address":       [
