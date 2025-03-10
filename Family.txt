@@ -137,11 +137,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde6\ud83c\uddeaAE-217.195.200.95:8080\ud83d\ude80",
-      "server": "217.195.200.95",
-      "server_port": 8080,
+      "tag": "\ud83c\udde6\ud83c\uddf9AT-95.164.9.144:2927\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "95.164.9.144",
+      "server_port": 2927,
       "method": "chacha20-ietf-poly1305",
-      "password": "d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1"
+      "password": "ug4Fu79SEREdFGlt2sUyT4"
     },
     {
       "type": "wireguard",
