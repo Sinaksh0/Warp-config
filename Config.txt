@@ -121,21 +121,12 @@
       "password": "wjTugX3ZtHMB9c3Z"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-3.124.150.215:22222\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "3.124.150.215",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388\ud83d\ude80",
+      "server": "146.19.247.183",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ODA5YjFh"
     },
     {
       "type": "shadowsocks",
@@ -145,15 +136,6 @@
       "server_port": 64759,
       "method": "aes-256-cfb",
       "password": "qwerREWQ@@"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-193.29.139.227:8080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "193.29.139.227",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
     },
     {
       "type": "shadowsocks",
