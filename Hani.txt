@@ -1,6 +1,6 @@
 #profile-title: Khodaverdi
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1741595455
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1741586400
 {
   "outbounds":   [
     {
@@ -68,15 +68,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-81.19.141.45:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "server": "81.19.141.45",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "9eFeJ7bqWSpx9bGXGMRjM1"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udded\ud83c\uddfaHU-86.104.75.103:49264\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
       "server": "86.104.75.103",
@@ -130,21 +121,12 @@
       "password": "kDWvXYZoTBcGkC4"
     },
     {
-      "type": "wireguard",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.98.64",
-      "server_port": 7156,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "5-10",
-      "fake_packets_mode": "m4"
+      "server": "127.0.0.1",
+      "server_port": 1080,
+      "method": "none",
+      "password": "abaccba-caba-acba-dbca-cbbbccaaacba"
     }
   ]
 }
