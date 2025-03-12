@@ -94,6 +94,24 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.142.100:443\ud83d\ude80",
+      "server": "91.107.142.100",
+      "server_port": 443,
+      "uuid": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mods.lnmarketplace.net",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
       "local_address":       [
