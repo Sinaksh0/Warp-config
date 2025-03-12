@@ -112,13 +112,17 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9097\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9097,
-      "method": "aes-256-cfb",
-      "password": "Sn5B7jTqr76aCJT8"
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-138.199.175.204:8880\ud83d\ude80",
+      "server": "138.199.175.204",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
@@ -139,7 +143,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY SINA-KSH\u26a1\ufe0f",
+      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
