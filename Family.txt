@@ -67,22 +67,6 @@
       "password": "cdBIDV42DCwnfIN"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.240.112.32:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "80.240.112.32",
-      "server_port": 443,
-      "password": "3747000103274291200",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trusting-titmouse.adder289.quest",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-64.176.184.129:1866\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -143,6 +127,15 @@
       "server_port": 62685,
       "method": "chacha20-ietf-poly1305",
       "password": "VpKABcOpNNA0l5G2AVOmw8"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-159.69.246.135:8080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "159.69.246.135",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1"
     },
     {
       "type": "wireguard",
