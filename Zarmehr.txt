@@ -23,15 +23,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9042\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\uddf8US-184.170.241.194:443\ud83d\ude80",
       "server": "184.170.241.194",
       "server_port": 443,
@@ -128,6 +119,23 @@
       "server_port": 9010,
       "method": "aes-256-cfb",
       "password": "f63gg8EruDnUrmz4"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-63.177.120.191:22222\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
+      "server": "63.177.120.191",
+      "server_port": 22222,
+      "password": "telegram-id-directvpn",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "wireguard",
