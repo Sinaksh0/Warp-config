@@ -121,6 +121,22 @@
       "password": "VpKABcOpNNA0l5G2AVOmw8"
     },
     {
+      "type": "hysteria2",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.175.59:9007\ud83d\ude80",
+      "server": "91.107.175.59",
+      "server_port": 9007,
+      "obfs":       {
+        "type": "salamander",
+        "password": "testfortest"
+      },
+      "password": "fPTNXS1Jcp",
+      "tls":       {
+        "enabled": true,
+        "server_name": "https://app-measurement.com/",
+        "insecure": true
+      }
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
