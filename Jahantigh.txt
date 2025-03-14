@@ -23,24 +23,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddffKZ-213.156.137.67:989\ud83d\ude80",
-      "server": "213.156.137.67",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR-45.89.52.66:9011\ud83d\ude80",
-      "server": "45.89.52.66",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-145.239.6.202:6679\ud83d\ude80",
       "server": "145.239.6.202",
       "server_port": 6679,
@@ -65,24 +47,6 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde6\ud83c\uddf9AT-95.164.9.144:2927\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80",
-      "server": "95.164.9.144",
-      "server_port": 2927,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ug4Fu79SEREdFGlt2sUyT4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-193.29.139.206:8080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80",
-      "server": "193.29.139.206",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
     },
     {
       "type": "shadowsocks",
@@ -113,12 +77,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-45.144.54.156:51587\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80",
-      "server": "45.144.54.156",
-      "server_port": 51587,
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
+      "server": "87.98.242.137",
+      "server_port": 49551,
       "method": "chacha20-ietf-poly1305",
-      "password": "PPXb8J2ciDybokWl7kxKab"
+      "password": "XwoHfpvuczzHOkOebGXiUO"
     },
     {
       "type": "wireguard",
