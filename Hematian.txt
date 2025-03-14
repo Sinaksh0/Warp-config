@@ -3,6 +3,14 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+  {
+      "type": "shadowsocks",
+      "tag": "لطفا هزینه رو پرداخت کنید تا کانفیگ متصل شود",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US-69.50.93.47:5004\ud83d\ude80",
@@ -105,6 +113,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:8080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "server": "149.202.82.172",
       "server_port": 8080,
       "method": "aes-256-gcm",
@@ -113,31 +122,23 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.63.193:990\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "server": "154.90.63.193",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "wireguard",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.195.106",
-      "server_port": 891,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "5-10",
-      "fake_packets_mode": "m4"
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     },
     {
       "type": "shadowsocks",
-      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\ud83d\udcf6",
+      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
