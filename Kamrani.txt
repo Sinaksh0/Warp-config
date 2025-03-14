@@ -1,4 +1,4 @@
 #profile-title: Kamrani
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-warp://[2606:4700:d0::63f3:5c60:1073:bc84]:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@85.210.80.85:443#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%AC%F0%9F%87%A7%20GB-85.210.80.85%3A443
