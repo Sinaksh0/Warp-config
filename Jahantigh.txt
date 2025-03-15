@@ -84,6 +84,22 @@
       "password": "XwoHfpvuczzHOkOebGXiUO"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-23.166.88.20:8119\ud83d\ude80",
+      "server": "23.166.88.20",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddeaEE-188.214.36.155:989\ud83d\ude80",
+      "server": "188.214.36.155",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80",
       "local_address":       [
