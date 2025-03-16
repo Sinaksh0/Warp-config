@@ -157,13 +157,24 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-49.13.0.130:49808\ud83d\ude80",
-      "server": "49.13.0.130",
-      "server_port": 49808,
-      "uuid": "ee7a20fa-cf57-4709-b48b-24bdb7d965cb",
-      "security": "auto",
-      "authenticated_length": true,
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.243.247:443\ud83d\ude80",
+      "server": "91.107.243.247",
+      "server_port": 443,
+      "uuid": "12454871-7c3e-4f2c-b232-75771a75bac5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mw7.hellont.ir",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "yvdTIbOoLcSSISo3u8sESDllxZa0EArFZb0igdbbPAo",
+          "short_id": "4720f75a80"
+        }
+      },
       "packet_encoding": "xudp"
     },
     {
