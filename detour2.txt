@@ -104,15 +104,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:8090\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
-      "server": "51.77.53.200",
-      "server_port": 8090,
-      "method": "aes-256-gcm",
-      "password": "PCnnH6SQSnfoS27"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-54.36.174.181:8881\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
       "server": "54.36.174.181",
@@ -155,27 +146,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.243.247:443\ud83d\ude80",
-      "server": "91.107.243.247",
-      "server_port": 443,
-      "uuid": "12454871-7c3e-4f2c-b232-75771a75bac5",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mw7.hellont.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "yvdTIbOoLcSSISo3u8sESDllxZa0EArFZb0igdbbPAo",
-          "short_id": "4720f75a80"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
