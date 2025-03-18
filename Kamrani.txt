@@ -1,5 +1,21 @@
 #profile-title: Kamrani
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-#profile-title: All
-warp://[2606:4700:d0::6f15:8729:a886:1e04]:928?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
+{
+  "outbounds":   [
+{
+      "type": "vless",
+      "tag": "🇩🇪-12685\ud83d\ude80",
+      "server": "V2rayNG.SPDNet.online",
+      "server_port": 12685,
+      "uuid": "011a0002-5348-467b-8e48-5301180f11b6",
+      "transport":       {
+        "type": "grpc",
+        "service_name": "TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    }
+    ]
+}
