@@ -4,6 +4,22 @@
 {
   "outbounds":   [
 {
+      "type": "trojan",
+      "tag": "\ud83c\udde9\ud83c\uddea DE-18.199.25.106:22222\ud83d\ude80",
+      "server": "18.199.25.106",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls":       {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+{
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-209.38.177.43:6969\ud83d\ude80",
       "server": "209.38.177.43",
