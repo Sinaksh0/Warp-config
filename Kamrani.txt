@@ -4,20 +4,12 @@
 {
   "outbounds":   [
 {
-      "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddea DE-18.199.25.106:22222\ud83d\ude80",
-      "server": "18.199.25.106",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-57.130.11.84:11202\ud83d\ude80",
+      "server": "57.130.11.84",
+      "server_port": 11202,
+      "method": "chacha20-ietf-poly1305",
+      "password": "602e2068c047d750"
     },
 {
       "type": "vless",
