@@ -157,6 +157,14 @@
       "password": "zDNVedRFPQexG9v"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.173.109.231:11107\ud83d\ude80",
+      "server": "157.173.109.231",
+      "server_port": 11107,
+      "method": "chacha20-ietf-poly1305",
+      "password": "819e38d1d6db14b4"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
       "local_address":       [
