@@ -123,36 +123,19 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf9IT-157.185.130.3:21298\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "157.185.130.3",
       "server_port": 21298,
       "method": "chacha20-ietf-poly1305",
       "password": "38d6fa261ce20d73"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-209.38.177.43:6969\ud83d\ude80",
-      "server": "209.38.177.43",
-      "server_port": 6969,
-      "uuid": "89abd242-1fbb-433d-ac09-296264bba802",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.speedtest.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "-gtHzdSWtMY0y0CkiN95fgg4oLKtNPtOkqvpls6oyB8",
-          "short_id": "7eb3f75c3f2279"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388\ud83d\ude80",
+      "server": "146.19.247.183",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ODA5YjFh"
     },
     {
       "type": "wireguard",
