@@ -1,23 +1,4 @@
 #profile-title: Kamrani
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-{
-  "outbounds":   [
-{
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE-157.173.109.231:11107 § 16",
-      "server": "157.173.109.231",
-      "server_port": 11107,
-      "method": "chacha20-ietf-poly1305",
-      "password": "819e38d1d6db14b4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE-146.19.247.183:8388 § 54",
-      "server": "146.19.247.183",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ODA5YjFh"
-    }
-    ]
-}
+warp://188.114.98.195:7559?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
