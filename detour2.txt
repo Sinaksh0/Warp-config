@@ -157,12 +157,30 @@
       "password": "zDNVedRFPQexG9v"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.173.109.231:11107\ud83d\ude80",
-      "server": "157.173.109.231",
-      "server_port": 11107,
-      "method": "chacha20-ietf-poly1305",
-      "password": "819e38d1d6db14b4"
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.181.182:26528\ud83d\ude80",
+      "server": "91.107.181.182",
+      "server_port": 26528,
+      "uuid": "d457af45-9ec8-46f7-bf70-fa8761cf627d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "2FrbyUtv6Ajh0Ufmst5Tw0ch_aeF3tXw0kDcfOrvGTk",
+          "short_id": "8f9d4d9a"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
