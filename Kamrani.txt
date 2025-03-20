@@ -5,15 +5,23 @@
   "outbounds":   [
 {
       "type": "shadowsocks",
-      "tag": "🇩🇪DE-146.19.247.183:8388 § 10",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388 § 10",
       "server": "146.19.247.183",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "ODA5YjFh"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-95.164.68.37:1443 § 43",
+      "server": "95.164.68.37",
+      "server_port": 1443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZDljYmNh"
+    },
+    {
       "type": "vless",
-      "tag": "🇩🇪DE-167.235.104.138:3030 § 157",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-167.235.104.138:3030 § 157",
       "server": "167.235.104.138",
       "server_port": 3030,
       "uuid": "ca9ac6fc-7269-42c9-8e48-18d8f0449750",
@@ -33,7 +41,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE-91.107.152.229:443 § 177",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.152.229:443 § 177",
       "server": "91.107.152.229",
       "server_port": 443,
       "uuid": "d49b7b53-6697-4165-afb6-dce05a65a3c1",
