@@ -3,14 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388 § 10",
-      "server": "146.19.247.183",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ODA5YjFh"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-95.164.68.37:1443 § 43",
@@ -21,21 +13,28 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-167.235.104.138:3030 § 157",
-      "server": "167.235.104.138",
-      "server_port": 3030,
-      "uuid": "ca9ac6fc-7269-42c9-8e48-18d8f0449750",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.166.17:443 § 174",
+      "server": "91.107.166.17",
+      "server_port": 443,
+      "uuid": "e9120b3b-e033-48f7-be84-1f1ecea5df32",
       "tls":       {
         "enabled": true,
-        "server_name": "refersion.com",
+        "server_name": "www.cdn77.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI"
+          "public_key": "0JBrLAhqlbIWkAH1VAFno9w-XpAhjGhhWPG4qw7vlQw",
+          "short_id": "d656c301bc0904"
         }
+      },
+      "transport":       {
+        "type": "grpc",
+        "service_name": "Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
