@@ -14,15 +14,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.240:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "149.22.87.240",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "169.150.202.174",
@@ -91,6 +82,55 @@
       "server_port": 9040,
       "method": "aes-256-cfb",
       "password": "p9z5BVADH2YFs3MN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.173.109.231:11107\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "157.173.109.231",
+      "server_port": 11107,
+      "method": "chacha20-ietf-poly1305",
+      "password": "819e38d1d6db14b4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-107.181.151.147:43669\ud83d\ude80",
+      "server": "107.181.151.147",
+      "server_port": 43669,
+      "method": "chacha20-ietf-poly1305",
+      "password": "23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddf9AT-95.164.36.59:8388\ud83d\ude80",
+      "server": "95.164.36.59",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ODA2MGZh"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddef\ud83c\uddf5JP-52.197.235.237:443\ud83d\ude80",
+      "server": "52.197.235.237",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde7\ud83c\uddedBH-15.185.109.98:443\ud83d\ude80",
+      "server": "15.185.109.98",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Bog0ELmMM9DSxDdQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE-188.126.93.105:15128\ud83d\ude80",
+      "server": "188.126.93.105",
+      "server_port": 15128,
+      "method": "chacha20-ietf-poly1305",
+      "password": "70Xwg0SbHSL8CuCkiLuGhO"
     },
     {
       "type": "wireguard",
