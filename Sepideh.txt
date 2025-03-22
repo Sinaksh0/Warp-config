@@ -49,6 +49,14 @@
       "password": "yMX9WGPgUEcRZmlaa0YHHC"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfb\ud83c\uddf3VN-166.88.131.195:52952\ud83d\ude80",
+      "server": "166.88.131.195",
+      "server_port": 52952,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
       "local_address":       [
