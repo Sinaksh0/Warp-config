@@ -76,6 +76,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE-188.126.93.105:15128\ud83d\ude80",
+      "server": "188.126.93.105",
+      "server_port": 15128,
+      "method": "chacha20-ietf-poly1305",
+      "password": "70Xwg0SbHSL8CuCkiLuGhO"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.191:3138\ud83d\ude80",
       "local_address":       [
