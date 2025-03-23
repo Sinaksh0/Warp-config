@@ -76,6 +76,14 @@
       "password": "Y6R9pAtvxxzmGC"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-45.87.175.181:8080\ud83d\ude80",
+      "server": "45.87.175.181",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "4a2rfixophdjffa8KVA4Aa"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
