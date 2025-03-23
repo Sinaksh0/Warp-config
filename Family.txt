@@ -126,14 +126,6 @@
       "password": "cvII85TrW6n0OGyfpHVS1u"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU-147.45.221.105:55515\ud83d\ude80",
-      "server": "147.45.221.105",
-      "server_port": 55515,
-      "method": "chacha20-ietf-poly1305",
-      "password": "vl5WsCqfwV95bZjFKC21Yv"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
