@@ -85,6 +85,14 @@
       "password": "nOfkKboDAxhTx2k1cAltIz"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf2\ud83c\uddfdMX-147.78.1.27:989\ud83d\ude80",
+      "server": "147.78.1.27",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
