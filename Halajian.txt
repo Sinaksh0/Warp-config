@@ -14,39 +14,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-54.36.174.181:8009\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
-      "server": "54.36.174.181",
-      "server_port": 8009,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:8118\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 8118,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:8118\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
       "server": "51.77.53.200",
       "server_port": 8118,
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:6379\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
-      "server": "51.77.53.200",
-      "server_port": 6379,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
     },
     {
       "type": "shadowsocks",
@@ -65,24 +38,6 @@
       "server_port": 5004,
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:7306\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 7306,
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-54.36.174.181:8119\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
-      "server": "54.36.174.181",
-      "server_port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
     },
     {
       "type": "shadowsocks",
