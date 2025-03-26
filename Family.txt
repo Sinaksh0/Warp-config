@@ -77,7 +77,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ðŸ”’ SS-TCP-NA ðŸ‡¯ðŸ‡µ JP-103.106.228.132:990 Â§ 0",
+      "tag": "\ud83c\uddef\ud83c\uddf5JP-103.106.228.132:990 Â§ 0",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "103.106.228.132",
       "server_port": 990,
@@ -86,8 +86,8 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83d\ude80DE-193.108.119.230:8080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.159:894\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-193.108.119.230:8080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "193.108.119.230",
       "server_port": 8080,
       "method": "rc4-md5",
