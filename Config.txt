@@ -103,6 +103,15 @@
       "password": "cdBIDV42DCwnfIN"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "146.19.247.183",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ODA5YjFh"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
