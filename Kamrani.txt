@@ -25,39 +25,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-188.245.206.53:1598 § 88",
-      "server": "188.245.206.53",
-      "server_port": 1598,
-      "uuid": "3ec9362a-234f-4777-879a-e9a5420b4d68",
-      "transport":       {
-        "type": "http",
-        "host": "varzesh3.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388 § 28",
+      "server": "146.19.247.183",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ODA5YjFh"
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-185.135.9.87:2087 § 128",
-      "server": "185.135.9.87",
-      "server_port": 2087,
-      "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
-      "tls":       {
-        "enabled": true,
-        "server_name": "50C1iGiMpI.mYsPdMmEtI.cOm",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-109.237.99.177:38142 § 109",
+      "server": "109.237.99.177",
+      "server_port": 38142,
+      "uuid": "26721978-890e-4946-bafa-cb03c9ff7f4a",
       "packet_encoding": "xudp"
-    }
+    },
     ]
 }
