@@ -1,5 +1,5 @@
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1740860999
 {
   "outbounds": [
     {
@@ -84,21 +84,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "wireguard",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.98.193",
-      "server_port": 1701,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "5-10",
-      "fake_packets_mode": "m4"
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     },
     {
       "type": "shadowsocks",
