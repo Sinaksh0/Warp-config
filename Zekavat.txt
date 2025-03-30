@@ -58,6 +58,24 @@
       "password": "eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES-194.87.45.189:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "194.87.45.189",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "nOfkKboDAxhTx2k1cAltIz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddeaEE-147.45.60.33:16356\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "147.45.60.33",
+      "server_port": 16356,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LqlPI19oqnunGNSLMvdXyB"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
