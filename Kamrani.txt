@@ -31,14 +31,6 @@
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "ODA5YjFh"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-109.237.99.177:38142 § 109",
-      "server": "109.237.99.177",
-      "server_port": 38142,
-      "uuid": "26721978-890e-4946-bafa-cb03c9ff7f4a",
-      "packet_encoding": "xudp"
-    },
+    }
     ]
 }
