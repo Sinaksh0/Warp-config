@@ -3,15 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-100.42.182.30:48971\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "100.42.182.30",
-      "server_port": 48971,
-      "method": "chacha20-ietf-poly1305",
-      "password": "5e7b026377fe97ea"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:2376\ud83d\ude80",
@@ -41,12 +32,30 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US-217.77.3.48:41691\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.230.27.95:54075\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "217.77.3.48",
-      "server_port": 41691,
+      "server": "91.230.27.95",
+      "server_port": 54075,
       "method": "chacha20-ietf-poly1305",
-      "password": "ad37dd4a0b603e59"
+      "password": "o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US-38.121.43.71:9101\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "38.121.43.71",
+      "server_port": 9101,
+      "method": "aes-256-gcm",
+      "password": "e4FCWrgpkji3QY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-145.239.6.202:4444\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "145.239.6.202",
+      "server_port": 4444,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM"
     },
     {
       "type": "wireguard",
