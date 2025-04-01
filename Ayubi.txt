@@ -5,15 +5,6 @@
   "outbounds":   [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:445\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-217.30.10.18:9011\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "server": "217.30.10.18",
@@ -59,15 +50,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US-142.202.48.105:8080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "142.202.48.105",
-      "server_port": 8080,
-      "method": "aes-256-gcm",
-      "password": "KixLvKzwjekG00rm"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddeaEE-147.45.60.33:16356\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "server": "147.45.60.33",
@@ -98,6 +80,33 @@
       "tag": "\ud83c\udde7\ud83c\uddedBH-38.54.2.182:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "server": "38.54.2.182",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.219.5:8388\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "91.107.219.5",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-145.239.6.202:8090\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "145.239.6.202",
+      "server_port": 8090,
+      "method": "aes-256-gcm",
+      "password": "PCnnH6SQSnfoS27"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.63.193:990\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "154.90.63.193",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
