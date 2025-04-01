@@ -1,36 +1,4 @@
 #profile-title: Kamrani
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-{
-  "outbounds":   [
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.152.229:443 § 177",
-      "server": "91.107.152.229",
-      "server_port": 443,
-      "uuid": "d49b7b53-6697-4165-afb6-dce05a65a3c1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "eset.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Xy0AQpRkBFWIWzRiG1czWTXok98URMhRt1xBE7jiTWw",
-          "short_id": "2f"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-146.19.247.183:8388 § 28",
-      "server": "146.19.247.183",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ODA5YjFh"
-    }
-    ]
-}
+warp://188.114.97.59:1387?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
