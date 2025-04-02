@@ -48,6 +48,15 @@
       "password": "shadowsocks"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "87.98.242.137",
+      "server_port": 49551,
+      "method": "chacha20-ietf-poly1305",
+      "password": "XwoHfpvuczzHOkOebGXiUO"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
