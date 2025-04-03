@@ -40,29 +40,13 @@
       "password": "FG5ddLsMPbV5CutE"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.207:443\ud83d\ude80",
-      "server": "80.92.204.207",
-      "server_port": 443,
-      "uuid": "3293fcf5-1d7a-4607-b706-b87f1a6ad7e7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "de1-gss.msnegar.eu.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "87.98.242.137",
+      "server_port": 49551,
+      "method": "chacha20-ietf-poly1305",
+      "password": "XwoHfpvuczzHOkOebGXiUO"
     },
     {
       "type": "vmess",
