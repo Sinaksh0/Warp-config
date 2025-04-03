@@ -5,24 +5,6 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:2375\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 2375,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-208.67.105.87:42501\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
-      "server": "208.67.105.87",
-      "server_port": 42501,
-      "method": "chacha20-ietf-poly1305",
-      "password": "nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.240:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
       "server": "149.22.87.240",
@@ -50,12 +32,48 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:5000\ud83d\ude80",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-23.166.88.20:8119\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
-      "server": "51.77.53.200",
-      "server_port": 5000,
+      "server": "23.166.88.20",
+      "server_port": 8119,
       "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-109.120.177.122:6774\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
+      "server": "109.120.177.122",
+      "server_port": 6774,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yFhyOiBBsvNn72ARpHGuZu"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde7\ud83c\uddeaBE-192.71.249.108:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
+      "server": "192.71.249.108",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddf8RS-194.71.126.31:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
+      "server": "194.71.126.31",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI-37.143.129.230:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
+      "server": "37.143.129.230",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "wireguard",
