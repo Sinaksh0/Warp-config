@@ -58,6 +58,38 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.207:80\ud83d\ude80",
+      "server": "80.92.204.207",
+      "server_port": 80,
+      "uuid": "ced802d9-f5ee-4b97-be01-f0c4a9613623",
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "80.92.204.207"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-95.164.69.101:80\ud83d\ude80",
+      "server": "95.164.69.101",
+      "server_port": 80,
+      "uuid": "1173d2cb-ed2c-45d7-a3f5-502e66e1f0d4",
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "95.164.69.101"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
       "local_address":       [
