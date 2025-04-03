@@ -40,15 +40,6 @@
       "password": "FG5ddLsMPbV5CutE"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "87.98.242.137",
-      "server_port": 49551,
-      "method": "chacha20-ietf-poly1305",
-      "password": "XwoHfpvuczzHOkOebGXiUO"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\udde8\ud83c\uddedCH-186.190.215.93:22324\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
