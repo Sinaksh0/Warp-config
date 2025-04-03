@@ -76,6 +76,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.198:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
+      "server": "212.102.53.198",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.179:943\ud83d\ude80",
       "local_address":       [
