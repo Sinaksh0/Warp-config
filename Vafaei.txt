@@ -23,33 +23,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:2375\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "51.77.53.200",
-      "server_port": 2375,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-195.154.169.198:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "195.154.169.198",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:5000\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE-46.246.93.24:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
       "server": "46.246.93.24",
@@ -65,15 +38,6 @@
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-103.106.1.92:23492\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "103.106.1.92",
-      "server_port": 23492,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yMX9WGPgUEcRZmlaa0YHHC"
     },
     {
       "type": "shadowsocks",
@@ -94,22 +58,13 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.142.100:443\ud83d\ude80",
-      "server": "91.107.142.100",
-      "server_port": 443,
-      "uuid": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mods.lnmarketplace.net",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-109.120.177.122:6774\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
+      "server": "109.120.177.122",
+      "server_port": 6774,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yFhyOiBBsvNn72ARpHGuZu"
     },
     {
       "type": "wireguard",
