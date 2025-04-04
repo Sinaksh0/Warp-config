@@ -50,11 +50,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP-18.179.8.12:443\ud83d\ude80",
-      "server": "18.179.8.12",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
+      "server": "87.98.242.137",
+      "server_port": 49551,
+      "method": "chacha20-ietf-poly1305",
+      "password": "XwoHfpvuczzHOkOebGXiUO"
     },
     {
       "type": "wireguard",
