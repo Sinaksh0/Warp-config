@@ -14,15 +14,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL-51.77.53.200:8009\ud83d\ude80",
-      "server": "51.77.53.200",
-      "server_port": 8009,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf8\ud83c\uddeeSI-192.71.244.150:989\ud83d\ude80",
       "server": "192.71.244.150",
       "server_port": 989,
@@ -50,21 +41,39 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:2376\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 2376,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.63.193:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
       "server": "154.90.63.193",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf2\ud83c\udde9MD-45.153.124.90:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "45.153.124.90",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddf7AR-38.54.45.129:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "38.54.45.129",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf5\ud83c\uddf1PL-217.30.10.18:9005\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "217.30.10.18",
+      "server_port": 9005,
+      "method": "aes-256-cfb",
+      "password": "ZET59LF6DvCC8KVt"
     },
     {
       "type": "wireguard",
