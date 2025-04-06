@@ -2,85 +2,39 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-  "outbounds": [
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US-142.202.49.84:6679\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "142.202.49.84",
-      "server_port": 6679,
-      "method": "aes-256-gcm",
-      "password": "TEzjfAYq2IjtuoS"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES-45.154.206.192:990\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "45.154.206.192",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.107.219.5:8388\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "91.107.219.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES-194.87.45.189:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "194.87.45.189",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "nOfkKboDAxhTx2k1cAltIz"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddeaEE-147.45.60.33:16356\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "147.45.60.33",
-      "server_port": 16356,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LqlPI19oqnunGNSLMvdXyB"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-109.120.177.122:6774\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "109.120.177.122",
-      "server_port": 6774,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yFhyOiBBsvNn72ARpHGuZu"
-    },
+  "outbounds":   [
     {
       "type": "wireguard",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "tag": "IR 🇮🇷 § 0",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+        "2606:4700:110:825d:53f6:8208:6142:decb/128"
       ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.98.44",
-      "server_port": 7152,
+      "private_key": "6Jn3jljBrZziPvwcInvBnrFo52y70p1H9s8KVYSFskM=",
+      "server": "188.114.97.158",
+      "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
+      "reserved": "Oh+7",
+      "mtu": 1330,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
-      "fake_packets_delay": "5-10",
+      "fake_packets_delay": "4-8",
       "fake_packets_mode": "m4"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
-      "server": "127.0.0.1",
-      "server_port": 8080,
-      "method": "none",
-      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+      "type": "wireguard",
+      "tag": "German 🇩🇪 § 1",
+      "detour": "IR 🇮🇷 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8106:a4ee:ec5c:1f31:55f5/128"
+      ],
+      "private_key": "mIEGoTKpQIOJzbzU/UbI0PXKD88dUJzOreQR/2C3mlg=",
+      "server": "188.114.98.54",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "aUdL",
+      "mtu": 1330
     }
   ]
 }
