@@ -40,6 +40,15 @@
       "password": "XwoHfpvuczzHOkOebGXiUO"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-176.124.218.95:1080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
+      "server": "176.124.218.95",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "lve3i3aqJ-zxd3gA6G7PNA"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
       "local_address":       [
