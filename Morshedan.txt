@@ -14,15 +14,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-149.202.82.172:5003\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.191:3138\ud83d\ude80",
-      "server": "149.202.82.172",
-      "server_port": 5003,
-      "method": "aes-256-gcm",
-      "password": "g5MeD6Ft3CWlJId"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.162:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.191:3138\ud83d\ude80",
       "server": "156.146.62.162",
@@ -56,24 +47,6 @@
       "server_port": 9006,
       "method": "aes-256-cfb",
       "password": "FAdUvMJUq5vDgKEq"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-89.144.25.195:443\ud83d\ude80",
-      "server": "89.144.25.195",
-      "server_port": 443,
-      "uuid": "c3231e14-aca0-43d0-8970-8b4eb2ec3c3f",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "chopper.lnmarketplace.net",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
