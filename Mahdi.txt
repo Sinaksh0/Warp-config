@@ -68,12 +68,57 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-81.19.141.45:443\ud83d\ude80",
+      "tag": "\ud83c\udde8\ud83c\uddf1CL-37.143.128.195:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
-      "server": "81.19.141.45",
-      "server_port": 443,
+      "server": "37.143.128.195",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf5\ud83c\uddf9PT-185.231.233.173:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
+      "server": "185.231.233.173",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI-37.143.129.230:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
+      "server": "37.143.129.230",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-45.158.171.110:8080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
+      "server": "45.158.171.110",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "fNN4yjQBdTOfkPKdjXCHkw"
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf5\ud83c\uddf1PL-217.30.10.18:9037\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
+      "server": "217.30.10.18",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf2\ud83c\udde9MD-45.153.124.90:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
+      "server": "45.153.124.90",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "wireguard",
