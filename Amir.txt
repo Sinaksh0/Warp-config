@@ -76,6 +76,50 @@
       "password": "ZET59LF6DvCC8KVt"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.164:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "156.146.62.164",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\uddffCZ-195.181.160.6:990\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "195.181.160.6",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-46.17.41.5:12904\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "46.17.41.5",
+      "server_port": 12904,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "\ud83c\udde8\ud83c\udde6CA-192.18.145.7:45979\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
+      "server": "192.18.145.7",
+      "server_port": 45979,
+      "password": "cfe032e4-1bc3-454f-9d09-301b0aea08ff",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-162.159.195.163:1070\ud83d\ude80",
       "local_address":       [
