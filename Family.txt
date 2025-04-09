@@ -85,6 +85,15 @@
       "password": "BNmAXXxAHYpTRdzu"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE-151.236.206.42:39649\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "151.236.206.42",
+      "server_port": 39649,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zCbrIk12Qlg9YcERdnzjoh"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
