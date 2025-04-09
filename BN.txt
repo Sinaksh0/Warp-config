@@ -76,6 +76,34 @@
       "password": "o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3"
     },
     {
+      "type": "trojan",
+      "tag": "\ud83c\uddf8\ud83c\uddecSG-139.59.119.143:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
+      "server": "139.59.119.143",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "connectwithemployers.online",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\udde6\ud83c\uddfaAU-154.26.153.173:28686\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
+      "server": "154.26.153.173",
+      "server_port": 28686,
+      "uuid": "6df7d56f-4953-4a10-be2e-a88cc9f94e48",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
       "local_address":       [
