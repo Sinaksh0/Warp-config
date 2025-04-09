@@ -76,22 +76,29 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-185.222.241.157:21143\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-172.67.204.84:2053\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233\ud83d\ude80",
-      "server": "185.222.241.157",
-      "server_port": 21143,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4d67c03575e8b16e"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233\ud83d\ude80",
-      "server": "87.98.242.137",
-      "server_port": 49551,
-      "method": "chacha20-ietf-poly1305",
-      "password": "XwoHfpvuczzHOkOebGXiUO"
+      "server": "172.67.204.84",
+      "server_port": 2053,
+      "uuid": "99333609-167f-4750-ab63-34cfa27c723a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "all18.kikforwindows.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/containers/de",
+        "headers":         {
+          "Host": "all18.kikforwindows.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
