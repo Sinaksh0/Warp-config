@@ -23,15 +23,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9064\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9064,
-      "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.62.168:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
       "server": "154.90.62.168",
@@ -121,6 +112,28 @@
       "password": "9422eeca9479c9a4"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-188.245.253.147:223\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
+      "server": "188.245.253.147",
+      "server_port": 223,
+      "uuid": "bc7dbc36-f3a7-4cc8-9364-eba6e889cee2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "SHOPTOR.SODOGODPING.IR",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o",
+          "short_id": "c7f175a94bd79f8d"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.98.46:1070\ud83d\ude80",
       "local_address":       [
@@ -128,8 +141,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.96.48",
-      "server_port": 859,
+      "server": "188.114.96.6",
+      "server_port": 1002,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
