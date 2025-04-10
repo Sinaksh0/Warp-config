@@ -58,13 +58,26 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-87.98.242.137:49551\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "87.98.242.137",
-      "server_port": 49551,
-      "method": "chacha20-ietf-poly1305",
-      "password": "XwoHfpvuczzHOkOebGXiUO"
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-84.234.29.203:3497\ud83d\ude80",
+      "server": "84.234.29.203",
+      "server_port": 3497,
+      "uuid": "93a55bf9-7f6c-4a4c-a547-25099f0aaea5",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "stackoverflow.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "b8OPGu6BSDMri-vGoSfahMJIO0trHltObYllhUYcAT0",
+          "short_id": "b5e0d7"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
