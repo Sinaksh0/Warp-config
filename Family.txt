@@ -68,15 +68,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES-5.188.181.201:9020\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "5.188.181.201",
-      "server_port": 9020,
-      "method": "aes-256-cfb",
-      "password": "BNmAXXxAHYpTRdzu"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE-151.236.206.42:39649\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "151.236.206.42",
@@ -103,24 +94,6 @@
       "uuid": "33a3171f-d593-4758-989b-51861550ccb3",
       "security": "auto",
       "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-204.10.194.78:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "204.10.194.78",
-      "server_port": 443,
-      "uuid": "6f786c4e-6402-4269-98d3-c383fb1708da",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yfnl1.xn--4gq62f52gppi29k.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
       "packet_encoding": "xudp"
     },
     {
