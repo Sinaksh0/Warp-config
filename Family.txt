@@ -106,26 +106,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-141.227.138.29:1935\ud83d\ude80",
-      "server": "141.227.138.29",
-      "server_port": 1935,
-      "password": "hZ7JkYVAfB",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x1ch-ovh.devefun.net",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-204.10.194.78:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
