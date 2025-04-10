@@ -41,15 +41,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-193.108.119.230:8080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "193.108.119.230",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddeeFI-37.143.129.230:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "37.143.129.230",
@@ -102,6 +93,54 @@
       "uuid": "fa1897db-1925-4c86-a495-939a959af900",
       "security": "auto",
       "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR-193.31.116.198:12675\ud83d\ude80",
+      "server": "193.31.116.198",
+      "server_port": 12675,
+      "uuid": "33a3171f-d593-4758-989b-51861550ccb3",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-141.227.138.29:1935\ud83d\ude80",
+      "server": "141.227.138.29",
+      "server_port": 1935,
+      "password": "hZ7JkYVAfB",
+      "tls":       {
+        "enabled": true,
+        "server_name": "x1ch-ovh.devefun.net",
+        "alpn":         [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-204.10.194.78:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "204.10.194.78",
+      "server_port": 443,
+      "uuid": "6f786c4e-6402-4269-98d3-c383fb1708da",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yfnl1.xn--4gq62f52gppi29k.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
       "packet_encoding": "xudp"
     },
     {
