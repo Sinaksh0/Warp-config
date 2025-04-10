@@ -85,6 +85,59 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-188.213.129.126:444\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
+      "server": "188.213.129.126",
+      "server_port": 444,
+      "uuid": "c27c09f4-7a06-41a8-990c-09e31f82b4c2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fauxid.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "y-gm5T_DCFudc3AsHCtTi-hFM-_OSGwmVjNZIZxtUhk"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "service_name": "NinjaV2ray",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI-95.217.183.108:2087\ud83d\ude80",
+      "server": "95.217.183.108",
+      "server_port": 2087,
+      "uuid": "cbb4251b-9b20-4c42-b09d-df77666bda12",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.target.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "6ezm4CcEWfvptuqvMaweZW5jTaX-M4SdZE2r8JkKsQ0",
+          "short_id": "bc6f0833"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
       "local_address":       [
