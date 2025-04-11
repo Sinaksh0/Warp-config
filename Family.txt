@@ -142,22 +142,6 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-141.227.160.167:1935\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "141.227.160.167",
-      "server_port": 1935,
-      "password": "AXpQXM4vNh",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x2swe-ovh.devefun.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
