@@ -58,24 +58,6 @@
       "password": "shadowsocks"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI-37.143.129.230:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "server": "37.143.129.230",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-185.204.168.191:1133\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "server": "185.204.168.191",
-      "server_port": 1133,
-      "uuid": "875dac5e-4700-4cce-b1f9-40b891b3a927",
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
       "local_address":       [
