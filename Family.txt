@@ -88,23 +88,6 @@
     },
     {
       "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-3.71.135.1:22222\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "3.71.135.1",
-      "server_port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.68.13.106:1935\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "51.68.13.106",
@@ -125,21 +108,26 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddee\ud83c\uddeaIE-52.51.109.197:22222\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.173.127.235:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "52.51.109.197",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
+      "server": "157.173.127.235",
+      "server_port": 443,
+      "uuid": "4a617961-06bb-405d-b1d8-28abaaaf18e7",
       "tls":       {
         "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
+        "server_name": "analytics.google.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "k9oHeYY0hNmcd6BRZQTX9sp0ZQR7Bx85fPMu0v4uvwc",
+          "short_id": "c5a5eca0d8234375"
         }
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
