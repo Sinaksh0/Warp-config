@@ -80,6 +80,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "trojan",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-202.78.163.140:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "202.78.163.140",
+      "server_port": 443,
+      "password": "74260698218909400",
+      "tls":       {
+        "enabled": true,
+        "server_name": "supreme-penguin.shiner427.skin",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
