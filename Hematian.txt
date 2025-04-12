@@ -58,28 +58,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\uddedCH-84.234.29.203:3497\ud83d\ude80",
-      "server": "84.234.29.203",
-      "server_port": 3497,
-      "uuid": "93a55bf9-7f6c-4a4c-a547-25099f0aaea5",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "stackoverflow.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "b8OPGu6BSDMri-vGoSfahMJIO0trHltObYllhUYcAT0",
-          "short_id": "b5e0d7"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-202.78.163.140:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
