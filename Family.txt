@@ -78,27 +78,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.68.13.106:1935\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "51.68.13.106",
-      "server_port": 1935,
-      "password": "FiSo7J6vfS",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x1fr-ovh.devefun.net",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-157.173.127.235:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -119,6 +98,22 @@
         }
       },
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-5.196.29.123:2082\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "5.196.29.123",
+      "server_port": 2082,
+      "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "wireguard",
