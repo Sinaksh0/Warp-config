@@ -100,6 +100,17 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-23.158.56.184:22324\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "23.158.56.184",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "trojan",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.68.13.106:1935\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
