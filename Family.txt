@@ -60,26 +60,13 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.173.127.235:443\ud83d\ude80",
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-193.108.119.230:8080\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "157.173.127.235",
-      "server_port": 443,
-      "uuid": "4a617961-06bb-405d-b1d8-28abaaaf18e7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "analytics.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "k9oHeYY0hNmcd6BRZQTX9sp0ZQR7Bx85fPMu0v4uvwc",
-          "short_id": "c5a5eca0d8234375"
-        }
-      },
-      "packet_encoding": "xudp"
+      "server": "193.108.119.230",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "trojan",
