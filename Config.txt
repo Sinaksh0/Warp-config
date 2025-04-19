@@ -96,25 +96,31 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-194.164.57.9:1935\ud83d\ude80",
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-95.164.16.152:12240\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "194.164.57.9",
-      "server_port": 1935,
-      "password": "I46LpSIM1f",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x4ger-ionos.devefun.net",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "95.164.16.152",
+      "server_port": 12240,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zqNBkZNoXgqtiD0wo49QdY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddee\ud83c\uddf3IN-159.65.149.67:8080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "159.65.149.67",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\udde6UA-176.103.53.105:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "176.103.53.105",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "wireguard",
