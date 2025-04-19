@@ -67,6 +67,17 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-85.215.233.179:16151\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
+      "server": "85.215.233.179",
+      "server_port": 16151,
+      "uuid": "44ba7053-733f-4d35-9ba4-3457ee608f64",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.50:942\ud83d\ude80",
       "local_address":       [
