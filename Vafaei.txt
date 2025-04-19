@@ -94,6 +94,20 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-167.235.238.146:8880\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
+      "server": "167.235.238.146",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
       "local_address":       [
