@@ -67,20 +67,15 @@
       "password": "oXGp1+ihlfKg826H"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-202.78.163.140:443\ud83d\ude80",
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-23.158.56.184:22324\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "202.78.163.140",
-      "server_port": 443,
-      "password": "74260698218909400",
-      "tls":       {
-        "enabled": true,
-        "server_name": "supreme-penguin.shiner427.skin",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "23.158.56.184",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
