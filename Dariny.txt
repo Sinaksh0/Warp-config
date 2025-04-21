@@ -77,26 +77,24 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-172.67.204.84:2053\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-162.55.36.107:577\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233\ud83d\ude80",
-      "server": "172.67.204.84",
-      "server_port": 2053,
-      "uuid": "99333609-167f-4750-ab63-34cfa27c723a",
+      "server": "162.55.36.107",
+      "server_port": 577,
+      "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "all18.kikforwindows.com",
+        "server_name": "stackoverflow.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/containers/de",
-        "headers":         {
-          "Host": "all18.kikforwindows.com"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8",
+          "short_id": "9b28132c703433"
+        }
       },
       "packet_encoding": "xudp"
     },
