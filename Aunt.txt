@@ -86,26 +86,20 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-104.17.148.22:8443\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-89.144.25.195:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "104.17.148.22",
-      "server_port": 8443,
-      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "server": "89.144.25.195",
+      "server_port": 443,
+      "uuid": "c3231e14-aca0-43d0-8970-8b4eb2ec3c3f",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "ZlLgGdEq13.gAgShOw.bLoG",
+        "server_name": "chopper.lnmarketplace.net",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "ZlLgGdEq13.gAgShOw.bLoG"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
