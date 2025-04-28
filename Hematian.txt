@@ -85,6 +85,27 @@
       "password": "shadowsocks"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-64.227.127.181:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "64.227.127.181",
+      "server_port": 443,
+      "uuid": "2d8f7808-c658-4dfc-8007-becae3176024",
+      "tls":       {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "MG_eg7c6ip99Y4BROHhxDsnKDHTpu-1hjKa6J1zjig4"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
