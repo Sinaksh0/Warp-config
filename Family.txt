@@ -13,15 +13,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddffCZ-195.181.160.6:990\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "195.181.160.6",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddf2\ud83c\uddfdMX-79.127.229.54:18000\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -69,15 +60,6 @@
       "security": "auto",
       "authenticated_length": true,
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE-13.48.143.91:5790\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "13.48.143.91",
-      "server_port": 5790,
-      "method": "aes-256-gcm",
-      "password": "0pTM3CJb"
     },
     {
       "type": "shadowsocks",
