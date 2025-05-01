@@ -51,17 +51,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.77.20.131:22324\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "51.77.20.131",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfa\ud83c\udde6UA-176.103.53.105:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -117,12 +106,30 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddeaIE-193.57.138.81:27082\ud83d\ude80",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-178.23.190.216:19609 § 18",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "193.57.138.81",
-      "server_port": 27082,
-      "method": "aes-128-gcm",
-      "password": "YHRRtsm3X+x2mgl76yY9uidsOwnEe30/tyblQU/hGtU="
+      "server": "178.23.190.216",
+      "server_port": 19609,
+      "method": "chacha20-ietf-poly1305",
+      "password": "C9GdJJCtz7nLd8oDQ2LUeF"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde7\ud83c\uddeaBE-192.71.249.78:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "192.71.249.78",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-146.70.61.18:8080\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "146.70.61.18",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "wireguard",
@@ -132,8 +139,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.192.127",
-      "server_port": 1070,
+      "server": "162.159.192.188",
+      "server_port": 928,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
