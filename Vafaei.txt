@@ -94,23 +94,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-18.184.137.232:22222\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "18.184.137.232",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
       "local_address":       [
