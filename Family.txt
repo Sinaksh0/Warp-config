@@ -122,6 +122,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-45.80.215.126:40934\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "www2.broadalx.cfd",
+      "server_port": 40934,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WLMFD9NUC63QRJSi8gSbmZcHRUmo3gXZr13L3eAhJkHUvvMbd1vbujYbr8vVy76Cd9HTU5zEFzHNPZ9fLmguMTHcdNcGJYjc"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
