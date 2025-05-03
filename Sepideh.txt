@@ -67,13 +67,21 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-202.78.163.141:30770\ud83d\ude80",
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-202.78.163.141:30919\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.209:7103\ud83d\ude80",
-      "server": "202.78.163.141",
-      "server_port": 30770,
-      "method": "aes-256-gcm",
-      "password": "oFkz1Dpk"
+      "server": "antrak.arcanpayer.com",
+      "server_port": 30919,
+      "uuid": "4976466c-abb4-4353-add6-8c6b4f3859bc",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "http",
+        "host": "divarcdn.com",
+        "path": "/",
+        "method": "GET"
+      }
     },
     {
       "type": "wireguard",
