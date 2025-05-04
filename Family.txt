@@ -98,15 +98,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-103.104.247.72:8080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "103.104.247.72",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-157.90.117.244:23890\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -115,21 +106,6 @@
       "uuid": "d8fdf0b6-9a13-426d-b42b-089cace63d4e",
       "security": "auto",
       "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-188.245.32.66:26745\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "188.245.32.66",
-      "server_port": 26745,
-      "uuid": "a3a56e48-49c6-40b4-b088-7762063237eb",
-      "transport":       {
-        "type": "http",
-        "host": "speedtest.net",
-        "path": "/",
-        "method": "GET"
-      },
       "packet_encoding": "xudp"
     },
     {
