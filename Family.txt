@@ -132,6 +132,33 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI-77.91.103.73:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "77.91.103.73",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Lcc1lw8IP2KI"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-109.199.100.128:49891\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "109.199.100.128",
+      "server_port": 49891,
+      "method": "chacha20-ietf-poly1305",
+      "password": "273b7fb71b3d7db9"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-89.23.103.21:51584\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "89.23.103.21",
+      "server_port": 51584,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oYQ8JwEldYn4KT2gfZ6eNl"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
