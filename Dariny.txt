@@ -103,25 +103,13 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES-141.227.128.69:1935\ud83d\ude80",
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB-51.195.222.59:20035\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.96.86:4233\ud83d\ude80",
-      "server": "141.227.128.69",
-      "server_port": 1935,
-      "password": "utF6JLQd2x",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x1es-ovh.devefun.net",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "51.195.222.59",
+      "server_port": 20035,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3f49bf7a1e5bfbba"
     },
     {
       "type": "wireguard",
