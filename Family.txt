@@ -1,4 +1,4 @@
-#profile-title: Family Server
+#profile-title:Family Server\ud83c\udde6\ud83c\uddf7
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
@@ -28,15 +28,6 @@
       "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.62.168:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "154.90.62.168",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\udde6UA-176.103.53.105:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "176.103.53.105",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
@@ -96,17 +87,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vmess",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.90.117.244:23890\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "157.90.117.244",
-      "server_port": 23890,
-      "uuid": "d8fdf0b6-9a13-426d-b42b-089cace63d4e",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
