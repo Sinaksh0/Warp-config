@@ -90,7 +90,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-2087\ud83d\ude80",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-146.59.239.223:2087\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "www.speedtest.net",
       "server_port": 2087,
@@ -116,7 +116,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-2087\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-57.129.63.94:2087\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "zula.ir",
       "server_port": 2087,
@@ -135,6 +135,32 @@
         "path": "/vless",
         "headers":         {
           "Host": "de-1-cbt.rayan-dns.dpdns.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde6\ud83c\uddf7AR-45.86.66.16:8443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "www.speedtest.net",
+      "server_port": 8443,
+      "uuid": "d785cbee-5d7b-4ab4-b4b7-0d5b6e484ee5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ar-1-vph.rayan-dns.dpdns.org",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "ar-1-vph.rayan-dns.dpdns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
