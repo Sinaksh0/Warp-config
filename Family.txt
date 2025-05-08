@@ -125,12 +125,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-2a05:541:103:59::1:21712\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-81.19.141.45:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "h110vpnde.outlinekeys.net",
-      "server_port": 21712,
+      "server": "81.19.141.45",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "EjlV2IAtnOzeSzD3p463Un"
+      "password": "W0LXavtQxhNmZ5GPzkkgbG"
     },
     {
       "type": "shadowsocks",
