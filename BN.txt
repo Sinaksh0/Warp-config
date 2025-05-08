@@ -86,19 +86,13 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-188.245.32.66:26745\ud83d\ude80",
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-81.19.141.45:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.150:987\ud83d\ude80",
-      "server": "188.245.32.66",
-      "server_port": 26745,
-      "uuid": "a3a56e48-49c6-40b4-b088-7762063237eb",
-      "transport":       {
-        "type": "http",
-        "host": "speedtest.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "server": "81.19.141.45",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W0LXavtQxhNmZ5GPzkkgbG"
     },
     {
       "type": "wireguard",
