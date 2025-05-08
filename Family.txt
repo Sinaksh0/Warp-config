@@ -115,6 +115,42 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-45.95.232.236:42480\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "45.95.232.236",
+      "server_port": 4248,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mFUcjdX8KZhinPedx9MwcG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-2a05:541:103:59::1:21712\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "h110vpnde.outlinekeys.net",
+      "server_port": 21712,
+      "method": "chacha20-ietf-poly1305",
+      "password": "EjlV2IAtnOzeSzD3p463Un"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES-194.87.45.189:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "194.87.45.189",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "nOfkKboDAxhTx2k1cAltIz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFL-185.42.163.45:25108\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "185.42.163.45",
+      "server_port": 25108,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1AU6NgupolqNdSJ0Dx1nk7"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
