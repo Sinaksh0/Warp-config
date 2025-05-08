@@ -76,6 +76,15 @@
       "password": "TN2YqghxeFDKZfLU"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-45.95.232.236:4248\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
+      "server": "h110vpnch.outlinekeys.net",
+      "server_port": 4248,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mFUcjdX8KZhinPedx9MwcG"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
       "local_address":       [
