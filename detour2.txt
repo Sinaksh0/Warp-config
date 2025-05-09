@@ -1,6 +1,6 @@
 #profile-title: All Network
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882ðŸ“†
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882Ã°Å¸â€œâ€ 
 {
   "outbounds":   [
     {
@@ -113,32 +113,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU-176.124.218.95:1080\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
-      "server": "176.124.218.95",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "lve3i3aqJ-zxd3gA6G7PNA"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-35.180.241.21:22222\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
-      "server": "35.180.241.21",
-      "server_port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddffCZ-195.181.160.6:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
       "server": "195.181.160.6",
@@ -147,19 +121,13 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-188.245.32.66:26745\ud83d\ude80",
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-57.128.190.171:11259\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.160:2506\ud83d\ude80",
-      "server": "188.245.32.66",
-      "server_port": 26745,
-      "uuid": "ee552463-e982-407b-bc7a-08e2e335099d",
-      "transport":       {
-        "type": "http",
-        "host": "speedtest.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "server": "57.128.190.171",
+      "server_port": 11259,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f9d73c84e32a10f3"
     },
     {
       "type": "wireguard",
