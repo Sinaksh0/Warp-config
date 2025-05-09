@@ -77,12 +77,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddedCH-45.95.232.236:4248\ud83d\ude80",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-62.210.88.22:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.99.213:1180\ud83d\ude80",
-      "server": "h110vpnch.outlinekeys.net",
-      "server_port": 4248,
+      "server": "62.210.88.22",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "mFUcjdX8KZhinPedx9MwcG"
+      "password": "xy7g5bw1lriJJ20CzpHK78"
     },
     {
       "type": "wireguard",
