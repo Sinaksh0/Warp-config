@@ -1,4 +1,4 @@
-#profile-title: 🧑‍💻 Family Server 📶
+#profile-title: base64:8J+UpSBGYW1pbHkgU2VydmVyIPCflKU=
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
