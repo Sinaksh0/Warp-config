@@ -3,15 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-141.98.101.178:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "141.98.101.178",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US-23.157.40.101:7307\ud83d\ude80",
@@ -32,39 +23,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddedKH-38.54.4.72:990\ud83d\ude80",
+      "tag": "\ud83c\udde6\ud83c\uddf9AT-178.22.31.239:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "38.54.4.72",
-      "server_port": 990,
+      "server": "178.22.31.239",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf1\ud83c\uddfbLV-89.46.238.35:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "89.46.238.35",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI-37.143.129.230:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "37.143.129.230",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE-151.236.206.42:39649\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "151.236.206.42",
-      "server_port": 39649,
-      "method": "chacha20-ietf-poly1305",
-      "password": "zCbrIk12Qlg9YcERdnzjoh"
+      "password": "Bgr6YBHEnpft"
     },
     {
       "type": "shadowsocks",
@@ -77,29 +41,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-85.208.139.31:42037\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9000\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "85.208.139.31",
-      "server_port": 42037,
-      "method": "chacha20-ietf-poly1305",
-      "password": "q7jwtcA0MmyYi0JddUgXXj"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-13.38.186.198:22222\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-162.159.192.54:988\ud83d\ude80",
-      "server": "13.38.186.198",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls":       {
-        "enabled": true,
-        "server_name": "trojan.burgerip.co.uk",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "80.92.204.106",
+      "server_port": 9000,
+      "method": "aes-256-cfb",
+      "password": "a3GFYt36Sm82Vys9"
     },
     {
       "type": "wireguard",
