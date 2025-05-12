@@ -120,6 +120,15 @@
       "method": "chacha20-ietf-poly1305",
       "password": "LqlPI19oqnunGNSLMvdXyB"
     },
+{
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddfaAU-103.75.119.38:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "103.75.119.38",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
     {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR-79.137.32.159:2087\ud83d\ude80",
