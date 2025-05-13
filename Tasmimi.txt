@@ -95,15 +95,14 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-2087\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-45.80.111.134:2096\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "zula.ir",
-      "server_port": 2087,
-      "uuid": "5fbad9a5-1aa4-40c3-b4c2-38c22b95e513",
+      "server": "45.80.111.134",
+      "server_port": 2096,
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
       "tls":       {
         "enabled": true,
-        "server_name": "de-1-cbt.rayan-dns.dpdns.org",
-        "insecure": true,
+        "server_name": "LhCgBjGr29.vElTrIxS.OrG",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
@@ -111,9 +110,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/vless",
+        "path": "/",
         "headers":         {
-          "Host": "de-1-cbt.rayan-dns.dpdns.org"
+          "Host": "LhCgBjGr29.vElTrIxS.OrG"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
