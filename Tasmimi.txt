@@ -85,15 +85,6 @@
       "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-78.129.140.11:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "78.129.140.11",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "lbIRi9Xy2hsAmTbaNId7sW"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE-45.80.111.134:2096\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -113,32 +104,6 @@
         "path": "/",
         "headers":         {
           "Host": "LhCgBjGr29.vElTrIxS.OrG"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-2087\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "zula.ir",
-      "server_port": 2087,
-      "uuid": "460ecbbe-0775-41cf-9c62-60c3fbc73c14",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fr-1-gss.rayan-dns.dpdns.org",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "fr-1-gss.rayan-dns.dpdns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
