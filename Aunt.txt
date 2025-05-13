@@ -83,29 +83,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-45.80.215.126:43215\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "45.80.215.126",
-      "server_port": 43215,
-      "uuid": "529a9381-8334-4f7b-84e0-1d2197785ef3",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "2U5ewjtzKQT0wWYHgr-LRlLzhus4zEXaJglABzc2s3o",
-          "short_id": "ff5dac"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
