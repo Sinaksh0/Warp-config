@@ -58,29 +58,6 @@
       "password": "shadowsocks"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-162.55.36.107:577\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "162.55.36.107",
-      "server_port": 577,
-      "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "stackoverflow.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8",
-          "short_id": "9b28132c703433"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddf3\ud83c\uddf4NO-95.164.38.6:21938\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -128,58 +105,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-79.137.32.159:2087\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "zula.ir",
-      "server_port": 2087,
-      "uuid": "460ecbbe-0775-41cf-9c62-60c3fbc73c14",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fr-1-gss.rayan-dns.dpdns.org",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "fr-1-gss.rayan-dns.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\udde6CA-51.222.157.86:2087\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "digitalocean.com",
-      "server_port": 2087,
-      "uuid": "2b5a137b-1ea4-40a1-a812-f68c6e5b0642",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ca-1-cbt.rayan-dns.dpdns.org",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "ca-1-cbt.rayan-dns.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
