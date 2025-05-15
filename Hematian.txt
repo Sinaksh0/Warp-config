@@ -14,24 +14,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\uddf7GR-192.71.166102:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "192.71.166.102",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddedKH-38.54.4.72:990\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "38.54.4.72",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.80:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "212.102.53.80",
@@ -56,58 +38,6 @@
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-57.129.63.94:2087\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "zula.ir",
-      "server_port": 2087,
-      "uuid": "5fbad9a5-1aa4-40c3-b4c2-38c22b95e513",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de-1-cbt.rayan-dns.dpdns.org",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "de-1-cbt.rayan-dns.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-79.137.32.159:2087\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "zula.ir",
-      "server_port": 2087,
-      "uuid": "460ecbbe-0775-41cf-9c62-60c3fbc73c14",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fr-1-gss.rayan-dns.dpdns.org",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "fr-1-gss.rayan-dns.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
