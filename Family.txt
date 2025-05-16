@@ -132,15 +132,6 @@
       "password": "PCnnH6SQSnfoS27"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-85.208.139.69:63861\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "85.208.139.69",
-      "server_port": 63861,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PBrts5Au4GM9ar7bTNyZEu"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
