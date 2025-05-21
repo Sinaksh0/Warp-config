@@ -5,15 +5,6 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-142.202.49.84:5003\ud83d\ude80",
-      "server": "142.202.49.84",
-      "server_port": 5003,
-      "method": "aes-256-gcm",
-      "password": "g5MeD6Ft3CWlJId",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "169.150.202.174",
@@ -47,32 +38,6 @@
       "server_port": 8080,
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-146.59.239.223:2087\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "www.speedtest.net",
-      "server_port": 2087,
-      "uuid": "e99ba0f8-faf1-4058-9039-5f7b760a3731",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fr-1-cbt.rayan-dns.dpdns.org",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "fr-1-cbt.rayan-dns.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
