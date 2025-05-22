@@ -62,21 +62,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-157.90.114.55:40262\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "157.90.114.55",
-      "server_port": 40262,
-      "uuid": "c9aa0aa2-919f-4c46-ad7f-1c0575b25589",
-      "transport":       {
-        "type": "http",
-        "host": "www.uptvs.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\udde6CA-141.195.112.163:60533\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
