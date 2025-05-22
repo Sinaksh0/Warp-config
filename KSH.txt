@@ -16,7 +16,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇪🇸ES-KSH\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "5.188.181.201",
       "server_port": 9030,
       "method": "aes-256-cfb",
