@@ -41,15 +41,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-100.42.182.3016470\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "100.42.182.30",
-      "server_port": 16470,
-      "method": "chacha20-ietf-poly1305",
-      "password": "8a07255382c369ea"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf9\ud83c\uddf7TR-185.123.101.241:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "185.123.101.241",
@@ -83,6 +74,35 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-138.124.31.187:2096\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "138.124.31.187",
+      "server_port": 2096,
+      "uuid": "708358a5-8c9a-55b8-a521-73b8d7b63d3b",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "fr.vmess.comnpmjs.com",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/vmess",
+        "headers":         {
+          "Host": "fr.vmess.comnpmjs.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "wireguard",
