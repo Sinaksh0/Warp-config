@@ -49,15 +49,13 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-85.215.233.179:16151\ud83d\ude80",
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-62.210.88.22:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "85.215.233.179",
-      "server_port": 16151,
-      "uuid": "44ba7053-733f-4d35-9ba4-3457ee608f64",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
+      "server": "62.210.88.22",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "GCxsETVt6UckjubvUbsC1R"
     },
     {
       "type": "wireguard",
