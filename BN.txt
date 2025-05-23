@@ -31,41 +31,6 @@
       "password": "0zyDRZ1XmNXaaCAN7KEA8a"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9019\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9019,
-      "method": "aes-256-cfb",
-      "password": "GA9KzeEgvfxNrgmM"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR-154.90.63.193:990\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "154.90.63.193",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\uddf8\ud83c\uddecSG-139.59.119.143:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "139.59.119.143",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls":       {
-        "enabled": true,
-        "server_name": "connectwithemployers.online",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\udde6\ud83c\uddfaAU-154.26.153.173:28686\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -75,15 +40,6 @@
       "security": "auto",
       "authenticated_length": true,
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-81.19.141.45:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "81.19.141.45",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W0LXavtQxhNmZ5GPzkkgbG"
     },
     {
       "type": "shadowsocks",
