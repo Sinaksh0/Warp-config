@@ -39,26 +39,20 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-51.68.13.106:1935\ud83d\ude80",
+{
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-116.203.149.50:22940\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "51.68.13.106",
-      "server_port": 1935,
-      "password": "FiSo7J6vfS",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x1fr-ovh.devefun.net",
-        "alpn":         [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "116.203.149.50",
+      "server_port": 22940,
+      "uuid": "1826fa3c-24d9-40ae-98b0-dd8728d6b6f4",
+      "transport":       {
+        "type": "http",
+        "host": "help.filimo.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
