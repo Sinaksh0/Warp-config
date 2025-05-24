@@ -58,13 +58,19 @@
       "password": "TN2YqghxeFDKZfLU"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-109.201.152.181:443\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-159.89.25.77:2053\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
+      "server": "159.89.25.77",
+      "server_port": 2053,
+      "uuid": "7455dc11-4417-49f2-9d99-4269394ec40d",
+      "transport":       {
+        "type": "http",
+        "host": "www.speedtest.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
