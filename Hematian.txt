@@ -67,6 +67,21 @@
       "password": "TbvRD0HGJatIGTthsXyEJW"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-116.203.149.50:22940\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "116.203.149.50",
+      "server_port": 22940,
+      "uuid": "1826fa3c-24d9-40ae-98b0-dd8728d6b6f4",
+      "transport":       {
+        "type": "http",
+        "host": "help.filimo.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
