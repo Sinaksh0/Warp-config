@@ -58,13 +58,27 @@
       "password": "M3t2ZEQcMGRWBjRa"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪DE-KSH\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-KSH\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9064,
-      "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "server": "91.107.219.8",
+      "server_port": 443,
+      "uuid": "eacc24ed-a1c1-4037-9af4-4f6bcd657119",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "direct.pdownloaddigikala.ir",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "Rcapy_5gvuL9LOr1Bqz-Y84P69L3wUQjG48xpB4fLTA",
+          "short_id": "1d13151ce1"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
