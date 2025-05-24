@@ -13,13 +13,19 @@
       "password": "shadowsocks"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9005\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-45.80.111.20:8880\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "80.92.204.106",
-      "server_port": 9005,
-      "method": "aes-256-cfb",
-      "password": "ZET59LF6DvCC8KVt"
+      "server": "45.80.111.20",
+      "server_port": 8880,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "transport":       {
+        "type": "ws",
+        "headers":         {
+          "Host": "reedfree8mahsang2.redorg.ir"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
