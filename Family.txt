@@ -122,6 +122,28 @@
       "password": "3TnQdgm2mVJQbuSCXmR5Vc"
     },
     {
+      "type": "vmess",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-45.12.114.15:20779\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "45.12.114.15",
+      "server_port": 20779,
+      "uuid": "9dc5bff8-bcbb-4703-b0fe-4f91ba517402",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddfa\ud83c\udde6UA-45.137.155.45:17646\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "45.137.155.45",
+      "server_port": 17646,
+      "uuid": "82734724-8c06-4c2e-9cff-b34776fe1757",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
