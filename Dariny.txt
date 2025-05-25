@@ -88,6 +88,17 @@
       "method": "chacha20-ietf-poly1305",
       "password": "pV5BAzqLZosOfuIrkyoadT"
     },
+{
+      "type": "vmess",
+      "tag": "\ud83c\udde8\ud83c\uddedCH-186.190.215.193:22324\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "186.190.215.193",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
     {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
