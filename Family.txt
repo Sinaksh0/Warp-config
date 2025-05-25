@@ -132,15 +132,6 @@
       "password": "faBAoD54k87UJG7"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-152.70.23.50:25720\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "152.70.23.50",
-      "server_port": 25720,
-      "uuid": "73ef5ea7-6452-4c44-88f5-d088aad4ba4a",
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
