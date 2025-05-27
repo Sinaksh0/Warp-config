@@ -32,15 +32,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US-212.102.47.132:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "212.102.47.132",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde6\ud83c\uddf7AR-38.54.45.129:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "38.54.45.129",
@@ -74,6 +65,33 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-2a05:541:103:59::1:21712\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "h110vpnde.outlinekeys.net",
+      "server_port": 21712,
+      "method": "chacha20-ietf-poly1305",
+      "password": "PaSlgNDwPntRweTMmNcSF9"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-62.210.88.22:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "62.210.88.22",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "FucJI7ZjEC01AR4UOZ2XxE"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES-194.87.45.189:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "194.87.45.189",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "aGcncxetyMTUBmUGFAV395"
     },
     {
       "type": "wireguard",
