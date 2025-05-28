@@ -100,6 +100,15 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR-62.210.88.22:443\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "62.210.88.22",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "5n4it3u1aJZOSktUQN4cEh"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
