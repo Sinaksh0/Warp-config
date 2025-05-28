@@ -41,21 +41,48 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-85.208.139.69:63861\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "85.208.139.69",
-      "server_port": 63861,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PBrts5Au4GM9ar7bTNyZEu"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddeeFI-77.91.103.73:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "77.91.103.73",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "Lcc1lw8IP2KI"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US-166.88.131.195:52952\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "166.88.131.195",
+      "server_port": 52952,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddf8RS-194.71.126.31:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "194.71.126.31",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-89.23.103.21:51584\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "89.23.103.21",
+      "server_port": 51584,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oYQ8JwEldYn4KT2gfZ6eNl"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddf0DK-192.36.27.94:989\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "192.36.27.94",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "wireguard",
