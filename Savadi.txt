@@ -40,21 +40,6 @@
       "password": "TN2YqghxeFDKZfLU"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-159.89.25.77:2053\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "159.89.25.77",
-      "server_port": 2053,
-      "uuid": "7455dc11-4417-49f2-9d99-4269394ec40d",
-      "transport":       {
-        "type": "http",
-        "host": "www.speedtest.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
