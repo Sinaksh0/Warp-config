@@ -110,7 +110,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES-194.87.45.189:443 § 29",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES-194.87.45.189:443\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "194.87.45.189",
       "server_port": 443,
@@ -119,7 +119,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-178.208.91.118:19805 § 421",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-178.208.91.118:19805\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "178.208.91.118",
       "server_port": 19805,
