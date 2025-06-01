@@ -41,15 +41,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFL-77.91.103.73:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "77.91.103.73",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Lcc1lw8IP2KI"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL-79.137.205.30:29884\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "79.137.205.30",
