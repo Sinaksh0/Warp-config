@@ -88,7 +88,6 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddeaEE-188.214.36.155:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "188.214.36.155",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -116,7 +115,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-213.109.147.242:62685 § 337",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL-213.109.147.242:62685\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "213.109.147.242",
       "server_port": 62685,
