@@ -30,15 +30,6 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFL-185.221.196.34:57602\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.221.196.34",
-      "server_port": 57602,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YsMyc2KezH5LEuOkL3hIKD"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US-67.220.95.96:8091\ud83d\ude80",
@@ -47,30 +38,6 @@
       "server_port": 8091,
       "method": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR-62.210.88.22:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "62.210.88.22",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "TbvRD0HGJatIGTthsXyEJW"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-116.203.149.50:22940\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "116.203.149.50",
-      "server_port": 22940,
-      "uuid": "1826fa3c-24d9-40ae-98b0-dd8728d6b6f4",
-      "transport":       {
-        "type": "http",
-        "host": "help.filimo.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
