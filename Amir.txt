@@ -62,13 +62,15 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\udde6CA-141.195.112.163:60533\ud83d\ude80",
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-45.12.138.82:54757\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "141.195.112.163",
-      "server_port": 60533,
-      "method": "chacha20-ietf-poly1305",
-      "password": "c3cgtMPolKhG9dfnJiAB9q"
+      "server": "45.12.138.82",
+      "server_port": 54757,
+      "uuid": "cde9f074-c930-4aa3-a558-46bbc9d0a5a1",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
