@@ -94,6 +94,20 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-185.204.168.163:35972\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "185.204.168.163",
+      "server_port": 35972,
+      "uuid": "e18e656d-39fd-4b80-95e5-72edcacb952c",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
