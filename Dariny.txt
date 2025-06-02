@@ -109,6 +109,21 @@
       "password": "Km4dNL4yepKdSyxRNGsoSo"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-49.13.237.7:1517\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "49.13.237.7",
+      "server_port": 1517,
+      "uuid": "0511ddb2-b684-43eb-93db-cb5476a463b8",
+      "transport":       {
+        "type": "http",
+        "host": "testspeed-foreign.tci.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
