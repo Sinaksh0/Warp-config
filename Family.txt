@@ -94,15 +94,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-81.19.141.45:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "81.19.141.45",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3TnQdgm2mVJQbuSCXmR5Vc"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddfa\ud83c\udde6UA-45.137.155.45:17646\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
