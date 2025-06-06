@@ -36,9 +36,9 @@
       "tag": "🇩🇪 DE-Frankfurt am Main\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "80.92.204.106",
-      "server_port": 9097,
+      "server_port": 9057,
       "method": "aes-256-cfb",
-      "password": "Sn5B7jTqr76aCJT8"
+      "password": "wjTugX3ZtHMB9c3Z"
     },
     {
       "type": "shadowsocks",
