@@ -24,15 +24,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 CA-Toronto\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "141.195.112.163",
-      "server_port": 60533,
-      "method": "chacha20-ietf-poly1305",
-      "password": "c3cgtMPolKhG9dfnJiAB9q"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇩🇪 DE-Frankfurt am Main\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "80.92.204.106",
