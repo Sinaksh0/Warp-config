@@ -14,15 +14,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.161:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "156.146.62.161",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf9PT-185.231.233.173:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "185.231.233.173",
@@ -101,20 +92,6 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "Z0UurGkG6iJa"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-185.204.168.163:35972\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.204.168.163",
-      "server_port": 35972,
-      "uuid": "e18e656d-39fd-4b80-95e5-72edcacb952c",
-      "transport":       {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
