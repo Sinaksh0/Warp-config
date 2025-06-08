@@ -113,15 +113,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-194.87.216.218:52571\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "h110vpnnl.outlinekeys.net",
-      "server_port": 52571,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bqfZmM5elk46mneALSz1Hn"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddeaEE-188.214.36.155:989 § 540",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "188.214.36.155",
