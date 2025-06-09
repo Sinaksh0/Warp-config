@@ -105,6 +105,19 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "hysteria2",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-46.17.41.5:12904\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "46.17.41.5",
+      "server_port": 12904,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
