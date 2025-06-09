@@ -67,13 +67,17 @@
       "password": "R6LkRktfi0Aq2rkylJ8KJw"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-213.109.147.242:62685\ud83d\ude80",
+      "type": "hysteria2",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU-46.17.41.5:12904\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "213.109.147.242",
-      "server_port": 62685,
-      "method": "chacha20-ietf-poly1305",
-      "password": "VpKABcOpNNA0l5G2AVOmw8"
+      "server": "46.17.41.5",
+      "server_port": 12904,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
