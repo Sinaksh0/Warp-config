@@ -106,32 +106,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\uddedCH-84.234.31.243:20244\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "84.234.31.243",
-      "server_port": 20244,
-      "uuid": "981ae220-1c73-4334-942e-24c9b476f44f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFL-162.251.82.187:80\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "162.251.82.187",
-      "server_port": 80,
-      "uuid": "8c9a892c-e9d5-4fff-bfdb-8ef9c50272b1",
-      "transport":       {
-        "type": "ws",
-        "path": "/58834/mail-template",
-        "headers":         {
-          "Host": "my-mail-management-pr0-git-land-manager.clients-github.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "local_address":       [
