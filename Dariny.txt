@@ -100,25 +100,16 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-178.208.91.118:19805\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "178.208.91.118",
-      "server_port": 19805,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Km4dNL4yepKdSyxRNGsoSo"
-    },
-    {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-49.13.237.7:1517\ud83d\ude80",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE-91.99.24.244:47465\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "49.13.237.7",
-      "server_port": 1517,
-      "uuid": "0511ddb2-b684-43eb-93db-cb5476a463b8",
+      "server": "91.99.24.244",
+      "server_port": 47465,
+      "uuid": "3f4dd350-8f88-4232-9e57-b12cb3d83b1c",
       "transport":       {
         "type": "http",
-        "host": "testspeed-foreign.tci.ir",
-        "path": "/",
+        "host": "www.speedtest.net",
+        "path": "/@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20V----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20",
         "method": "GET"
       },
       "packet_encoding": "xudp"
