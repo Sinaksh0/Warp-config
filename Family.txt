@@ -114,14 +114,26 @@
       "method": "chacha20-ietf-poly1305",
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
-    {
-      "type": "vmess",
+{
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "79.175.167.129",
-      "server_port": 2121,
-      "uuid": "3e2baeb7-c298-49df-9c52-ff07892f89be",
-      "security": "auto",
-      "authenticated_length": true,
+      "server": "190.93.244.103",
+      "server_port": 443,
+      "uuid": "d4661d12-d6f7-4ff2-bd1e-fc9cdc2c9cc1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mylearn-8zx.pages.dev",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "headers":         {
+          "Host": "mylearn-8zx.pages.dev"
+        }
+      },
       "packet_encoding": "xudp"
     },
     {
