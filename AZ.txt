@@ -1,0 +1,32 @@
+#profile-title: Kourosh
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+  "outbounds": [
+{
+      "type": "vless",
+      "tag": "Kourosh",
+      "server": "83.147.18.200",
+      "server_port": 2087,
+      "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "83.147.18.200"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+    ]
+}
