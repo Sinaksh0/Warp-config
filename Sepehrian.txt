@@ -1,4 +1,32 @@
 #profile-title: Sepehrian
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-warp://188.114.97.176:1070?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
+{
+  "outbounds": [
+{
+      "type": "vless",
+      "tag": "Kamrani",
+      "server": "83.147.18.200",
+      "server_port": 2087,
+      "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "83.147.18.200"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+    ]
+}
