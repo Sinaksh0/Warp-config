@@ -114,7 +114,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
-        {
+    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "83.147.18.200",
