@@ -57,28 +57,17 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
-{
+    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "83.147.18.200",
-      "server_port": 2087,
-      "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "37.27.91.74",
+      "server_port": 8080,
+      "uuid": "879f1d7e-e845-48d9-9681-4f03c8a9f015",
       "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "83.147.18.200"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "exo.ir",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
