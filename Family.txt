@@ -114,6 +114,19 @@
       "method": "chacha20-ietf-poly1305",
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
+{
+      "type": "vless",
+      "tag": "🇩🇪DE",
+      "server": "2.189.85.218",
+      "server_port": 29262,
+      "uuid": "50437839-f3a7-46c6-87ea-27a56ad36dae",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
