@@ -5,7 +5,7 @@
   "outbounds": [
 {
       "type": "vless",
-      "tag": "Zekavat",
+      "tag": "Robatian",
       "server": "83.147.18.200",
       "server_port": 2087,
       "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
