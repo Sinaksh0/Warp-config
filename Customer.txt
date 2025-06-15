@@ -1,0 +1,20 @@
+#profile-title: Amir
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+  "outbounds": [
+{
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "2.189.85.218",
+      "server_port": 29262,
+      "uuid": "50437839-f3a7-46c6-87ea-27a56ad36dae",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    }
+    ]
+}
