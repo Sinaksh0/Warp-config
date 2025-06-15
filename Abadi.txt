@@ -51,25 +51,13 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "83.147.18.200",
-      "server_port": 2087,
-      "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "2.189.85.218",
+      "server_port": 29262,
+      "uuid": "50437839-f3a7-46c6-87ea-27a56ad36dae",
       "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "83.147.18.200"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
