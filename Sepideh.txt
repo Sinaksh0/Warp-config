@@ -58,12 +58,19 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "::ffff:b280:c8c6",
-      "server_port": 8443,
-      "method": "aes-256-gcm",
-      "password": "KnYKwpw0w4c0RDnCo8KUcDQcwpp7w7bCv3nCgMOPHB/DnhLDj8OawrVVB2o5"
+      "server": "178.239.144.184",
+      "server_port": 11000,
+      "uuid": "599310b4-f087-0dff-2ed7-aa9ff5c8f680",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      }
     },
     {
       "type": "shadowsocks",
