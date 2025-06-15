@@ -2,39 +2,31 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-  "outbounds":   [
-    {
-      "type": "wireguard",
-      "tag": "IR 🇮🇷 § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:825d:53f6:8208:6142:decb/128"
-      ],
-      "private_key": "6Jn3jljBrZziPvwcInvBnrFo52y70p1H9s8KVYSFskM=",
-      "server": "188.114.97.158",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "Oh+7",
-      "mtu": 1330,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "German 🇩🇪 § 1",
-      "detour": "IR 🇮🇷 § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8106:a4ee:ec5c:1f31:55f5/128"
-      ],
-      "private_key": "mIEGoTKpQIOJzbzU/UbI0PXKD88dUJzOreQR/2C3mlg=",
-      "server": "188.114.98.54",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "aUdL",
-      "mtu": 1330
+  "outbounds": [
+{
+      "type": "vless",
+      "tag": "Zekavat",
+      "server": "83.147.18.200",
+      "server_port": 2087,
+      "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "83.147.18.200"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     }
-  ]
+    ]
 }
