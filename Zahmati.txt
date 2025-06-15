@@ -42,12 +42,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "37.27.91.74",
-      "server_port": 8080,
-      "uuid": "879f1d7e-e845-48d9-9681-4f03c8a9f015",
+      "server": "2.189.85.180",
+      "server_port": 2315,
+      "uuid": "4b8fa6eb-2834-4bc3-acf9-971819ae42a0",
       "transport":       {
         "type": "http",
-        "host": "exo.ir",
+        "host": "speedtest.net",
         "path": "/",
         "method": "GET"
       },
