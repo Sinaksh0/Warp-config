@@ -115,17 +115,12 @@
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
 {
-      "type": "vless",
-      "tag": "🇩🇪DE",
-      "server": "2.189.85.218",
-      "server_port": 29262,
-      "uuid": "50437839-f3a7-46c6-87ea-27a56ad36dae",
-      "transport":       {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "🇸🇪SE",
+      "server": "4.223.106.151",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
     },
 {
       "type": "hysteria2",
