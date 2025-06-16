@@ -100,6 +100,14 @@
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     }
     ]
 }
