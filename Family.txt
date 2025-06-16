@@ -4,6 +4,14 @@
 #support-url: https://t.me/SI_KSH
 {
   "outbounds": [
+{
+      "type": "shadowsocks",
+      "tag": "🇸🇪SE",
+      "server": "4.223.106.151",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
@@ -113,14 +121,6 @@
       "server_port": 14628,
       "method": "chacha20-ietf-poly1305",
       "password": "DKyRdoqQIebdKZVYs5GzW8"
-    },
-{
-      "type": "shadowsocks",
-      "tag": "🇸🇪SE",
-      "server": "4.223.106.151",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
     },
 {
       "type": "hysteria2",
