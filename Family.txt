@@ -125,12 +125,16 @@
 {
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "23.132.228.217",
-      "server_port": 45533,
-      "password": "29fbd51f-03c8-4d76-849a-436e54d58317",
+      "server": "88.218.17.156",
+      "server_port": 28684,
+      "obfs":       {
+        "type": "salamander",
+        "password": "7NtTY7UuApwHlmFMxE"
+      },
+      "password": "a962cbbf-bd97-4480-b82d-e29b3b8f7735",
       "tls":       {
         "enabled": true,
-        "server_name": "dxobg4azmk.gafnode.sbs"
+        "server_name": "filimo-refahbank-mc.mocgroup.ir"
       }
     },
     {
