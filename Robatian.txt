@@ -4,29 +4,12 @@
 {
   "outbounds": [
 {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "Robatian",
-      "server": "83.147.18.200",
-      "server_port": 2087,
-      "uuid": "36b1471c-060a-4b9e-a2e1-def0cae3b323",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "83.147.18.200"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "server": "4.223.106.151",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
     }
     ]
 }
