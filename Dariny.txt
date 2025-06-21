@@ -123,15 +123,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "23.132.228.217",
-      "server_port": 45533,
-      "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
-      "tls":       {
-        "enabled": true,
-        "server_name": "dxobg4azmk.gafnode.sbs"
-      }
+      "server": "20.91.252.21",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
     },
     {
       "type": "shadowsocks",
