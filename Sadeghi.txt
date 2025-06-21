@@ -1,6 +1,6 @@
 #profile-title: base64:8J+nkeKAjfCfkrtTYWRlZ2hpRmFyZPCflKU=
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1751905800
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1752769800
 #support-url: https://t.me/SI_KSH
 {
   "outbounds": [
