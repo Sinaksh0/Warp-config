@@ -5,11 +5,11 @@
   "outbounds": [
 {
       "type": "shadowsocks",
-      "tag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿GB",
-      "server": "74.177.242.216",
-      "server_port": 443,
+      "tag": "🇸🇪SE",
+      "server": "4.223.106.151",
+      "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
-      "password": "u17T3BvpYaaiuW2c"
+      "password": "51yloQC8D9w1Wae7FHtI65"
     },
     {
       "type": "shadowsocks",
