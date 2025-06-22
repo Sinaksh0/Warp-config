@@ -97,12 +97,15 @@
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "4.223.106.151",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "server": "ajp.pagate.top",
+      "server_port": 10086,
+      "password": "e6d8d743-a9bc-48c9-be99-8f3cc94d16e1",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ajp.pagate.top"
+      }
     },
     {
       "type": "shadowsocks",
