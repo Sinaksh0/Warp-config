@@ -107,17 +107,12 @@
     {
       "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "5.159.49.184",
-      "server_port": 5647,
-      "uuid": "06e5a944-bc30-4c45-ff3d-63abd34bcf72",
+      "server": "85.198.23.63",
+      "server_port": 52262,
+      "uuid": "af5a0d0c-c898-4a51-ba6a-47179d483e41",
       "security": "auto",
       "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
