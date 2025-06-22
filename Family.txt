@@ -98,7 +98,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-45.150.32.13:14628\ud83d\ude80",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "4.223.106.151",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
