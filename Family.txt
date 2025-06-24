@@ -97,12 +97,18 @@
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "20.91.252.21",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "server": "109.207.171.150",
+      "server_port": 8443,
+      "uuid": "1e7e2325-b256-4843-b2dc-09cbf0a1d144",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
