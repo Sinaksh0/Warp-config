@@ -121,12 +121,18 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "74.177.141.237",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "69MUii7VDwMqh7Hz"
+      "server": "188.227.84.74",
+      "server_port": 8443,
+      "uuid": "0b83624e-ca3f-4761-9b77-954a49f608e4",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
