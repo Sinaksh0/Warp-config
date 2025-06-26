@@ -100,28 +100,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "88.218.17.128",
-      "server_port": 443,
-      "uuid": "c76ad3f6-c707-46b3-aa55-d3c446575afe",
+      "server": "23.132.228.217",
+      "server_port": 26747,
+      "password": "5eaa121d-4362-444d-8219-29b02c35303a",
       "tls":       {
         "enabled": true,
-        "server_name": "mizanir-mp4iran.taoctehran.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/oEVAOsIA7LIWvXbMOoxp",
-        "headers":         {
-          "Host": "mizanir-mp4iran.taoctehran.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "dxobg4azmk.gafnode.sbs"
+      }
     },
     {
       "type": "shadowsocks",
