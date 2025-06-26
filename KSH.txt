@@ -90,12 +90,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "91.247.171.41",
-      "server_port": 38869,
-      "uuid": "89296773-dffc-48b2-a140-967d2b2059d1",
+      "server": "91.99.201.171",
+      "server_port": 1360,
+      "uuid": "9da21010-6025-430a-9ce9-6096673d86d1",
       "transport":       {
         "type": "http",
-        "host": "speedtest.net",
+        "host": "zula.ir",
         "path": "/",
         "method": "GET"
       },
