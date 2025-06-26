@@ -4,28 +4,12 @@
 {
   "outbounds": [
 {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "88.218.17.128",
-      "server_port": 443,
-      "uuid": "c76ad3f6-c707-46b3-aa55-d3c446575afe",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizanir-mp4iran.taoctehran.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/oEVAOsIA7LIWvXbMOoxp",
-        "headers":         {
-          "Host": "mizanir-mp4iran.taoctehran.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "server": "4.223.100.248",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
     }
     ]
 }
