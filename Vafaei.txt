@@ -67,12 +67,18 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "74.177.141.237",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "69MUii7VDwMqh7Hz"
+      "server": "77.221.140.134",
+      "server_port": 44481,
+      "uuid": "33de8a6b-e3bc-4263-9cdd-fd676816c875",
+      "transport":       {
+        "type": "http",
+        "host": "stackoverflow.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
