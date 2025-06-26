@@ -96,12 +96,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "77.221.140.134",
-      "server_port": 44481,
-      "uuid": "33de8a6b-e3bc-4263-9cdd-fd676816c875",
+      "server": "91.99.201.171",
+      "server_port": 1360,
+      "uuid": "9da21010-6025-430a-9ce9-6096673d86d1",
       "transport":       {
         "type": "http",
-        "host": "stackoverflow.com",
+        "host": "zula.ir",
         "path": "/",
         "method": "GET"
       },
