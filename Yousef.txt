@@ -42,12 +42,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "188.227.84.74",
-      "server_port": 8443,
-      "uuid": "0b83624e-ca3f-4761-9b77-954a49f608e4",
+      "server": "77.221.140.134",
+      "server_port": 44481,
+      "uuid": "33de8a6b-e3bc-4263-9cdd-fd676816c875",
       "transport":       {
         "type": "http",
-        "host": "zula.ir",
+        "host": "stackoverflow.com",
         "path": "/",
         "method": "GET"
       },
