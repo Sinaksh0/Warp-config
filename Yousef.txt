@@ -42,14 +42,24 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "77.221.140.134",
-      "server_port": 44481,
-      "uuid": "33de8a6b-e3bc-4263-9cdd-fd676816c875",
+      "server": "88.218.17.128",
+      "server_port": 443,
+      "uuid": "c76ad3f6-c707-46b3-aa55-d3c446575afe",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mizanir-mp4iran.taoctehran.ir",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
-        "type": "http",
-        "host": "stackoverflow.com",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/oEVAOsIA7LIWvXbMOoxp",
+        "headers":         {
+          "Host": "mizanir-mp4iran.taoctehran.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
