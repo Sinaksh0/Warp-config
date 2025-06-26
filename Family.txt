@@ -97,12 +97,15 @@
       "password": "DKyRdoqQIebdKZVYs5GzW8"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "4.250.141.14",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "69MUii7VDwMqh7Hz"
+      "server": "23.132.228.217",
+      "server_port": 26747,
+      "password": "5eaa121d-4362-444d-8219-29b02c35303a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "dxobg4azmk.gafnode.sbs"
+      }
     },
     {
       "type": "shadowsocks",
