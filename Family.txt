@@ -6,13 +6,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇪DE",
-      "server": "91.99.201.171",
-      "server_port": 1360,
-      "uuid": "9da21010-6025-430a-9ce9-6096673d86d1",
+      "tag": "Turkey",
+      "server": "38.180.105.218",
+      "server_port": 9091,
+      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
       "transport":       {
         "type": "http",
-        "host": "zula.ir",
+        "host": "tgju.org",
         "path": "/",
         "method": "GET"
       },
