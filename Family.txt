@@ -5,6 +5,20 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇩🇪DE",
+      "server": "91.99.201.171",
+      "server_port": 1360,
+      "uuid": "9da21010-6025-430a-9ce9-6096673d86d1",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -95,20 +109,6 @@
       "server_port": 14628,
       "method": "chacha20-ietf-poly1305",
       "password": "DKyRdoqQIebdKZVYs5GzW8"
-    },
-{
-      "type": "vless",
-      "tag": "🇩🇪DE",
-      "server": "91.99.201.171",
-      "server_port": 1360,
-      "uuid": "9da21010-6025-430a-9ce9-6096673d86d1",
-      "transport":       {
-        "type": "http",
-        "host": "zula.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "hysteria2",
