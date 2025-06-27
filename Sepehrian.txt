@@ -6,24 +6,14 @@
 {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "88.218.17.128",
-      "server_port": 443,
-      "uuid": "c76ad3f6-c707-46b3-aa55-d3c446575afe",
-      "tls":       {
-        "enabled": true,
-        "server_name": "mizanir-mp4iran.taoctehran.ir",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "38.180.105.218",
+      "server_port": 9091,
+      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
       "transport":       {
-        "type": "ws",
-        "path": "/oEVAOsIA7LIWvXbMOoxp",
-        "headers":         {
-          "Host": "mizanir-mp4iran.taoctehran.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "tgju.org",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     }
