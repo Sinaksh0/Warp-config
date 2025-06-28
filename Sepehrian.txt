@@ -6,12 +6,12 @@
 {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "38.180.105.218",
-      "server_port": 9091,
-      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
+      "server": "91.99.207.14",
+      "server_port": 51615,
+      "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
       "transport":       {
         "type": "http",
-        "host": "tgju.org",
+        "host": "zula.ir",
         "path": "/",
         "method": "GET"
       },
