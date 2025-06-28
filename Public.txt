@@ -113,9 +113,9 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "91.99.201.171",
-      "server_port": 1360,
-      "uuid": "9da21010-6025-430a-9ce9-6096673d86d1",
+      "server": "91.99.207.14",
+      "server_port": 51615,
+      "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
       "transport":       {
         "type": "http",
         "host": "zula.ir",
