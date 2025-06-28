@@ -4,12 +4,18 @@
 {
   "outbounds": [
 {
-      "type": "shadowsocks",
-      "tag": "Robatian",
-      "server": "4.223.106.151",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "38.180.105.218",
+      "server_port": 9091,
+      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
+      "transport":       {
+        "type": "http",
+        "host": "tgju.org",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     }
     ]
 }
