@@ -3,6 +3,20 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "🇩🇪DE",
+      "server": "91.99.207.14",
+      "server_port": 51615,
+      "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddffCZ-195.181.160.6:990\ud83d\ude80",
