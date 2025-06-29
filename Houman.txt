@@ -67,21 +67,20 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
-      "type": "wireguard",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.96.251",
-      "server_port": 3138,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "5-10",
-      "fake_packets_mode": "m4"
+      "server": "64.225.73.116",
+      "server_port": 8081,
+      "uuid": "cb810065-88b0-4d6a-9d92-67ee32491616",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "http",
+        "host": "canva.com",
+        "path": "/",
+        "method": "GET"
+      }
     },
     {
       "type": "shadowsocks",
