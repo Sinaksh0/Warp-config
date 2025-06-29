@@ -58,21 +58,19 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "64.225.73.116",
-      "server_port": 8081,
-      "uuid": "cb810065-88b0-4d6a-9d92-67ee32491616",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "server": "95.211.45.91",
+      "server_port": 1471,
+      "uuid": "09efd8b5-c69c-464b-8fe9-74411964f3e9",
       "transport":       {
         "type": "http",
-        "host": "canva.com",
+        "host": "fararu.com",
         "path": "/",
         "method": "GET"
-      }
-    }
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
