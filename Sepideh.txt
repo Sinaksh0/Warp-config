@@ -58,19 +58,21 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "91.99.207.14",
-      "server_port": 51615,
-      "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
+      "server": "64.225.73.116",
+      "server_port": 8081,
+      "uuid": "cb810065-88b0-4d6a-9d92-67ee32491616",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
       "transport":       {
         "type": "http",
-        "host": "zula.ir",
+        "host": "canva.com",
         "path": "/",
         "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
+      }
+    }
     {
       "type": "shadowsocks",
       "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
