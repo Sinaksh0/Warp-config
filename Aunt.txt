@@ -63,18 +63,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "38.180.105.218",
-      "server_port": 9091,
-      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
-      "transport":       {
-        "type": "http",
-        "host": "tgju.org",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "188.114.96.251",
+      "server_port": 3138,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "5-10",
+      "fake_packets_mode": "m4"
     },
     {
       "type": "shadowsocks",
