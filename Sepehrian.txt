@@ -4,20 +4,18 @@
 {
   "outbounds": [
 {
-      "type": "vmess",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "93.115.172.175",
-      "server_port": 12540,
-      "uuid": "056d3d35-a729-4ab4-bbae-d71d8458af19",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "server": "95.211.45.91",
+      "server_port": 1471,
+      "uuid": "09efd8b5-c69c-464b-8fe9-74411964f3e9",
       "transport":       {
         "type": "http",
-        "host": "sheypoor.com",
+        "host": "fararu.com",
         "path": "/",
         "method": "GET"
-      }
+      },
+      "packet_encoding": "xudp"
     }
     ]
 }
