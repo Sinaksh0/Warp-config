@@ -105,12 +105,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "95.211.45.91",
-      "server_port": 1471,
-      "uuid": "09efd8b5-c69c-464b-8fe9-74411964f3e9",
+      "server": "62.212.70.108",
+      "server_port": 52928,
+      "uuid": "dc58f214-4227-4f58-8090-cbcedf1adeba",
       "transport":       {
         "type": "http",
-        "host": "fararu.com",
+        "host": "canva.com",
         "path": "/",
         "method": "GET"
       },
