@@ -101,7 +101,7 @@
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "23.132.228.217",
       "server_port": 26747,
-      "password": "e31ad3e6-e341-42ac-bdc7-bea02d126fc1",
+      "password": "413c8b50-96bf-4457-82f2-54dfa8685f53",
       "tls":       {
         "enabled": true,
         "server_name": "dxobg4azmk.gafnode.sbs"
