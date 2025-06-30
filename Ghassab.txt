@@ -120,12 +120,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "38.180.105.218",
-      "server_port": 9091,
-      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
+      "server": "62.212.70.108",
+      "server_port": 52928,
+      "uuid": "dc58f214-4227-4f58-8090-cbcedf1adeba",
       "transport":       {
         "type": "http",
-        "host": "tgju.org",
+        "host": "canva.com",
         "path": "/",
         "method": "GET"
       },
