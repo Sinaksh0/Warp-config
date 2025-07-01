@@ -76,18 +76,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "62.212.70.108",
-      "server_port": 52928,
-      "uuid": "dc58f214-4227-4f58-8090-cbcedf1adeba",
-      "transport":       {
-        "type": "http",
-        "host": "canva.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "server": "4.158.76.91",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Bog0ELmMM9DSxDdQ"
     },
     {
       "type": "shadowsocks",
