@@ -129,20 +129,14 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "2.59.135.137",
-      "server_port": 7022,
-      "uuid": "651de6cb-df22-45cd-8842-438fdbef87fb",
-      "tls":       {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "vj5pvcr-2G1kK7hKp937WrwAPtVg4p94HpqeCAuauD4"
-        }
+      "server": "188.227.84.154",
+      "server_port": 8443,
+      "uuid": "19466a14-94a2-40f9-b0d4-6e53e417c435",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
