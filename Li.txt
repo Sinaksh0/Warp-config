@@ -1,0 +1,29 @@
+#profile-title: 🧑‍💻 Li 📶
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+  "outbounds": [
+{
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "server": "2.189.117.62",
+      "server_port": 21483,
+      "uuid": "5db3a167-1a04-4f2c-ab9b-771c24b5cf1d",
+      "transport":       {
+        "type": "http",
+        "host": "www.speedtest.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ]
+}
