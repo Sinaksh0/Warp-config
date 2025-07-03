@@ -33,12 +33,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "62.212.70.108",
-      "server_port": 52928,
-      "uuid": "dc58f214-4227-4f58-8090-cbcedf1adeba",
+      "server": "185.133.125.10",
+      "server_port": 19151,
+      "uuid": "84e7d7ea-fbb8-4a62-b3c6-a22165a21bee",
       "transport":       {
         "type": "http",
-        "host": "canva.com",
+        "host": "soft98.ir",
         "path": "/",
         "method": "GET"
       },
