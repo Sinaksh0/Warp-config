@@ -114,12 +114,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "188.227.84.154",
-      "server_port": 8443,
-      "uuid": "19466a14-94a2-40f9-b0d4-6e53e417c435",
+      "server": "185.133.125.10",
+      "server_port": 19151,
+      "uuid": "84e7d7ea-fbb8-4a62-b3c6-a22165a21bee",
       "transport":       {
         "type": "http",
-        "host": "zula.ir",
+        "host": "soft98.ir",
         "path": "/",
         "method": "GET"
       },
