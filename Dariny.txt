@@ -3,6 +3,20 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "🇨🇵FR",
+      "server": "185.133.125.10",
+      "server_port": 19151,
+      "uuid": "84e7d7ea-fbb8-4a62-b3c6-a22165a21bee",
+      "transport":       {
+        "type": "http",
+        "host": "soft98.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddffCZ-195.181.160.6:990\ud83d\ude80",
