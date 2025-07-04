@@ -58,18 +58,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "s4.sariii.site",
-      "server_port": 10242,
-      "uuid": "ec184209-a546-4375-b77d-c6a567485d0b",
-      "transport":       {
-        "type": "http",
-        "host": "nature.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "server": "216.173.70.187",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a58fa62b4944ddbf"
     },
     {
       "type": "shadowsocks",
