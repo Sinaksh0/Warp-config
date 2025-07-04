@@ -63,19 +63,14 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "85.255.9.247",
-      "server_port": 1935,
-      "password": "mZMgM1vKw5",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x1-czech-aruba-v2.devefun.org",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "5.253.41.147",
+      "server_port": 27750,
+      "uuid": "4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
