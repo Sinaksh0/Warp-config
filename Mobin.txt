@@ -4,25 +4,12 @@
 {
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "172.233.204.56",
-      "server_port": 10001,
-      "uuid": "dd173888-6c9e-4c52-9cb9-424fc2a0da5d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "PBzef3DPH842ZjiaSXoAn4l4bpTXBcKAgkU5PgsZOyI",
-          "short_id": "1a24af87"
-        }
-      },
-      "packet_encoding": "xudp"
+      "server": "216.173.70.187",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a58fa62b4944ddbf"
     }
     ]
 }
