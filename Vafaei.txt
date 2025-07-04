@@ -67,18 +67,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.133.125.10",
-      "server_port": 19161,
-      "uuid": "c5b69a7f-8e71-4425-8613-0f3c2a97d6d7",
-      "transport":       {
-        "type": "http",
-        "host": "soft98.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "server": "216.173.70.187",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a58fa62b4944ddbf"
     },
     {
       "type": "shadowsocks",
