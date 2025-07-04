@@ -121,18 +121,19 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.133.125.10",
-      "server_port": 19151,
-      "uuid": "84e7d7ea-fbb8-4a62-b3c6-a22165a21bee",
-      "transport":       {
-        "type": "http",
-        "host": "soft98.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
+      "server": "85.255.9.247",
+      "server_port": 1935,
+      "password": "mZMgM1vKw5",
+      "tls":       {
+        "enabled": true,
+        "server_name": "x1-czech-aruba-v2.devefun.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "shadowsocks",
