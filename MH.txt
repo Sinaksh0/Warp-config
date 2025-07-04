@@ -3,15 +3,15 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
+    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "2.189.117.62",
-      "server_port": 21483,
-      "uuid": "5db3a167-1a04-4f2c-ab9b-771c24b5cf1d",
+      "server": "185.133.125.10",
+      "server_port": 19151,
+      "uuid": "84e7d7ea-fbb8-4a62-b3c6-a22165a21bee",
       "transport":       {
         "type": "http",
-        "host": "www.speedtest.net",
+        "host": "soft98.ir",
         "path": "/",
         "method": "GET"
       },
