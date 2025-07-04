@@ -63,12 +63,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "s4.sariii.site",
-      "server_port": 10242,
-      "uuid": "ec184209-a546-4375-b77d-c6a567485d0b",
+      "server": "185.133.125.10",
+      "server_port": 19161,
+      "uuid": "c5b69a7f-8e71-4425-8613-0f3c2a97d6d7",
       "transport":       {
         "type": "http",
-        "host": "nature.com",
+        "host": "soft98.ir",
         "path": "/",
         "method": "GET"
       },
