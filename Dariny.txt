@@ -100,15 +100,14 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "23.132.228.217",
-      "server_port": 26747,
-      "password": "ebbeef45-0fd8-40cd-aca5-1e2ce18abeff",
-      "tls":       {
-        "enabled": true,
-        "server_name": "dxobg4azmk.gafnode.sbs"
-      }
+      "server": "channel.dollardoon.com",
+      "server_port": 15709,
+      "uuid": "4ac39e8a-6d5c-48bb-b0d0-f633c829113e",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
