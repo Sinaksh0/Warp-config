@@ -61,6 +61,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddef\ud83c\uddf5JP-KSH\ud83d\ude80",
+      "server": "149.22.87.241",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80"
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "b.nl.cdn.maviks.ru",
