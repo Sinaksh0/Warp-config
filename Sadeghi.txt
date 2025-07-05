@@ -104,28 +104,12 @@
       "password": "weyL5WhuoKErPUdN2fB5s4"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "b.nl.cdn.maviks.ru",
-      "server_port": 443,
-      "uuid": "078b3074-aef8-4c0d-ad8e-90ac6e3978e4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn-nl.maviks.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex":       {
-        "protocol": "h2mux",
-        "max_streams": 8
-      },
-      "transport":       {
-        "type": "httpupgrade",
-        "host": "cdn-nl.maviks.ru",
-        "path": "/MaGLM25tSikPTFr75Q0Yri"
-      }
+      "server": "138.124.115.157",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "M-nffO40KlclwbCX9CV1DQ"
     },
     {
       "type": "shadowsocks",
