@@ -76,12 +76,18 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "138.124.115.157",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "M-nffO40KlclwbCX9CV1DQ"
+      "server": "sudo.faloweram.ir",
+      "server_port": 443,
+      "uuid": "30701cb4-4b10-4f55-b758-d12aad3d093a",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
