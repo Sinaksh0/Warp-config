@@ -104,12 +104,29 @@
       "password": "weyL5WhuoKErPUdN2fB5s4"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "138.124.115.157",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "M-nffO40KlclwbCX9CV1DQ"
+      "server": "a.de.maviks.ru",
+      "server_port": 443,
+      "uuid": "078b3074-aef8-4c0d-ad8e-90ac6e3978e4",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo",
+          "short_id": "f203719d3ff9a5f5"
+        }
+      },
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      }
     },
     {
       "type": "shadowsocks",
