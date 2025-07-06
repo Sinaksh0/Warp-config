@@ -107,16 +107,26 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "sudo.faloweram.ir",
+      "server": "b.nl.cdn.maviks.ru",
       "server_port": 443,
-      "uuid": "30701cb4-4b10-4f55-b758-d12aad3d093a",
-      "transport":       {
-        "type": "http",
-        "host": "zula.ir",
-        "path": "/",
-        "method": "GET"
+      "uuid": "078b3074-aef8-4c0d-ad8e-90ac6e3978e4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn-nl.maviks.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
-      "packet_encoding": "xudp"
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "httpupgrade",
+        "host": "cdn-nl.maviks.ru",
+        "path": "/MaGLM25tSikPTFr75Q0Yri"
+      }
     },
     {
       "type": "shadowsocks",
