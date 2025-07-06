@@ -100,14 +100,28 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "channel.dollardoon.com",
-      "server_port": 15709,
-      "uuid": "4ac39e8a-6d5c-48bb-b0d0-f633c829113e",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
+      "server": "b.nl.cdn.maviks.ru",
+      "server_port": 443,
+      "uuid": "078b3074-aef8-4c0d-ad8e-90ac6e3978e4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn-nl.maviks.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex":       {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport":       {
+        "type": "httpupgrade",
+        "host": "cdn-nl.maviks.ru",
+        "path": "/MaGLM25tSikPTFr75Q0Yri"
+      }
     },
     {
       "type": "shadowsocks",
