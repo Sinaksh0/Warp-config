@@ -100,27 +100,14 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "b.nl.cdn.maviks.ru",
-      "server_port": 443,
-      "uuid": "078b3074-aef8-4c0d-ad8e-90ac6e3978e4",
+      "server": "23.132.228.217",
+      "server_port": 51503,
+      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
       "tls":       {
         "enabled": true,
-        "server_name": "cdn-nl.maviks.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex":       {
-        "protocol": "h2mux",
-        "max_streams": 8
-      },
-      "transport":       {
-        "type": "httpupgrade",
-        "host": "cdn-nl.maviks.ru",
-        "path": "/MaGLM25tSikPTFr75Q0Yri"
+        "server_name": "dxobg4azmk.gafnode.sbs"
       }
     },
     {
