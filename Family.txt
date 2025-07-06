@@ -71,12 +71,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US-107.155.57.51:8080\ud83d\ude80",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US-144.126.146.38:30100\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "107.155.57.51",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
+      "server": "144.126.146.38",
+      "server_port": 30100,
+      "method": "chacha20-ietf-poly1305",
+      "password": "741ddced-e6ee-4175-9c1a-e524009f9045"
     },
     {
       "type": "hysteria2",
