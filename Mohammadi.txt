@@ -85,27 +85,18 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "b.nl.cdn.maviks.ru",
-      "server_port": 443,
-      "uuid": "078b3074-aef8-4c0d-ad8e-90ac6e3978e4",
+      "server": "104.248.18.1",
+      "server_port": 1935,
+      "password": "6gZh2JbfhQ",
       "tls":       {
         "enabled": true,
-        "server_name": "cdn-nl.maviks.ru",
+        "server_name": "x1-germany-digitalocean-v2.devefun.org",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "multiplex":       {
-        "protocol": "h2mux",
-        "max_streams": 8
-      },
-      "transport":       {
-        "type": "httpupgrade",
-        "host": "cdn-nl.maviks.ru",
-        "path": "/MaGLM25tSikPTFr75Q0Yri"
       }
     },
     {
