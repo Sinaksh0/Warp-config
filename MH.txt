@@ -22,19 +22,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "104.248.18.1",
-      "server_port": 1935,
-      "password": "6gZh2JbfhQ",
-      "tls":       {
-        "enabled": true,
-        "server_name": "x1-germany-digitalocean-v2.devefun.org",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "94.159.96.245",
+      "server_port": 11902,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cy3A9B8XPxOEnEEexvIBqG"
     },
     {
       "type": "shadowsocks",
