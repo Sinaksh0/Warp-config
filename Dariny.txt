@@ -100,14 +100,18 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "23.132.228.217",
-      "server_port": 51503,
-      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
+      "server": "104.248.18.1",
+      "server_port": 1935,
+      "password": "6gZh2JbfhQ",
       "tls":       {
         "enabled": true,
-        "server_name": "dxobg4azmk.gafnode.sbs"
+        "server_name": "x1-germany-digitalocean-v2.devefun.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
