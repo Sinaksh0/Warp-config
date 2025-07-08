@@ -6,14 +6,25 @@
 {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "38.180.105.218",
-      "server_port": 9091,
-      "uuid": "62237966-b2c6-4bf9-a269-3717e1773c99",
+      "server": "185.58.115.104",
+      "server_port": 2087,
+      "uuid": "963ae66b-1a11-4176-95e9-856c7a8b22e0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
-        "type": "http",
-        "host": "tgju.org",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "185.58.115.104"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     }
