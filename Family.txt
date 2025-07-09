@@ -104,9 +104,9 @@
     {
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "23.132.228.217",
-      "server_port": 51503,
-      "password": "1fdb6b30-5371-4ff8-a001-efdc4b43d79b",
+      "server": "185.126.255.78",
+      "server_port": 37058,
+      "password": "f901861b-6491-450c-b500-606b2e921625",
       "tls":       {
         "enabled": true,
         "server_name": "dxobg4azmk.gafnode.sbs"
