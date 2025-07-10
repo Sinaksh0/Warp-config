@@ -5,6 +5,31 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇸🇪SE-\ud83d\ude80",
+      "server": "185.58.115.104",
+      "server_port": 2087,
+      "uuid": "963ae66b-1a11-4176-95e9-856c7a8b22e0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "185.58.115.104"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
@@ -77,29 +102,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.58.115.104",
-      "server_port": 2087,
-      "uuid": "963ae66b-1a11-4176-95e9-856c7a8b22e0",
+      "server": "23.132.228.217",
+      "server_port": 32219,
+      "password": "0cb527d9-6117-4bcf-a52b-1704b3458cef",
       "tls":       {
         "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "185.58.115.104"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "dxobg4azmk.gafnode.sbs"
+      }
     },
     {
       "type": "shadowsocks",
