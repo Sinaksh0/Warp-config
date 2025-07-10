@@ -85,7 +85,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf8IS\ud83d\ude80Reykjavik\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddee\ud83c\uddf8IS\ud83d\ude80Hafnarfjordur\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "37.235.49.152",
       "server_port": 989,
