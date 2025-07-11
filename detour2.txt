@@ -42,7 +42,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL\ud83d\ude80TelAviv\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IRl\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "169.150.202.174",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
