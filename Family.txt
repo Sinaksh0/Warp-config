@@ -4,31 +4,6 @@
 #support-url: https://t.me/SI_KSH
 {
   "outbounds": [
-     {
-      "type": "vless",
-      "tag": "🇨🇵FR\ud83d\ude80Paris\uD83D\uDEE1\uFE0F",
-      "server": "185.120.59.70",
-      "server_port": 2087,
-      "uuid": "240906ff-8ac2-45ce-9e06-f3b2f4798fe2",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "185.120.59.70"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL\ud83d\ude80TelAviv\uD83D\uDEE1\uFE0F",
