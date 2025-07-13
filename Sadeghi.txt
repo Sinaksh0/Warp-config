@@ -33,39 +33,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 PL-Warsaw\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "217.30.10.18",
-      "server_port": 9019,
-      "method": "aes-256-cfb",
-      "password": "GA9KzeEgvfxNrgmM"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇳🇴 NO-Oslo\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
       "server": "185.213.23.226",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇰 SK-Bratislava\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "156.146.40.194",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 US-Atlanta\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "38.121.43.71",
-      "server_port": 4444,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM"
     },
     {
       "type": "shadowsocks",
@@ -84,24 +57,6 @@
       "server_port": 80,
       "method": "chacha20-ietf-poly1305",
       "password": "JIhN6rBKkaEboLNXVSv5rq"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE-Frankfurt am Main\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "moz-dozd.monster",
-      "server_port": 5170,
-      "method": "chacha20-ietf-poly1305",
-      "password": "a6X36OrOjYpntkQ5Mxn31Y"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 RO-Bucharest\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "72.5.43.57",
-      "server_port": 17363,
-      "method": "chacha20-ietf-poly1305",
-      "password": "weyL5WhuoKErPUdN2fB5s4"
     },
     {
       "type": "vless",
