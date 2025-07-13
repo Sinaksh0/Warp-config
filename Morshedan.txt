@@ -21,7 +21,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY"
     },
-{
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf2\ud83c\udde9MD-45.153.124.90:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
