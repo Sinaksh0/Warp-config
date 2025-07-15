@@ -1,32 +1,4 @@
 #profile-title: Sepehrian
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-{
-  "outbounds": [
-{
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.120.59.70",
-      "server_port": 2087,
-      "uuid": "240906ff-8ac2-45ce-9e06-f3b2f4798fe2",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "185.120.59.70"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    }
-    ]
-}
+warp://188.114.96.247:987?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
