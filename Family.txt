@@ -33,15 +33,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude80Moscow\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.126.239.250",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "46.101.245.131",
@@ -60,12 +51,48 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80California\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "167.160.90.218",
+      "server": "51.15.17.169",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Stockholm\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "121.127.46.147",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddf0DK\ud83d\ude80Copenhagen\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "192.36.27.94",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddf9AT\ud83d\ude80Vienna\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "152.53.2.128",
+      "server_port": 34045,
+      "method": "aes-256-gcm",
+      "password": "TG:@Enkelte_notif&&TG:@Notif_Chat"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80San Francisco\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.55.2.232",
+      "server_port": 14293,
+      "method": "aes-256-cfb",
+      "password": "2170f8"
     },
     {
       "type": "wireguard",
