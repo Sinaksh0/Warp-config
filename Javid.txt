@@ -4,37 +4,38 @@
 {
   "outbounds":   [
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "51.15.17.169",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
       "type": "wireguard",
-      "tag": "IR 🇮🇷 § 0",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "local_address":       [
         "172.16.0.2/24",
-        "2606:4700:110:8282:64a:baf7:1af4:a521/128"
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
-      "private_key": "mC1IKoB+il1YQTItbJFgMRYgQYrz7wLNHZN8DzGuZVo=",
-      "server": "162.159.192.229",
-      "server_port": 0,
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "162.159.192.161",
+      "server_port": 5956,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "yxD6",
-      "mtu": 1330,
+      "mtu": 1306,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-8",
       "fake_packets_mode": "m4"
     },
     {
-      "type": "wireguard",
-      "tag": "German 🇩🇪 § 1",
-      "detour": "IR 🇮🇷 § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8d5f:7f77:89b:5275:8275/128"
-      ],
-      "private_key": "UHOgLIGjabDpzHLbPcnL3tJMSV2kCu6uwDKxlzrCNFU=",
-      "server": "188.114.98.54",
-      "server_port": 0,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "AF1e",
-      "mtu": 1330
+      "type": "shadowsocks",
+      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     }
   ]
 }
