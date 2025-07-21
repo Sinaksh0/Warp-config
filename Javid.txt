@@ -1,0 +1,40 @@
+#profile-title: 🧑‍💻 Javid 📶
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+  "outbounds":   [
+    {
+      "type": "wireguard",
+      "tag": "IR 🇮🇷 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8282:64a:baf7:1af4:a521/128"
+      ],
+      "private_key": "mC1IKoB+il1YQTItbJFgMRYgQYrz7wLNHZN8DzGuZVo=",
+      "server": "162.159.192.229",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "yxD6",
+      "mtu": 1330,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "German 🇩🇪 § 1",
+      "detour": "IR 🇮🇷 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8d5f:7f77:89b:5275:8275/128"
+      ],
+      "private_key": "UHOgLIGjabDpzHLbPcnL3tJMSV2kCu6uwDKxlzrCNFU=",
+      "server": "188.114.98.54",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "AF1e",
+      "mtu": 1330
+    }
+  ]
+}
