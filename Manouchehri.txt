@@ -86,15 +86,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE-80.92.204.106:9015\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "80.92.204.106",
-      "server_port": 9015,
-      "method": "aes-256-cfb",
-      "password": "ZpNDDKRu9MagNvaf"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf2\ud83c\udde9MD-192.121.87.89:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "192.121.87.89",
@@ -110,15 +101,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR-45.89.52.66:9003\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.89.52.66",
-      "server_port": 9003,
-      "method": "aes-256-cfb",
-      "password": "JdmRK9gMEqFgs8nP"
     },
     {
       "type": "wireguard",
