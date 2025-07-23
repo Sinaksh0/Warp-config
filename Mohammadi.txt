@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US-212.102.47.132:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "212.102.47.132",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -15,7 +15,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.196:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "212.102.53.196",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -24,7 +24,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "169.150.202.174",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -33,7 +33,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.162:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "156.146.62.162",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -42,72 +42,37 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL-45.144.48.63:57456\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "45.144.48.63",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
       "password": "d3837224ed465f00"
     },
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL-89.23.103.125:42090\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "89.23.103.125",
-      "server_port": 42090,
-      "method": "chacha20-ietf-poly1305",
-      "password": "uQS5ntVqC00sSKkeNzUiD3"
-    },
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddeaEE-185.193.49.88:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "185.193.49.88",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf2\ud83c\udde9MD-45.153.124.90:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "45.153.124.90",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf8\ud83c\uddf0SK-156.146.40.194:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "156.146.40.194",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR-188.114.97.238:1014\ud83d\ude80",
-      "server": "5.39.249.119",
-      "server_port": 443,
-      "uuid": "34c13de4-7cec-5238-a730-a78f5ae8f890",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "5.39.249.119"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "162.159.192.58",
+      "server_port": 7156,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
     },
     {
       "type": "shadowsocks",
