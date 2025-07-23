@@ -58,7 +58,6 @@
       "password": "a58fa62b4944ddbf"
     },
     {
-    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "5.39.249.119",
