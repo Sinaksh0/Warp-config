@@ -1,8 +1,16 @@
 #profile-title: 🧑‍💻Zahmati📶
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1753947000
 {
   "outbounds": [
+   {
+      "type": "shadowsocks",
+      "tag": "جهت فعالسازی هزینه را پرداخت کنید",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB-62.100.205.48:989\ud83d\ude80",
@@ -40,21 +48,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "wireguard",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.192.58",
-      "server_port": 7156,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8",
-      "fake_packets_mode": "m4"
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     },
     {
       "type": "shadowsocks",
