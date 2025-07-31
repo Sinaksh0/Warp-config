@@ -67,6 +67,15 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "193.164.155.224",
+      "server_port": 26592,
+      "uuid": "85d04767-c908-4cf0-b6b9-162e537e01e1",
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "local_address":       [
