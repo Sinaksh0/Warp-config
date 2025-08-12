@@ -121,9 +121,26 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "116.203.249.124",
-      "server_port": 2020,
-      "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+      "server": "167.172.186.211",
+      "server_port": 443,
+      "uuid": "34d02e5d-59cd-453c-a857-32c9ae27b240",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "167.172.186.211"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
       "packet_encoding": "xudp"
     },
     {
