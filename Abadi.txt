@@ -67,19 +67,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.99.185.216",
-      "server_port": 20086,
-      "uuid": "7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "server": "54.37.205.0",
+      "server_port": 59332,
+      "uuid": "d2dc2527-33d5-46f3-f39c-36da72fb1a62",
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
