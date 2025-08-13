@@ -87,24 +87,14 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+      "server": "91.99.203.123",
       "server_port": 443,
-      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "smart.gheichi.org",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
       "transport":       {
-        "type": "ws",
+        "type": "http",
+        "host": "zula.ir",
         "path": "/",
-        "headers":         {
-          "Host": "smart.gheichi.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
