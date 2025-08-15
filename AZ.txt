@@ -67,21 +67,25 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "wireguard",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "188.114.99.53",
-      "server_port": 908,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-80",
-      "fake_packets_delay": "4-8",
-      "fake_packets_mode": "m4"
+      "server": "135.125.239.114",
+      "server_port": 443,
+      "uuid": "a4107f38-a3fc-4ff0-9756-ac0749dd9f07",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tgju.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
+          "short_id": "370dd394052f2386"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
