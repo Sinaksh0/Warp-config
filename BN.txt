@@ -100,21 +100,25 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "135.125.239.114",
+      "server": "51.195.202.129",
       "server_port": 443,
-      "uuid": "a4107f38-a3fc-4ff0-9756-ac0749dd9f07",
+      "uuid": "e7e9b808-20ac-4bd7-b71f-76374156fac6",
       "tls":       {
         "enabled": true,
-        "server_name": "tgju.org",
+        "server_name": "zula.ir",
+        "insecure": true,
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
-          "short_id": "370dd394052f2386"
+          "fingerprint": "chrome"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "51.195.202.129"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
