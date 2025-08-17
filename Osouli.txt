@@ -109,9 +109,9 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "41.216.182.162",
+      "server": "68.183.216.44",
       "server_port": 443,
-      "uuid": "c6b88243-a3fc-57a1-a78f-c989a84476b7",
+      "uuid": "074ceb2a-a580-4c86-a10e-39b5b262c6e0",
       "tls":       {
         "enabled": true,
         "server_name": "zula.ir",
@@ -123,9 +123,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/vless",
+        "path": "/ws",
         "headers":         {
-          "Host": "41.216.182.162"
+          "Host": "46.101.237.150"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
