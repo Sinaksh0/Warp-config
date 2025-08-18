@@ -98,29 +98,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "41.216.182.162",
+      "server": "81.19.141.45",
       "server_port": 443,
-      "uuid": "c6b88243-a3fc-57a1-a78f-c989a84476b7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless",
-        "headers":         {
-          "Host": "41.216.182.162"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "method": "chacha20-ietf-poly1305",
+      "password": "3TnQdgm2mVJQbuSCXmR5Vc"
     },
     {
       "type": "shadowsocks",
