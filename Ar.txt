@@ -70,12 +70,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "41.216.182.162",
+      "server": "transferwise.com",
       "server_port": 443,
-      "uuid": "c6b88243-a3fc-57a1-a78f-c989a84476b7",
+      "uuid": "7a80a8d9-92f9-4f0a-8352-9005a8215ab8",
       "tls":       {
         "enabled": true,
-        "server_name": "zula.ir",
+        "server_name": "rAyAn-cOnFiG-TeLeGrAm-a01.lEiLa.dPdNs.oRg",
         "insecure": true,
         "utls":         {
           "enabled": true,
@@ -84,9 +84,9 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/vless",
+        "path": "/@Rayan_Config",
         "headers":         {
-          "Host": "41.216.182.162"
+          "Host": "rayan-config-telegram-a01.leila.dpdns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
