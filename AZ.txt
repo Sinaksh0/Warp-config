@@ -67,19 +67,18 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "64.227.45.92",
-      "server_port": 20086,
-      "uuid": "5e02bc01-42a7-4609-b20a-4d93feea65c6",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "type": "vless",
+      "tag": "🇩🇪[openproxylist.com] vless-DE § 35",
+      "server": "91.99.142.198",
+      "server_port": 443,
+      "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
       "transport":       {
-        "type": "ws",
+        "type": "http",
+        "host": "zula.ir",
         "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
