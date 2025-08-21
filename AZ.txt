@@ -68,7 +68,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪[openproxylist.com] vless-DE § 35",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "91.99.142.198",
       "server_port": 443,
       "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
