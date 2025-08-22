@@ -31,12 +31,19 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "217.30.10.18",
-      "server_port": 9059,
-      "method": "aes-256-cfb",
-      "password": "9XwYyZsK8SNzQDtY"
+      "server": "64.227.45.92",
+      "server_port": 20086,
+      "uuid": "5e02bc01-42a7-4609-b20a-4d93feea65c6",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "shadowsocks",
