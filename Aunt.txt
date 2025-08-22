@@ -119,12 +119,18 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "46.101.245.131",
-      "server_port": 44354,
-      "method": "chacha20-ietf-poly1305",
-      "password": "9RviNa4tscjcmCB408vLSg"
+      "server": "91.99.142.198",
+      "server_port": 443,
+      "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
+      "transport":       {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
