@@ -87,10 +87,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "138.197.111.171",
-      "server_port": 53626,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ciztVpZ6cvtSVUkB2sDNzr"
+      "server": "217.30.10.18",
+      "server_port": 9059,
+      "method": "aes-256-cfb",
+      "password": "9XwYyZsK8SNzQDtY"
     },
     {
       "type": "shadowsocks",
