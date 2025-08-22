@@ -103,10 +103,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "217.30.10.18",
-      "server_port": 9059,
-      "method": "aes-256-cfb",
-      "password": "9XwYyZsK8SNzQDtY"
+      "server": "46.101.245.131",
+      "server_port": 44354,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9RviNa4tscjcmCB408vLSg"
     },
     {
       "type": "shadowsocks",
