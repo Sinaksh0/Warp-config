@@ -102,12 +102,26 @@
       "password": "kuAQjMI57m1FQrchAYcIBI"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "217.30.10.18",
-      "server_port": 9059,
-      "method": "aes-256-cfb",
-      "password": "9XwYyZsK8SNzQDtY"
+      "server": "139.59.213.120",
+      "server_port": 443,
+      "uuid": "2bb5518a-5937-44b7-87ed-8987dddbdd19",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
