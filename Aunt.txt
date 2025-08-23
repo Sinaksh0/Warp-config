@@ -119,19 +119,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "64.227.45.92",
-      "server_port": 20086,
-      "uuid": "5e02bc01-42a7-4609-b20a-4d93feea65c6",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "server": "139.59.213.120",
+      "server_port": 443,
+      "uuid": "2bb5518a-5937-44b7-87ed-8987dddbdd19",
+      "tls":       {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/ws",
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
