@@ -90,7 +90,7 @@
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "172.252.236.213",
       "server_port": 48141,
-      "password": "9c859345-959f-491b-b6fc-65cd7a57aeb3",
+      "password": "45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e",
       "tls":       {
         "enabled": true,
         "server_name": "real.getafreenode.sbs"
