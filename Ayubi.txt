@@ -49,26 +49,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "139.59.213.120",
-      "server_port": 443,
-      "uuid": "2bb5518a-5937-44b7-87ed-8987dddbdd19",
+      "server": "172.252.236.213",
+      "server_port": 48141,
+      "password": "9c859345-959f-491b-b6fc-65cd7a57aeb3",
       "tls":       {
         "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/ws",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "real.getafreenode.sbs"
+      }
     },
     {
       "type": "shadowsocks",
