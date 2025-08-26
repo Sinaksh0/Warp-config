@@ -58,15 +58,12 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "172.252.236.213",
-      "server_port": 48141,
-      "password": "e31ad3e6-e341-42ac-bdc7-bea02d126fc1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
+      "server": "104.248.36.101",
+      "server_port": 80,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ckVxxBLAVbEQxxrRDSrHpY"
     },
     {
       "type": "shadowsocks",
