@@ -52,15 +52,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "172.252.236.213",
-      "server_port": 48141,
-      "password": "45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
+      "server": "104.248.36.101",
+      "server_port": 80,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ckVxxBLAVbEQxxrRDSrHpY"
     },
     {
       "type": "shadowsocks",
