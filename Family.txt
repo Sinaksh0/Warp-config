@@ -59,6 +59,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Budapest\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "5.182.38.91",
       "server_port": 17267,
       "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
