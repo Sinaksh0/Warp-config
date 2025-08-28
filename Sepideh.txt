@@ -60,10 +60,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.248.36.101",
-      "server_port": 80,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ckVxxBLAVbEQxxrRDSrHpY"
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     },
     {
       "type": "shadowsocks",
