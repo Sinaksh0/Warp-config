@@ -93,11 +93,11 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "81.19.141.45",
-      "server_port": 443,
+      "server": "193.46.56.185",
+      "server_port": 6683,
       "method": "chacha20-ietf-poly1305",
-      "password": "Z27naSG5vb8T7LF5eYAfyo"
-    },
+      "password": "iw8GoN42dciNxDBd0RwAdL"
+    }
     {
       "type": "shadowsocks",
       "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
