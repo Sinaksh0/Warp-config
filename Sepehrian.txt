@@ -6,10 +6,10 @@
 {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "147.45.178.200",
-      "server_port": 57456,
+      "server": "81.19.141.45",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "a58fa62b4944ddbf"
+      "password": "Z27naSG5vb8T7LF5eYAfyo"
     }
   ]
 }
