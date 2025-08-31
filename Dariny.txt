@@ -101,15 +101,25 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "172.252.236.213",
-      "server_port": 49303,
-      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
+      "server": "84.234.29.214",
+      "server_port": 8585,
+      "uuid": "9eb0500f-c906-4731-90a6-08ad66122d74",
       "tls":       {
         "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
+        "server_name": "telwebion.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "gjC92YX5coiPD3G1BLIZwGKfQsUpSA005WfJd6xBxhc",
+          "short_id": "c3fe60ab"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
