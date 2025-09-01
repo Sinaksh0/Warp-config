@@ -68,12 +68,22 @@
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "81.19.141.45",
+      "server": "212.95.34.16",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Z27naSG5vb8T7LF5eYAfyo"
+      "uuid": "784646e5-8e84-4672-8670-efc9cafcd2cc",
+      "tls":       {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
