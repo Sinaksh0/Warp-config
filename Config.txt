@@ -105,16 +105,17 @@
     {
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "drhystuichdfy.samanidempire.org",
-      "server_port": 20335,
+      "server": "gavazn.lnmarketplace.net",
+      "server_port": 45000,
       "obfs":       {
         "type": "salamander",
-        "password": "U1wBrYQyFm"
+        "password": "Telegram-->@Ln2Ray"
       },
-      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "password": "Telegram-->@Ln2Ray",
       "tls":       {
         "enabled": true,
-        "server_name": "drhystuichdfy.samanidempire.org"
+        "server_name": "gavazn.55994421.xyz",
+        "insecure": true
       }
     },
     {
