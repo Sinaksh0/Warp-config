@@ -93,17 +93,21 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "212.95.34.16",
+      "server": "51.195.202.129",
       "server_port": 443,
-      "uuid": "784646e5-8e84-4672-8670-efc9cafcd2cc",
+      "uuid": "a00b3f51-36ec-4960-9668-a30ad2f68421",
       "tls":       {
         "enabled": true,
-        "disable_sni": true,
-        "insecure": true
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/ws",
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
