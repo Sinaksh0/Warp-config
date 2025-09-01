@@ -58,19 +58,26 @@
       "password": "a58fa62b4944ddbf"
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "drhystuichdfy.samanidempire.org",
-      "server_port": 20335,
-      "obfs":       {
-        "type": "salamander",
-        "password": "U1wBrYQyFm"
-      },
-      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+      "server": "51.195.202.129",
+      "server_port": 443,
+      "uuid": "a00b3f51-36ec-4960-9668-a30ad2f68421",
       "tls":       {
         "enabled": true,
-        "server_name": "drhystuichdfy.samanidempire.org"
-      }
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
