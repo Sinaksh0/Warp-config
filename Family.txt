@@ -81,12 +81,20 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "216.173.70.187",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "a58fa62b4944ddbf"
+      "server": "2a12:5940:1680::2",
+      "server_port": 45000,
+      "obfs":       {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls":       {
+        "enabled": true,
+        "server_name": "gavazn.55994421.xyz",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
