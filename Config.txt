@@ -103,20 +103,12 @@
       "password": "LiHQX9cDbdooBHlIg0eiqQ"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "gavazn.lnmarketplace.net",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
-        "insecure": true
-      }
+      "server": "91.107.190.209",
+      "server_port": 42214,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "9pMAWyMnMTyACScWp7LiAAlGqXVzLUtNOkzDn5eTZCU=:kfzpiFbH4kZJJ6HoYah/+nZFf6yMVduJY4qKliugNho="
     },
     {
       "type": "shadowsocks",
