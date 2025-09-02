@@ -81,12 +81,20 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.107.190.209",
-      "server_port": 42214,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "9pMAWyMnMTyACScWp7LiAAlGqXVzLUtNOkzDn5eTZCU=:kfzpiFbH4kZJJ6HoYah/+nZFf6yMVduJY4qKliugNho="
+      "server": "net2025.afsharidempire.uk",
+      "server_port": 30205,
+      "obfs":       {
+        "type": "salamander",
+        "password": "GdQ4bgvT8RFwuWi2"
+      },
+      "password": "8864aa9f-7517-4fd5-aef1-32050eb3095d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "net2025.afsharidempire.uk",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
