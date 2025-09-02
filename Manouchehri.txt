@@ -85,19 +85,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "drhystuichdfy.samanidempire.org",
-      "server_port": 20335,
-      "obfs":       {
-        "type": "salamander",
-        "password": "U1wBrYQyFm"
-      },
-      "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
-      "tls":       {
-        "enabled": true,
-        "server_name": "drhystuichdfy.samanidempire.org"
-      }
+      "server": "91.107.190.209",
+      "server_port": 42214,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "9pMAWyMnMTyACScWp7LiAAlGqXVzLUtNOkzDn5eTZCU=:kfzpiFbH4kZJJ6HoYah/+nZFf6yMVduJY4qKliugNho="
     },
     {
       "type": "shadowsocks",
