@@ -81,20 +81,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "2a12:5940:1680::2",
-      "server_port": 45000,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Telegram-->@Ln2Ray"
-      },
-      "password": "Telegram-->@Ln2Ray",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gavazn.55994421.xyz",
-        "insecure": true
-      }
+      "server": "azure-sto.edgeservers.org",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
     },
     {
       "type": "shadowsocks",
