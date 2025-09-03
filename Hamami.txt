@@ -51,10 +51,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "216.173.70.187",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "a58fa62b4944ddbf"
+      "server": "217.30.10.18",
+      "server_port": 9056,
+      "method": "aes-256-cfb",
+      "password": "rNBfNuuANFCAk7KB"
     },
     {
       "type": "shadowsocks",
