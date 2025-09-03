@@ -84,9 +84,9 @@
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "217.30.10.18",
-      "server_port": 9056,
+      "server_port": 9038,
       "method": "aes-256-cfb",
-      "password": "rNBfNuuANFCAk7KB"
+      "password": "gYCYXfkUQEs2TaJQ"
     },
     {
       "type": "shadowsocks",
