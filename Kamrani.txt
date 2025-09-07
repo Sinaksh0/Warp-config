@@ -40,12 +40,15 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "62.60.247.135",
-      "server_port": 19099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QGhzzq74w9OqfnJr0mZtDz"
+      "type": "hysteria2",
+      "tag": "Kyiv-GetAFreeNode § 80",
+      "server": "185.126.255.78",
+      "server_port": 43429,
+      "password": "6bf726db-fb0b-405b-899a-3e263f092eda",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
     },
     {
       "type": "shadowsocks",
