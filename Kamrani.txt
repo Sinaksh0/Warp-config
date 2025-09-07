@@ -41,7 +41,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "Kyiv-GetAFreeNode § 80",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.126.255.78",
       "server_port": 43429,
       "password": "6bf726db-fb0b-405b-899a-3e263f092eda",
