@@ -85,20 +85,26 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "206.71.158.37",
-      "server_port": 36600,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
+      "server": "206.189.106.37",
+      "server_port": 443,
+      "uuid": "6baf31c3-a32e-46b6-943d-e71500c68004",
       "tls":       {
         "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
+        "server_name": "zula.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
