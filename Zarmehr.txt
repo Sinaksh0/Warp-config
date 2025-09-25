@@ -31,6 +31,75 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "promo1o.bystrivpn.ru",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "0NeN5ta7FLa5B9DLytU0um"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude80St Petersburg\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "195.58.49.100",
+      "server_port": 1901,
+      "method": "aes-256-gcm",
+      "password": "9f3d1a6d31468599"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Paris\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "195.42.233.47",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80Sofia\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "141.227.178.223",
+      "server_port": 34935,
+      "uuid": "4d7fdb66-eff3-4949-882b-d1115e1bc1e4",
+      "transport":       {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Nuremberg\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "188.68.53.100",
+      "server_port": 6666,
+      "uuid": "0abf9050-c7be-464d-80af-24094c2b97de",
+      "tls":       {
+        "enabled": true,
+        "server_name": "Tgju.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g",
+          "short_id": "b525ecd2fc"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "kevin.vpny.online",
