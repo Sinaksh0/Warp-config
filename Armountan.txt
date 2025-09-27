@@ -49,7 +49,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Paris\uD83D\uDEE1\uFE0F",
-      detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "638940560407102132.copenhagen-drc-tusacaf.info",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
