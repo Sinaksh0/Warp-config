@@ -22,6 +22,74 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+      "type": "vmess",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
+      detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "65.109.217.125",
+      "server_port": 8443,
+      "uuid": "3c137b61-811c-46d6-898f-a038d71ee868",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "fl.v2bazzar.ir",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Paris\uD83D\uDEE1\uFE0F",
+      detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "638940560407102132.copenhagen-drc-tusacaf.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Meppel\uD83D\uDEE1\uFE0F",
+      detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.144.28.5",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\uddffCZ\ud83d\ude80Prague\uD83D\uDEE1\uFE0F",
+      detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "141.227.134.24",
+      "server_port": 12393,
+      "uuid": "b6977b89-c21a-46b3-ac1c-6e6dac52939a",
+      "transport":       {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "4.223.106.240",
