@@ -45,31 +45,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Saarbruecken\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.18.26.90",
-      "server_port": 443,
-      "uuid": "4b3d1517-204f-423a-8469-2d79444418a9",
-      "tls":       {
-        "enabled": true,
-        "server_name": "bLAZE-GErmanY-246.MEtIKaPps.COm",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/wsss",
-        "headers":         {
-          "Host": "bLAZE-GErmanY-246.MEtIKaPps.COm"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Santa Clara\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
