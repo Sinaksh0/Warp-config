@@ -22,31 +22,6 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "65.109.217.125",
-      "server_port": 8443,
-      "uuid": "3c137b61-811c-46d6-898f-a038d71ee868",
-      "security": "auto",
-      "authenticated_length": true,
-      "tls":       {
-        "enabled": true,
-        "server_name": "fl.v2bazzar.ir",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Paris\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
