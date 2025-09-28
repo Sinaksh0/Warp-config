@@ -111,19 +111,12 @@
       "password": "360e21d21977dc11"
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "kevin.vpny.online",
-      "server_port": 11001,
-      "obfs":       {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "@KevinZakarian",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
+      "server": "4.223.106.240",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
     },
     {
       "type": "shadowsocks",
