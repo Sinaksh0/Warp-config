@@ -83,7 +83,7 @@
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "kevin.vpny.online",
-      "server_port": 11001,
+      "server_port": 22002,
       "obfs":       {
         "type": "salamander",
         "password": "KevinZakarian"
