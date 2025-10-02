@@ -5,16 +5,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-212.102.53.80:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "212.102.53.80",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.164:443\ud83d\ude80",
+      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Zurich\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "156.146.62.164",
       "server_port": 443,
@@ -23,7 +14,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU-45.139.24.24:57456\ud83d\ude80",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude80Moscow\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "ru.vmagnum.win",
       "server_port": 57456,
@@ -32,7 +23,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddf8RS-194.71.126.31:989\ud83d\ude80",
+      "tag": "\ud83c\uddf7\ud83c\uddf8RS\ud83d\ude80Belgrade\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "194.71.126.31",
       "server_port": 989,
@@ -41,7 +32,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI-37.143.129.230:989\ud83d\ude80",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "37.143.129.230",
       "server_port": 989,
@@ -50,7 +41,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Atlanta\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Atlanta\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "95.81.85.102",
       "server_port": 8443,
