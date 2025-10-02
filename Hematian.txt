@@ -23,52 +23,12 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US-67.220.95.96:8091\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "67.220.95.96",
-      "server_port": 8091,
-      "method": "aes-256-gcm",
-      "password": "PCnnH6SQSnfoS27"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf7\ud83c\uddfaRU-45.139.24.24:57456\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "ru.vmagnum.win",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
       "password": "360e21d21977dc11"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP-45.89.109.184:10001\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.89.109.184",
-      "server_port": 10001,
-      "method": "aes-128-gcm",
-      "password": "0dc0a0ee-008c-4063-b2f6-b1fd2b8ef47b"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB-78.129.140.11:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "78.129.140.11",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "R6LkRktfi0Aq2rkylJ8KJw"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU-46.17.41.5:12904\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "46.17.41.5",
-      "server_port": 12904,
-      "password": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true
-      }
     },
     {
       "type": "shadowsocks",
