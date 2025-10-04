@@ -54,34 +54,6 @@
       "password": "p78naCf2EfOlRSLTX0wFVx"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Ajaccio\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "fapeng.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "authenticated_length": true,
-      "tls":       {
-        "enabled": true,
-        "server_name": "fapeng.org",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers":         {
-          "Host": "fapeng.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "kevin.vpny.online",
