@@ -1,0 +1,158 @@
+#profile-title: 🧑‍💻 Test 📶
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+    "outbounds": [
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+jepan-1",
+            "server": "167.253.156.226",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "KJ6nALbBsfY82q416QVSAQ",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss+-+Germany-2",
+            "server": "213.111.143.243",
+            "server_port": 8830,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k05t3YSCkrB2HhQgNvlnqN",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Russia-3",
+            "server": "213.111.132.193",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "iJ9xDZfpcGsB1UUBV5ZRTg",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Switzerland-4",
+            "server": "188.190.4.212",
+            "server_port": 8561,
+            "method": "chacha20-ietf-poly1305",
+            "password": "wQFXr3mmxKgurmUxKAMBGn",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Brazil-5",
+            "server": "170.80.109.204",
+            "server_port": 8756,
+            "method": "chacha20-ietf-poly1305",
+            "password": "xdEo6hyA8x6cj79qVQmYAo",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Usa-6",
+            "server": "95.81.85.102",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oGOnNFGhv1SAL5rKSYCdVv",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+India-7",
+            "server": "103.111.115.172",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "PlhHTTdM4ETvRRPMVIrPCc",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Romania-8",
+            "server": "193.29.12.15",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "GTbV8LasBw4b8M0vEIrzYv",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Argentina-9",
+            "server": "190.103.177.32",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "98jwE2gOlprn47IEKbKnLC",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Canada-10",
+            "server": "104.225.143.55",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oilLfJERcpHMEuXECR0oXq",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Turkey-11",
+            "server": "188.132.237.3",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "H8swxNaWGaoaJl1phZCWaf",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+Armenia-12",
+            "server": "2.56.204.171",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "MYJd2oSC5b1RLKgIv74zWx",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+poland-13",
+            "server": "95.81.87.80",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "CURcBjIcKMy4o01o67rIT0",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-+China-14",
+            "server": "39.104.68.204",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6hVowjcc82p6Nu9UvOXhhF",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "ss-Thailand-15",
+            "server": "103.76.182.157",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "751zbzoEec8jG5hkiVIyIV",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+            "server": "4.223.106.240",
+            "server_port": 48172,
+            "method": "chacha20-ietf-poly1305",
+            "password": "51yloQC8D9w1Wae7FHtI65"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "method": "none",
+            "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+        }
+    ]
+}
