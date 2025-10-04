@@ -4,29 +4,38 @@
 {
   "outbounds":   [
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "149.34.244.82",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "kevin.vpny.online",
-      "server_port": 22002,
-      "obfs":       {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "@KevinZakarian",
-      "tls":       {
-        "enabled": true,
-        "insecure": true
-      }
-    },
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf1\ud83c\uddf9LT\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+            "server": "95.81.87.80",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "CURcBjIcKMy4o01o67rIT0",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf9\ud83c\uddedTH\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+            "server": "103.76.182.157",
+            "server_port": 8443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "751zbzoEec8jG5hkiVIyIV",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+         "type": "hysteria2",
+         "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+         "server": "kevin.vpny.online",
+         "server_port": 22002,
+         "obfs":       {
+         "type": "salamander",
+         "password": "KevinZakarian"
+       },
+         "password": "@KevinZakarian",
+         "tls":       {
+         "enabled": true,
+         "insecure": true
+       }
+     },
     {
       "type": "shadowsocks",
       "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
