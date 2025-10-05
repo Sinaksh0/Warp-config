@@ -3,6 +3,14 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+   {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Stockholm\uD83D\uDEE1\uFE0F",
+      "server": "4.223.106.240",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf9PT\ud83d\ude80Lisbon\ud83d\udee1\ufe0f",
