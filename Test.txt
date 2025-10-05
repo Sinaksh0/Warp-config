@@ -4,138 +4,145 @@
 {
     "outbounds": [
         {
-            "type": "shadowsocks",
-            "tag": "ss-+jepan-1",
-            "server": "167.253.156.226",
+            "type": "vless",
+            "tag": "\ud83c\uddee\ud83c\uddf1[openproxylist.com] vless-IL-1",
+            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "tls": {
+                "enabled": false,
+                "server_name": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+                "insecure": false
+            },
+            "transport": {},
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vless",
+            "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-2",
+            "server": "172.66.40.99",
             "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "KJ6nALbBsfY82q416QVSAQ",
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.66.40.99",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "Rx2TfQ98lT.sOlEnTrAa.InFo"
+                }
+            },
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
             "type": "shadowsocks",
-            "tag": "ss+-+Germany-2",
-            "server": "213.111.143.243",
-            "server_port": 8830,
-            "method": "chacha20-ietf-poly1305",
-            "password": "k05t3YSCkrB2HhQgNvlnqN",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-+Russia-3",
-            "server": "213.111.132.193",
+            "tag": "\ud83c\uddf8\ud83c\uddec[openproxylist.com] ss-SG-3",
+            "server": "174.138.22.94",
             "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "iJ9xDZfpcGsB1UUBV5ZRTg",
+            "method": "aes-256-gcm",
+            "password": "D8wwPu9Txlgaws2+pHxzIS8gx6s6RWw7blftnEcJfhA=",
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "ss-+Switzerland-4",
-            "server": "188.190.4.212",
-            "server_port": 8561,
-            "method": "chacha20-ietf-poly1305",
-            "password": "wQFXr3mmxKgurmUxKAMBGn",
+            "type": "vless",
+            "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-4",
+            "server": "m21a.vip784.com",
+            "server_port": 33801,
+            "uuid": "750c5087-ca8d-4878-a30a-15bc8bbadfac",
+            "tls": {
+                "enabled": false,
+                "server_name": "m21a.vip784.com",
+                "insecure": false
+            },
+            "transport": {},
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "ss-+Brazil-5",
-            "server": "170.80.109.204",
-            "server_port": 8756,
-            "method": "chacha20-ietf-poly1305",
-            "password": "xdEo6hyA8x6cj79qVQmYAo",
+            "type": "vless",
+            "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-5",
+            "server": "141.227.174.116",
+            "server_port": 28329,
+            "uuid": "2db037d5-401b-45cf-93b3-a969fae92847",
+            "tls": {
+                "enabled": false,
+                "server_name": "141.227.174.116",
+                "insecure": false
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            },
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "ss-+Usa-6",
-            "server": "95.81.85.102",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oGOnNFGhv1SAL5rKSYCdVv",
+            "type": "vless",
+            "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-6",
+            "server": "638936664855921747.amsterdam-prx-dnraacl.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "tls": {
+                "enabled": false,
+                "server_name": "638936664855921747.amsterdam-prx-dnraacl.info",
+                "insecure": false
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            },
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "ss-+India-7",
-            "server": "103.111.115.172",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "PlhHTTdM4ETvRRPMVIrPCc",
+            "type": "vless",
+            "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-7",
+            "server": "638950280434434528.neyshabur-drc-tusacaf.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "tls": {
+                "enabled": false,
+                "server_name": "638950280434434528.neyshabur-drc-tusacaf.info",
+                "insecure": false
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            },
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "ss-+Romania-8",
-            "server": "193.29.12.15",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "GTbV8LasBw4b8M0vEIrzYv",
+            "type": "vless",
+            "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] vless-DE-8",
+            "server": "94.143.231.62",
+            "server_port": 443,
+            "uuid": "2e532561-7a61-4fdf-a534-706682c2e209",
+            "tls": {
+                "enabled": false,
+                "server_name": "94.143.231.62",
+                "insecure": false
+            },
+            "transport": {},
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "ss-+Argentina-9",
-            "server": "190.103.177.32",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "98jwE2gOlprn47IEKbKnLC",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-+Canada-10",
-            "server": "104.225.143.55",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oilLfJERcpHMEuXECR0oXq",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-+Turkey-11",
-            "server": "188.132.237.3",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "H8swxNaWGaoaJl1phZCWaf",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-+Armenia-12",
-            "server": "2.56.204.171",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "MYJd2oSC5b1RLKgIv74zWx",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-+poland-13",
-            "server": "95.81.87.80",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "CURcBjIcKMy4o01o67rIT0",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-+China-14",
-            "server": "39.104.68.204",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "6hVowjcc82p6Nu9UvOXhhF",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss-Thailand-15",
-            "server": "103.76.182.157",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "751zbzoEec8jG5hkiVIyIV",
+            "type": "vless",
+            "tag": "\ud83c\uddf5\ud83c\uddf1[openproxylist.com] vless-PL-9",
+            "server": "jone1.fast-turbooserver.com",
+            "server_port": 8880,
+            "uuid": "turboo-server",
+            "tls": {
+                "enabled": false,
+                "server_name": "jone1.fast-turbooserver.com",
+                "insecure": false
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Turboo-Server",
+                "headers": {
+                    "Host": ""
+                }
+            },
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
