@@ -94,7 +94,7 @@
         },
     {
        "type": "vless",
-       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\ud83d\udee1\ufe0f",
+       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Meppele\ud83d\udee1\ufe0f",
        "server": "45.144.28.5",
        "server_port": 8880,
        "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
