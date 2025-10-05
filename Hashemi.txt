@@ -14,11 +14,111 @@
         },
         {
             "type": "shadowsocks",
+            "tag": "\ud83c\udde6\ud83c\uddf9 AT Vienna-4",
+            "server": "37.235.56.69",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
             "tag": "\ud83c\uddf9\ud83c\uddedTH\ud83d\ude80Bangkok\ud83d\udee1\ufe0f",
             "server": "103.76.182.157",
             "server_port": 8443,
             "method": "chacha20-ietf-poly1305",
             "password": "751zbzoEec8jG5hkiVIyIV",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf5\ud83c\uddf1 PL Warsaw-26",
+            "server": "217.30.10.18",
+            "server_port": 9094,
+            "method": "aes-256-cfb",
+            "password": "rpgbNnU9rDDU4aWZ",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\udde8\ud83c\udde6 CA Toronto-46",
+            "server": "79.127.200.162",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf2\ud83c\uddf9 MT Valletta-80",
+            "server": "171.22.254.129",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf3\ud83c\uddf1 NL Amsterdam-81",
+            "server": "79.127.227.53",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddfa\ud83c\udde6 UA Kyiv-87",
+            "server": "176.103.53.105",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf5\ud83c\uddfe PY Asunci\u00f3n-94",
+            "server": "38.165.233.93",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] ss-US-138",
+            "server": "104.167.197.25",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vless",
+            "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-26",
+            "server": "95.164.45.122",
+            "server_port": 50268,
+            "uuid": "005a5104-82c5-4a6b-b023-6e621ec9071d",
+            "tls": {
+                "enabled": false,
+                "server_name": "95.164.45.122",
+                "insecure": false
+            },
+            "transport": {},
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vmess",
+            "tag": "\ud83c\uddf7\ud83c\uddfa[openproxylist.com] vmess-RU-111",
+            "server": "45.67.230.79",
+            "server_port": 11052,
+            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
+            "tls": {
+                "enabled": false,
+                "server_name": "45.67.230.79",
+                "insecure": false
+            },
+            "transport": {},
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
