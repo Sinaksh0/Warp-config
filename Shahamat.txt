@@ -40,6 +40,32 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
+       "type": "shadowsocks",
+       "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] ss-US-138",
+       "server": "104.167.197.25",
+       "server_port": 57456,
+       "method": "chacha20-ietf-poly1305",
+       "password": "360e21d21977dc11",
+       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+       "type": "vless",
+       "tag": "\ud83c\uddf3\ud83c\uddf1[openproxylist.com] vless-NL-42",
+       "server": "45.144.28.5",
+       "server_port": 8880,
+       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+       "tls": {
+           "enabled": false,
+           "server_name": "45.144.28.5",
+           "insecure": false
+           },
+        "transport": {
+              "type": "grpc",
+              "service_name": ""
+          },
+       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "4.223.106.240",
