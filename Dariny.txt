@@ -14,27 +14,9 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "212.102.53.197",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80Tokyo\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "149.22.87.204",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Washington\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "212.102.47.129",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
@@ -48,6 +30,29 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddef\ud83c\uddf5[openproxylist.com] ss-JP-119",
+            "server": "153.121.43.183",
+            "server_port": 10087,
+            "method": "aes-128-gcm",
+            "password": "10086",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vmess",
+            "tag": "\ud83c\uddf7\ud83c\uddfa[openproxylist.com] vmess-RU-117",
+            "server": "45.67.230.79",
+            "server_port": 11052,
+            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
+            "tls": {
+                "enabled": false,
+                "server_name": "45.67.230.79",
+                "insecure": false
+            },
+            "transport": {},
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
     {
       "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Meppel\uD83D\uDEE1\uFE0F",
