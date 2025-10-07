@@ -73,26 +73,6 @@
             },
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
-        {
-            "type": "vless",
-            "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Haarmlem\ud83d\udee1\ufe0f",
-            "server": "104.20.43.81",
-            "server_port": 80,
-            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
-            "tls": {
-                "enabled": false,
-                "server_name": "104.20.43.81",
-                "insecure": false
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "crazy-identity.oneeat.co"
-                }
-            },
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
     {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
