@@ -45,23 +45,6 @@
       "packet_encoding": "xudp"
     },
     {
-            "type": "vless",
-            "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Paris\ud83d\udee1\ufe0f",
-            "server": "638943929060335589.warsaw-prx-dnraacp.info",
-            "server_port": 8880,
-            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-            "tls": {
-                "enabled": false,
-                "server_name": "638943929060335589.warsaw-prx-dnraacp.info",
-                "insecure": false
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": ""
-            },
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Santa Clara\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
