@@ -55,28 +55,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "net2026cd.zanddynastyofpersia.org",
-      "server_port": 443,
-      "uuid": "0ec8c120-33fa-4658-9bed-3a51cb04c55c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "net2026cd.zanddynastyofpersia.org",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/eJsVXFVZ6iavNx1EFxOyH861WH",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddf0DK\ud83d\ude80Copenhagen\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "95.164.85.109",
