@@ -113,6 +113,23 @@
         },
         {
             "type": "vless",
+            "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-22",
+            "server": "638950330462896620.neyshabur-prx-dnraacr.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "tls": {
+                "enabled": false,
+                "server_name": "638950330462896620.neyshabur-prx-dnraacr.info",
+                "insecure": false
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            },
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vless",
             "tag": "\ud83c\uddf7\ud83c\uddf4[openproxylist.com] vless-RO-24",
             "server": "141.227.180.39",
             "server_port": 22291,
