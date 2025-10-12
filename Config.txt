@@ -32,15 +32,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Zurich\uD83D\uDEE1\uFE0F",
-      "server": "156.146.62.161",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddf7\ud83c\uddf8RS\ud83d\ude80Belgrade\uD83D\uDEE1\uFE0F",
       "server": "194.71.126.31",
       "server_port": 989,
@@ -67,22 +58,84 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\uD83D\uDEE1\uFE0F",
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf8IS\ud83d\ude80Reykjavik\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "62.100.205.48",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "45.83.21.107",
+      "server_port": 59997,
+      "uuid": "c3dd7afc-151f-44f6-8263-ad3c8420ae2f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "m4ipEx1PUfb6F5Uv5Mwe5g34TzdNkG_rIQ0xw-Do1mI",
+          "short_id": "816473be23c2"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Oslo\uD83D\uDEE1\uFE0F",
+      "type": "vless",
+      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Budapest\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.213.23.226",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
+          "short_id": "4ae260"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Rinkeby\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "nkang2replace.airlineshoma.com",
+      "server_port": 443,
+      "uuid": "b754b53a-aaf5-475c-eeed-46806c2aa63f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "nkang2replace.airlineshoma.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "narrow-passenger.oneeat.co",
+      "server_port": 80,
+      "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
