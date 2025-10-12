@@ -5,15 +5,6 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8US\ud83d\ude80Washington\uD83D\uDEE1\uFE0F",
-      "server": "212.102.47.132",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80Tokyo\uD83D\uDEE1\uFE0F",
       "server": "149.22.87.241",
       "server_port": 443,
@@ -27,15 +18,6 @@
       "server": "195.181.160.6",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddf8RS\ud83d\ude80Belgrade\uD83D\uDEE1\uFE0F",
-      "server": "194.71.126.31",
-      "server_port": 989,
-      "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F"
     },
