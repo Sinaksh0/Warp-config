@@ -32,13 +32,18 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf8IS-37.235.49.168:989\ud83d\ude80",
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Haarlem\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "37.235.49.168",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "creative-computer.oneeat.co",
+      "server_port": 80,
+      "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -56,15 +61,6 @@
       "server": "38.54.45.129",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf4NO-185.213.23.226:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.213.23.226",
-      "server_port": 989,
-      "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
