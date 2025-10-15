@@ -45,6 +45,33 @@
       "password": "p78naCf2EfOlRSLTX0wFVx"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "192.121.113.60",
+      "server_port": 8443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "D2E6lItiRXmYERCyvPdgHz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "94.237.15.214",
+      "server_port": 8443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1Yw3JsG3gmurh7ZBjzViaD"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\uddf7GR\ud83d\ude80Thessaloniki\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "212.52.16.81",
+      "server_port": 8443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "RgroEWW2ppwOWfp5kjoQoA"
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddf0DK\ud83d\ude80Copenhagen\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
