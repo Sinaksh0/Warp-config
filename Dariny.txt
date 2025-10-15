@@ -116,24 +116,6 @@
       "password": "360e21d21977dc11"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde6\ud83c\uddfaAU\ud83d\ude80Sydney\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "103.6.170.220",
-      "server_port": 8443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "izil0GFkHNyeXmcUhB9q5p"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf2\ud83c\uddfeMY\ud83d\ude80Kuala Lumpur\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "142.111.146.222",
-      "server_port": 8443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "RYZXis51g7ctFPdkX6zA88"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "local_address":       [
