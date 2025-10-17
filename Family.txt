@@ -59,23 +59,45 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Bern\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Milan\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "5.182.36.251",
-      "server_port": 16331,
-      "uuid": "d7dbeb1e-268c-465c-8f59-489f14703efd",
+      "server": "147.45.51.160",
+      "server_port": 443,
+      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
       "tls":       {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "api.company-target.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk",
-          "short_id": "910aab"
+          "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"
         }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80Delhi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.88.183.158",
+      "server_port": 44629,
+      "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt am main\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "212.192.31.146",
+      "server_port": 443,
+      "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
+      "transport":       {
+        "type": "ws",
+        "path": "/panika",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
