@@ -6,15 +6,6 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddedCH-156.146.62.164:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "156.146.62.164",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddf0DK-192.36.27.94:989\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "192.36.27.94",
@@ -51,6 +42,29 @@
       "authenticated_length": true,
       "packet_encoding": "xudp"
     },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddfa\ud83c\udde6UA-138",
+            "server": "176.103.53.105",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vless",
+            "tag": "\ud83c\uddee\ud83c\uddf3IN-82",
+            "server": "45.88.183.158",
+            "server_port": 44629,
+            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
+            "tls": {
+                "enabled": false,
+                "server_name": "45.88.183.158",
+                "insecure": false
+            },
+            "transport": {},
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
     {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
