@@ -1,0 +1,99 @@
+#profile-title: base64:S2hhamVoIFlhemRp
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+    "outbounds": [
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Florence\ud83d\udee1\ufe0f",
+            "server": "176.126.83.158",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\ud83d\udee1\ufe0f",
+            "server": "89.185.84.185",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "FXjMQIem0uShGvRzOpfyib",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddfa\ud83c\uddf8US\ud83d\ude80Santa Clara\ud83d\udee1\ufe0f",
+            "server": "71.19.148.143",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "p78naCf2EfOlRSLTX0wFVx",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Tallinn\ud83d\udee1\ufe0f",
+            "server": "188.214.36.155",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vless",
+            "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Meppel\ud83d\udee1\ufe0f",
+            "server": "80.92.206.19",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "tls": {
+                "enabled": false,
+                "server_name": "80.92.206.19",
+                "insecure": false
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": ""
+            },
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "vless",
+            "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80New Delhi\ud83d\udee1\ufe0f",
+            "server": "45.88.183.158",
+            "server_port": 44629,
+            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
+            "tls": {
+                "enabled": false,
+                "server_name": "45.88.183.158",
+                "insecure": false
+            },
+            "transport": {},
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "wireguard",
+            "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+            "local_address": [
+                "172.16.0.2/24",
+                "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+            ],
+            "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+            "server": "162.159.195.1",
+            "server_port": 987,
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "mtu": 1306,
+            "fake_packets": "40-80",
+            "fake_packets_size": "40-100",
+            "fake_packets_delay": "4-8",
+            "fake_packets_mode": "m4"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "method": "none",
+            "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+        }
+    ]
+}
