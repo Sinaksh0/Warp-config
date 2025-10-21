@@ -22,15 +22,6 @@
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
         },
         {
-            "type": "shadowsocks",
-            "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Tallinn\ud83d\udee1\ufe0f",
-            "server": "188.214.36.155",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
             "type": "vless",
             "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80New Delhi\ud83d\udee1\ufe0f",
             "server": "45.88.183.158",
@@ -43,6 +34,42 @@
             },
             "transport": {},
             "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+            "server": "91.107.141.164",
+            "server_port": 2096,
+            "method": "aes-256-gcm",
+            "password": "AqgBwYDeQA"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80City\uD83D\uDEE1\uFE0F",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+            "server": "185.163.204.94",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+         },
+         {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Oslo\uD83D\uDEE1\uFE0F",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+            "server": "89.46.233.36",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+         },
+         {
+            "type": "shadowsocks",
+            "tag": "\ud83c\uddf1\ud83c\uddfbLV\ud83d\ude80Riga\uD83D\uDEE1\uFE0F",
+            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+            "server": "46.183.217.204",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "type": "wireguard",
