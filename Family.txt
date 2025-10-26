@@ -59,27 +59,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Milan\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "147.45.51.160",
-      "server_port": 443,
-      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api.company-target.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80Delhi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "45.88.183.158",
