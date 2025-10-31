@@ -31,15 +31,6 @@
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude80Moscow\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.126.239.250",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf8IS\ud83d\ude80Reykjavik\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -98,20 +89,6 @@
           "fingerprint": "chrome"
         }
       },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "narrow-passenger.oneeat.co",
-      "server_port": 80,
-      "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
       "transport":       {
         "type": "ws",
         "path": "/",
