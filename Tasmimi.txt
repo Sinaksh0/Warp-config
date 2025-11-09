@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7[openproxylist.com] vless-TR-83",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Izmir\ud83d\udee1\ufe0f",
       "server": "185.234.66.96",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
@@ -22,7 +22,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-104",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\ud83d\udee1\ufe0f",
       "server": "45.140.167.213",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
