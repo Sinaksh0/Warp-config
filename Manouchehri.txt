@@ -4,9 +4,143 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-101",
+      "server": "195.42.233.89",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": false,
+        "server_name": "195.42.233.89",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf9\ud83c\uddf7[openproxylist.com] vless-TR-75",
+      "server": "185.234.66.106",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": false,
+        "server_name": "185.234.66.106",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddec[openproxylist.com] vless-SG-96",
+      "server": "aws-linksg64.eovay.com",
+      "server_port": 31064,
+      "uuid": "6c0472bc-82df-449e-90bd-2f91c6a46402",
+      "tls": {
+        "enabled": false,
+        "server_name": "aws-linksg64.eovay.com",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf9\ud83c\uddf7[openproxylist.com] vless-TR-74",
+      "server": "185.234.66.93",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": false,
+        "server_name": "185.234.66.93",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-136",
+      "server": "638974363192994984.budapest-blkaft-aaav.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": false,
+        "server_name": "638974363192994984.budapest-blkaft-aaav.info",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] ss-US-48",
+      "server": "66.23.207.82",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf1\ud83c\uddf9[openproxylist.com] ss-LT-13",
+      "server": "185.237.185.89",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] vless-US-135",
+      "server": "638977742221950180.warsaw-blkaft-aaav.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": false,
+        "server_name": "638977742221950180.warsaw-blkaft-aaav.info",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\udde8[openproxylist.com] ss-EC-17",
+      "server": "38.165.231.25",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddef\ud83c\uddf5JP-149.22.87.240:443\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "149.22.87.240",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -15,7 +149,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde6\ud83c\uddf9AT-37.235.56.69:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "37.235.56.69",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -24,7 +158,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddeaEE-188.214.36.155:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "188.214.36.155",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -33,7 +167,7 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\udde6CA-79.127.200.162:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "79.127.200.162",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -41,15 +175,15 @@
     },
     {
       "type": "vmess",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Falkenstein\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Falkenstein\ud83d\udee1\ufe0f",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "91.99.185.216",
       "server_port": 20086,
       "uuid": "7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9",
       "security": "auto",
       "authenticated_length": true,
       "packet_encoding": "xudp",
-      "transport":       {
+      "transport": {
         "type": "ws",
         "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -57,19 +191,19 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude80St Petersburg\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude80St Petersburg\ud83d\udee1\ufe0f",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "92.53.107.193",
       "server_port": 27129,
       "uuid": "1dc60f16-1593-485e-949d-8459edba6430",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
-        "utls":         {
+        "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
-        "reality":         {
+        "reality": {
           "enabled": true,
           "public_key": "pqVSxW8Vukd7XiPZUQTd9ADNT2XBrCGJ4q2-7n6kQXQ",
           "short_id": "d70393f0ad1c7552"
@@ -79,19 +213,19 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Izmir\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Izmir\ud83d\udee1\ufe0f",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "45.12.143.191",
       "server_port": 20329,
       "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
-      "tls":       {
+      "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
-        "utls":         {
+        "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
-        "reality":         {
+        "reality": {
           "enabled": true,
           "public_key": "Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo",
           "short_id": "4602ee9f9f36"
@@ -101,8 +235,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+      "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
@@ -118,7 +252,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
