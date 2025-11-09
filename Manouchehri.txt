@@ -21,14 +21,6 @@
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
-      "server": "127.0.0.1",
-      "server_port": 8080,
-      "method": "none",
-      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddf9\ud83c\uddf7[openproxylist.com] vless-TR-75",
       "server": "185.234.66.106",
