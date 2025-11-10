@@ -66,15 +66,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde6\ud83c\uddf9AT\ud83d\ude80Vienna\ud83d\udee1\ufe0f",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
-      "server": "37.235.56.69",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Tallinn\ud83d\udee1\ufe0f",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "188.214.36.155",
