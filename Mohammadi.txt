@@ -5,12 +5,21 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddf0[openproxylist.com] ss-DK-97",
+      "tag": "\ud83c\udde9\ud83c\uddf0DJ\ud83d\ude80Copenhagen\ud83d\udee1\ufe0f",
       "server": "95.164.10.228",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Rozendaal\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F", 
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
     },
     {
       "type": "wireguard",
