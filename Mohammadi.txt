@@ -4,6 +4,179 @@
 {
   "outbounds": [
     {
+      "type": "vmess",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] vmess-US-69",
+      "server": "1762751541.bilibiliapp.cn",
+      "server_port": 443,
+      "uuid": "f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "1762751541.bilibiliapp.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddf2\ud83c\uddfe[openproxylist.com] vmess-MY-95",
+      "server": "47.250.95.53",
+      "server_port": 25313,
+      "uuid": "9e76443a-5db1-4a98-8ac9-0b8e69c84faf",
+      "tls": {
+        "enabled": false,
+        "server_name": "47.250.95.53",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/arki?ed=2048",
+        "headers": {
+          "Host": ""
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vmess-GB-45",
+      "server": "1762751541.bilibiliapp.cn",
+      "server_port": 443,
+      "uuid": "f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "1762751541.bilibiliapp.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "l5nh68dsnk.speed.cvbuiasdf.cccp.useraaca.pp.ua"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-79",
+      "server": "638964706456833989.esfahan-blkaft-aaar.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": false,
+        "server_name": "638964706456833989.esfahan-blkaft-aaar.info",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddf0[openproxylist.com] ss-DK-97",
+      "server": "95.164.10.228",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddee\ud83c\uddf3[openproxylist.com] vmess-IN-118",
+      "server": "1762659141.bilibiliapp.cn",
+      "server_port": 443,
+      "uuid": "f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "1762659141.bilibiliapp.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "o5ec8vf6e.speed.ydinddd.cccp.useraaca.pp.ua"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] trojan-US-10",
+      "server": "45.159.251.8",
+      "server_port": 81,
+      "password": "8221436f-1b7e-4517-9698-0da2a53443e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "joss.dus.biz.id",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddee\ud83c\uddf3[openproxylist.com] vmess-IN-125",
+      "server": "1762596741.bilibiliapp.cn",
+      "server_port": 443,
+      "uuid": "f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "1762596741.bilibiliapp.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddf2\ud83c\uddfd[openproxylist.com] vmess-MX-38",
+      "server": "1762751541.bilibiliapp.cn",
+      "server_port": 443,
+      "uuid": "f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "1762751541.bilibiliapp.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hnh54ujwm3.speed.maxmxgc.cccp.useraaca.pp.ua"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "162.159.195.1",
+      "server_port": 987,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\udded ShatakVPN 640728-78",
       "server": "154.205.146.153",
