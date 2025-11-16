@@ -3,7 +3,19 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
+    {
+      "type": "hysteria2",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "server": "2001:bc8:32d7:302::11",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.193.49.88",
@@ -11,7 +23,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
-{
+    {
       "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
