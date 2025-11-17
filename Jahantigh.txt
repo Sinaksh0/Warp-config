@@ -4,6 +4,18 @@
 {
   "outbounds": [
     {
+      "type": "hysteria2",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "server": "2001:bc8:32d7:302::11",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf1IL-169.150.202.174:990\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
