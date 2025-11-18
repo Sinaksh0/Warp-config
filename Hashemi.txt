@@ -4,16 +4,26 @@
 {
   "outbounds":   [
 {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
-      "server": "2001:bc8:32d7:302::11",
-      "server_port": 20088,
-      "password": "dongtaiwang.com",
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "server": "helsinki.fonixapp.org",
+      "server_port": 21105,
+      "uuid": "11922402-df9e-4ead-ab6b-56c9b7362837",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true
-      }
+        "server_name": "lowes.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "hvS624nh8B_UqRPXM_Fm2eMgJk6BSNBFmK82vRHylHw",
+          "short_id": "9e7234a45944"
+        }
+      },
+      "packet_encoding": "xudp"
     },
         {
             "type": "shadowsocks",
