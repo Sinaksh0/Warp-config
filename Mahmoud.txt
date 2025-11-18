@@ -5,16 +5,31 @@
 {
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
-      "server": "2001:bc8:32d7:302::11",
-      "server_port": 20088,
-      "password": "dongtaiwang.com",
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "server": "158.220.88.63",
+      "server_port": 443,
+      "uuid": "7c9d302f-1438-4f37-a6e0-0591dc4a4614",
       "tls":       {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true
-      }
+        "server_name": "www.microsoft.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "DTfizB6SKAjSe4gQVreWTIMpDT7HsDcqfR0_Y2xo7Gw",
+          "short_id": "7daa515f56d7db89"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "service_name": "7e41eb32ea906cebaf077110",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
