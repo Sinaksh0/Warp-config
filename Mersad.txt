@@ -12,12 +12,20 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
-      "server": "38.180.195.193",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "SwTShXYSQd404FISs8NFeJ"
+      "type": "vless",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "server": "pay.dlaparat.ir",
+      "server_port": 80,
+      "uuid": "7f563a56-e0fe-44b1-a341-978e0bada967",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vand.ar"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
