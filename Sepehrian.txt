@@ -4,28 +4,14 @@
 {
   "outbounds": [
 {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
-      "server": "helsinki.fonixapp.org",
-      "server_port": 21105,
-      "uuid": "11922402-df9e-4ead-ab6b-56c9b7362837",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "lowes.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "hvS624nh8B_UqRPXM_Fm2eMgJk6BSNBFmK82vRHylHw",
-          "short_id": "9e7234a45944"
-        }
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "server": "38.180.195.193",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "SwTShXYSQd404FISs8NFeJ"
     },
-{
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "local_address":       [
