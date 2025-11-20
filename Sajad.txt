@@ -2,61 +2,106 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-    "outbounds": [
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\uddf7 ShatakVPN 159489-171",
+      "server": "192.71.166.100",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfa\ud83c\uddf8 ShatakVPN 876428-69",
+      "server": "45.87.175.200",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cvII85TrW6n0OGyfpHVS1u",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf2\ud83c\uddf9 ShatakVPN 493905-179",
+      "server": "171.22.254.129",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7 ShatakVPN 410104-82",
+      "server": "89.185.84.185",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "RGy5tlm8bAQdM5zc9XFF0Y",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7 ShatakVPN 358817-4",
+      "server": "213.173.33.38",
+      "server_port": 8443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W67q2pExiQsSXKbBNQ6dTq",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Irancell\ud83d\udee1\ufe0f",
       "server": "pay.dlaparat.ir",
       "server_port": 80,
       "uuid": "7f563a56-e0fe-44b1-a341-978e0bada967",
-      "transport":       {
+      "transport": {
         "type": "ws",
         "path": "/",
-        "headers":         {
+        "headers": {
           "Host": "vand.ar"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
-        {
-            "type": "vless",
-            "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80New Delhi\ud83d\udee1\ufe0f",
-            "server": "45.88.183.158",
-            "server_port": 44629,
-            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
-            "tls": {
-                "enabled": false,
-                "server_name": "45.88.183.158",
-                "insecure": false
-            },
-            "transport": {},
-            "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-        },
-        {
-            "type": "wireguard",
-            "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
-            "local_address": [
-                "172.16.0.2/24",
-                "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-            ],
-            "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-            "server": "162.159.195.3",
-            "server_port": 8886,
-            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "mtu": 1306,
-            "fake_packets": "40-80",
-            "fake_packets_size": "40-100",
-            "fake_packets_delay": "4-8",
-            "fake_packets_mode": "m4"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "method": "none",
-            "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
-        }
-    ]
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80New Delhi\ud83d\udee1\ufe0f",
+      "server": "45.88.183.158",
+      "server_port": 44629,
+      "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
+      "tls": {
+        "enabled": false,
+        "server_name": "45.88.183.158",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "162.159.195.3",
+      "server_port": 8886,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ]
 }
