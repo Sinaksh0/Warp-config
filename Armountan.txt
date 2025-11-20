@@ -6,7 +6,8 @@
 {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
-      "detour":     "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour":
+"\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "38.180.195.193",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
