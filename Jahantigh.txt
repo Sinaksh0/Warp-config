@@ -5,6 +5,33 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Milan\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "212.102.54.45",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "89.185.84.185",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8ExkSWeciR2c9prFpwJ4jX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Budapest\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "91.219.237.163",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf3IN-82.180.146.173:30607\ud83d\ude80",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "82.180.146.173",
