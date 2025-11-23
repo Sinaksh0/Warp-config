@@ -5,64 +5,12 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8 ShatakVPN 293133-114",
-      "server": "45.87.175.155",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfa\ud83c\uddf8 ShatakVPN 614211-179",
-      "server": "45.87.175.177",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddea ShatakVPN 156472-68",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\ud83d\udee1\ufe0f",
       "server": "81.19.141.45",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "OL7MQydIsTbln3xOq4lVvM",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddea ShatakVPN 239263-86",
-      "server": "80.92.204.106",
-      "server_port": 9070,
-      "method": "aes-256-cfb",
-      "password": "bf7v334KKDV3YDhH",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddea ShatakVPN 867999-65",
-      "server": "81.19.141.45",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "JRJGmQuRLbPEdoeYH6ylBn",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Irancell\ud83d\udee1\ufe0f",
-      "server": "pay.dlaparat.ir",
-      "server_port": 80,
-      "uuid": "7f563a56-e0fe-44b1-a341-978e0bada967",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vand.ar"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
