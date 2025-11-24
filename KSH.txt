@@ -113,9 +113,9 @@
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "64.74.163.218",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
+      "server": "79.127.200.162",
+      "server_port": 989,
+      "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
