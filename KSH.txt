@@ -5,6 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "46.20.111.246",
+      "server_port": 3035,
+      "uuid": "d42223ff-aace-4c18-bacf-18d6abb9314f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "77.37.33.39",
