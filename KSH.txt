@@ -13,56 +13,24 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.219.237.163",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "46.20.111.246",
-      "server_port": 3035,
-      "uuid": "d42223ff-aace-4c18-bacf-18d6abb9314f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "77.37.33.39",
+      "server": "188.245.197.0",
       "server_port": 443,
-      "uuid": "5ec3a039-ea63-4bf9-a848-a65c9bfa66f5",
-      "tls":       {
-        "enabled": true,
-        "server_name": "gb-021.shenzogmbh.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/api/v1",
-        "headers":         {
-          "Host": "gb-021.shenzogmbh.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
+      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
+      "type": "vmess",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "167.160.90.178",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "finland2.mobilesalimi.sbs",
+      "server_port": 3792,
+      "uuid": "8d73a284-4f03-45a8-ac50-9cce16a71e51",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
