@@ -4,6 +4,156 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-75",
+      "server": "194.46.59.171",
+      "server_port": 2080,
+      "uuid": "684ead3d-43b1-4707-904a-24e3e9e91fb1",
+      "tls": {
+        "enabled": false,
+        "server_name": "194.46.59.171",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf9\ud83c\uddf7[openproxylist.com] vless-TR-134",
+      "server": "45.136.5.90",
+      "server_port": 43390,
+      "uuid": "f656857f-a7be-4eaa-9027-bf958ba3aa8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.136.5.90",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] vmess-HK-24",
+      "server": "68.64.176.148",
+      "server_port": 11325,
+      "uuid": "8afb5b6d-51f6-4bf8-f4e2-0378822200b3",
+      "tls": {
+        "enabled": false,
+        "server_name": "68.64.176.148",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddef\ud83c\uddf5[openproxylist.com] vless-JP-56",
+      "server": "147.45.49.152",
+      "server_port": 443,
+      "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
+      "tls": {
+        "enabled": false,
+        "server_name": "147.45.49.152",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] vless-DE-121",
+      "server": "de-2.shvurgceo.online",
+      "server_port": 38395,
+      "uuid": "0f8e2cfc-fdf2-46c7-bfcd-ce8273d5ff13",
+      "tls": {
+        "enabled": false,
+        "server_name": "de-2.shvurgceo.online",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] vless-US-36",
+      "server": "167.179.27.92",
+      "server_port": 443,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": true,
+        "server_name": "167.179.27.92",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram\ud83c\udde8\ud83c\uddf3@wangcai2/?ed=2560",
+        "headers": {
+          "Host": "gaosir.unfeeling.sbs"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] vless-US-40",
+      "server": "167.179.27.92",
+      "server_port": 443,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": true,
+        "server_name": "167.179.27.92",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram\ud83c\udde8\ud83c\uddf3@wangcai2/?ed=2560",
+        "headers": {
+          "Host": "gaosir.unfeeling.sbs"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddef\ud83c\uddf5[openproxylist.com] trojan-JP-109",
+      "server": "153.121.51.221",
+      "server_port": 1821,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] trojan-HK-34",
+      "server": "112.120.31.179",
+      "server_port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": false,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1[openproxylist.com] vless-NL-6",
+      "server": "nl2.himikvpn.online",
+      "server_port": 443,
+      "uuid": "d3e684e2-1b3a-41a2-ba19-5a84a8ca2122",
+      "tls": {
+        "enabled": false,
+        "server_name": "nl2.himikvpn.online",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\uddf7GR\ud83d\ude80Thessaloniki\ud83d\udee1\ufe0f",
       "server": "192.71.166.100",
