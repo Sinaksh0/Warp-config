@@ -3,31 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
-      "server": "www.visaeurope.ch",
-      "server_port": 443,
-      "uuid": "9cc7e16a-d681-49a2-a94a-de4cb084089e",
-      "tls":       {
-        "enabled": true,
-        "server_name": "rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/ws",
-        "headers":         {
-          "Host": "rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Stockholm\uD83D\uDEE1\uFE0F",
