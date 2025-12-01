@@ -6,6 +6,7 @@
 {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Irancell\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "www.visaeurope.ch",
       "server_port": 443,
       "uuid": "9cc7e16a-d681-49a2-a94a-de4cb084089e",
