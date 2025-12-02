@@ -4,6 +4,17 @@
 {
   "outbounds": [
     {
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "mci.yektanet.info",
+      "server_port": 55555,
+      "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\uddf7GR\ud83d\ude80Thessaloniki\ud83d\udee1\ufe0f",
       "server": "192.71.166.100",
