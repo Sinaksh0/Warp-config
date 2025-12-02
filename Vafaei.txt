@@ -3,6 +3,38 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
+{
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "84.32.64.39",
+      "server_port": 443,
+      "uuid": "793099c5-0712-4ea0-bbe1-455da88fc671",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+          "short_id": "21181028b56c8702"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Paris\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "fr.nextseesion.ir",
+      "server_port": 35789,
+      "uuid": "be72cd92-92d2-4543-9bef-1673fcd03b45",
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde6\ud83c\uddf7AR\ud83d\ude80Buenos Aires\uD83D\uDEE1\uFE0F",
