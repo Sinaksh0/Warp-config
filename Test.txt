@@ -2,11 +2,460 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-    "outbounds": [
-        {
+  "outbounds": [
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddef\ud83c\uddf5[openproxylist.com] trojan-JP-113",
+      "server": "kuame.missionsec.us",
+      "server_port": 443,
+      "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D",
+      "tls": {
+        "enabled": true,
+        "server_name": "kuame.missionsec.us",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] vless-DE-83",
+      "server": "37.120.186.241",
+      "server_port": 80,
+      "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+      "tls": {
+        "enabled": false,
+        "server_name": "37.120.186.241",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/news",
+        "headers": {
+          "Host": "cdn.ir"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1[openproxylist.com] vless-NL-12",
+      "server": "delilah.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "d37d61da-e50d-4f7f-9969-7f0136f97953",
+      "tls": {
+        "enabled": true,
+        "server_name": "delilah.ns.cloudflare.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fwgisws",
+        "headers": {
+          "Host": "hazmkardan.info"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] trojan-HK-47",
+      "server": "58.152.30.120",
+      "server_port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7[openproxylist.com] vless-GB-111",
+      "server": "38.60.196.27",
+      "server_port": 443,
+      "uuid": "e64c5bbb-a4b8-498e-b374-4462d961c8a2",
+      "tls": {
+        "enabled": false,
+        "server_name": "38.60.196.27",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\udde6[openproxylist.com] vless-CA-129",
+      "server": "160.16.203.210",
+      "server_port": 443,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": false,
+        "server_name": "160.16.203.210",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] trojan-HK-29",
+      "server": "219.79.186.107",
+      "server_port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": false,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] trojan-DE-17",
+      "server": "3.65.244.233",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] vless-US-72",
+      "server": "ssssssss.zabc.net",
+      "server_port": 8443,
+      "uuid": "692ece70-c136-4f77-8921-1e99091b9987",
+      "tls": {
+        "enabled": false,
+        "server_name": "ssssssss.zabc.net",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddf2[openproxylist.com] ss-AM-87",
+      "server": "213.159.76.21",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "pNqnYf3kHesOpCchRvUZxfwTafRsOj7g",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf1\ud83c\uddfb[openproxylist.com] vless-LV-61",
+      "server": "104.165.205.170",
+      "server_port": 8443,
+      "uuid": "805b52df-0581-495b-b8b5-b99594424053",
+      "tls": {
+        "enabled": false,
+        "server_name": "104.165.205.170",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] vless-DE-108",
+      "server": "us1.candyfans.win",
+      "server_port": 443,
+      "uuid": "d82baa81-c138-49fc-b81e-7ef0eb7ff063",
+      "tls": {
+        "enabled": true,
+        "server_name": "us1.candyfans.win",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cgunws",
+        "headers": {
+          "Host": "us1.candyfans.win"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde7\ud83c\uddea[openproxylist.com] vless-BE-71",
+      "server": "141.227.136.51",
+      "server_port": 25687,
+      "uuid": "a03e540d-7fa2-4187-b0d0-5202a22cf9a0",
+      "tls": {
+        "enabled": false,
+        "server_name": "141.227.136.51",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf5\ud83c\uddf0[openproxylist.com] ss-PK-81",
+      "server": "156.59.243.6",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddfa\ud83c\uddf8[openproxylist.com] vmess-US-98",
+      "server": "hgtrojan.zabc.net",
+      "server_port": 2083,
+      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
+      "tls": {
+        "enabled": true,
+        "server_name": "hgtrojan.zabc.net",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/e6395c20",
+        "headers": {
+          "Host": "hgtrojan.zabc.net"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\udde6[openproxylist.com] vless-CA-126",
+      "server": "160.16.203.210",
+      "server_port": 443,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": false,
+        "server_name": "160.16.203.210",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf3[openproxylist.com] vless-IN-142",
+      "server": "20.235.105.146",
+      "server_port": 443,
+      "uuid": "78fc9ba9-9c68-4b49-891f-ea9e38bd3b56",
+      "tls": {
+        "enabled": true,
+        "server_name": "20.235.105.146",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=sjc.o00o.ooo",
+        "headers": {
+          "Host": "ak.suoni.nyc.mn"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] vless-DE-39",
+      "server": "masterserver1.heloisfood.ir",
+      "server_port": 6423,
+      "uuid": "71a712db-3843-4d24-b4c4-724ee0813044",
+      "tls": {
+        "enabled": false,
+        "server_name": "masterserver1.heloisfood.ir",
+        "insecure": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1"
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] trojan-HK-25",
+      "server": "47.242.225.242",
+      "server_port": 443,
+      "password": "92690597d6298061459918a371e8d77d",
+      "tls": {
+        "enabled": true,
+        "server_name": "hezijiasuqi.com",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] vless-HK-67",
+      "server": "n1761184282.74qxv.top",
+      "server_port": 443,
+      "uuid": "824dc1b1-e35b-4121-ad73-9acaf13d6410",
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761184282.74qxv.top",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/824dc1b1-e35b-4121-ad73-9acaf13d6410",
+        "headers": {
+          "Host": "n1761184282.74qxv.top"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\udde6[openproxylist.com] vless-CA-135",
+      "server": "195.133.79.154",
+      "server_port": 443,
+      "uuid": "78fc9ba9-9c68-4b49-891f-ea9e38bd3b56",
+      "tls": {
+        "enabled": true,
+        "server_name": "195.133.79.154",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=sjc.o00o.ooo",
+        "headers": {
+          "Host": "ak.suoni.nyc.mn"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddee[openproxylist.com] vless-FI-123",
+      "server": "m61a.vip784.com",
+      "server_port": 33801,
+      "uuid": "4c8659ab-e49f-4db6-9a87-d0247e98f5ec",
+      "tls": {
+        "enabled": false,
+        "server_name": "m61a.vip784.com",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] trojan-HK-82",
+      "server": "58.152.25.20",
+      "server_port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": false,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": false
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udff3[openproxylist.com] vless--77",
+      "server": "160.16.203.210",
+      "server_port": 443,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": false,
+        "server_name": "160.16.203.210",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] ss-DE-2",
+      "server": "57.128.214.100",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg==",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde6\ud83c\uddea[openproxylist.com] ss-AE-127",
+      "server": "95.174.68.33",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "YzH4id7ZEyKpfy39F2YcOmzCsBklGwh8",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf7\ud83c\uddfa[openproxylist.com] ss-RU-24",
+      "server": "95.163.226.50",
+      "server_port": 24589,
+      "method": "aes-256-gcm",
+      "password": "o0OBHZkTfgxaZQEdThYFU1YyuGWmLm9K5cIQ2kj4MiM=",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1[openproxylist.com] vless-NL-21",
+      "server": "147.45.234.51",
+      "server_port": 443,
+      "uuid": "fd0718a1-c463-4297-8ba9-a7f4b93ce436",
+      "tls": {
+        "enabled": false,
+        "server_name": "147.45.234.51",
+        "insecure": false
+      },
+      "transport": {},
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-34",
+      "server": "norman.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
+      "tls": {
+        "enabled": true,
+        "server_name": "norman.ns.cloudflare.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cahttingws",
+        "headers": {
+          "Host": "639001966559968893.yaris-amsiq.info"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udff3[openproxylist.com] vless--118",
+      "server": "167.179.27.92",
+      "server_port": 443,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "tls": {
+        "enabled": true,
+        "server_name": "167.179.27.92",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram\ud83c\udde8\ud83c\uddf3@wangcai2/?ed=2560",
+        "headers": {
+          "Host": "gaosir.unfeeling.sbs"
+        }
+      },
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+    },
+    {
       "type": "wireguard",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
+      "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
@@ -21,12 +470,12 @@
       "fake_packets_mode": "m4"
     },
     {
-        "type": "shadowsocks",
-        "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
-        "server": "127.0.0.1",
-        "server_port": 8080,
-        "method": "none",
-        "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+      "type": "shadowsocks",
+      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     }
-    ]
+  ]
 }
