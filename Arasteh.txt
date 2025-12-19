@@ -1,0 +1,73 @@
+#profile-title: base64:8J+nkeKAjfCfkrsgQXJhc3RlaCdzIGZhbWlseSBzZXJ2ZXLwn5Sl
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+{
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "se1.opensocks.site",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ODIzO"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.213.23.63",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "51.158.206.103",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "162.159.192.18",
+      "server_port": 5279,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ]
+}
