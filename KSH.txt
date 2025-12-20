@@ -1,8 +1,16 @@
-#profile-title: base64:8J+nkeKAjfCfkrsgTXVsdGkgTG9jYXRpb24g8J+UpSBLU0gg8J+UpSA=
+#profile-title: جهت خرید و تمدید مراجعه فرمایید
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1766241000
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1762007400
 {
   "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "جهت خرید و تمدید اشتراک مراجعه فرمایید",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80KSH\uD83D\uDEE1\uFE0F",
@@ -49,21 +57,12 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "wireguard",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.195.10",
-      "server_port": 8886,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8",
-      "fake_packets_mode": "m4"
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     },
     {
       "type": "shadowsocks",
