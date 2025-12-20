@@ -5,6 +5,24 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "217.30.10.18",
+      "server_port": 9088,
+      "method": "aes-256-cfb",
+      "password": "f8npKgNzdkss2ytn"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "167.160.90.178",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.213.23.63",
