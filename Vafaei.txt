@@ -3,6 +3,14 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
+{
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Tallinn\uD83D\uDEE1\uFE0F",
+      "server": "185.193.49.88",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
     {
       "type": "hysteria2",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Kish\uD83D\uDEE1\uFE0F",
