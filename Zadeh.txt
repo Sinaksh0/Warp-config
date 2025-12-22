@@ -5,6 +5,33 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Mohammad Zadeh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "46.224.157.198",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "VQhct3pJXkASHgKQcQcliw"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Mohammad Zadeh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.95.232.236",
+      "server_port": 4248,
+      "method": "chacha20-ietf-poly1305",
+      "password": "AWTJjYceuRKyPdMeuYtaxx"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddf0DK\ud83d\ude80Mohammad Zadeh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "95.164.10.228",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80Mohammad Zadeh\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "217.30.10.18",
