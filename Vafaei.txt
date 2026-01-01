@@ -5,7 +5,7 @@
   "outbounds":   [
 {
       "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "51.250.25.119",
       "server_port": 1488,
       "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5",
