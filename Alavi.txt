@@ -34,22 +34,59 @@
       "password": "f8npKgNzdkss2ytn"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "type": "vmess",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Franfurt\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "46.224.157.198",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "VQhct3pJXkASHgKQcQcliw"
+      "server": "162.19.248.238",
+      "server_port": 550,
+      "uuid": "ede27a79-b039-490b-932c-495de4b68880",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.95.232.236",
-      "server_port": 4248,
-      "method": "chacha20-ietf-poly1305",
-      "password": "AWTJjYceuRKyPdMeuYtaxx"
+      "server": "185.92.183.112",
+      "server_port": 443,
+      "uuid": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vkru.outlinekeys.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "aCIjONksX6QbTfFBxN1eFqf5caspiR7QyttJ3kDH9yY"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "51.250.28.8",
+      "server_port": 1488,
+      "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -68,8 +105,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": " 162.159.192.10",
-      "server_port": 1010,
+      "server": " 162.159.192.19",
+      "server_port": 500,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
