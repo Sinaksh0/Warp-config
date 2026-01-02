@@ -31,6 +31,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "Test_2\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
+          "short_id": "4ae260"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
