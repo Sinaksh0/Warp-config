@@ -6,20 +6,20 @@
 {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.250.25.119",
-      "server_port": 1488,
-      "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5",
-      "flow": "xtls-rprx-vision",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
       "tls":       {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "yahoo.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
+          "short_id": "4ae260"
         }
       },
       "packet_encoding": "xudp"
