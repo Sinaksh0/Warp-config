@@ -4,25 +4,31 @@
 {
   "outbounds": [
 {
-      "type": "vless",
+      "type": "vmess",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.250.25.119",
-      "server_port": 1488,
-      "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5",
-      "flow": "xtls-rprx-vision",
+      "server": "185.90.62.25",
+      "server_port": 36393,
+      "uuid": "c50f9480-2e1d-40db-9458-630e79636663",
+      "security": "auto",
+      "authenticated_length": true,
       "tls":       {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "imafake.locker",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       },
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers":         {
+          "Host": "imafake.locker"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "shadowsocks",
