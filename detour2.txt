@@ -3,24 +3,28 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
-{
+    {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.250.25.119",
-      "server_port": 1488,
-      "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5",
-      "flow": "xtls-rprx-vision",
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "uuid": "67cf43da-d94c-4d93-b073-ac9305b16ec3",
       "tls":       {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg",
+        "insecure": true,
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
