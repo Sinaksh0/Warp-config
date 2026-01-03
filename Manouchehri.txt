@@ -3,6 +3,31 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "uuid": "67cf43da-d94c-4d93-b073-ac9305b16ec3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
