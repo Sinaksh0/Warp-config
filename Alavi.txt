@@ -6,25 +6,22 @@
     {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "cdnjs.com",
-      "server_port": 443,
-      "uuid": "67cf43da-d94c-4d93-b073-ac9305b16ec3",
+      "server": "161.248.63.15",
+      "server_port": 41579,
+      "uuid": "f64cdd9d-57c3-45b2-e999-c46006719646",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg",
-        "insecure": true,
+        "server_name": "www.icloud.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/ws",
-        "headers":         {
-          "Host": "rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "3W_eKpL975AF7oI-mkgVtf2iK954luxwaT6C41re0RI",
+          "short_id": "2efb6c97c1"
+        }
       },
       "packet_encoding": "xudp"
     },
