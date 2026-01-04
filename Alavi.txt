@@ -39,7 +39,7 @@
     },
     {
       "type": "vmess",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Franfurt\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "162.19.248.238",
       "server_port": 550,
@@ -50,7 +50,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Helsinki\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.92.183.112",
       "server_port": 443,
@@ -66,28 +66,6 @@
         "reality":         {
           "enabled": true,
           "public_key": "aCIjONksX6QbTfFBxN1eFqf5caspiR7QyttJ3kDH9yY"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.250.28.8",
-      "server_port": 1488,
-      "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       },
       "packet_encoding": "xudp"
