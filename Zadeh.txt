@@ -4,31 +4,26 @@
 {
   "outbounds": [
 {
-      "type": "vmess",
+      "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.90.62.25",
-      "server_port": 36393,
-      "uuid": "c50f9480-2e1d-40db-9458-630e79636663",
-      "security": "auto",
-      "authenticated_length": true,
+      "server": "161.248.63.15",
+      "server_port": 41579,
+      "uuid": "f64cdd9d-57c3-45b2-e999-c46006719646",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "imafake.locker",
-        "alpn": "http/1.1",
+        "server_name": "www.icloud.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "3W_eKpL975AF7oI-mkgVtf2iK954luxwaT6C41re0RI",
+          "short_id": "2efb6c97c1"
         }
       },
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers":         {
-          "Host": "imafake.locker"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
