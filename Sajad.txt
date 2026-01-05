@@ -3,6 +3,28 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "161.248.63.15",
+      "server_port": 41579,
+      "uuid": "f64cdd9d-57c3-45b2-e999-c46006719646",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "3W_eKpL975AF7oI-mkgVtf2iK954luxwaT6C41re0RI",
+          "short_id": "2efb6c97c1"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "vmess",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
