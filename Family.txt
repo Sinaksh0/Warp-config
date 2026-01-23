@@ -3,6 +3,30 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "🇫🇮FI\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "144.31.19.106",
+      "server_port": 8443,
+      "uuid": "4fe214fb-048e-431f-b939-4518dc9df6a2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "chat.speedload.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "chat.speedload.ru"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
    {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
