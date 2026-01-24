@@ -3,28 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-        {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "212.34.134.10",
-      "server_port": 8443,
-      "uuid": "161f6660-1e6b-44a6-8a3b-e2cbd0eb4dfa",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0",
-          "short_id": "387d2fb5f83c0cde"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
     {
       "type": "vless",
       "tag": "🇪🇸ES\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
@@ -64,28 +42,6 @@
           "enabled": true,
           "public_key": "4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik",
           "short_id": "d8c6b58bcbb0c323"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80Test2\uD83D\uDEE1\uFE0F",
-      "server": "212.34.134.10",
-      "server_port": 8443,
-      "uuid": "161f6660-1e6b-44a6-8a3b-e2cbd0eb4dfa",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0",
-          "short_id": "387d2fb5f83c0cde"
         }
       },
       "packet_encoding": "xudp"
