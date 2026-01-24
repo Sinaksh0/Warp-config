@@ -3,7 +3,7 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-        {
+    {
       "type": "vless",
       "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "212.34.134.10",
@@ -70,27 +70,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮FI\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "144.31.90.96",
-      "server_port": 8104,
-      "uuid": "7b70baf7-4721-48ef-a9a4-764d45ad0efa",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "4gcDJumxa0bTaHvrZRL4Hb5ItXPha6ZYZ0fGmMD_k0A",
-          "short_id": "9f4ca836ca270ef8"
-        }
-      },
-      {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "🇳🇱NL\ud83d\ude80Test2\uD83D\uDEE1\uFE0F",
       "server": "212.34.134.10",
       "server_port": 8443,
       "uuid": "161f6660-1e6b-44a6-8a3b-e2cbd0eb4dfa",
