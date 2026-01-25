@@ -49,21 +49,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮FI-KSH",
-      "server": "85.192.49.49",
+      "tag": "RU-KSH",
+      "server": "158.160.195.177",
       "server_port": 443,
-      "uuid": "406fd0aa-d08a-4099-a7d1-1549359461de",
+      "uuid": "96ae25e6-b8f8-49cd-bf17-7ce2f04e64c2",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "cdnjs.com",
+        "server_name": "tunnel.vk-apps.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-          "short_id": "4c02bbbfa833b3b6"
+          "public_key": "LMps23LhUJ9FnzMOKIjmiiHat8-iXBkfa0RSaEUN6mY",
+          "short_id": "95b4ab2a"
         }
       },
       "packet_encoding": "xudp"
