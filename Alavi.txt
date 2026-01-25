@@ -64,9 +64,9 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇺 HU-KSH",
+      "tag": "🇭🇺HU-KSH",
       "server": "37.139.33.15",
-      "server_port": 443,
+      "server_port": 8443,
       "uuid": "a0d5c9d6-a64b-42d5-aba4-144b51259aaf",
       "flow": "xtls-rprx-vision",
       "tls":       {
@@ -79,7 +79,7 @@
         "reality":         {
           "enabled": true,
           "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "8ba12e75110b7a9c"
+          "short_id": "f4b4a6365558ea2e"
         }
       },
       "packet_encoding": "xudp"
