@@ -4,23 +4,57 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "🇪🇸ES\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "172.233.116.229",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "type": "trojan",
+      "tag": "🇵🇱PL-KSH",
+      "server": "208.103.161.110",
+      "server_port": 443,
+      "password": "humanity",
       "tls":       {
         "enabled": true,
-        "server_name": "excoino.com",
+        "server_name": "www.creationlong.org",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc",
-          "short_id": "916e8258c4a01b02"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/assignment",
+        "headers":         {
+          "Host": "www.creationlong.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE-KSH",
+      "server": "89.40.117.189",
+      "server_port": 40938,
+      "uuid": "41477c12-82d0-4809-935d-137bd448d823",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE-Test",
+      "server": "192.0.54.34",
+      "server_port": 443,
+      "uuid": "96dd3618-ae4e-4a9d-89f9-5316296d7814",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cErT.sHakHle.iR",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "cErT.sHakHle.iR"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
