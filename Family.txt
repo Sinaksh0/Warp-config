@@ -5,27 +5,25 @@
   "outbounds": [
 {
       "type": "vless",
-      "tag": "🇨🇦 CA-KSH § 0",
-      "server": "78.159.246.134",
+      "tag": "🇩🇪DE-Test",
+      "server": "188.114.98.0",
       "server_port": 443,
-      "uuid": "606b5468-768e-4854-9625-526e2c758059",
-      "flow": "xtls-rprx-vision",
+      "uuid": "0f811ad6-6af9-4959-8394-8ba31f738d9d",
       "tls":       {
         "enabled": true,
-        "server_name": "vk.com",
-        "alpn":         [
-          "h2",
-          "http/1.1"
-        ],
+        "server_name": "cl9145.eighani3.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "u_cOIT9RG1ixPU5Wenij3XKmCiY-QXPLHaCDHwB-3UU",
-          "short_id": "f14dbb039381bb8c"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "cl9145.eighani3.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
