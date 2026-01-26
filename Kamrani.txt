@@ -5,65 +5,57 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇳🇱 The NL-KSH",
-      "server": "84.201.157.100",
+      "tag": "🇩🇪DE-01",
+      "server": "188.114.98.0",
       "server_port": 443,
-      "uuid": "02fbb5b4-9c1c-427d-8107-028e2ffa6b37",
-      "flow": "xtls-rprx-vision",
+      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
       "tls":       {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "dTsRKJN6v03ir1RDMk-DglS9TKiGXRPh1HYbbZXZuUQ",
-          "short_id": "46761921684ac921"
+        "server_name": "delta090.qzz.io"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers":         {
+          "Host": "delta090.qzz.io"
         }
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "🇭🇺 HU-KSH",
-      "server": "37.139.33.15",
+      "tag": "🇩🇪DE-02",
+      "server": "188.114.98.0",
       "server_port": 443,
-      "uuid": "a0d5c9d6-a64b-42d5-aba4-144b51259aaf",
-      "flow": "xtls-rprx-vision",
+      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
       "tls":       {
         "enabled": true,
-        "server_name": "tradingview.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "8ba12e75110b7a9c"
+        "server_name": "delta090.qzz.io"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/156.244.1.250=8443",
+        "headers":         {
+          "Host": "delta090.qzz.io"
         }
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "🇪🇸ES\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "172.233.116.229",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "tag": "🇩🇪DE-03",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "32c257a1-f18c-42c7-860d-9cb0ead8b07c",
       "tls":       {
         "enabled": true,
-        "server_name": "excoino.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc",
-          "short_id": "916e8258c4a01b02"
+        "server_name": "delta090.qzz.io"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/146.56.99.255=56789",
+        "headers":         {
+          "Host": "delta090.qzz.io"
         }
       },
       "packet_encoding": "xudp"
