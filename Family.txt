@@ -5,6 +5,32 @@
   "outbounds": [
 {
       "type": "vless",
+      "tag": "🇨🇦 CA-KSH § 0",
+      "server": "78.159.246.134",
+      "server_port": 443,
+      "uuid": "606b5468-768e-4854-9625-526e2c758059",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vk.com",
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "u_cOIT9RG1ixPU5Wenij3XKmCiY-QXPLHaCDHwB-3UU",
+          "short_id": "f14dbb039381bb8c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪DE-01",
       "server": "188.114.98.0",
       "server_port": 443,
