@@ -5,84 +5,61 @@
   "outbounds": [
 {
       "type": "vless",
-      "tag": "🇩🇪DE-Test",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "0f811ad6-6af9-4959-8394-8ba31f738d9d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cl9145.eighani3.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "KSH-01",
+      "server": "179.61.132.58",
+      "server_port": 32143,
+      "uuid": "d4a0cc8c-2f9c-41fb-a5b8-d60c9a2a347d",
       "transport":       {
         "type": "ws",
         "path": "/",
-        "headers":         {
-          "Host": "cl9145.eighani3.com"
-        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE-01",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
+      "tag": "KSH-02",
+      "server": "89.208.87.118",
+      "server_port": 3443,
+      "uuid": "6258e58e-5eaa-409b-bdd6-d38f28fd837d",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "delta090.qzz.io"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers":         {
-          "Host": "delta090.qzz.io"
+        "server_name": "max.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "E0v1eCplgozcf1FVIzwel92v7p-SjQbTY3beXtLQk0o",
+          "short_id": "99c3cbbde80525aa"
         }
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪DE-02",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
+      "type": "hysteria2",
+      "tag": "🇺🇸KSH-03",
+      "server": "107.167.18.123",
+      "server_port": 1743,
+      "password": "17cdeb6c-f046-11ee-bdac-f23c93141fad",
       "tls":       {
         "enabled": true,
-        "server_name": "delta090.qzz.io"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/156.244.1.250=8443",
-        "headers":         {
-          "Host": "delta090.qzz.io"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk",
+        "insecure": true
+      }
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪DE-03",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "32c257a1-f18c-42c7-860d-9cb0ead8b07c",
+      "type": "hysteria2",
+      "tag": "🇺🇸KSH-04",
+      "server": "107.167.18.123",
+      "server_port": 1743,
+      "password": "17cdeb6c-f046-11ee-bdac-f23c93141fad",
       "tls":       {
         "enabled": true,
-        "server_name": "delta090.qzz.io"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/146.56.99.255=56789",
-        "headers":         {
-          "Host": "delta090.qzz.io"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk"
+      }
     },
     {
       "type": "hysteria2",
