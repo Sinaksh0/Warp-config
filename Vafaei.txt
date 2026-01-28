@@ -4,63 +4,6 @@
 {
   "outbounds":   [
     {
-      "type": "vless",
-      "tag": "🇩🇪DE-01",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
-      "tls":       {
-        "enabled": true,
-        "server_name": "delta090.qzz.io"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers":         {
-          "Host": "delta090.qzz.io"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE-02",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
-      "tls":       {
-        "enabled": true,
-        "server_name": "delta090.qzz.io"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/156.244.1.250=8443",
-        "headers":         {
-          "Host": "delta090.qzz.io"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE-03",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "32c257a1-f18c-42c7-860d-9cb0ead8b07c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "delta090.qzz.io"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/146.56.99.255=56789",
-        "headers":         {
-          "Host": "delta090.qzz.io"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "hysteria2",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Kish\uD83D\uDEE1\uFE0F",
       "server": "206.71.158.37",
