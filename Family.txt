@@ -62,40 +62,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "206.71.158.37",
-      "server_port": 36400,
-      "obfs":       {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls":       {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Los Angeles\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.192.226.106",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80Warsaw\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "217.30.10.18",
-      "server_port": 9041,
-      "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Ladbergen\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
