@@ -3,6 +3,15 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1780065000
 {
   "outbounds": [
+   {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Mohammad Zadeh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "135.125.245.131",
+      "server_port": 20939,
+      "method": "chacha20-ietf-poly1305",
+      "password": "85d3d8ccba287d3e"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddf0DK\ud83d\ude80Mohammad Zadeh\uD83D\uDEE1\uFE0F",
