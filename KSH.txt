@@ -1,8 +1,15 @@
 #profile-title: 🔥 KSH 🔥
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-vless://606b5468-768e-4854-9625-526e2c758059@78.159.246.134:443?security=reality&alpn=h2%2Chttp%2F1.1&encryption=none&pbk=u_cOIT9RG1ixPU5Wenij3XKmCiY-QXPLHaCDHwB-3UU&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.com&sid=f14dbb039381bb8c#%F0%9F%87%A8%F0%9F%87%A6%20CA-KSH
-vless://02fbb5b4-9c1c-427d-8107-028e2ffa6b37@84.201.157.100:443?security=reality&encryption=none&pbk=dTsRKJN6v03ir1RDMk-DglS9TKiGXRPh1HYbbZXZuUQ&headerType=&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=46761921684ac921#%F0%9F%87%B3%F0%9F%87%B1%20The%20NL-KSH
-vless://a0d5c9d6-a64b-42d5-aba4-144b51259aaf@37.139.33.15:443?security=reality&encryption=none&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=8ba12e75110b7a9c#%F0%9F%87%AD%F0%9F%87%BA%20HU-KSH
-vless://06ced943-82ef-4145-b480-56c048047df0@45.135.180.98:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ign.dev&sid=6ba85179e30d4fc2#%F0%9F%87%B3%F0%9F%87%B1%20The%20NL-KSH-second
-vless://fc9ebd1d-dc9a-46af-917e-919ac7eacbd2@37.139.34.145:443?security=reality&encryption=none&pbk=zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=48fccabc158a4c22#%F0%9F%87%AA%F0%9F%87%B8%20ES-KSH
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1762007400
+{
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ]
+}
