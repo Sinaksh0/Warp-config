@@ -1,6 +1,6 @@
 #profile-title: base64:8J+nkeKAjfCfkrsgTW9oYW1tYWQgWmFkZWgg8J+UpQ==
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1777473000
 {
   "outbounds": [
     {
@@ -65,8 +65,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.192.14",
-      "server_port": 3138,
+      "server": "162.159.192.3",
+      "server_port": 7152,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1306,
       "fake_packets": "40-80",
