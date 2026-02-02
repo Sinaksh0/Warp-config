@@ -4,70 +4,12 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇳🇱 The NL-KSH",
-      "server": "84.201.157.100",
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL-KSH",
+      "server": "109.201.152.181",
       "server_port": 443,
-      "uuid": "02fbb5b4-9c1c-427d-8107-028e2ffa6b37",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "dTsRKJN6v03ir1RDMk-DglS9TKiGXRPh1HYbbZXZuUQ",
-          "short_id": "46761921684ac921"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇺 HU-KSH",
-      "server": "37.139.33.15",
-      "server_port": 443,
-      "uuid": "a0d5c9d6-a64b-42d5-aba4-144b51259aaf",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "8ba12e75110b7a9c"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "RU-KSH",
-      "server": "158.160.195.177",
-      "server_port": 443,
-      "uuid": "96ae25e6-b8f8-49cd-bf17-7ce2f04e64c2",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tunnel.vk-apps.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "LMps23LhUJ9FnzMOKIjmiiHat8-iXBkfa0RSaEUN6mY",
-          "short_id": "95b4ab2a"
-        }
-      },
-      "packet_encoding": "xudp"
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
     },
     {
       "type": "shadowsocks",
