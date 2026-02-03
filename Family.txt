@@ -4,6 +4,54 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇩🇪DE-KSH",
+      "server": "141.98.188.65",
+      "server_port": 443,
+      "uuid": "0792bfd8-ac2b-44b9-8409-c448334e41ae",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de20.strelkavpn.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RQvzYCW0H-c-MiJtVMFwE-F2IOzVlHn4QItU34IpM2U",
+          "short_id": "42fee40f46c3c9c2"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇿KZ-KSH",
+      "server": "kazakhstan19.clearorbitllc.com",
+      "server_port": 30702,
+      "method": "chacha20-ietf-poly1305",
+      "password": "b7gwEbrLFZgBW6DrR4Xi9g"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧GB-KSH",
+      "server": "15.204.247.49",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳IN-KSH",
+      "server": "20.193.153.19",
+      "server_port": 15834,
+      "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "vmess",
       "tag": "🇺🇸US-KSH",
       "server": "216.75.145.237",
