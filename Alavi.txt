@@ -53,6 +53,31 @@
     },
     {
       "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "server": "162.159.7.198",
+      "server_port": 443,
+      "uuid": "e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "germany.pahlevancompani.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "germany.pahlevancompani.com"
+        },
+        "max_early_data": 443,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddfa\ud83c\udde6UA\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "server": "144.31.131.192",
       "server_port": 443,
@@ -100,15 +125,6 @@
       "tag": "\ud83c\uddf7\ud83c\uddf4RO\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.126.237.38",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "89.163.140.136",
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
