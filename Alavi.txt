@@ -52,6 +52,75 @@
       "password": "shadowsocks"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "server": "162.159.7.198",
+      "server_port": 443,
+      "uuid": "e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "germany.pahlevancompani.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "germany.pahlevancompani.com"
+        },
+        "max_early_data": 443,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfa\ud83c\udde6UA\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "server": "144.31.131.192",
+      "server_port": 443,
+      "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "VGvu_q0ReJ-Of3rHuYR7RdNnGhcrurMvOrm9EA3dtzM",
+          "short_id": "d73c7f7b13a6a076"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "server": "144.31.94.99",
+      "server_port": 443,
+      "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "-1F5A8N32UdC6w2NqnAc5-GkQW1dgcrImiQPl4WRikk",
+          "short_id": "ef0b40e707663781"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf7\ud83c\uddf4RO\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
