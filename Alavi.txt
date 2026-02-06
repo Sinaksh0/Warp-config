@@ -5,6 +5,28 @@
   "outbounds": [
 {
       "type": "vless",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "89.169.162.214",
+      "server_port": 443,
+      "uuid": "7e2b2894-3b5c-4b65-acc5-e1784f4047f2",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "e57932a42872a362"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+   {
+      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi02\uD83D\uDEE1\uFE0F",
       "server": "dlc-ger1.persianpinggame.ir",
       "server_port": 443,
