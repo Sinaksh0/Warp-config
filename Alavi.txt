@@ -5,33 +5,45 @@
   "outbounds": [
 {
       "type": "vless",
-      "tag": "🇩🇪DE-KSH",
-      "server": "141.98.188.65",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi02\uD83D\uDEE1\uFE0F",
+      "server": "dlc-ger1.persianpinggame.ir",
       "server_port": 443,
-      "uuid": "0792bfd8-ac2b-44b9-8409-c448334e41ae",
+      "uuid": "d6637de9-6df6-4e14-b6c2-9f32df6d5c79",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "FRhlZqNN8KVTgQ-yS-7WTqNjSi9Mhy-ItbmSqcnn5EM",
+          "short_id": "274e8f5c1c9feb3f"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "server": "mskhost.outlinekeys.net",
+      "server_port": 443,
+      "uuid": "59edf6dc-b1f7-4017-8107-aae4f61a173c",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "de20.strelkavpn.com",
+        "server_name": "mskhost.outlinekeys.net",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "RQvzYCW0H-c-MiJtVMFwE-F2IOzVlHn4QItU34IpM2U",
-          "short_id": "42fee40f46c3c9c2"
+          "public_key": "3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ"
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧GB-KSH",
-      "server": "15.204.247.49",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
     },
     {
       "type": "vmess",
