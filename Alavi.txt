@@ -28,6 +28,7 @@
    {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi02\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "dlc-ger1.persianpinggame.ir",
       "server_port": 443,
       "uuid": "d6637de9-6df6-4e14-b6c2-9f32df6d5c79",
@@ -49,6 +50,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "mskhost.outlinekeys.net",
       "server_port": 443,
       "uuid": "59edf6dc-b1f7-4017-8107-aae4f61a173c",
@@ -88,6 +90,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "162.159.7.198",
       "server_port": 443,
       "uuid": "e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d",
@@ -113,6 +116,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddfa\ud83c\udde6UA\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "144.31.131.192",
       "server_port": 443,
       "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
@@ -135,6 +139,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "144.31.94.99",
       "server_port": 443,
       "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
