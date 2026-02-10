@@ -4,6 +4,76 @@
 {
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇭🇷HR\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "5.181.2.73",
+      "server_port": 43248,
+      "method": "chacha20-ietf-poly1305",
+      "password": "bSFMvNLHapp4ZrcGIXy9Vt"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "82.22.174.203",
+      "server_port": 35982,
+      "uuid": "f7e23839-7e62-4e38-adfb-e33ec29e6475",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "H8Vw-W8rsLPuwvk6UjBXrwOZACFhbiWm8_z7AQFvXFk",
+          "short_id": "641dac0bbac7"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde6\ud83c\uddf1AL\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "78.159.131.76",
+      "server_port": 443,
+      "uuid": "dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "al.cdn.stun.su",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
+          "short_id": "dfb584388d2927f7"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.89.111.142",
+      "server_port": 443,
+      "password": "7LBbob9IutFObLxLf9Svc1HaV",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hl-freedom-1.undef.network",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "159.89.87.21",
