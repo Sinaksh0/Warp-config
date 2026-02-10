@@ -3,14 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80TEST\uD83D\uDEE1\uFE0F",
-      "server": "141.95.106.231",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "c8e2102ca3eee7ec"
-    },
     {
       "type": "vless",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
@@ -31,45 +23,6 @@
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "89.169.162.214",
-      "server_port": 443,
-      "uuid": "7e2b2894-3b5c-4b65-acc5-e1784f4047f2",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
-          "short_id": "e57932a42872a362"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱NL-KSH",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddf4RO\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.126.237.38",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
@@ -99,17 +52,12 @@
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
-      "type": "wireguard",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.192.15",
-      "server_port": 864,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
     },
     {
       "type": "shadowsocks",
