@@ -3,43 +3,59 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1780065000
 {
   "outbounds": [
-{
+   {
       "type": "vless",
-      "tag": "🇩🇪DE-KSH",
-      "server": "141.98.188.65",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "usa.visa.com",
       "server_port": 443,
-      "uuid": "0792bfd8-ac2b-44b9-8409-c448334e41ae",
-      "flow": "xtls-rprx-vision",
+      "uuid": "a114d067-b900-4f60-87a5-50d4d63972b8",
       "tls":       {
         "enabled": true,
-        "server_name": "de20.strelkavpn.com",
+        "server_name": "PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev",
+        "insecure": true,
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "RQvzYCW0H-c-MiJtVMFwE-F2IOzVlHn4QItU34IpM2U",
-          "short_id": "42fee40f46c3c9c2"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇿KZ-KSH",
-      "server": "kazakhstan19.clearorbitllc.com",
-      "server_port": 30702,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b7gwEbrLFZgBW6DrR4Xi9g"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧GB-KSH",
-      "server": "15.204.247.49",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
+      "type": "vless",
+      "tag": "TEST\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "1password.com",
+      "server_port": 443,
+      "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "rayan-007.foton.dpdns.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vmess",
@@ -47,16 +63,6 @@
       "server": "20.193.153.19",
       "server_port": 15834,
       "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸US-KSH",
-      "server": "216.75.145.237",
-      "server_port": 110,
-      "uuid": "a5a25715-1553-4586-949d-3bb0fb87cbcd",
       "security": "auto",
       "authenticated_length": true,
       "packet_encoding": "xudp"
