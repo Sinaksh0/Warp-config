@@ -31,6 +31,33 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "TEST\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "1password.com",
+      "server_port": 443,
+      "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "rayan-007.foton.dpdns.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇭🇷HR\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -106,12 +133,12 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "1password.com",
+      "server": "adf.ly",
       "server_port": 443,
-      "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
+      "uuid": "1679af35-6dd6-4c09-ae3b-18f239217f3e",
       "tls":       {
         "enabled": true,
-        "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
+        "server_name": "rAyAn-007.pArViN.DpDnS.OrG",
         "insecure": true,
         "alpn": "http/1.1",
         "utls":         {
@@ -123,7 +150,7 @@
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "rayan-007.foton.dpdns.org"
+          "Host": "rayan-007.parvin.dpdns.org"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
