@@ -5,6 +5,50 @@
   "outbounds": [
 {
       "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "57.129.53.181",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80TEST\uD83D\uDEE1\uFE0F",
+      "server": "188.34.193.153",
+      "server_port": 443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+          "short_id": "7cad5040"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "usa.visa.com",
       "server_port": 443,
