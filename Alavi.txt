@@ -13,51 +13,6 @@
       "password": "bSFMvNLHapp4ZrcGIXy9Vt"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "82.22.174.203",
-      "server_port": 35982,
-      "uuid": "f7e23839-7e62-4e38-adfb-e33ec29e6475",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "H8Vw-W8rsLPuwvk6UjBXrwOZACFhbiWm8_z7AQFvXFk",
-          "short_id": "641dac0bbac7"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde6\ud83c\uddf1AL\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "78.159.131.76",
-      "server_port": 443,
-      "uuid": "dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "al.cdn.stun.su",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
-          "short_id": "dfb584388d2927f7"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -122,12 +77,31 @@
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "109.201.152.181",
+      "server": "1password.com",
       "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
+      "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "rayan-007.foton.dpdns.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
