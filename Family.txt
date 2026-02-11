@@ -5,7 +5,7 @@
   "outbounds": [
 {
       "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80Test02\uD83D\uDEE1\uFE0F",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "usa.visa.com",
       "server_port": 443,
       "uuid": "a114d067-b900-4f60-87a5-50d4d63972b8",
@@ -32,7 +32,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "TEST\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "1password.com",
       "server_port": 443,
       "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
