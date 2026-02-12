@@ -44,32 +44,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "173.245.59.91",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "insecure": true,
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers":         {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "185.206.69.25",
       "server_port": 1422,
