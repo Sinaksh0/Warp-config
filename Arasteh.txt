@@ -3,9 +3,62 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
+    {
       "type": "vless",
-      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "Test02\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "adf.ly",
+      "server_port": 443,
+      "uuid": "1679af35-6dd6-4c09-ae3b-18f239217f3e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rAyAn-007.pArViN.DpDnS.OrG",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "rayan-007.parvin.dpdns.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "TEST02\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "africa.visa.com",
+      "server_port": 443,
+      "uuid": "22c71398-f576-4608-8b1f-b65badde088b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "rAYAN108-WzqDnd-3.RAyan-108.workERs.DEV",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "rAYAN108-WzqDnd-3.RAyan-108.workERs.DEV"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "TEST\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "usa.visa.com",
       "server_port": 443,
       "uuid": "a114d067-b900-4f60-87a5-50d4d63972b8",
@@ -32,13 +85,13 @@
     },
     {
       "type": "vless",
-      "tag": "TEST\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "1password.com",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "medium.com",
       "server_port": 443,
-      "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
       "tls":       {
         "enabled": true,
-        "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
+        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
         "insecure": true,
         "alpn": "http/1.1",
         "utls":         {
@@ -50,7 +103,7 @@
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "rayan-007.foton.dpdns.org"
+          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
