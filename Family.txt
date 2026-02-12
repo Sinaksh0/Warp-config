@@ -188,55 +188,44 @@
     },
     {
       "type": "vless",
-      "tag": "TEST\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "usa.visa.com",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "usa50.openbypass.org",
       "server_port": 443,
-      "uuid": "a114d067-b900-4f60-87a5-50d4d63972b8",
+      "uuid": "620f8560-8e40-4229-a988-970528c0b620",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev",
-        "insecure": true,
-        "alpn": "http/1.1",
+        "server_name": "www.bing.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev"
         },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs"
+        }
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "medium.com",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80TEST\uD83D\uDEE1\uFE0F",
+      "server": "midorinote.ru",
+      "server_port": 8443,
+      "uuid": "a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
-        "insecure": true,
-        "alpn": "http/1.1",
+        "server_name": "tradingview.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
         },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY",
+          "short_id": "f7aa9e61197d3ac6"
+        }
       },
       "packet_encoding": "xudp"
     },
