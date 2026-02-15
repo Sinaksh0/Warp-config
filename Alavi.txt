@@ -28,27 +28,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "185.206.69.25",
-      "server_port": 1422,
-      "uuid": "cbaa6e41-8194-487a-9e2e-bbc0ab4c40bd",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "q-AEsvnN41Jb8KjFqGEBuSOYjFWXGGhpP9SuS9sBNXg",
-          "short_id": "3143dc53998d9689"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "158.160.105.121",
       "server_port": 443,
@@ -76,14 +55,6 @@
       "server_port": 11201,
       "method": "chacha20-ietf-poly1305",
       "password": "37ef4f029f1ac0ac"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "admin.c2.havij.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "kaQH3hGdcP80XEDI"
     },
     {
       "type": "trojan",
