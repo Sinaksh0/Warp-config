@@ -180,6 +180,71 @@
       "password": "shadowsocks"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "vpn.nnet.online",
+      "server_port": 443,
+      "uuid": "79d24ca6-8f75-4653-9a9c-2d4ee38f4b88",
+      "tls":       {
+        "enabled": true,
+        "server_name": "nnet.online",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/vless-tls",
+        "headers":         {
+          "Host": "nnet.online"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.13.227.118",
+      "server_port": 80,
+      "uuid": "8ce64662-f8b8-4955-bdf2-a55b821bc4aa",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+        "headers":         {
+          "Host": "......................................................................................()..........................................................................................................................................................................................................................................................."
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "193.46.81.207",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de.cdn.stun.su",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA",
+          "short_id": "4daa022e84f8edf2"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddff\ud83c\udde6ZA\ud83d\ude80Pretoria\ud83d\udee1\ufe0f",
       "server": "156.38.168.58",
