@@ -27,28 +27,137 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
-      "server": "144.31.196.60",
-      "server_port": 443,
-      "uuid": "a8214f18-5d5b-409f-a98a-458a85bce22b",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "brenna.ns.cloudflare.com",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
       "tls":       {
         "enabled": true,
-        "server_name": "google.com",
-        "alpn": "h2",
+        "server_name": "hetz.x-smm.com",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers":         {
+          "Host": "hetz.x-smm.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "141.95.105.28",
+      "server_port": 11201,
+      "method": "chacha20-ietf-poly1305",
+      "password": "37ef4f029f1ac0ac"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "v1.dabache.top",
+      "server_port": 8443,
+      "password": "T9BpZIVMNv",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sweden.vmaxpanel.com",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/amd",
+        "headers":         {
+          "Host": "sweden.vmaxpanel.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80TEST\uD83D\uDEE1\uFE0F",
+      "server": "www.speedtest.net",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "insecure": true,
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/45.76.183.217=49292",
+        "headers":         {
+          "Host": "hetz.x-smm.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80TEST\uD83D\uDEE1\uFE0F",
+      "server": "midorinote.ru",
+      "server_port": 8443,
+      "uuid": "a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tradingview.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8",
-          "short_id": "15affa0af66dfc79"
+          "public_key": "wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY",
+          "short_id": "f7aa9e61197d3ac6"
         }
       },
-      "transport":       {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "159.89.87.21",
+      "server_port": 28190,
+      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno"
+        }
       },
       "packet_encoding": "xudp"
     },
