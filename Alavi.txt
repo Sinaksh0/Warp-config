@@ -27,7 +27,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
       "server": "144.31.196.60",
       "server_port": 443,
       "uuid": "a8214f18-5d5b-409f-a98a-458a85bce22b",
