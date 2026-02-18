@@ -5,6 +5,77 @@
   "outbounds": [
     {
       "type": "vless",
+      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "144.31.128.129",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ae.cdn.stun.su",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w",
+          "short_id": "41a0b29e95aaea87"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
+      "server": "144.31.196.60",
+      "server_port": 443,
+      "uuid": "a8214f18-5d5b-409f-a98a-458a85bce22b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "google.com",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8",
+          "short_id": "15affa0af66dfc79"
+        }
+      },
+      "transport":       {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "217.13.104.154",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "travel.yandex.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+          "short_id": "d17bd238f23fba92"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80TEST\uD83D\uDEE1\uFE0F",
       "server": "midorinote.ru",
       "server_port": 8443,
