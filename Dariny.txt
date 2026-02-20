@@ -70,32 +70,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "brenna.ns.cloudflare.com",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "insecure": true,
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers":         {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "tr1-smart.adelping.com",
@@ -107,87 +81,6 @@
       "transport":       {
         "type": "ws"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "158.160.105.121",
-      "server_port": 443,
-      "uuid": "e8accc46-c511-42fb-919b-9283799a88a1",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc",
-          "short_id": "887c0d72e771a934"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "141.95.105.28",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "37ef4f029f1ac0ac"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "v1.dabache.top",
-      "server_port": 8443,
-      "password": "T9BpZIVMNv",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sweden.vmaxpanel.com",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/amd",
-        "headers":         {
-          "Host": "sweden.vmaxpanel.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "159.89.87.21",
-      "server_port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "aws.amazon.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇳IN-KSH",
-      "server": "20.193.153.19",
-      "server_port": 15834,
-      "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
