@@ -184,7 +184,15 @@
       "server": "162.159.192.4",
       "server_port": 4177,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306
+      "mtu": 1306,
+      "noise":       {
+        "fake_packet":         {
+          "count": "1-3",
+          "size": "10-30",
+          "delay": "10-30",
+          "mode": "m4"
+        }
+      }
     },
     {
       "type": "shadowsocks",
