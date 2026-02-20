@@ -126,26 +126,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "144.31.92.173",
-      "server_port": 443,
-      "uuid": "45d95284-05ce-4e8b-ad84-a6bcdfebcb59",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "0A9nE6Scvg5oYRN8aRsLR-YqrvDNNX5s2UXa4yvyRkA"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "144.31.3.30",
       "server_port": 443,
