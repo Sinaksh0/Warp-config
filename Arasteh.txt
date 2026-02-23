@@ -34,14 +34,6 @@
       "password": "HnzIN1CLGGEh+mD/uzbbvTQc/Alq+hkmrC7Po3D4k4E="
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "141.95.106.127",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "94aae0510188e8c5"
-    },
-    {
       "type": "trojan",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "v1.dabache.top",
