@@ -3,6 +3,28 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "104.18.185.26",
+      "server_port": 443,
+      "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "apii.onlineshoppingez.ir",
+        "insecure": true,
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/O1w0n3vYgFKYs7EzNAvLPvOp",
+        "headers":         {
+          "Host": "apii.onlineshoppingez.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
