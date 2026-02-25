@@ -146,12 +146,29 @@
       "password": "f8f7aCzcPKbsF8p3"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.80.231.75",
-      "server_port": 31019,
-      "method": "chacha20-ietf-poly1305",
-      "password": "XN6Xf0ZqwDeFrt39TQraen"
+      "server": "104.26.15.21",
+      "server_port": 443,
+      "uuid": "5c824317-ac50-49a5-8d32-a0ccb890fb3d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/118.91.78.76",
+        "headers":         {
+          "Host": "afrcloud22.mmv.kr"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
