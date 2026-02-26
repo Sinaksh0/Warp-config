@@ -21,20 +21,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
-      "server": "s4.nettool.ovh",
-      "server_port": 34221,
-      "uuid": "287c459f-43d0-43c6-95ee-07afe75faa59",
-      "transport":       {
-        "type": "http",
-        "host": "igap.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "104.26.15.21",
       "server_port": 443,
@@ -60,7 +46,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
       "server": "141.95.106.127",
       "server_port": 11201,
       "method": "chacha20-ietf-poly1305",
