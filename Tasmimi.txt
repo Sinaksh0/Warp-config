@@ -3,6 +3,28 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+   {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "admin.c1.webramz.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
+      "server": "s4.nettool.ovh",
+      "server_port": 34221,
+      "uuid": "287c459f-43d0-43c6-95ee-07afe75faa59",
+      "transport":       {
+        "type": "http",
+        "host": "igap.net",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -209,31 +231,33 @@
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
     },
     {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "162.159.195.9",
+      "server_port": 1014,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1306,
+      "noise":       {
+        "fake_packet":         {
+          "count": "40-80",
+          "size": "40-100",
+          "delay": "4-8",
+          "mode": "m4"
+        }
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 1080,
       "method": "none",
       "password": "abaccba-caba-acba-dbca-cbbbccaaacba"
-    }
-  ],
-  "endpoints":   [
-    {
-      "type": "warp",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "profile":       {
-        "detour": "direct-fragment §hide§"
-      },
-      "server": "162.159.192.3",
-      "server_port": 7152,
-      "noise":       {
-        "fake_packet":         {
-          "count": "40-80",
-          "size": "40-100",
-          "delay": "4-8"
-        }
-      },
-      "mtu": 1280
     }
   ]
 }
