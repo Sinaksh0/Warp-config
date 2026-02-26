@@ -2,7 +2,8 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-  "outbounds": {
+  "outbounds": [
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "admin.c1.webramz.co",
