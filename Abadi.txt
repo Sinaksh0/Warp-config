@@ -5,6 +5,14 @@
   "outbounds":   [
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
+      "server": "89.163.140.136",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "141.95.106.127",
       "server_port": 11201,
@@ -30,74 +38,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "www.speedtest.net",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "insecure": true,
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers":         {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-     {
-      "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\uddffCZ\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "78.159.247.216",
-      "server_port": 3443,
-      "uuid": "51f812cf-382b-43d4-94f7-a5e468891552",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "dfT5z5agib56VILhtjzfgksA4M5Ez0yNA_19Ck2z5ho",
-          "short_id": "d16801fe66c1c538"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "144.31.92.173",
-      "server_port": 443,
-      "uuid": "45d95284-05ce-4e8b-ad84-a6bcdfebcb59",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "0A9nE6Scvg5oYRN8aRsLR-YqrvDNNX5s2UXa4yvyRkA"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "hysteria2",
