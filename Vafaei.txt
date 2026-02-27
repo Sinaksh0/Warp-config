@@ -3,27 +3,21 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
-{
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
+      "server": "89.163.140.136",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "admin.c1.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
-      "server": "s4.nettool.ovh",
-      "server_port": 34221,
-      "uuid": "287c459f-43d0-43c6-95ee-07afe75faa59",
-      "transport":       {
-        "type": "http",
-        "host": "igap.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -52,32 +46,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "www.speedtest.net",
-      "server_port": 2096,
-      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hetz.x-smm.com",
-        "insecure": true,
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/45.76.183.217=49292",
-        "headers":         {
-          "Host": "hetz.x-smm.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "vmess",
