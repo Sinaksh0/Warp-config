@@ -4,6 +4,32 @@
 {
   "outbounds":   [
     {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Cloudflare\uD83D\uDEE1\uFE0F",
+      "server": "54.36.98.158",
+      "server_port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.111000.v6.navy",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
+        "headers":         {
+          "Host": "sni.111000.v6.navy"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
       "server": "89.163.140.136",
