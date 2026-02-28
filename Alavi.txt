@@ -75,6 +75,24 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddf8\ud83c\udde6SA\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "163.171.207.11",
+      "server_port": 29463,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cb4258dc1b53613c"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "37.19.198.236",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -100,10 +118,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "89.163.140.136",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "46.246.97.140",
+      "server_port": 53908,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZweuXavjovuhzt1AF0d6qx"
     },
     {
       "type": "shadowsocks",
