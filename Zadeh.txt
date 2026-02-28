@@ -5,6 +5,14 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "89.163.140.136",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "admin.c1.webramz.co",
       "server_port": 443,
@@ -87,10 +95,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "89.163.140.136",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "server": "46.246.97.140",
+      "server_port": 53908,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZweuXavjovuhzt1AF0d6qx"
     },
     {
       "type": "shadowsocks",
