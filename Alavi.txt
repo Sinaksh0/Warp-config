@@ -5,14 +5,6 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "89.163.140.136",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "admin.c1.webramz.co",
       "server_port": 443,
@@ -84,15 +76,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "dd.openaccessnode.com",
-      "server_port": 50,
-      "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "ita01-vlr02.tcp-reset-club.net",
@@ -115,30 +98,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "54.36.98.158",
-      "server_port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sni.111000.v6.navy",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
-        "headers":         {
-          "Host": "sni.111000.v6.navy"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "server": "89.163.140.136",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
