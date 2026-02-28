@@ -168,12 +168,28 @@
       "password": "shadowsocks"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "46.246.97.140",
-      "server_port": 53908,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ZweuXavjovuhzt1AF0d6qx"
+      "server": "57.129.28.214",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "57.129.28.214",
+        "insecure": true,
+        "alpn": "http/1.1"
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers":         {
+          "Host": "kampong.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "shadowsocks",
