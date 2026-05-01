@@ -1,4 +1,15 @@
 #profile-title: 🧑‍💻 Bavand 📶
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
-warp://8.34.70.82:988?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IR 🇮🇷&&detour=warp://188.114.98.54:7152#German 🇩🇪
+{
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "Server Down",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "method": "none",
+      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ]
+}
