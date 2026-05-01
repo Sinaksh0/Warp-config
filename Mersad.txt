@@ -5,28 +5,6 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "144.31.128.129",
-      "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ae.cdn.stun.su",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w",
-          "short_id": "41a0b29e95aaea87"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "217.13.104.154",
       "server_port": 443,
