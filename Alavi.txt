@@ -3,6 +3,112 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+  {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "77.75.199.43",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.111000.cc.cd",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "headers":         {
+          "Host": "sni.111000.cc.cd"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "8.6.112.0",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/%20@ProxyVPN11",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "104.17.72.206",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/%20@ProxyVPN11",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "82.202.249.3",
+      "server_port": 52006,
+      "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+      "flow": "xtls-rprx-vision-udp443",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cluster-russia-1.firstvideocdn.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "178.253.42.96",
+      "server_port": 443,
+      "uuid": "d428091c-e6eb-48f9-9a07-b44eb886ac90",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mydogcollections.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RsG53RnTZKpPwbKt0mnj3963DinwNFHpk3eWaHH6oG4",
+          "short_id": "653253254366"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "172.66.47.45",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "vless",
       "tag": "🇷🇺RU\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
@@ -71,7 +177,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇩🇪\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "104.20.5.134",
       "server_port": 443,
       "password": "mSzFVhUczD",
