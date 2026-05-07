@@ -27,28 +27,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺RU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.250.15.205",
-      "server_port": 443,
-      "uuid": "769d6219-be8b-400d-9dd7-bbec4cca3593",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "W79JZgWJdz5LZ3ZplqNDCzvb9G4YKEIZIJZb_c7Ddjc",
-          "short_id": "2094160d4e94f289"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "89.106.83.49",
       "server_port": 443,
