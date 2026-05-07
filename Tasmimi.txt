@@ -3,6 +3,112 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+  {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "77.75.199.43",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.111000.cc.cd",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "headers":         {
+          "Host": "sni.111000.cc.cd"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "8.6.112.0",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/%20@ProxyVPN11",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "104.17.72.206",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/%20@ProxyVPN11",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "82.202.249.3",
+      "server_port": 52006,
+      "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+      "flow": "xtls-rprx-vision-udp443",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cluster-russia-1.firstvideocdn.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf7\ud83c\uddfaRU\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "178.253.42.96",
+      "server_port": 443,
+      "uuid": "d428091c-e6eb-48f9-9a07-b44eb886ac90",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mydogcollections.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "RsG53RnTZKpPwbKt0mnj3963DinwNFHpk3eWaHH6oG4",
+          "short_id": "653253254366"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "172.66.47.45",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "vless",
       "tag": "🇷🇺RU\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
@@ -71,7 +177,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇩🇪\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "104.20.5.134",
       "server_port": 443,
       "password": "mSzFVhUczD",
@@ -104,71 +210,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "vpn.nnet.online",
-      "server_port": 443,
-      "uuid": "79d24ca6-8f75-4653-9a9c-2d4ee38f4b88",
-      "tls":       {
-        "enabled": true,
-        "server_name": "nnet.online",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/vless-tls",
-        "headers":         {
-          "Host": "nnet.online"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.13.227.118",
-      "server_port": 80,
-      "uuid": "8ce64662-f8b8-4955-bdf2-a55b821bc4aa",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-        "headers":         {
-          "Host": "......................................................................................()..........................................................................................................................................................................................................................................................."
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "193.46.81.207",
-      "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de.cdn.stun.su",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA",
-          "short_id": "4daa022e84f8edf2"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
