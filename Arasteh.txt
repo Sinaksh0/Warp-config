@@ -3,6 +3,105 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+   {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "104.20.63.52",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vip.yaml7.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "63.141.128.3",
+      "server_port": 443,
+      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
+      "tls":       {
+        "enabled": true,
+        "server_name": "qyi.fqjd663.ggff.net",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "headers":         {
+          "Host": "qyi.fqjd663.ggff.net"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "70.34.201.81",
+      "server_port": 443,
+      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.booking.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "Mm-d06LgjpLq_Y0aTRuf8cbueCumBku9r4ygFUGTE2o",
+          "short_id": "7b7c7376cba460cf"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddeaIE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "85.159.229.84",
+      "server_port": 443,
+      "uuid": "ee309de6-154b-45da-aa71-0a3a1ca97c1b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ogPhlqdcw50ySFPbrYeLT0_L2vFHDfwAuu1pIKboODY",
+          "short_id": "93"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude8005\uD83D\uDEE1\uFE0F",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "password": "humanity",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.multiplydose.com",
+        "insecure": true,
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/assignment",
+        "headers":         {
+          "Host": "www.multiplydose.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
