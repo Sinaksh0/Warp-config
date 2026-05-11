@@ -252,25 +252,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.18.32.47",
+      "server": "89.106.95.206",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "www.multiplydose.com",
-        "insecure": true,
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/assignment",
-        "headers":         {
-          "Host": "www.multiplydose.com"
+        "server_name": "www.apple.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+        "reality":         {
+          "enabled": true,
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
