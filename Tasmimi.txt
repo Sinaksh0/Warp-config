@@ -4,102 +4,39 @@
 {
   "outbounds": [
    {
+      "type": "vmess",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "5.188.190.252",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 1,
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.92.70.236",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "104.20.63.52",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
+      "server": "172.64.147.255",
       "server_port": 80,
-      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "uuid": "478cc26d-16b3-4fdd-be64-60d5a58c1622",
       "transport":       {
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "vip.yaml7.ggff.net"
+          "Host": "tt.andishehparenting.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "63.141.128.3",
-      "server_port": 443,
-      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
-      "tls":       {
-        "enabled": true,
-        "server_name": "qyi.fqjd663.ggff.net",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "headers":         {
-          "Host": "qyi.fqjd663.ggff.net"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "70.34.201.81",
-      "server_port": 443,
-      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.booking.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Mm-d06LgjpLq_Y0aTRuf8cbueCumBku9r4ygFUGTE2o",
-          "short_id": "7b7c7376cba460cf"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "password": "humanity",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.multiplydose.com",
-        "insecure": true,
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/assignment",
-        "headers":         {
-          "Host": "www.multiplydose.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "89.106.83.49",
-      "server_port": 443,
-      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
-        }
       },
       "packet_encoding": "xudp"
     },
