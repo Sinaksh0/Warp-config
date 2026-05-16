@@ -61,27 +61,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddeaIE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "85.159.229.84",
-      "server_port": 443,
-      "uuid": "ee309de6-154b-45da-aa71-0a3a1ca97c1b",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "ogPhlqdcw50ySFPbrYeLT0_L2vFHDfwAuu1pIKboODY",
-          "short_id": "93"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude8005\uD83D\uDEE1\uFE0F",
       "server": "104.18.32.47",
@@ -145,26 +124,6 @@
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "104.20.5.134",
-      "server_port": 443,
-      "password": "mSzFVhUczD",
-      "tls":       {
-        "enabled": true,
-        "server_name": "abest.api-tel.xyz",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "abest.api-tel.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
     },
     {
       "type": "shadowsocks",
