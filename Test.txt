@@ -4,159 +4,98 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\udde6[openproxylist.com] vless-CA-135",
-      "server": "195.133.79.154",
-      "server_port": 443,
-      "uuid": "78fc9ba9-9c68-4b49-891f-ea9e38bd3b56",
-      "tls": {
-        "enabled": true,
-        "server_name": "195.133.79.154",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=sjc.o00o.ooo",
-        "headers": {
-          "Host": "ak.suoni.nyc.mn"
-        }
-      },
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddee[openproxylist.com] vless-FI-123",
-      "server": "m61a.vip784.com",
-      "server_port": 33801,
-      "uuid": "4c8659ab-e49f-4db6-9a87-d0247e98f5ec",
-      "tls": {
-        "enabled": false,
-        "server_name": "m61a.vip784.com",
-        "insecure": false
-      },
-      "transport": {},
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\udded\ud83c\uddf0[openproxylist.com] trojan-HK-82",
-      "server": "58.152.25.20",
-      "server_port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": false,
-        "server_name": "t.me/ripaojiedian",
-        "insecure": false
-      },
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udff3[openproxylist.com] vless--77",
-      "server": "160.16.203.210",
-      "server_port": 443,
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
-        "enabled": false,
-        "server_name": "160.16.203.210",
-        "insecure": false
-      },
-      "transport": {},
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "79.127.200.162",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddea[openproxylist.com] ss-DE-2",
-      "server": "57.128.214.100",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg==",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde6\ud83c\uddea[openproxylist.com] ss-AE-127",
-      "server": "95.174.68.33",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YzH4id7ZEyKpfy39F2YcOmzCsBklGwh8",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf7\ud83c\uddfa[openproxylist.com] ss-RU-24",
-      "server": "95.163.226.50",
-      "server_port": 24589,
-      "method": "aes-256-gcm",
-      "password": "o0OBHZkTfgxaZQEdThYFU1YyuGWmLm9K5cIQ2kj4MiM=",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+      "tag": "\ud83c\uddf7\ud83c\uddf4RO\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "185.126.237.38",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1[openproxylist.com] vless-NL-21",
-      "server": "147.45.234.51",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
+      "server": "89.106.95.206",
       "server_port": 443,
-      "uuid": "fd0718a1-c463-4297-8ba9-a7f4b93ce436",
-      "tls": {
-        "enabled": false,
-        "server_name": "147.45.234.51",
-        "insecure": false
-      },
-      "transport": {},
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7[openproxylist.com] vless-FR-34",
-      "server": "norman.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
-      "tls": {
+      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
         "enabled": true,
-        "server_name": "norman.ns.cloudflare.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cahttingws",
-        "headers": {
-          "Host": "639001966559968893.yaris-amsiq.info"
+        "server_name": "www.apple.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
         }
       },
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udff3[openproxylist.com] vless--118",
-      "server": "167.179.27.92",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "63.141.128.3",
       "server_port": 443,
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "tls": {
+      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
+      "tls":       {
         "enabled": true,
-        "server_name": "167.179.27.92",
-        "insecure": false
+        "server_name": "qyi.fqjd663.ggff.net",
+        "alpn": "http/1.1"
       },
-      "transport": {
+      "transport":       {
         "type": "ws",
-        "path": "telegram\ud83c\udde8\ud83c\uddf3@wangcai2/?ed=2560",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
+        "headers":         {
+          "Host": "qyi.fqjd663.ggff.net"
         }
       },
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f"
+      "packet_encoding": "xudp"
     },
     {
-      "type": "wireguard",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
-      "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "162.159.192.15",
-      "server_port": 934,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1306
+      "type": "vmess",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "5.188.190.252",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 1,
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.92.70.236",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
+      "server": "172.64.147.255",
+      "server_port": 80,
+      "uuid": "478cc26d-16b3-4fdd-be64-60d5a58c1622",
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "tt.andishehparenting.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
