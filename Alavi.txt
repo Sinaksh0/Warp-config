@@ -63,26 +63,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "104.20.5.134",
-      "server_port": 443,
-      "password": "mSzFVhUczD",
-      "tls":       {
-        "enabled": true,
-        "server_name": "abest.api-tel.xyz",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "abest.api-tel.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇨🇦 CA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "79.127.200.162",
@@ -97,15 +77,6 @@
       "server_port": 989,
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Alavi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "37.19.198.236",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
     },
     {
       "type": "wireguard",
