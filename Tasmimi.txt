@@ -26,14 +26,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦CA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "79.127.200.162",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇷🇴RO\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "185.126.237.38",
       "server_port": 989,
