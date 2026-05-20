@@ -4,36 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80Testing\uD83D\uDEE1\uFE0F",
-      "server": "89.106.95.206",
-      "server_port": 443,
-      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 CA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "79.127.200.162",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇷🇴 RO\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "185.126.237.38",
