@@ -176,55 +176,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude8007\uD83D\uDEE1\uFE0F",
-      "server": "46.8.209.209",
-      "server_port": 443,
-      "uuid": "49d5cb20-c9ea-1811-80ed-0d95184cf62c",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "0gKl7TLTz-1qjLfuisoEwgkQ8SwfxlBeNWQ3SgLPiCg",
-          "short_id": "c1a7e9b4382d5f60"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf5\ud83c\uddf1PL\ud83d\ude8008\uD83D\uDEE1\uFE0F",
-      "server": "95.163.211.240",
-      "server_port": 8444,
-      "uuid": "91420e68-ba95-4eaf-8eeb-75f5ddc7ef05",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
-          "short_id": "7dbf7d3233971d5c"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
