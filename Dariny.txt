@@ -4,20 +4,64 @@
 {
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "89.163.140.136",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "93.123.84.128",
+      "server_port": 777,
+      "uuid": "c9424b66-67dd-4dbf-ddbc-752514cc04a5",
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱NL\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
-      "server": "109.201.152.181",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "46.101.196.138",
+      "server_port": 23243,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Q7cjiVD0oKNE2o9sUnZKQg"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "84.200.91.158",
       "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
+      "method": "aes-256-gcm",
+      "password": "c95cfcb4-5b88-4c83-9521-28ea58d595f6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "209.46.102.22",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1hhrqrokj3ag"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇷TR\ud83d\ude8005\uD83D\uDEE1\uFE0F",
+      "server": "5.188.190.252",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇹IT\ud83d\ude8006\uD83D\uDEE1\uFE0F",
+      "server": "45.92.70.236",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇦🇹AT\ud83d\ude8007\uD83D\uDEE1\uFE0F",
+      "server": "37.235.56.69",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
       "type": "shadowsocks",
