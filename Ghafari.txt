@@ -45,50 +45,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "158.160.17.171",
-      "server_port": 443,
-      "uuid": "8ba19c5f-1e86-4661-a8c2-71d5fc553de8",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "158.160.17.171",
-      "server_port": 443,
-      "uuid": "8ba19c5f-1e86-4661-a8c2-71d5fc553de8",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude8003\uD83D\uDEE1\uFE0F",
       "server": "83.217.220.27",
       "server_port": 50571,
