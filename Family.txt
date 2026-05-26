@@ -4,14 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "93.123.84.128",
-      "server_port": 777,
-      "uuid": "c9424b66-67dd-4dbf-ddbc-752514cc04a5",
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
       "server": "46.101.196.138",
@@ -56,14 +48,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇦🇹AT\ud83d\ude8007\uD83D\uDEE1\uFE0F",
-      "server": "37.235.56.69",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "193.168.197.76",
@@ -89,22 +73,6 @@
         "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱NL\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
-      "server": "89.163.140.136",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "shadowsocks",
