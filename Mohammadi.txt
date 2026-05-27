@@ -4,6 +4,16 @@
 {
   "outbounds": [
     {
+      "type": "vmess",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.144.54.183",
+      "server_port": 10097,
+      "uuid": "d5b36432-e168-4bc9-85cb-f68c9c22054a",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\ud83d\udee1\ufe0f",
       "server": "81.19.141.45",
