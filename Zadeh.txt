@@ -1,6 +1,6 @@
 #profile-title: base64:8J+nkeKAjfCfkrsgTW9oYW1tYWQgWmFkZWgg8J+UpQ==
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1780065000
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1785159000
 {
   "outbounds": [
     {
@@ -70,38 +70,6 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80MohammadZade\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "dns.dressforida.monster",
-      "server_port": 443,
-      "uuid": "79149019-5abe-46f9-91ae-e1e7d1d2c408",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.techradar.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8",
-          "short_id": "174c6cf22e22"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf2\ud83c\uddfdMX\ud83d\ude80MohammadZade\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "89.223.88.33",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7c31a67b41b18c26"
     },
     {
       "type": "vless",
