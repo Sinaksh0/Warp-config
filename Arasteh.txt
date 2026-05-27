@@ -4,16 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.144.54.183",
-      "server_port": 10097,
-      "uuid": "d5b36432-e168-4bc9-85cb-f68c9c22054a",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -101,21 +91,21 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "130.193.41.117",
-      "server_port": 8443,
-      "uuid": "d5e93ed9-2165-4f20-97a4-cec566d9a3db",
+      "server": "152.53.80.40",
+      "server_port": 443,
+      "uuid": "e6567a1e-260f-4b0e-8de3-e2e12f90e854",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "sha.helper-internet.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "f4b4a6365558ea2e"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       },
       "packet_encoding": "xudp"
