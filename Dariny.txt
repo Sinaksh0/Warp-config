@@ -5,14 +5,23 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇷TR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "213.142.132.75",
-      "server_port": 443,
-      "uuid": "53353c51-ab85-4f1d-b81c-d855a0cdeeba",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "130.193.41.117",
+      "server_port": 8443,
+      "uuid": "d5e93ed9-2165-4f20-97a4-cec566d9a3db",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
+          "short_id": "f4b4a6365558ea2e"
+        }
       },
       "packet_encoding": "xudp"
     },
