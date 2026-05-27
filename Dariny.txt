@@ -28,20 +28,12 @@
     {
       "type": "vmess",
       "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca",
-      "server_port": 80,
-      "uuid": "e2923bc6-8204-4768-98ea-379d48ea8a7a",
+      "server": "45.144.54.183",
+      "server_port": 10097,
+      "uuid": "d5b36432-e168-4bc9-85cb-f68c9c22054a",
       "security": "auto",
       "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/1awNzxRSwKsdkPVKP0ZQqlHjt10sp",
-        "headers":         {
-          "Host": "heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
