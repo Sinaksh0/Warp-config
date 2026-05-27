@@ -110,21 +110,21 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "130.193.41.117",
-      "server_port": 8443,
-      "uuid": "d5e93ed9-2165-4f20-97a4-cec566d9a3db",
+      "server": "152.53.80.40",
+      "server_port": 443,
+      "uuid": "e6567a1e-260f-4b0e-8de3-e2e12f90e854",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "sha.helper-internet.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "f4b4a6365558ea2e"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       },
       "packet_encoding": "xudp"
