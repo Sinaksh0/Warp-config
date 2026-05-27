@@ -4,6 +4,50 @@
 {
   "outbounds":   [
     {
+      "type": "vless",
+      "tag": "🇩🇪 Germany",
+      "server": "51.250.37.218",
+      "server_port": 443,
+      "uuid": "63abc197-ed06-4869-8616-b2a0025cf200",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "vyzsQLMRAuySJxAg0sNHXzgJuT8PGRakCay3rzUbT3k",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 The Netherlands",
+      "server": "158.160.130.173",
+      "server_port": 443,
+      "uuid": "bd34b3d5-1363-47ff-9c6e-4f281e0ee1da",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
