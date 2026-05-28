@@ -80,15 +80,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80Dariny\ud83d\udee1\ufe0f",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
-      "server": "149.22.87.204",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
       "type": "vless",
       "tag": "🇫🇮FI\ud83d\ude8001\uD83D\uDEE1\uFE0F",
       "server": "downlod.musicribvar.com",
