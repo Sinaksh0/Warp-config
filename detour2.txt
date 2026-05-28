@@ -4,6 +4,14 @@
 {
   "outbounds":   [
     {
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Mokhaberat\uD83D\uDEE1\uFE0F",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
+    },
+    {
       "type": "trojan",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -118,51 +126,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮FI\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "downlod.musicribvar.com",
-      "server_port": 45029,
-      "uuid": "01ef96b4-e7ec-4218-8ffe-a59e1cdfd836",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
-      "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
-      "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸ES\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "145.249.109.66",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude8005\uD83D\uDEE1\uFE0F",
       "server": "speedtest.net",
       "server_port": 80,
@@ -176,14 +139,6 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸US\ud83d\ude8006\uD83D\uDEE1\uFE0F",
-      "server": "142.93.73.182",
-      "server_port": 45389,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hk1SdyRWbYi3Igxeow9JdN"
     },
     {
       "type": "vless",
@@ -232,9 +187,9 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
-      "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
+      "server": "downlod.musicribvar.com",
+      "server_port": 45029,
+      "uuid": "01ef96b4-e7ec-4218-8ffe-a59e1cdfd836",
       "packet_encoding": "xudp"
     },
     {
