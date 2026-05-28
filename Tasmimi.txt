@@ -32,62 +32,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
-      "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
-      "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸ES\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "145.249.109.66",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "7903e1c8-13c7-4091-9a17-253bddad208e",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "Asaaabi.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇬🇧GB\ud83d\ude8007\uD83D\uDEE1\uFE0F",
       "server": "79.141.171.133",
       "server_port": 443,
