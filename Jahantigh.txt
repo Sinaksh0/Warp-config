@@ -82,24 +82,6 @@
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Jahantigh\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "176.126.83.158",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde8\ud83c\udde6CA-79.127.200.162:989\ud83d\ude80",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "79.127.200.162",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
       "type": "vless",
       "tag": "🇫🇮FI\ud83d\ude8001\uD83D\uDEE1\uFE0F",
       "server": "downlod.musicribvar.com",
