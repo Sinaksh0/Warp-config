@@ -33,6 +33,7 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "3.66.32.10",
       "server_port": 443,
       "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
@@ -41,6 +42,7 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "3.66.32.10",
       "server_port": 443,
       "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
@@ -49,6 +51,7 @@
     {
       "type": "vless",
       "tag": "🇪🇸ES\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "145.249.109.66",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
