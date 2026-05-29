@@ -73,30 +73,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "7903e1c8-13c7-4091-9a17-253bddad208e",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "Asaaabi.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸US\ud83d\ude8006\uD83D\uDEE1\uFE0F",
-      "server": "142.93.73.182",
-      "server_port": 45389,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hk1SdyRWbYi3Igxeow9JdN"
-    },
-    {
-      "type": "vless",
       "tag": "🇬🇧GB\ud83d\ude8007\uD83D\uDEE1\uFE0F",
       "server": "79.141.171.133",
       "server_port": 443,
@@ -130,12 +106,13 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "104.18.32.47",
+      "server": "104.17.121.129",
       "server_port": 2096,
-      "uuid": "0e0bd555-4d21-485c-90a4-bb0b497c002a",
+      "uuid": "6992f972-39ab-41e3-9d2e-39efc00ced3d",
       "tls":       {
         "enabled": true,
-        "server_name": "cOMpASSioNAte-INtEntIOnr55Et2c87l.carbONBLACKBMW.IR",
+        "server_name": "aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir",
+        "insecure": true,
         "alpn": "h2",
         "utls":         {
           "enabled": true,
@@ -144,7 +121,7 @@
       },
       "transport":       {
         "type": "grpc",
-        "service_name": "presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir",
+        "service_name": "alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
@@ -153,12 +130,12 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "104.18.32.47",
+      "server": "45.130.125.69",
       "server_port": 2096,
-      "uuid": "ac0517ac-af76-4436-bfa4-0a8b2b6bb433",
+      "uuid": "5e8c894b-1efa-48d4-85ee-9daf5d574c16",
       "tls":       {
         "enabled": true,
-        "server_name": "eVoLVIng-CHAnCeR6CS39rs25.caRBoNblAcKbMw.Ir",
+        "server_name": "bad-AppLicatIon22nBd8j5OK.CArBoNbLaCkBmw.Ir",
         "alpn": "h2",
         "utls":         {
           "enabled": true,
@@ -167,7 +144,7 @@
       },
       "transport":       {
         "type": "grpc",
-        "service_name": "fararu.com.parstoday.com.ilna.news.financialtribune.com.presstv.ir.jamejamonline.ir.alalamtv.net",
+        "service_name": "irannewsdaily.com.hamshahrionline.ir.irdiplomacy.ir.irandaily.ir.alef.ir.rajanews.com.irannewsdaily.com",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
