@@ -60,7 +60,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "🇩🇪DE\ud83d\ude80test\uD83D\uDEE1\uFE0F",
       "server": "104.18.32.47",
       "server_port": 2096,
       "uuid": "ac0517ac-af76-4436-bfa4-0a8b2b6bb433",
