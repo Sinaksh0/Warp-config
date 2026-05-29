@@ -147,6 +147,52 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "5.231.202.95",
+      "server_port": 443,
+      "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cloudrynth.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷FR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.154.96.35",
+      "server_port": 58035,
+      "password": "Tel=Arshiacomplus",
+      "tls":       {
+        "enabled": true,
+        "server_name": "oof.acp.us.ci",
+        "insecure": true,
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "stream-one",
+        "host": "oof.acp.us.ci",
+        "path": "/fkcidiekei"
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇳🇱NL\ud83d\ude8001\uD83D\uDEE1\uFE0F",
       "server": "162.217.249.74",
