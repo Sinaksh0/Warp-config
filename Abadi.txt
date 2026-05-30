@@ -66,12 +66,26 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "5.253.59.156",
-      "server_port": 32140,
-      "method": "chacha20-ietf-poly1305",
-      "password": "RNYRfU1LsnP2TV4q0bT4KJ"
+      "server": "51.250.17.80",
+      "server_port": 443,
+      "uuid": "f5b8bee8-ef00-4d25-aa7a-76ff42bbba8e",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
