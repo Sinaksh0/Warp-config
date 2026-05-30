@@ -23,63 +23,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇳🇱NL\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "162.217.249.74",
-      "server_port": 45705,
-      "uuid": "5678b00f-9ed6-4982-9f8a-1a7306e25126",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "104.17.121.129",
-      "server_port": 2096,
-      "uuid": "6992f972-39ab-41e3-9d2e-39efc00ced3d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir",
-        "insecure": true,
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "45.130.125.69",
-      "server_port": 2096,
-      "uuid": "5e8c894b-1efa-48d4-85ee-9daf5d574c16",
-      "tls":       {
-        "enabled": true,
-        "server_name": "bad-AppLicatIon22nBd8j5OK.CArBoNbLaCkBmw.Ir",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "irannewsdaily.com.hamshahrionline.ir.irdiplomacy.ir.irandaily.ir.alef.ir.rajanews.com.irannewsdaily.com",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
       "tag": "🇱🇺HU\ud83d\ude8004\uD83D\uDEE1\uFE0F",
       "server": "45.128.72.44",
       "server_port": 80,
@@ -94,18 +37,80 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇺🇸US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "172.237.145.189",
+      "server_port": 443,
+      "password": "A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM",
+      "tls":       {
+        "enabled": true,
+        "server_name": "172.237.145.189"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇨🇦CA\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "158.69.208.120",
+      "tag": "🇧🇦BA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.15.178.97",
       "server_port": 80,
-      "uuid": "bed62ee5-2b42-41b0-aeae-e95d043da869",
+      "uuid": "ec91b04e-cadc-47b3-bb0c-4fb762b33063",
       "security": "auto",
       "authenticated_length": true,
       "packet_encoding": "xudp",
       "transport":       {
         "type": "ws",
         "path": "/api/v1",
+        "headers":         {
+          "Host": "openai.com"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "5.253.59.156",
+      "server_port": 32140,
+      "method": "chacha20-ietf-poly1305",
+      "password": "RNYRfU1LsnP2TV4q0bT4KJ"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "91.233.8.138",
+      "server_port": 443,
+      "password": "qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.homelywebs.click",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷FR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.154.96.35",
+      "server_port": 58035,
+      "password": "Tel=Arshiacomplus",
+      "tls":       {
+        "enabled": true,
+        "server_name": "oof.acp.us.ci",
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "stream-one",
+        "host": "oof.acp.us.ci",
+        "path": "/fkcidiekei"
       }
     },
     {
