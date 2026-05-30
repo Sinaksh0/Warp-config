@@ -80,109 +80,81 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
+      "type": "trojan",
+      "tag": "🇺🇸US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "172.237.145.189",
       "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "3.66.32.10",
-      "server_port": 443,
-      "uuid": "d4305704-a108-4ce0-8ef0-66076e6227e9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸ES\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "145.249.109.66",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
-      "flow": "xtls-rprx-vision",
+      "password": "A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM",
       "tls":       {
         "enabled": true,
-        "server_name": "www.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "172.237.145.189"
+      }
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "speedtest.net",
+      "type": "vmess",
+      "tag": "🇧🇦BA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.15.178.97",
       "server_port": 80,
-      "uuid": "7903e1c8-13c7-4091-9a17-253bddad208e",
+      "uuid": "ec91b04e-cadc-47b3-bb0c-4fb762b33063",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/api/v1",
         "headers":         {
-          "Host": "Asaaabi.global.ssl.fastly.net"
+          "Host": "openai.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸US\ud83d\ude8006\uD83D\uDEE1\uFE0F",
-      "server": "142.93.73.182",
-      "server_port": 45389,
+      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "5.253.59.156",
+      "server_port": 32140,
       "method": "chacha20-ietf-poly1305",
-      "password": "hk1SdyRWbYi3Igxeow9JdN"
+      "password": "RNYRfU1LsnP2TV4q0bT4KJ"
     },
     {
-      "type": "vless",
-      "tag": "🇬🇧GB\ud83d\ude8007\uD83D\uDEE1\uFE0F",
-      "server": "79.141.171.133",
+      "type": "trojan",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "91.233.8.138",
       "server_port": 443,
-      "uuid": "4c3fe585-ac09-41df-b284-888818888188",
-      "flow": "xtls-rprx-vision",
+      "password": "qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq",
       "tls":       {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "www.homelywebs.click",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M",
-          "short_id": "aabbccdd"
         }
-      },
-      "packet_encoding": "xudp"
+      }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇱AT\ud83d\ude8008\uD83D\uDEE1\uFE0F",
-      "server": "cdn.cdnjst.org",
-      "server_port": 443,
-      "uuid": "ae852d97-85f5-45cf-82a4-254eba345480",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇫🇷FR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "45.154.96.35",
+      "server_port": 58035,
+      "password": "Tel=Arshiacomplus",
       "tls":       {
         "enabled": true,
-        "server_name": "cdn.cdnjst.org",
+        "server_name": "oof.acp.us.ci",
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc",
-          "short_id": "a120"
+          "fingerprint": "firefox"
         }
       },
-      "packet_encoding": "xudp"
+      "transport":       {
+        "type": "xhttp",
+        "mode": "stream-one",
+        "host": "oof.acp.us.ci",
+        "path": "/fkcidiekei"
+      }
     },
     {
       "type": "vless",
