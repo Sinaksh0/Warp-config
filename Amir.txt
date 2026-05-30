@@ -4,14 +4,41 @@
 {
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.144.54.183",
-      "server_port": 10097,
-      "uuid": "d5b36432-e168-4bc9-85cb-f68c9c22054a",
-      "security": "auto",
-      "authenticated_length": true,
+      "type": "vless",
+      "tag": "🇸🇪SE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "31.22.91.203",
+      "server_port": 443,
+      "uuid": "9115a864-e303-49bb-8f2d-ab62a884a364",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vega.relead.org",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "qTfZpilVyQrFDIgxmEsd18Ph3c_-8O-R_af4o_WQ_Tg",
+          "short_id": "f74c6a18133e2e72"
+        }
+      },
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪DE\ud83d\ude80test\uD83D\uDEE1\uFE0F",
+      "server": "91.233.8.116",
+      "server_port": 443,
+      "password": "d-VoBikwImgO9HMG7YWANlh=QNlHzjK32P",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fra116.plasmaapp.click",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "shadowsocks",
