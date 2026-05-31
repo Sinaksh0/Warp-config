@@ -148,10 +148,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.213.20.110",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
+      "server": "51.75.168.50",
+      "server_port": 26179,
+      "method": "chacha20-ietf-poly1305",
+      "password": "78b6e93e54225803"
     },
     {
       "type": "shadowsocks",
