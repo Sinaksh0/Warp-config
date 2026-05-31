@@ -66,66 +66,58 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "51.250.17.80",
+      "server": "185.18.54.70",
+      "server_port": 31348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MPS4QxIySO20yGnFTGEbyYTOwd2HlEmcC0ksqogxZtLyLYRl"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "212.100.171.194",
+      "server_port": 48862,
+      "uuid": "da9f6ce2-aaba-47dd-be50-5afd17331fd9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "vip9.myspacex.shop",
       "server_port": 443,
-      "uuid": "f5b8bee8-ef00-4d25-aa7a-76ff42bbba8e",
+      "method": "chacha20-ietf-poly1305",
+      "password": "YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr"
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱NL\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "81.29.156.195",
+      "server_port": 443,
+      "uuid": "731d5e57-4511-4abe-ab01-ec66eb52d6e9",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "www.microsoft.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "hikHYegxR1O_sGzFctGkQQEz5G8CZrdXxHSidEqSCh0",
+          "short_id": "a8cb02a2dffa"
         }
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "91.233.8.138",
-      "server_port": 443,
-      "password": "qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.homelywebs.click",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷FR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.154.96.35",
-      "server_port": 58035,
-      "password": "Tel=Arshiacomplus",
-      "tls":       {
-        "enabled": true,
-        "server_name": "oof.acp.us.ci",
-        "alpn":         [
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "stream-one",
-        "host": "oof.acp.us.ci",
-        "path": "/fkcidiekei"
-      }
+      "type": "shadowsocks",
+      "tag": "🇮🇹IT\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "it5.taskflowhub.org",
+      "server_port": 2083,
+      "method": "aes-256-gcm",
+      "password": "34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0="
     },
     {
       "type": "shadowsocks",
