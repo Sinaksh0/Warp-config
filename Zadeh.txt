@@ -12,6 +12,60 @@
       "password": "shadowsocks"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "185.18.54.70",
+      "server_port": 31348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MPS4QxIySO20yGnFTGEbyYTOwd2HlEmcC0ksqogxZtLyLYRl"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "212.100.171.194",
+      "server_port": 48862,
+      "uuid": "da9f6ce2-aaba-47dd-be50-5afd17331fd9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "vip9.myspacex.shop",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr"
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱NL\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "81.29.156.195",
+      "server_port": 443,
+      "uuid": "731d5e57-4511-4abe-ab01-ec66eb52d6e9",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "hikHYegxR1O_sGzFctGkQQEz5G8CZrdXxHSidEqSCh0",
+          "short_id": "a8cb02a2dffa"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹IT\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "it5.taskflowhub.org",
+      "server_port": 2083,
+      "method": "aes-256-gcm",
+      "password": "34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0="
+    },
+    {
       "type": "trojan",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80MohammadZade\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
