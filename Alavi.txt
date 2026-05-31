@@ -1,4 +1,4 @@
-#profile-title: base64:8J+nkeKAjfCfkrsgQWxhdmkgWmFkZWgncyBGYW1pbHkgU2VydmVyIPCflKU=
+#profile-title: 🧑‍💻 اشتراک شما هر ساعت در حال آپدیت می‌باشد. هر روز صبح کانفیگ های جدیدی اعمال خواهد شد، پس هر روز لطفا تست کنید تا پایداری شرایط 🔥
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
