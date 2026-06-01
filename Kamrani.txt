@@ -109,124 +109,56 @@
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "172.237.145.189",
+      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "172.238.120.124",
       "server_port": 443,
-      "password": "A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM",
+      "password": "r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ",
       "tls":       {
         "enabled": true,
-        "server_name": "172.237.145.189"
+        "server_name": "172.238.120.124",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇧🇦BA\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.15.178.97",
-      "server_port": 80,
-      "uuid": "ec91b04e-cadc-47b3-bb0c-4fb762b33063",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/api/v1",
-        "headers":         {
-          "Host": "openai.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "type": "shadowsocks",
+      "tag": "🇫🇷FR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "51.254.128.106",
+      "server_port": 2083,
+      "method": "aes-256-gcm",
+      "password": "FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹IT\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "185.213.20.110",
+      "server_port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
     },
     {
       "type": "vless",
-      "tag": "🇸🇪SE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "31.22.91.203",
-      "server_port": 443,
-      "uuid": "9115a864-e303-49bb-8f2d-ab62a884a364",
+      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "144.31.233.236",
+      "server_port": 9443,
+      "uuid": "b54d36d1-43c3-4b8f-a5f8-cf6504db0562",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "vega.relead.org",
+        "server_name": "apple.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "qTfZpilVyQrFDIgxmEsd18Ph3c_-8O-R_af4o_WQ_Tg",
-          "short_id": "f74c6a18133e2e72"
+          "public_key": "MbYR2O0XBSeG74gGYpFIofXsILcf5lG2gc36GyURBXQ",
+          "short_id": "0199436dd359351b"
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪DE\ud83d\ude80test\uD83D\uDEE1\uFE0F",
-      "server": "91.233.8.116",
-      "server_port": 443,
-      "password": "d-VoBikwImgO9HMG7YWANlh=QNlHzjK32P",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fra116.plasmaapp.click",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "91.233.8.138",
-      "server_port": 443,
-      "password": "qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.homelywebs.click",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷FR\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.154.96.35",
-      "server_port": 58035,
-      "password": "Tel=Arshiacomplus",
-      "tls":       {
-        "enabled": true,
-        "server_name": "oof.acp.us.ci",
-        "alpn":         [
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "stream-one",
-        "host": "oof.acp.us.ci",
-        "path": "/fkcidiekei"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇱🇺HU\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "45.128.72.44",
-      "server_port": 80,
-      "uuid": "a2170d39-140a-47f9-85b8-084078856c36",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/api/v1",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
     },
     {
       "type": "shadowsocks",
