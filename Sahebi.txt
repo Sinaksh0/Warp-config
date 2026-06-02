@@ -64,6 +64,37 @@
     },
     {
       "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Sahebi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "152.233.35.228",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de1.fromblancwithlove.com"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Sahebi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "92.118.112.203",
+      "server_port": 41348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "66iAPUHyyA3YxBb3DmloTuArM0IiPeY2HCoH3m"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Sahebi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "109.107.182.229",
+      "server_port": 51544,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MZeSTvpl2uoey1R0frhPyJ"
+    },
+    {
+      "type": "vless",
       "tag": "🇲🇩MD\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "193.233.202.1",
       "server_port": 443,
