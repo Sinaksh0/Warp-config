@@ -54,7 +54,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "144.31.233.236",
       "server_port": 9443,
       "uuid": "b54d36d1-43c3-4b8f-a5f8-cf6504db0562",
@@ -75,12 +75,34 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "88.218.120.60",
+      "server_port": 4443,
+      "uuid": "41b903e0-7d0a-45d0-9b29-83086024a88b",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni4.streisand.lt",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "-psPIZaOXQOuX1O1BpZ0_zyXEvx1YwW6ouBIkYGb2Dg",
+          "short_id": "612d8fa72c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.75.168.50",
-      "server_port": 26179,
-      "method": "chacha20-ietf-poly1305",
-      "password": "78b6e93e54225803"
+      "server": "185.213.20.110",
+      "server_port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
     },
     {
       "type": "shadowsocks",
