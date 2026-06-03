@@ -31,77 +31,56 @@
       "password": "shadowsocks"
     },
     {
+      "type": "vless",
+      "tag": "🇬🇧GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "178.62.87.183",
+      "server_port": 27774,
+      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "trojan",
-      "tag": "🇺🇸US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "172.237.145.189",
+      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "172.236.220.10",
       "server_port": 443,
-      "password": "A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM",
+      "password": "s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui",
       "tls":       {
-        "enabled": true,
-        "server_name": "172.237.145.189"
+        "enabled": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca",
+      "server_port": 80,
+      "uuid": "e2923bc6-8204-4768-98ea-379d48ea8a7a",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/1awNzxRSwKsdkPVKP0ZQqlHjt10sp",
+        "headers":         {
+          "Host": "heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "185.18.54.70",
-      "server_port": 31348,
+      "tag": "🇩🇪DE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "57.129.121.230",
+      "server_port": 10443,
       "method": "chacha20-ietf-poly1305",
-      "password": "MPS4QxIySO20yGnFTGEbyYTOwd2HlEmcC0ksqogxZtLyLYRl"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "212.100.171.194",
-      "server_port": 48862,
-      "uuid": "da9f6ce2-aaba-47dd-be50-5afd17331fd9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "vip9.myspacex.shop",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "81.29.156.195",
-      "server_port": 443,
-      "uuid": "731d5e57-4511-4abe-ab01-ec66eb52d6e9",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "hikHYegxR1O_sGzFctGkQQEz5G8CZrdXxHSidEqSCh0",
-          "short_id": "a8cb02a2dffa"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹IT\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "it5.taskflowhub.org",
-      "server_port": 2083,
-      "method": "aes-256-gcm",
-      "password": "34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0="
+      "password": "uROuEqsL8IUMMVb4wDwnGU"
     },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.75.168.50",
-      "server_port": 26179,
-      "method": "chacha20-ietf-poly1305",
-      "password": "78b6e93e54225803"
+      "server": "49.13.3.249",
+      "server_port": 23997,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "dyL+KqX8hIMn+UyADwSJOPm72A0A83TsDOFXBn6I2mA="
     },
     {
       "type": "shadowsocks",
