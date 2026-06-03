@@ -94,27 +94,6 @@
       "password": "MZeSTvpl2uoey1R0frhPyJ"
     },
     {
-      "type": "vless",
-      "tag": "🇲🇩MD\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "193.233.202.1",
-      "server_port": 443,
-      "uuid": "838e036b-f229-480b-b0ef-86b1dc711add",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE",
-          "short_id": "87ab"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "trojan",
       "tag": "🇩🇪DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "172.238.120.124",
