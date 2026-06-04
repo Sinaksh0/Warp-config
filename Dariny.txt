@@ -64,28 +64,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭CH\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "179.237.73.24",
-      "server_port": 51363,
-      "uuid": "043c4eff-0999-4a90-9090-5eb206709c92",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ws.nobitex.ir",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "v60GzauxQqusqymc8-6wOSyYtq6hyitBxPvqVs_IQCw",
-          "short_id": "fbe96c540c2005"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇭🇺HU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "cdn7-09.vk-cdnvideo.com",
       "server_port": 8443,
@@ -132,55 +110,23 @@
     },
     {
       "type": "vless",
-      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "62.238.32.25",
-      "server_port": 443,
-      "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yastatic.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc",
-          "short_id": "5e841fab"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "Testing\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "62.238.32.25",
-      "server_port": 443,
-      "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yastatic.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc",
-          "short_id": "5e841fab"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.168.30.161",
-      "server_port": 443,
-      "uuid": "7131f38f-9a4a-4e38-ae1d-aa9e132265ea",
+      "server": "179.237.73.24",
+      "server_port": 51363,
+      "uuid": "043c4eff-0999-4a90-9090-5eb206709c92",
       "tls":       {
         "enabled": true,
-        "server_name": "proxy.wastech.org"
+        "server_name": "ws.nobitex.ir",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "v60GzauxQqusqymc8-6wOSyYtq6hyitBxPvqVs_IQCw",
+          "short_id": "fbe96c540c2005"
+        }
       },
       "packet_encoding": "xudp"
     },
