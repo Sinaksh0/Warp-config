@@ -27,14 +27,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.107.191.12",
-      "server_port": 29376,
-      "uuid": "03bc875d-0d8e-49b6-9094-89a8159e65ee",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇭🇺HU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "cdn7-09.vk-cdnvideo.com",
       "server_port": 8443,
@@ -132,12 +124,58 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "62.238.32.25",
+      "server_port": 443,
+      "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yastatic.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc",
+          "short_id": "5e841fab"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Testing\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "62.238.32.25",
+      "server_port": 443,
+      "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
+      "tls":       {
+        "enabled": true,
+        "server_name": "yastatic.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc",
+          "short_id": "5e841fab"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "49.13.3.249",
-      "server_port": 23997,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "dyL+KqX8hIMn+UyADwSJOPm72A0A83TsDOFXBn6I2mA="
+      "server": "104.168.30.161",
+      "server_port": 443,
+      "uuid": "7131f38f-9a4a-4e38-ae1d-aa9e132265ea",
+      "tls":       {
+        "enabled": true,
+        "server_name": "proxy.wastech.org"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
