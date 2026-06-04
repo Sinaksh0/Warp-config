@@ -112,14 +112,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "49.13.3.249",
-      "server_port": 23997,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "dyL+KqX8hIMn+UyADwSJOPm72A0A83TsDOFXBn6I2mA="
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "49.13.3.249",
       "server_port": 23997,
