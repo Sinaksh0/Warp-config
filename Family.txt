@@ -80,15 +80,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "170.130.40.123",
-      "server_port": 41352,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cCrMWDWKbz9cBhHEl6A7rwBXpaKky915FTRu1q"
-    },
-    {
       "type": "trojan",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
