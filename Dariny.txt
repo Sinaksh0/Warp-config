@@ -71,12 +71,46 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "46.229.243.69",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn7-39.vk-cdnvideo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "149.28.255.6",
-      "server_port": 816,
-      "method": "chacha20-ietf-poly1305",
-      "password": "GyZ5Xo0ht41vYmW3H4"
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "b51ecb4d-40f5-4a01-9d6b-d7c5e3878150",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sabrina.lezzatcore.ir",
+        "alpn":         [
+          "h2",
+          "http/1.1"
+        ],
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "sabrina.lezzatcore.ir",
+        "path": "/"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
