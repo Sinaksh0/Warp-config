@@ -164,7 +164,15 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf8\ud83c\uddf0SK\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "206.189.20.90",
+      "server_port": 27774,
+      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "b51ecb4d-40f5-4a01-9d6b-d7c5e3878150",
@@ -187,22 +195,6 @@
         "path": "/"
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddf0SK\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "206.189.20.90",
-      "server_port": 27774,
-      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "de5.taskflowhub.org",
-      "server_port": 2083,
-      "method": "aes-256-gcm",
-      "password": "7NuB0Y5m3aNzkKMKlFoMwkiajsu6F36c9ok4VKEZnB4="
     },
     {
       "type": "shadowsocks",
