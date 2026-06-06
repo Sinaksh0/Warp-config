@@ -4,31 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Ghafari\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.calmloud.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/assignment",
-        "headers":         {
-          "Host": "www.calmloud.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Ghafari\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -98,30 +73,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.130.125.194",
-      "server_port": 8443,
-      "uuid": "26e2b8e8-45d6-43fa-aec9-10f9ce8f7e68",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ssd.mojaz-persian-music.ir",
-        "alpn":         [
-          "h3",
-          "h2"
-        ]
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/?ed=2053",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000",
-        "scMinPostsIntervalMs": "30-30"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "188.114.97.6",
       "server_port": 443,
@@ -144,14 +95,6 @@
         "host": "sabrina.lezzatcore.ir",
         "path": "/"
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddf0SK\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "206.189.20.90",
-      "server_port": 27774,
-      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
       "packet_encoding": "xudp"
     },
     {
