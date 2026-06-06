@@ -98,7 +98,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7DE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "45.130.125.194",
       "server_port": 8443,
       "uuid": "26e2b8e8-45d6-43fa-aec9-10f9ce8f7e68",
