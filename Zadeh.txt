@@ -4,31 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80MohammadZade\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.calmloud.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/assignment",
-        "headers":         {
-          "Host": "www.calmloud.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80MohammadZade\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -73,30 +48,44 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.107.191.12",
-      "server_port": 29376,
-      "uuid": "03bc875d-0d8e-49b6-9094-89a8159e65ee",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "144.31.233.236",
-      "server_port": 9443,
-      "uuid": "b54d36d1-43c3-4b8f-a5f8-cf6504db0562",
+      "tag": "🇱🇻LV\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "83.229.14.251",
+      "server_port": 58888,
+      "uuid": "7283d2d5-7b14-431b-9d1f-96f2dac4a97b",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "max.ru",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "MbYR2O0XBSeG74gGYpFIofXsILcf5lG2gc36GyURBXQ",
-          "short_id": "0199436dd359351b"
+          "public_key": "5rarCwWIE6vDLCyip5C66PYDsm7ETZ9V4LQR34dfuGA",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "51.250.108.162",
+      "server_port": 443,
+      "uuid": "4b1bdbb9-178d-416e-8695-872be0b15c1b",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       },
       "packet_encoding": "xudp"
@@ -104,10 +93,10 @@
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "149.28.255.6",
-      "server_port": 816,
-      "method": "chacha20-ietf-poly1305",
-      "password": "GyZ5Xo0ht41vYmW3H4"
+      "server": "de5.taskflowhub.org",
+      "server_port": 2083,
+      "method": "aes-256-gcm",
+      "password": "7NuB0Y5m3aNzkKMKlFoMwkiajsu6F36c9ok4VKEZnB4="
     },
     {
       "type": "shadowsocks",
