@@ -23,41 +23,45 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddf0SK\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "46.229.243.69",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "tag": "🇱🇻LV\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "83.229.14.251",
+      "server_port": 58888,
+      "uuid": "7283d2d5-7b14-431b-9d1f-96f2dac4a97b",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "cdn7-39.vk-cdnvideo.com",
+        "server_name": "max.ru",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "5rarCwWIE6vDLCyip5C66PYDsm7ETZ9V4LQR34dfuGA",
+          "short_id": "6ba85179e30d4fc2"
         }
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "45.130.125.194",
-      "server_port": 8443,
-      "uuid": "26e2b8e8-45d6-43fa-aec9-10f9ce8f7e68",
+      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "51.250.108.162",
+      "server_port": 443,
+      "uuid": "4b1bdbb9-178d-416e-8695-872be0b15c1b",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "ssd.mojaz-persian-music.ir",
-        "alpn":         [
-          "h3",
-          "h2"
-        ]
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/?ed=2053",
-        "xPaddingBytes": "100-1000",
-        "scMaxEachPostBytes": "1000000-1000000",
-        "scMinPostsIntervalMs": "30-30"
+        "server_name": "cdp.x5.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
       },
       "packet_encoding": "xudp"
     },
@@ -85,14 +89,6 @@
         "host": "sabrina.lezzatcore.ir",
         "path": "/"
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddf0SK\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "206.189.20.90",
-      "server_port": 27774,
-      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
       "packet_encoding": "xudp"
     },
     {
