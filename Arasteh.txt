@@ -99,28 +99,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇻LV\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "83.229.14.251",
-      "server_port": 58888,
-      "uuid": "7283d2d5-7b14-431b-9d1f-96f2dac4a97b",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "5rarCwWIE6vDLCyip5C66PYDsm7ETZ9V4LQR34dfuGA",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "52.14.47.44",
       "server_port": 443,
