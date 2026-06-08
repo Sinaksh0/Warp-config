@@ -23,45 +23,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇻LV\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "83.229.14.251",
-      "server_port": 58888,
-      "uuid": "7283d2d5-7b14-431b-9d1f-96f2dac4a97b",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "5rarCwWIE6vDLCyip5C66PYDsm7ETZ9V4LQR34dfuGA",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "52.14.47.44",
+      "server_port": 443,
+      "uuid": "0c61d46d-4c4d-421b-b0fb-d211415da368",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.250.108.162",
+      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "199.232.78.158",
       "server_port": 443,
-      "uuid": "4b1bdbb9-178d-416e-8695-872be0b15c1b",
-      "flow": "xtls-rprx-vision",
+      "uuid": "b4a00211-ae46-49bc-8f36-0c4425eb7e86",
       "tls":       {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "default.ssl.fastly.net",
+        "insecure": true,
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "fingerprint": "chrome"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "nesfsheshab.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
