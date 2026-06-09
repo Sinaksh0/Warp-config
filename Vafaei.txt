@@ -32,62 +32,52 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "52.14.47.44",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "2.26.88.109",
       "server_port": 443,
-      "uuid": "0c61d46d-4c4d-421b-b0fb-d211415da368",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "199.232.78.158",
-      "server_port": 443,
-      "uuid": "b4a00211-ae46-49bc-8f36-0c4425eb7e86",
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net",
-        "insecure": true,
-        "alpn": "http/1.1",
+        "server_name": "google.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "nesfsheshab.global.ssl.fastly.net"
+          "fingerprint": "random"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8"
+        }
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "b51ecb4d-40f5-4a01-9d6b-d7c5e3878150",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "137.184.218.169",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "sabrina.lezzatcore.ir",
-        "alpn":         [
-          "h2",
-          "http/1.1"
-        ],
+        "server_name": "www.cloudflare.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
         }
       },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "host": "sabrina.lezzatcore.ir",
-        "path": "/"
-      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "18.192.50.101",
+      "server_port": 443,
+      "uuid": "3f3bb5cc-da8b-4551-8b76-ba223f1a5255",
       "packet_encoding": "xudp"
     },
     {
