@@ -5,45 +5,53 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "52.14.47.44",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "2.26.88.109",
       "server_port": 443,
-      "uuid": "0c61d46d-4c4d-421b-b0fb-d211415da368",
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8"
+        }
+      },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "199.232.78.158",
-      "server_port": 443,
-      "uuid": "b4a00211-ae46-49bc-8f36-0c4425eb7e86",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "137.184.218.169",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net",
-        "insecure": true,
-        "alpn": "http/1.1",
+        "server_name": "www.cloudflare.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "nesfsheshab.global.ssl.fastly.net"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
+        }
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "49.13.3.249",
-      "server_port": 23997,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "dyL+KqX8hIMn+UyADwSJOPm72A0A83TsDOFXBn6I2mA="
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "18.192.50.101",
+      "server_port": 443,
+      "uuid": "3f3bb5cc-da8b-4551-8b76-ba223f1a5255",
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
