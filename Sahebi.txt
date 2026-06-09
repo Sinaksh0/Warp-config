@@ -4,6 +4,14 @@
 {
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Pars-Online\uD83D\uDEE1\uFE0F",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Sahebi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
