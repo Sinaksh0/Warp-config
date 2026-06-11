@@ -3,7 +3,7 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1783780200
 {
   "outbounds": [
-{
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
       "server": "51.105.29.64",
@@ -71,14 +71,6 @@
         "enabled": true,
         "alpn": "h2"
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "18.192.50.101",
-      "server_port": 443,
-      "uuid": "3f3bb5cc-da8b-4551-8b76-ba223f1a5255",
       "packet_encoding": "xudp"
     },
     {
