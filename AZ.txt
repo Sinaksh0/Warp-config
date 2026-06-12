@@ -3,7 +3,7 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-        {
+    {
       "type": "shadowsocks",
       "tag": "🇩🇪DE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
       "server": "de5.taskflowhub.org",
