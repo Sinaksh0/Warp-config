@@ -4,6 +4,36 @@
 {
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇩🇪DE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "de5.taskflowhub.org",
+      "server_port": 2083,
+      "method": "aes-256-gcm",
+      "password": "7NuB0Y5m3aNzkKMKlFoMwkiajsu6F36c9ok4VKEZnB4="
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "51.250.24.222",
+      "server_port": 443,
+      "uuid": "8aa64877-757b-4473-a801-67aac8dacfea",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "vless",
       "tag": "🇭🇺HU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "cdn7-09.vk-cdnvideo.com",
