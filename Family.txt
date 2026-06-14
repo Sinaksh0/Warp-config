@@ -173,28 +173,12 @@
       "password": "shadowsocks"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "188.137.228.168",
-      "server_port": 2128,
-      "uuid": "b584cbe7-afcc-4202-9543-988509022bd6",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "alpn":         [
-          "h2",
-          "http/1.1"
-        ],
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "m2Rd8UuC1Jazs7D-BMD1EM0vmisK06jC30yhp5ZCSlk",
-          "short_id": "a48c59a382c99e17"
-        }
-      }
+      "server": "38.135.24.131",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hbGrpfvNrJsUmKmPbR3iY2"
     },
     {
       "type": "shadowsocks",
