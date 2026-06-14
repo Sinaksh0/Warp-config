@@ -5,127 +5,97 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "cdn9-33.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "cdn9-33.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "cdn9-33.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "cdn9-33.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "51.250.104.246",
+      "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "194.110.207.6",
       "server_port": 443,
-      "uuid": "284c40b1-57ce-45f0-ac68-f9eff0ad9168",
+      "uuid": "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude8006\uD83D\uDEE1\uFE0F",
-      "server": "51.250.104.246",
-      "server_port": 443,
-      "uuid": "6daec8ea-4942-4add-92ad-6aadc1e5265c",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪SE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "5.42.125.56",
-      "server_port": 48122,
-      "uuid": "1c4b5d77-55f2-43c5-87d3-e0ca85e65e43",
-      "tls":       {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "alpn": "h2",
+        "server_name": "no.buycloud.app",
         "utls":         {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "PCU69waUfuJ8OxxzpPshejuQ6ghqoMMDjqOdhD0IXjQ",
-          "short_id": "4448e9"
+          "public_key": "7wLv5M4GZGhqMAGVj9zdHyW-RrSRdrYAu1Aaqa8N1nY",
+          "short_id": "9d84de9d9f7b85e9"
         }
-      },
-      "transport":       {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇸US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "38.135.24.131",
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "143.14.50.100",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hbGrpfvNrJsUmKmPbR3iY2"
+      "uuid": "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "se.buycloud.app",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "91j4nGhBDQYcZP0AHXJgu1jnrFNRp27DIhN0Verhfhw",
+          "short_id": "9173fac97e931bcf"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "888275.nl01-cherry.online",
+      "server_port": 8449,
+      "password": "efe3901e-b309-43f3-843a-f4f871670cf3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sni.nl01-cherry.online"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "cdn3-87.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "tls":       {
+        "enabled": true
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "152.233.35.228",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de1.fromblancwithlove.com"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "38.91.107.49",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
