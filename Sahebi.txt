@@ -94,6 +94,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "t12.farafile.com",
+      "server_port": 1051,
+      "uuid": "b56a960b-b053-4935-8e34-b14b93696067",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.aparat.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "uC_vpKSxyTT6d_ZSpfNnT7LcK3_wUwW8ucfd4SDigEw",
+          "short_id": "48cc70c6ffa6e35f"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "zorovpn.opik.net",
       "server_port": 50420,
