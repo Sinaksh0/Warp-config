@@ -4,6 +4,14 @@
 {
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
+      "server": "108.181.58.239",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "CJmTCCx7Ltud"
+    },
+    {
       "type": "vless",
       "tag": "🇭🇺HU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "cdn7-09.vk-cdnvideo.com",
