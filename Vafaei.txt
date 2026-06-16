@@ -23,7 +23,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "888275.nl01-cherry.online",
       "server_port": 8449,
@@ -48,7 +48,7 @@
     },
     {
       "type": "vmess",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "38.91.107.49",
       "server_port": 18000,
@@ -59,7 +59,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.213.20.110",
       "server_port": 7001,
