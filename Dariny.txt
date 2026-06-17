@@ -170,7 +170,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f1",
+      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
