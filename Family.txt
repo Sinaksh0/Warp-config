@@ -3,22 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
-      "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "203.202.232.11",
-      "server_port": 36068,
-      "uuid": "ZoRoVpN",
-      "transport":       {
-        "type": "ws",
-        "path": "/ZoRoVpn",
-        "headers":         {
-          "Host": "Play.google.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
@@ -156,22 +140,37 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "zorovpn.opik.net",
-      "server_port": 50420,
-      "uuid": "ZoRoVpN",
+      "tag": "🇸🇪SE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "79.127.249.196",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
       "tls":       {
         "enabled": true,
-        "server_name": "www.yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "WmB10FrLwg_rM6bDUYibXOOWv2fWGzwrz_Ju-8ld9XA",
-          "short_id": "313a51"
-        }
+        "server_name": "ams1.fromblancwithlove.com"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪SE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "79.127.249.200",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "79.127.249.206",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com"
       },
       "packet_encoding": "xudp"
     },
