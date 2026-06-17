@@ -71,23 +71,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MohammadZade\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "172.64.146.27",
-      "server_port": 80,
-      "uuid": "478cc26d-16b3-4fdd-be64-60d5a58c1622",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "tt.andishehparenting.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "2.26.88.109",
       "server_port": 443,
@@ -127,26 +110,6 @@
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "t12.farafile.com",
-      "server_port": 1051,
-      "uuid": "b56a960b-b053-4935-8e34-b14b93696067",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.aparat.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "uC_vpKSxyTT6d_ZSpfNnT7LcK3_wUwW8ucfd4SDigEw",
-          "short_id": "48cc70c6ffa6e35f"
-        }
-      }
     },
     {
       "type": "vless",
