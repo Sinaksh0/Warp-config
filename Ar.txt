@@ -77,21 +77,20 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "uk-gthost-01.com",
-      "server_port": 8443,
-      "uuid": "52faee73-e0fe-4661-992d-67259257170f",
-      "flow": "xtls-rprx-vision",
+      "server": "zorovpn.opik.net",
+      "server_port": 50420,
+      "uuid": "ZoRoVpN",
       "tls":       {
         "enabled": true,
-        "server_name": "storage.yandex.net",
+        "server_name": "www.yahoo.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8",
-          "short_id": "ea10cd5686751ec5"
+          "public_key": "WmB10FrLwg_rM6bDUYibXOOWv2fWGzwrz_Ju-8ld9XA",
+          "short_id": "313a51"
         }
       },
       "packet_encoding": "xudp"
