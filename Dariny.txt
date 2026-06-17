@@ -5,24 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "194.110.207.6",
-      "server_port": 443,
-      "uuid": "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "no.buycloud.app",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "203.202.232.11",
+      "server_port": 36068,
+      "uuid": "ZoRoVpN",
+      "transport":       {
+        "type": "ws",
+        "path": "/ZoRoVpn",
+        "headers":         {
+          "Host": "Play.google.com"
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "7wLv5M4GZGhqMAGVj9zdHyW-RrSRdrYAu1Aaqa8N1nY",
-          "short_id": "9d84de9d9f7b85e9"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
@@ -153,26 +146,6 @@
       "server_port": 443,
       "method": "aes-128-cfb",
       "password": "shadowsocks"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "t12.farafile.com",
-      "server_port": 1051,
-      "uuid": "b56a960b-b053-4935-8e34-b14b93696067",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.aparat.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "uC_vpKSxyTT6d_ZSpfNnT7LcK3_wUwW8ucfd4SDigEw",
-          "short_id": "48cc70c6ffa6e35f"
-        }
-      }
     },
     {
       "type": "vless",
