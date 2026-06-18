@@ -132,28 +132,44 @@
       "password": "shadowsocks"
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪SE\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "79.127.249.196",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ams1.fromblancwithlove.com"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "15.204.254.187",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪SE\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "79.127.249.200",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ams1.fromblancwithlove.com"
-      },
-      "packet_encoding": "xudp"
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "15.204.254.187",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8003\uD83D\uDEE1\uFE0F",
+      "server": "15.204.254.187",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8004\uD83D\uDEE1\uFE0F",
+      "server": "15.204.254.187",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8005\uD83D\uDEE1\uFE0F",
+      "server": "15.204.254.187",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
     },
     {
       "type": "vless",
