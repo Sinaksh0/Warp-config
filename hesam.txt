@@ -12,22 +12,6 @@
       "password": "CJmTCCx7Ltud"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
       "type": "hysteria2",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -100,27 +84,16 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "zorovpn.xubi.org",
-      "server_port": 44910,
-      "uuid": "EarnMoneyarzZoRo",
+      "server": "cdn7-09.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "tls":       {
         "enabled": true,
-        "server_name": "Www.yahoo.com",
+        "server_name": "cdn7-09.vk-cdnvideo.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "w4Lci_q_d5bDOlsFCNoTLO9PqnRXztq97EHGGyehNiI",
-          "short_id": "96349abddc1d"
         }
-      },
-      "transport":       {
-        "type": "xhttp",
-        "mode": "auto",
-        "path": "/ZoRo",
-        "xPaddingBytes": "100-1000"
       },
       "packet_encoding": "xudp"
     },
