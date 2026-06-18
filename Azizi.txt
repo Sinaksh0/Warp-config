@@ -134,22 +134,27 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "72.56.92.177",
-      "server_port": 40443,
-      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
-      "flow": "xtls-rprx-vision",
+      "server": "zorovpn.xubi.org",
+      "server_port": 44910,
+      "uuid": "EarnMoneyarzZoRo",
       "tls":       {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "Www.yahoo.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y",
-          "short_id": "01d1bf2d4755d40c"
+          "public_key": "w4Lci_q_d5bDOlsFCNoTLO9PqnRXztq97EHGGyehNiI",
+          "short_id": "96349abddc1d"
         }
+      },
+      "transport":       {
+        "type": "xhttp",
+        "mode": "auto",
+        "path": "/ZoRo",
+        "xPaddingBytes": "100-1000"
       },
       "packet_encoding": "xudp"
     },
