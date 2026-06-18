@@ -20,30 +20,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "20.90.101.156",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "20.90.101.156",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "20.90.101.156",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1kVr0KATIJI7mwOF"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -131,20 +107,15 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "zorovpn.opik.net",
-      "server_port": 50420,
-      "uuid": "ZoRoVpN",
+      "server": "cdn7-09.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "tls":       {
         "enabled": true,
-        "server_name": "www.yahoo.com",
+        "server_name": "cdn7-09.vk-cdnvideo.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "WmB10FrLwg_rM6bDUYibXOOWv2fWGzwrz_Ju-8ld9XA",
-          "short_id": "313a51"
         }
       },
       "packet_encoding": "xudp"
