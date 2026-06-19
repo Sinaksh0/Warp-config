@@ -35,17 +35,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.91.107.49",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -56,89 +45,43 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "2.26.88.109",
+      "tag": "\ud83c\uddf8\ud83c\uddecSG\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "13.214.188.147",
       "server_port": 443,
-      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
-      "flow": "xtls-rprx-vision",
+      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
       "tls":       {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "play.google.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8"
+          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
+          "short_id": "ed41"
         }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "137.184.218.169",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "159.195.22.155",
-      "server_port": 443,
-      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "2.oncloudnineservicestreang.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc",
-          "short_id": "d8d3dc6c3ca45dd4"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "79.127.240.44",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de1.fromblancwithlove.com"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "195.181.173.194",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "server": "54.255.69.75",
+      "server_port": 443,
+      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
       "tls":       {
         "enabled": true,
-        "server_name": "ams1.fromblancwithlove.com"
+        "server_name": "play.google.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
+          "short_id": "ed41"
+        }
       },
       "packet_encoding": "xudp"
     },
