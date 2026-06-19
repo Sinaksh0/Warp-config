@@ -5,7 +5,7 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "server": "zorovpn.xubi.org",
       "server_port": 58687,
       "uuid": "EarnMoneyarzZoRo",
