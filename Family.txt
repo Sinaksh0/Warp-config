@@ -77,7 +77,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "🇩🇪DE\ud83d\ude80Nahan\uD83D\uDEE1\uFE0F",
       "server": "69.84.182.152",
       "server_port": 443,
       "uuid": "c8cc4c11-b3eb-4473-8036-923242fde3a7",
