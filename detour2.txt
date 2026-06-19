@@ -4,16 +4,25 @@
 {
   "outbounds":   [
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "888275.nl01-cherry.online",
-      "server_port": 8449,
-      "password": "efe3901e-b309-43f3-843a-f4f871670cf3",
+      "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "zorovpn.xubi.org",
+      "server_port": 58687,
+      "uuid": "EarnMoneyarzZoRo",
       "tls":       {
         "enabled": true,
-        "server_name": "sni.nl01-cherry.online"
-      }
+        "server_name": "www.yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "vtF4x5YlLy7A-Ts1-mCZkXwqL7QFaapPxVRXdh1j_Qg",
+          "short_id": "8c94adff53660c1f"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -26,17 +35,6 @@
         "enabled": true,
         "server_name": "de1.fromblancwithlove.com"
       },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.91.107.49",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "authenticated_length": true,
       "packet_encoding": "xudp"
     },
     {
