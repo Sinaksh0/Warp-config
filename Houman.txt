@@ -5,41 +5,6 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "194.110.207.6",
-      "server_port": 443,
-      "uuid": "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "no.buycloud.app",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "7wLv5M4GZGhqMAGVj9zdHyW-RrSRdrYAu1Aaqa8N1nY",
-          "short_id": "9d84de9d9f7b85e9"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "888275.nl01-cherry.online",
-      "server_port": 8449,
-      "password": "efe3901e-b309-43f3-843a-f4f871670cf3",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sni.nl01-cherry.online"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "152.233.35.228",
@@ -60,48 +25,6 @@
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
       "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "2.26.88.109",
-      "server_port": 443,
-      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "137.184.218.169",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
-        }
-      },
       "packet_encoding": "xudp"
     },
     {
@@ -138,41 +61,42 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "t12.farafile.com",
-      "server_port": 1051,
-      "uuid": "b56a960b-b053-4935-8e34-b14b93696067",
+      "tag": "\ud83c\uddf8\ud83c\uddecSG\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "13.214.188.147",
+      "server_port": 443,
+      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
       "tls":       {
         "enabled": true,
-        "server_name": "www.aparat.com",
+        "server_name": "play.google.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "uC_vpKSxyTT6d_ZSpfNnT7LcK3_wUwW8ucfd4SDigEw",
-          "short_id": "48cc70c6ffa6e35f"
+          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
+          "short_id": "ed41"
         }
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "zorovpn.opik.net",
-      "server_port": 50420,
-      "uuid": "ZoRoVpN",
+      "server": "54.255.69.75",
+      "server_port": 443,
+      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
       "tls":       {
         "enabled": true,
-        "server_name": "www.yahoo.com",
+        "server_name": "play.google.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "WmB10FrLwg_rM6bDUYibXOOWv2fWGzwrz_Ju-8ld9XA",
-          "short_id": "313a51"
+          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
+          "short_id": "ed41"
         }
       },
       "packet_encoding": "xudp"
