@@ -52,43 +52,79 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddecSG\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "13.214.188.147",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
+      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
       "tls":       {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "t03.tzteam.online",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
-          "short_id": "ed41"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "t03.tzteam.online"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
+      "tls":       {
+        "enabled": true,
+        "server_name": "t08.tzteam.online",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "t08.tzteam.online"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "54.255.69.75",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
+      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
       "tls":       {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "t10.tzteam.online",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
-          "short_id": "ed41"
         }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "t10.tzteam.online"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
