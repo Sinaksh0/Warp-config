@@ -5,6 +5,27 @@
   "outbounds": [
 {
       "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "server": "zorovpn.xubi.org",
+      "server_port": 58687,
+      "uuid": "EarnMoneyarzZoRo",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "vtF4x5YlLy7A-Ts1-mCZkXwqL7QFaapPxVRXdh1j_Qg",
+          "short_id": "8c94adff53660c1f"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "203.202.232.11",
       "server_port": 36068,
@@ -34,30 +55,6 @@
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "20.90.101.156",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "20.90.101.156",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "20.90.101.156",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1kVr0KATIJI7mwOF"
     },
     {
       "type": "vless",
