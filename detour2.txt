@@ -86,47 +86,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "159.195.22.155",
-      "server_port": 443,
-      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
-      "flow": "xtls-rprx-vision",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "cdn9-33.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "tls":       {
         "enabled": true,
-        "server_name": "2.oncloudnineservicestreang.com",
+        "server_name": "cdn9-33.vk-cdnvideo.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc",
-          "short_id": "d8d3dc6c3ca45dd4"
         }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "79.127.240.44",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de1.fromblancwithlove.com"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "195.181.173.194",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "ams1.fromblancwithlove.com"
       },
       "packet_encoding": "xudp"
     },
