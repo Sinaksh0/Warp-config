@@ -46,44 +46,56 @@
       "password": "741ddced-e6ee-4175-9c1a-e524009f9045"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddecSG\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "13.214.188.147",
-      "server_port": 443,
-      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
+      "type": "hysteria2",
+      "tag": "🇫🇷FR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "62.210.124.146",
+      "server_port": 22000,
+      "password": "dongtaiwang.com",
       "tls":       {
         "enabled": true,
-        "server_name": "play.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
+        "server_name": "www.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vangoghhh.info",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/rdfgtws",
+        "headers":         {
+          "Host": "vangoghhh.info"
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
-          "short_id": "ed41"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "54.255.69.75",
-      "server_port": 443,
-      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
+      "server": "104.16.72.162",
+      "server_port": 8443,
+      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
       "tls":       {
         "enabled": true,
-        "server_name": "play.google.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
+        "server_name": "srv37.hamiibar.com",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "srv37.hamiibar.com"
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
-          "short_id": "ed41"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
