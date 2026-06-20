@@ -3,27 +3,6 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
-      "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "zorovpn.xubi.org",
-      "server_port": 58687,
-      "uuid": "EarnMoneyarzZoRo",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "vtF4x5YlLy7A-Ts1-mCZkXwqL7QFaapPxVRXdh1j_Qg",
-          "short_id": "8c94adff53660c1f"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Rozendaal\ud83d\udee1\ufe0f",
@@ -56,83 +35,16 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "137.184.218.169",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-      "flow": "xtls-rprx-vision",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "cdn9-33.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "tls":       {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "cdn9-33.vk-cdnvideo.com",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8003\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8005\uD83D\uDEE1\uFE0F",
-      "server": "15.204.254.187",
-      "server_port": 12000,
-      "method": "aes-256-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg=="
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "72.56.92.177",
-      "server_port": 40443,
-      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y",
-          "short_id": "01d1bf2d4755d40c"
         }
       },
       "packet_encoding": "xudp"
