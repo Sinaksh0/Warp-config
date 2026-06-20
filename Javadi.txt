@@ -73,53 +73,34 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
+      "type": "hysteria2",
+      "tag": "🇫🇷FR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "62.210.124.146",
+      "server_port": 22000,
+      "password": "dongtaiwang.com",
       "tls":       {
         "enabled": true,
-        "server_name": "t03.tzteam.online",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "t03.tzteam.online"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.microsoft.com",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8002\uD83D\uDEE1\uFE0F",
+      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
       "tls":       {
         "enabled": true,
-        "server_name": "t08.tzteam.online",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "vangoghhh.info",
+        "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/rdfgtws",
         "headers":         {
-          "Host": "t08.tzteam.online"
+          "Host": "vangoghhh.info"
         },
-        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
@@ -127,25 +108,20 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
+      "server": "104.16.72.162",
+      "server_port": 8443,
+      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
       "tls":       {
         "enabled": true,
-        "server_name": "t10.tzteam.online",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "srv37.hamiibar.com",
+        "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "t10.tzteam.online"
+          "Host": "srv37.hamiibar.com"
         },
-        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
