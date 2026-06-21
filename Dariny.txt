@@ -54,14 +54,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱NL\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
-    },
-    {
       "type": "hysteria2",
       "tag": "🇫🇷FR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "62.210.124.146",
