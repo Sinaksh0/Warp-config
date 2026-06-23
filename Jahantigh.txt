@@ -42,54 +42,24 @@
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇷FR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "62.210.124.146",
-      "server_port": 22000,
-      "password": "dongtaiwang.com",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-      "tls":       {
-        "enabled": true,
-        "server_name": "vangoghhh.info",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/rdfgtws",
-        "headers":         {
-          "Host": "vangoghhh.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "138.201.173.163",
+      "server_port": 59874,
+      "uuid": "5a7243e3-bbaa-49ff-be1a-fd63a7e1fa35",
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.162",
-      "server_port": 8443,
-      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "srv37.hamiibar.com",
-        "alpn": "http/1.1"
-      },
+      "server": "151.101.130.219",
+      "server_port": 80,
+      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
       "transport":       {
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "srv37.hamiibar.com"
+          "Host": "max-gb1.global.ssl.fastly.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
