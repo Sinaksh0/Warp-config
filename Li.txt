@@ -3,14 +3,14 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
+    {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "91.107.252.109",
       "server_port": 8080,
       "uuid": "fb37aadd-b957-4462-8738-80c55d77a52d",
       "packet_encoding": "xudp"
-    }
+    },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
