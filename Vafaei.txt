@@ -50,7 +50,7 @@
       "server_port": 8080,
       "uuid": "fb37aadd-b957-4462-8738-80c55d77a52d",
       "packet_encoding": "xudp"
-    }
+    },
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
