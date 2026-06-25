@@ -26,16 +26,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.107.252.109",
-      "server_port": 8080,
-      "uuid": "fb37aadd-b957-4462-8738-80c55d77a52d",
-      "packet_encoding": "xudp"
+      "type": "hysteria2",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Franfurt\uD83D\uDEE1\uFE0F",
+      "server": "202.61.205.86",
+      "server_port": 4433,
+      "password": "18cf8030-1ceb-4b7d-8c0c-c036413c144e",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de1.xiaoliyu.cyou",
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "140.245.27.220",
       "server_port": 51000,
       "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
@@ -43,6 +47,16 @@
         "enabled": true,
         "server_name": "cn.cremedelamer.com",
         "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "92.119.35.120",
+      "server_port": 443,
+      "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
+      "tls":       {
+        "enabled": true
       }
     },
     {
