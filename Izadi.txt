@@ -14,23 +14,49 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80London\uD83D\uDEE1\uFE0F",
+      "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
+      "server": "usa.ldtp.com",
+      "server_port": 443,
+      "uuid": "0e49e208-e09e-49bc-afee-2907e5419107",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "usa.ldtp.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "N--0r-eUKZ-23lmSHvsC4ywFbsAWRahFtxv_N02AgFY",
+          "short_id": "df2becfa7b040c78"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "104.16.75.224",
+      "server_port": 8443,
+      "uuid": "4bf9601f-87e8-4250-a4e4-250bf54c5db4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "splash.ariyuz.org",
+        "alpn": "http/1.1"
+      },
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/api/v1",
         "headers":         {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": "splash.ariyuz.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
