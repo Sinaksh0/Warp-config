@@ -59,20 +59,16 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "151.101.194.219",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "server": "140.245.27.220",
+      "server_port": 51000,
+      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn.cremedelamer.com",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
