@@ -4,35 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇭🇺HU\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "cdn7-09.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "152.233.35.228",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de1.fromblancwithlove.com"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -50,20 +21,16 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "151.101.194.219",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "server": "140.245.27.220",
+      "server_port": 51000,
+      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn.cremedelamer.com",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
