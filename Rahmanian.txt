@@ -3,25 +3,17 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
-{
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "91.107.252.109",
-      "server_port": 8080,
-      "uuid": "fb37aadd-b957-4462-8738-80c55d77a52d",
-      "packet_encoding": "xudp"
-    }
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "151.101.194.219",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
+      "server": "purple-feather-4fb1.sinaksh135.workers.dev",
+      "server_port": 2082,
+      "uuid": "c8cc4c11-b3eb-4473-8036-923200000015",
       "transport":       {
         "type": "ws",
-        "path": "/",
+        "path": "/sync",
         "headers":         {
-          "Host": "max-gb1.global.ssl.fastly.net"
+          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
