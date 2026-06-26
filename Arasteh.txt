@@ -137,8 +137,8 @@
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "purple-feather-4fb1.sinaksh135.workers.dev",
-      "server_port": 2082,
-      "uuid": "c8cc4c11-b3eb-4473-8036-923200000015",
+      "server_port": 2052,
+      "uuid": "c8cc4c11-b3eb-4473-8036-923200000009",
       "transport":       {
         "type": "ws",
         "path": "/sync",
