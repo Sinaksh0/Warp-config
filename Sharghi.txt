@@ -4,46 +4,50 @@
 {
   "outbounds":   [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Sharghi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "speedtest.org",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "chacha20-poly1305",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers":         {
-          "Host": "de2.ping-game.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\uddeaGE\ud83d\ude80Sharghi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "85.234.114.53",
+      "server": "178.154.204.218",
       "server_port": 443,
-      "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
+      "uuid": "e4ce2578-4ffe-4217-b401-01fde7f63435",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "r1.mizulina.top"
+        "server_name": "wl-4-5.nodes.ac",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ymfAk3W8rkjPYqsb5LTZePsR7GazEk4tBGTrAn-44Ro",
+          "short_id": "3f7738018d03aebe"
+        }
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Washinton\uD83D\uDEE1\uFE0F",
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Sharghi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "144.126.146.38",
-      "server_port": 30100,
-      "method": "chacha20-ietf-poly1305",
-      "password": "741ddced-e6ee-4175-9c1a-e524009f9045"
+      "server": "130.49.190.94",
+      "server_port": 443,
+      "uuid": "967064b5-3272-431e-8dce-9519acfb94be",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sw.zestful.bond",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "KS0F6q2PTY1s6y2sH5PdrznYqprIkUBtS1masvcrJjo",
+          "short_id": "823257b7b9ab9d02"
+        }
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "hysteria2",
