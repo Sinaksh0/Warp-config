@@ -28,29 +28,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Ghafari\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "158.160.196.38",
-      "server_port": 443,
-      "uuid": "a5ea9247-79f3-4655-aece-3fb51e1e669e",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "rezerv9.yunus.guru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE",
-          "short_id": "34256b39b4ebb864"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Ghafari\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "130.49.190.94",
