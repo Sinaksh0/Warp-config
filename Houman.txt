@@ -1,17 +1,33 @@
-#profile-title: Armountan
+#profile-title: 🧑‍💻 Armountan 🔥
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80Armountan\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.91.107.49",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "authenticated_length": true,
+      "server": "140.174.184.5",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qItG8SueYQcP"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Armountan\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "18.153.81.34",
+      "server_port": 443,
+      "uuid": "ad73ff14-a0e3-46d1-adc0-02ca29a32485",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Armountan\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "45.13.119.219",
+      "server_port": 8888,
+      "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
       "packet_encoding": "xudp"
     },
     {
@@ -24,27 +40,16 @@
       "password": "nKeE2ZFWVaE4DyjR"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde6\ud83c\uddf9AT\ud83d\ude80Armountan\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "152.53.46.200",
-      "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MCI\uD83D\uDEE1\uFE0F",
+      "server": "202.61.205.86",
+      "server_port": 4433,
+      "password": "18cf8030-1ceb-4b7d-8c0c-c036413c144e",
       "tls":       {
         "enabled": true,
-        "server_name": "at.jojack.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA",
-          "short_id": "8dc4fccb2bcfc99d"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "de1.xiaoliyu.cyou",
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
