@@ -3,6 +3,52 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Germany\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "178.154.204.218",
+      "server_port": 443,
+      "uuid": "e4ce2578-4ffe-4217-b401-01fde7f63435",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "wl-4-5.nodes.ac",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "ymfAk3W8rkjPYqsb5LTZePsR7GazEk4tBGTrAn-44Ro",
+          "short_id": "3f7738018d03aebe"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Stockholm\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "130.49.190.94",
+      "server_port": 443,
+      "uuid": "967064b5-3272-431e-8dce-9519acfb94be",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sw.zestful.bond",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "KS0F6q2PTY1s6y2sH5PdrznYqprIkUBtS1masvcrJjo",
+          "short_id": "823257b7b9ab9d02"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "vless",
       "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Budapest\ud83d\udee1\ufe0f",
@@ -22,32 +68,6 @@
           "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
           "short_id": "4ae260"
         }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude8001\uD83D\uDEE1\uFE0F",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "41b90a88-64b3-4337-9c60-c901df3e5b44",
-      "tls":       {
-        "enabled": true,
-        "server_name": "t03.tzteam.online",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "t03.tzteam.online"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
