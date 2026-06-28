@@ -31,29 +31,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Sharghi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "130.49.190.94",
-      "server_port": 443,
-      "uuid": "967064b5-3272-431e-8dce-9519acfb94be",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sw.zestful.bond",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "KS0F6q2PTY1s6y2sH5PdrznYqprIkUBtS1masvcrJjo",
-          "short_id": "823257b7b9ab9d02"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "hysteria2",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MCI\uD83D\uDEE1\uFE0F",
       "server": "202.61.205.86",
