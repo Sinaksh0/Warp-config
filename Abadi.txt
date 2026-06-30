@@ -2,16 +2,7 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-  "outbounds":   [
-{
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80Kheir Abadi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.174.184.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
+  "outbounds":  [
     {
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Kheir Abadi\uD83D\uDEE1\uFE0F",
