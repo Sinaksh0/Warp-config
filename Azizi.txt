@@ -48,21 +48,22 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.130.125.229",
+      "server": "fi.faygo.bot",
       "server_port": 443,
-      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "octopusss5.info",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/udfyfws",
-        "headers":         {
-          "Host": "octopusss5.info"
+        "server_name": "enterprisekitten.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
       },
       "packet_encoding": "xudp"
     },
