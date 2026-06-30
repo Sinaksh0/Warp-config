@@ -5,6 +5,15 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Bolourian\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "198.98.53.130",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80Toronto\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "79.127.200.162",
