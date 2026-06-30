@@ -45,15 +45,6 @@
       "password": "PWpjPo3tqhPN4yRZ"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf4NO\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.213.23.63",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
       "type": "hysteria2",
       "tag": "🇮🇳IN\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "140.245.27.220",
