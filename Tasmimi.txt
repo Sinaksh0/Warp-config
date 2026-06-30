@@ -4,15 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.174.184.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -54,14 +45,19 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "purple-feather-4fb1.sinaksh135.workers.dev",
-      "server_port": 2052,
-      "uuid": "c8cc4c11-b3eb-4473-8036-923200000009",
+      "server": "45.130.125.229",
+      "server_port": 443,
+      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "tls":       {
+        "enabled": true,
+        "server_name": "octopusss5.info",
+        "alpn": "http/1.1"
+      },
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/udfyfws",
         "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
+          "Host": "octopusss5.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
