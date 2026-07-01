@@ -32,30 +32,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Stockholm\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "130.49.190.94",
-      "server_port": 443,
-      "uuid": "967064b5-3272-431e-8dce-9519acfb94be",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sw.zestful.bond",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "KS0F6q2PTY1s6y2sH5PdrznYqprIkUBtS1masvcrJjo",
-          "short_id": "823257b7b9ab9d02"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Budapest\ud83d\udee1\ufe0f",
+      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Hashemi\ud83d\udee1\ufe0f",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
       "server": "5.182.38.91",
       "server_port": 17267,
@@ -102,14 +79,19 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "purple-feather-4fb1.sinaksh135.workers.dev",
-      "server_port": 2082,
-      "uuid": "c8cc4c11-b3eb-4473-8036-923200000015",
+      "server": "45.130.125.229",
+      "server_port": 443,
+      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "tls":       {
+        "enabled": true,
+        "server_name": "octopusss5.info",
+        "alpn": "http/1.1"
+      },
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/udfyfws",
         "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
+          "Host": "octopusss5.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
