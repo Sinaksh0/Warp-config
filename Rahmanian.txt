@@ -19,7 +19,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80Rahmanian\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "43.163.241.110",
       "server_port": 24477,
@@ -28,7 +28,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Rahmanian\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "amirmakiaj.vtuix.ir",
       "server_port": 20200,
@@ -37,7 +37,7 @@
     },
     {
       "type": "vmess",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80Rahmanian\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "62.60.151.41",
       "server_port": 57865,
@@ -53,7 +53,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Rahmanian\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "186.190.211.188",
       "server_port": 443,
@@ -67,7 +67,7 @@
     },
     {
       "type": "trojan",
-      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80Rahmanian\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "38.60.202.163",
       "server_port": 443,
