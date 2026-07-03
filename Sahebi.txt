@@ -94,19 +94,19 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.130.125.229",
+      "server": "104.16.72.2",
       "server_port": 443,
-      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
       "tls":       {
         "enabled": true,
-        "server_name": "octopusss5.info",
+        "server_name": "shegeftihaaa.net",
         "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
-        "path": "/udfyfws",
+        "path": "/rsedgws",
         "headers":         {
-          "Host": "octopusss5.info"
+          "Host": "shegeftihaaa.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
