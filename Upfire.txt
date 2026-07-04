@@ -5,6 +5,14 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Mokhaberat\uD83D\uDEE1\uFE0F",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Upfire\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "198.98.53.130",
@@ -71,19 +79,14 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.2",
-      "server_port": 443,
-      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
-      "tls":       {
-        "enabled": true,
-        "server_name": "shegeftihaaa.net",
-        "alpn": "http/1.1"
-      },
+      "server": "purple-feather-4fb1.sinaksh135.workers.dev",
+      "server_port": 2082,
+      "uuid": "c8cc4c11-b3eb-4473-8036-923200000015",
       "transport":       {
         "type": "ws",
-        "path": "/rsedgws",
+        "path": "/sync",
         "headers":         {
-          "Host": "shegeftihaaa.net"
+          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
