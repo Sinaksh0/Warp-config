@@ -1,6 +1,6 @@
 #profile-title: 🧑‍💻 UP FIRE 🔥
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1791124200
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1783269000
 {
   "outbounds": [
     {
@@ -10,6 +10,27 @@
       "server_port": 443,
       "method": "aes-128-cfb",
       "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "104.16.72.2",
+      "server_port": 443,
+      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+      "tls":       {
+        "enabled": true,
+        "server_name": "shegeftihaaa.net",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/rsedgws",
+        "headers":         {
+          "Host": "shegeftihaaa.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
