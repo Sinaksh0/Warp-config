@@ -94,12 +94,20 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "162.19.209.85",
-      "server_port": 80,
-      "uuid": "207b6619-4f27-473a-a4f7-faf1e693ee51",
+      "server": "104.16.72.2",
+      "server_port": 443,
+      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+      "tls":       {
+        "enabled": true,
+        "server_name": "shegeftihaaa.net",
+        "alpn": "http/1.1"
+      },
       "transport":       {
         "type": "ws",
-        "path": "/stream",
+        "path": "/rsedgws",
+        "headers":         {
+          "Host": "shegeftihaaa.net"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
