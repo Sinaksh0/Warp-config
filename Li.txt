@@ -36,22 +36,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddf8\ud83c\uddeaSE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "62.60.151.41",
-      "server_port": 57865,
-      "uuid": "3c61ea53-a550-4252-8211-956f9f7dc2d0",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -104,17 +88,23 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "38.244.132.14",
+      "server_port": 5499,
+      "method": "aes-256-gcm",
+      "password": "lGqs95QkFHo2NV"
+    },
+    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "purple-feather-4fb1.sinaksh135.workers.dev",
-      "server_port": 2052,
-      "uuid": "c8cc4c11-b3eb-4473-8036-923200000009",
+      "server": "162.19.209.85",
+      "server_port": 80,
+      "uuid": "207b6619-4f27-473a-a4f7-faf1e693ee51",
       "transport":       {
         "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
-        },
+        "path": "/stream",
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
