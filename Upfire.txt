@@ -5,14 +5,6 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱NL\ud83d\ude80Mokhaberat\uD83D\uDEE1\uFE0F",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80Upfire\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "38.244.132.14",
@@ -27,27 +19,6 @@
       "server": "193.23.219.140",
       "server_port": 56453,
       "uuid": "c87950b3-f132-450a-bec6-e9e91fc9d8bc",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.2",
-      "server_port": 443,
-      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
-      "tls":       {
-        "enabled": true,
-        "server_name": "shegeftihaaa.net",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/rsedgws",
-        "headers":         {
-          "Host": "shegeftihaaa.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
       "packet_encoding": "xudp"
     },
     {
@@ -95,22 +66,10 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MCI\uD83D\uDEE1\uFE0F",
-      "server": "202.61.205.86",
-      "server_port": 4433,
-      "password": "18cf8030-1ceb-4b7d-8c0c-c036413c144e",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de1.xiaoliyu.cyou",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "purple-feather-4fb1.sinaksh135.workers.dev",
-      "server_port": 2082,
+      "server": "127.0.0.1",
+      "server_port": 12334,
       "uuid": "c8cc4c11-b3eb-4473-8036-923200000015",
       "transport":       {
         "type": "ws",
