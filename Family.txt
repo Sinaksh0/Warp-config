@@ -94,9 +94,22 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "89.39.121.54",
-      "server_port": 110,
-      "uuid": "9e1671d2-4092-4ae4-93b3-1d2db0f1a071",
+      "server": "104.16.72.101",
+      "server_port": 443,
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vangoghhh.info",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/rdfgtws",
+        "headers":         {
+          "Host": "vangoghhh.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
       "packet_encoding": "xudp"
     },
     {
