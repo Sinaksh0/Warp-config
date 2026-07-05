@@ -113,6 +113,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "🇫🇷FR\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "104.17.121.110",
+      "server_port": 443,
+      "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
+      "tls":       {
+        "enabled": true,
+        "server_name": "terazhediii.info",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/hdgrbws",
+        "headers":         {
+          "Host": "terazhediii.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "109.201.152.181",
