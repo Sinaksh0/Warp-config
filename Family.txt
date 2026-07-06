@@ -94,51 +94,19 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "104.167.24.21",
+      "server": "104.16.72.101",
       "server_port": 443,
-      "uuid": "564397f8-4805-4433-ab5b-a24aa133bac2",
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
       "tls":       {
         "enabled": true,
-        "server_name": "hub.oneoknews.com",
-        "alpn": "h2",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "KJoHsAShwQt-FYE2OGEekwDbeeYe-S1A0YBU8W5uYGc",
-          "short_id": "064c2d37308aeeb6"
-        }
-      },
-      "transport":       {
-        "type": "grpc",
-        "service_name": "api.v1.StreamService",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷FR\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "104.17.121.110",
-      "server_port": 443,
-      "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
-      "tls":       {
-        "enabled": true,
-        "server_name": "terazhediii.info",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "vangoghhh.info",
+        "alpn": "http/1.1"
       },
       "transport":       {
         "type": "ws",
-        "path": "/hdgrbws",
+        "path": "/rdfgtws",
         "headers":         {
-          "Host": "terazhediii.info"
+          "Host": "vangoghhh.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
