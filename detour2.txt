@@ -102,21 +102,28 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.2",
+      "server": "104.167.24.21",
       "server_port": 443,
-      "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+      "uuid": "564397f8-4805-4433-ab5b-a24aa133bac2",
       "tls":       {
         "enabled": true,
-        "server_name": "shegeftihaaa.net",
-        "alpn": "http/1.1"
+        "server_name": "hub.oneoknews.com",
+        "alpn": "h2",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "KJoHsAShwQt-FYE2OGEekwDbeeYe-S1A0YBU8W5uYGc",
+          "short_id": "064c2d37308aeeb6"
+        }
       },
       "transport":       {
-        "type": "ws",
-        "path": "/rsedgws",
-        "headers":         {
-          "Host": "shegeftihaaa.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "grpc",
+        "service_name": "api.v1.StreamService",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
