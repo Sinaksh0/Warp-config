@@ -94,19 +94,23 @@
     {
       "type": "vless",
       "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.101",
+      "server": "104.16.72.41",
       "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
       "tls":       {
         "enabled": true,
-        "server_name": "vangoghhh.info",
-        "alpn": "http/1.1"
+        "server_name": "amoosamiii.net",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
-        "path": "/rdfgtws",
+        "path": "/poiuyws",
         "headers":         {
-          "Host": "vangoghhh.info"
+          "Host": "amoosamiii.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
