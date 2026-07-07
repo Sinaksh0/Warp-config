@@ -43,18 +43,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇮🇳IN\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.245.27.220",
-      "server_port": 51000,
-      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80Mohammadzade\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
