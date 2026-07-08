@@ -83,14 +83,23 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 2095,
-      "uuid": "ef07b763-c27e-41f1-424f-671c00000018",
+      "server": "104.16.72.41",
+      "server_port": 443,
+      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "amoosamiii.net",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/poiuyws",
         "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
+          "Host": "amoosamiii.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
