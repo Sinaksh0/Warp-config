@@ -14,15 +14,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "43.163.241.110",
-      "server_port": 24477,
-      "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "186.190.211.188",
@@ -34,23 +25,6 @@
         "insecure": true
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.60.202.163",
-      "server_port": 443,
-      "password": "ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed",
-      "tls":       {
-        "enabled": true,
-        "server_name": "38.60.202.163",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "type": "vless",
@@ -117,20 +91,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 2082,
-      "uuid": "ef07b763-c27e-41f1-424f-671c0000001e",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
       },
-      "packet_encoding": "xudp"
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tunel1.washing.help",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",
