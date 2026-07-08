@@ -17,23 +17,9 @@
       "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "amirmakiaj.vtuix.ir",
-      "server_port": 20200,
-      "uuid": "545ce653-21f9-beb8-777e-143c35cdc023",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "186.190.211.188",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "tls":       {
-        "enabled": true,
-        "server_name": "186.190.211.188",
-        "insecure": true
-      },
+      "server": "193.23.219.140",
+      "server_port": 56453,
+      "uuid": "c87950b3-f132-450a-bec6-e9e91fc9d8bc",
       "packet_encoding": "xudp"
     },
     {
