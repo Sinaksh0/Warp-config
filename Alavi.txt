@@ -17,9 +17,10 @@
       "mtu": 1280,
       "noise":       {
         "fake_packet":         {
-          "count": "40-80",
-          "size": "40-100",
-          "delay": "4-8",
+          "enabled": true,
+          "count": "2-10",
+          "size": "30-50",
+          "delay": "30-50",
           "mode": "m4"
         }
       }
