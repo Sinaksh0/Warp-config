@@ -64,28 +64,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇭🇺HU\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "45.198.87.99",
-      "server_port": 8443,
-      "uuid": "360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "2715592069f36fe7"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
