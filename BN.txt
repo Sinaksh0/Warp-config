@@ -3,47 +3,77 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
-    {
+        {
       "type": "shadowsocks",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Milan\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "176.126.83.158",
-      "server_port": 990,
+      "server": "198.98.53.130",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+      "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udded\ud83c\uddfaHU\ud83d\ude80Budapest\ud83d\udee1\ufe0f",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
-      "server": "5.182.38.91",
-      "server_port": 17267,
-      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
-      "tls": {
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "186.190.211.188",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "tls":       {
         "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
-          "short_id": "4ae260"
-        }
+        "server_name": "186.190.211.188",
+        "insecure": true
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "password": "humanity",
+      "server": "45.13.119.219",
+      "server_port": 8888,
+      "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MCI\uD83D\uDEE1\uFE0F",
+      "server": "202.61.205.86",
+      "server_port": 4433,
+      "password": "18cf8030-1ceb-4b7d-8c0c-c036413c144e",
       "tls":       {
         "enabled": true,
-        "server_name": "www.calmloud.com",
+        "server_name": "de1.xiaoliyu.cyou",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "38.244.132.14",
+      "server_port": 5499,
+      "method": "aes-256-gcm",
+      "password": "lGqs95QkFHo2NV"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "193.23.219.140",
+      "server_port": 56453,
+      "uuid": "c87950b3-f132-450a-bec6-e9e91fc9d8bc",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "104.16.72.41",
+      "server_port": 443,
+      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
+      "tls":       {
+        "enabled": true,
+        "server_name": "amoosamiii.net",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -52,69 +82,28 @@
       },
       "transport":       {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/poiuyws",
         "headers":         {
-          "Host": "www.calmloud.com"
+          "Host": "amoosamiii.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "195.181.173.199",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "type": "hysteria2",
+      "tag": "🇩🇪DE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "obfs":       {
+        "type": "salamander",
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
+      },
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
       "tls":       {
         "enabled": true,
-        "server_name": "ams1.fromblancwithlove.com",
-        "insecure": true,
-        "alpn": "h2"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "45.92.70.236",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "172.64.146.27",
-      "server_port": 80,
-      "uuid": "478cc26d-16b3-4fdd-be64-60d5a58c1622",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "tt.andishehparenting.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇱🇺HU\ud83d\ude8004\uD83D\uDEE1\uFE0F",
-      "server": "45.128.72.44",
-      "server_port": 80,
-      "uuid": "a2170d39-140a-47f9-85b8-084078856c36",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/api/v1",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "tunel1.washing.help",
+        "insecure": true
       }
     },
     {
