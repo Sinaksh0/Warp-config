@@ -18,9 +18,9 @@
       "noise":       {
         "fake_packet":         {
           "enabled": true,
-          "count": "2-10",
-          "size": "30-50",
-          "delay": "30-50",
+          "count": "40-80",
+          "size": "40-100",
+          "delay": "3-5",
           "mode": "m4"
         }
       }
