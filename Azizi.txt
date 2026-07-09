@@ -86,26 +86,45 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "d.socialxxmedia.com",
-      "server_port": 200,
-      "uuid": "6bc19aa1-d94b-488c-9b25-47214d371851",
-      "transport":       {
-        "type": "http",
-        "host": "play.google.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ],
+  "endpoints": [
+     {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "mtu": 1280,
+      "address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8add:4b88:626b:ff71:3018/128"
+      ],
+      "private_key": "4MK5/sW8nalU7o5XR19z4uEVXGt0S405Y756DwkofHs=",
+      "peers":       [
+        {
+          "address": "8.6.112.12",
+          "port": 2506,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "reserved": "AAAA"
+        }
+      ],
+      "noise":       {
+        "fake_packet":         {
+          "enabled": true,
+          "count": "2-10",
+          "size": "30-50",
+          "delay": "30-50",
+          "mode": "m4"
+        }
+      }
     }
   ]
 }
