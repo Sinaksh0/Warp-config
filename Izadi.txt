@@ -46,25 +46,14 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.41",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "amoosamiii.net",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "d.socialxxmedia.com",
+      "server_port": 200,
+      "uuid": "6bc19aa1-d94b-488c-9b25-47214d371851",
       "transport":       {
-        "type": "ws",
-        "path": "/poiuyws",
-        "headers":         {
-          "Host": "amoosamiii.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "play.google.com",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
