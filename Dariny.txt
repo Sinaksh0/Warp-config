@@ -94,7 +94,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "🇩🇪DE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
       "server": "80.66.81.78",
       "server_port": 9443,
       "obfs":       {
