@@ -5,29 +5,6 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Taheri\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "77.110.127.191",
-      "server_port": 9443,
-      "uuid": "e0de62c9-f317-4275-b7e5-8da7b7fa9bc6",
-      "transport":       {
-        "type": "ws",
-        "path": "/pourya",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde7\ud83c\uddf7BR\ud83d\ude80Taheri\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.180.221.143",
-      "server_port": 17283,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Taheri\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "45.13.119.219",
@@ -43,29 +20,6 @@
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Taheri\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "51.158.206.103",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
