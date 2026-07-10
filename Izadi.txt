@@ -14,15 +14,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "193.23.219.140",
-      "server_port": 56453,
-      "uuid": "c87950b3-f132-450a-bec6-e9e91fc9d8bc",
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "hysteria2",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MCI\uD83D\uDEE1\uFE0F",
       "server": "202.61.205.86",
@@ -42,31 +33,6 @@
       "server_port": 5499,
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.41",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "amoosamiii.net",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/poiuyws",
-        "headers":         {
-          "Host": "amoosamiii.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
