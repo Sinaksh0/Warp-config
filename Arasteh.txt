@@ -45,18 +45,6 @@
       "password": "PWpjPo3tqhPN4yRZ"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇮🇳IN\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.245.27.220",
-      "server_port": 51000,
-      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -67,25 +55,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇺HU\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "45.198.87.99",
-      "server_port": 8443,
-      "uuid": "360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "67.159.56.57",
+      "server_port": 443,
+      "uuid": "52b71b75-4b77-4cec-990b-046ec1938e1f",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "storage.yandex.net",
+        "server_name": "uk.bvps.cloud",
         "utls":         {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "2715592069f36fe7"
+          "public_key": "j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8",
+          "short_id": "60debb3ab744d8ce"
         }
       },
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80Arasteh\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.196.61.82",
+      "server_port": 8080,
+      "method": "aes-256-gcm",
+      "password": "KixLvKzwjekG00rm"
     },
     {
       "type": "shadowsocks",
