@@ -4,15 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\udde7\ud83c\uddf7BR\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.180.221.143",
-      "server_port": 17283,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -34,18 +25,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddee\ud83c\uddf3IN\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.245.27.220",
-      "server_port": 51000,
-      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde7\ud83c\uddecBG\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -56,11 +35,67 @@
     },
     {
       "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "67.159.56.57",
+      "server_port": 443,
+      "uuid": "52b71b75-4b77-4cec-990b-046ec1938e1f",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "uk.bvps.cloud",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8",
+          "short_id": "60debb3ab744d8ce"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.196.61.82",
+      "server_port": 8080,
+      "method": "aes-256-gcm",
+      "password": "KixLvKzwjekG00rm"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "193.23.219.140",
-      "server_port": 56453,
-      "uuid": "c87950b3-f132-450a-bec6-e9e91fc9d8bc",
+      "server": "185.137.157.72",
+      "server_port": 443,
+      "uuid": "55a5044d-5b35-405f-971c-ea7aacaafcb4",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg",
+          "short_id": "d23753491eefde7e"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "23.254.226.60",
+      "server_port": 19351,
+      "uuid": "80c01792-7bb5-4818-b531-113c0d6f17a2",
       "packet_encoding": "xudp"
     },
     {
