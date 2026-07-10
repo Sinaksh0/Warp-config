@@ -23,36 +23,67 @@
     },
     {
       "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "67.159.56.57",
+      "server_port": 443,
+      "uuid": "52b71b75-4b77-4cec-990b-046ec1938e1f",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "uk.bvps.cloud",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8",
+          "short_id": "60debb3ab744d8ce"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.196.61.82",
+      "server_port": 8080,
+      "method": "aes-256-gcm",
+      "password": "KixLvKzwjekG00rm"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "193.23.219.140",
-      "server_port": 56453,
-      "uuid": "c87950b3-f132-450a-bec6-e9e91fc9d8bc",
+      "server": "185.137.157.72",
+      "server_port": 443,
+      "uuid": "55a5044d-5b35-405f-971c-ea7aacaafcb4",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "insecure": true,
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg",
+          "short_id": "d23753491eefde7e"
+        }
+      },
       "packet_encoding": "xudp"
     },
     {
       "type": "vless",
-      "tag": "🇩🇪DE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.41",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
-      "tls":       {
-        "enabled": true,
-        "server_name": "amoosamiii.net",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/poiuyws",
-        "headers":         {
-          "Host": "amoosamiii.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "23.254.226.60",
+      "server_port": 19351,
+      "uuid": "80c01792-7bb5-4818-b531-113c0d6f17a2",
       "packet_encoding": "xudp"
     },
     {
@@ -89,9 +120,9 @@
       "noise":       {
         "fake_packet":         {
           "enabled": true,
-          "count": "40-80",
-          "size": "30-50",
-          "delay": "3-5",
+          "count": "1-3",
+          "size": "10-30",
+          "delay": "10-30",
           "mode": "m4"
         }
       }
