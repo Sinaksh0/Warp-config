@@ -78,6 +78,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "23.254.226.60",
+      "server_port": 19351,
+      "uuid": "80c01792-7bb5-4818-b531-113c0d6f17a2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 2086,
+      "uuid": "ef07b763-c27e-41f1-424f-671c00000017",
+      "transport":       {
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "local_address":       [
@@ -85,8 +110,8 @@
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "8.6.112.170",
-      "server_port": 2371,
+      "server": "8.6.112.9",
+      "server_port": 968,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1280,
       "noise":       {
@@ -98,15 +123,6 @@
           "mode": "m4"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hesam\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "23.254.226.60",
-      "server_port": 19351,
-      "uuid": "80c01792-7bb5-4818-b531-113c0d6f17a2",
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
