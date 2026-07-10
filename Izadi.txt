@@ -35,6 +35,56 @@
       "password": "lGqs95QkFHo2NV"
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "67.159.56.57",
+      "server_port": 443,
+      "uuid": "52b71b75-4b77-4cec-990b-046ec1938e1f",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "uk.bvps.cloud",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8",
+          "short_id": "60debb3ab744d8ce"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.196.61.82",
+      "server_port": 8080,
+      "method": "aes-256-gcm",
+      "password": "KixLvKzwjekG00rm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Frankfurt\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.226.172.8",
+      "server_port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "23.254.226.60",
+      "server_port": 19351,
+      "uuid": "80c01792-7bb5-4818-b531-113c0d6f17a2",
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
