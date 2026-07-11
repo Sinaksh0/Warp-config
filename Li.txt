@@ -146,7 +146,7 @@
   "endpoints": [
      {
       "type": "wireguard",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Wireguard\uD83D\uDEE1\uFE0F",
       "mtu": 1280,
       "address":       [
         "172.16.0.2/32",
