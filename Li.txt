@@ -5,87 +5,12 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "77.110.127.191",
-      "server_port": 9443,
-      "uuid": "e0de62c9-f317-4275-b7e5-8da7b7fa9bc6",
-      "transport":       {
-        "type": "ws",
-        "path": "/pourya",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddef\ud83c\uddf5JP\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "43.163.241.110",
-      "server_port": 24477,
-      "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "amirmakiaj.vtuix.ir",
-      "server_port": 20200,
-      "uuid": "545ce653-21f9-beb8-777e-143c35cdc023",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "186.190.211.188",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "tls":       {
-        "enabled": true,
-        "server_name": "186.190.211.188",
-        "insecure": true
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.60.202.163",
-      "server_port": 443,
-      "password": "ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed",
-      "tls":       {
-        "enabled": true,
-        "server_name": "38.60.202.163",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "45.13.119.219",
       "server_port": 8888,
       "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇳IN\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.245.27.220",
-      "server_port": 51000,
-      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
     },
     {
       "type": "shadowsocks",
