@@ -33,6 +33,27 @@
     },
     {
       "type": "vless",
+      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "104.16.72.50",
+      "server_port": 443,
+      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
+      "tls":       {
+        "enabled": true,
+        "server_name": "hhvl.hhapp.kdns.fr",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/cbasur",
+        "headers":         {
+          "Host": "hhvl.hhapp.kdns.fr"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 2086,
