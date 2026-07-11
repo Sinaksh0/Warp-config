@@ -2,43 +2,123 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
-  "outbounds": [
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Rozendaal\ud83d\udee1\ufe0f",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\ud83d\udee1\ufe0f",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
-    },
+  "outbounds":   [
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "138.201.173.163",
-      "server_port": 59874,
-      "uuid": "5a7243e3-bbaa-49ff-be1a-fd63a7e1fa35",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "api.amirv2yats.qzz.io",
+      "server_port": 443,
+      "uuid": "5c05c433-cc31-53df-ac83-e7f8e6bc71a3",
+      "tls":       {
+        "enabled": true,
+        "server_name": "api.amirv2yats.qzz.io",
+        "insecure": true,
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws/amir",
+        "headers":         {
+          "Host": "api.amirv2yats.qzz.io"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "140.245.27.220",
-      "server_port": 51000,
-      "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
+      "type": "vmess",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "runheng.cloud",
+      "server_port": 80,
+      "uuid": "64bd7d62-7c00-4463-954b-3dd20320dded",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/vmess-ws",
+        "headers":         {
+          "Host": "runheng.cloud"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
-      "server": "127.0.0.1",
-      "server_port": 8080,
-      "method": "none",
-      "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "n4.zeneco.ir",
+      "server_port": 8443,
+      "uuid": "003f8262-28b1-4f80-acd0-af251777a7b8",
+      "tls":       {
+        "enabled": true,
+        "server_name": "n4.zeneco.ir",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "headers":         {
+          "Host": "n4.zeneco.ir"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
+      "server": "8.6.112.9",
+      "server_port": 968,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1280,
+      "noise":       {
+        "fake_packet":         {
+          "enabled": true,
+          "count": "1-3",
+          "size": "10-30",
+          "delay": "10-30",
+          "mode": "m4"
+        }
+      }
+    }
+  ],
+  "endpoints": [
+     {
+      "type": "wireguard",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "mtu": 1280,
+      "address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8add:4b88:626b:ff71:3018/128"
+      ],
+      "private_key": "4MK5/sW8nalU7o5XR19z4uEVXGt0S405Y756DwkofHs=",
+      "peers":       [
+        {
+          "address": "8.6.112.12",
+          "port": 2506,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "reserved": "AAAA"
+        }
+      ],
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "noise":       {
+        "fake_packet":         {
+          "enabled": true,
+          "count": "2-10",
+          "size": "30-50",
+          "delay": "30-50",
+          "mode": "m4"
+        }
+      }
     }
   ]
 }
