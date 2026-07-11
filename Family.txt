@@ -126,25 +126,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "n4.zeneco.ir",
-      "server_port": 8443,
-      "uuid": "003f8262-28b1-4f80-acd0-af251777a7b8",
-      "tls":       {
-        "enabled": true,
-        "server_name": "n4.zeneco.ir",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "headers":         {
-          "Host": "n4.zeneco.ir"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "hysteria2",
       "tag": "🇩🇪DE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
       "server": "80.66.81.78",
