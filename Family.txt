@@ -85,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "api.amirv2yats.qzz.io",
       "server_port": 443,
@@ -108,7 +108,7 @@
     },
     {
       "type": "vmess",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf0\ud83c\uddf7KR\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "runheng.cloud",
       "server_port": 80,
