@@ -13,23 +13,6 @@
       "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
-      "type": "trojan",
-      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "38.60.202.163",
-      "server_port": 443,
-      "password": "ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed",
-      "tls":       {
-        "enabled": true,
-        "server_name": "38.60.202.163",
-        "insecure": true,
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -58,29 +41,6 @@
       "server_port": 5499,
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "67.159.56.57",
-      "server_port": 443,
-      "uuid": "52b71b75-4b77-4cec-990b-046ec1938e1f",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "uk.bvps.cloud",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8",
-          "short_id": "60debb3ab744d8ce"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -122,25 +82,6 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "runheng.cloud",
-      "server_port": 80,
-      "uuid": "64bd7d62-7c00-4463-954b-3dd20320dded",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/vmess-ws",
-        "headers":         {
-          "Host": "runheng.cloud"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
     },
     {
       "type": "vless",
