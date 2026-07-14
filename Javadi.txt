@@ -22,18 +22,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80MCI\uD83D\uDEE1\uFE0F",
-      "server": "202.61.205.86",
-      "server_port": 4433,
-      "password": "18cf8030-1ceb-4b7d-8c0c-c036413c144e",
-      "tls":       {
-        "enabled": true,
-        "server_name": "de1.xiaoliyu.cyou",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
@@ -73,22 +61,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddf0\ud83c\uddf7KR\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "runheng.cloud",
-      "server_port": 80,
-      "uuid": "64bd7d62-7c00-4463-954b-3dd20320dded",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "ws",
-        "path": "/vmess-ws",
-        "headers":         {
-          "Host": "runheng.cloud"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "type": "hysteria2",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "91.107.152.188",
+      "server_port": 40460,
+      "obfs":       {
+        "type": "salamander",
+        "password": "t-me-V2RayyNGvpn"
+      },
+      "password": "D0KVsHbDlj",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "insecure": true
       }
     },
     {
