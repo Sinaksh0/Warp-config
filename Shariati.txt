@@ -84,6 +84,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "hysteria2",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
+      "server": "91.107.152.188",
+      "server_port": 40460,
+      "obfs":       {
+        "type": "salamander",
+        "password": "t-me-V2RayyNGvpn"
+      },
+      "password": "D0KVsHbDlj",
+      "tls":       {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "104.16.72.50",
