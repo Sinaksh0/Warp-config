@@ -3,7 +3,7 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds":   [
-        {
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -97,22 +97,6 @@
         }
       },
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪DE\ud83d\ude80Asiatech\uD83D\uDEE1\uFE0F",
-      "server": "80.66.81.78",
-      "server_port": 9443,
-      "obfs":       {
-        "type": "salamander",
-        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
-      },
-      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tunel1.washing.help",
-        "insecure": true
-      }
     },
     {
       "type": "vless",
