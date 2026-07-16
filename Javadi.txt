@@ -22,18 +22,43 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.198.235.208",
+      "server_port": 20129,
+      "method": "aes-256-gcm",
+      "password": "6512030961473f21"
+    },
+    {
       "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 2086,
-      "uuid": "ef07b763-c27e-41f1-424f-671c00000017",
+      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "84.235.244.108",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/",
         "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
+          "Host": "uae.unixzone.us"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "81.31.211.113",
+      "server_port": 2085,
+      "uuid": "cebf31b3-a467-4b84-9dce-62bed1c26719",
+      "transport":       {
+        "type": "grpc",
+        "service_name": "vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
@@ -41,40 +66,47 @@
       "type": "vless",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "api.amirv2yats.qzz.io",
+      "server": "104.16.72.101",
       "server_port": 443,
-      "uuid": "5c05c433-cc31-53df-ac83-e7f8e6bc71a3",
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
       "tls":       {
         "enabled": true,
-        "server_name": "api.amirv2yats.qzz.io",
-        "insecure": true,
-        "alpn": "http/1.1"
+        "server_name": "vangoghhh.info",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
-        "path": "/ws/amir",
+        "path": "/rdfgtws",
         "headers":         {
-          "Host": "api.amirv2yats.qzz.io"
+          "Host": "vangoghhh.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "91.107.152.188",
-      "server_port": 40460,
-      "obfs":       {
-        "type": "salamander",
-        "password": "t-me-V2RayyNGvpn"
-      },
-      "password": "D0KVsHbDlj",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "43.173.98.184",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰HK\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "31.77.149.131",
+      "server_port": 110,
+      "uuid": "5ed7206a-cd8d-4b02-add1-4f7b787178c9",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -92,6 +124,22 @@
         "path": "/cbasur",
         "headers":         {
           "Host": "hhvl.hhapp.kdns.fr"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 2086,
+      "uuid": "ef07b763-c27e-41f1-424f-671c00000017",
+      "transport":       {
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
