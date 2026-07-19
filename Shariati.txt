@@ -114,27 +114,6 @@
     },
     {
       "type": "vless",
-      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.50",
-      "server_port": 443,
-      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hhvl.hhapp.kdns.fr",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/cbasur",
-        "headers":         {
-          "Host": "hhvl.hhapp.kdns.fr"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 2086,
@@ -152,22 +131,21 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "72.56.81.165",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-      "flow": "xtls-rprx-vision",
+      "server": "104.16.72.50",
+      "server_port": 443,
+      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
       "tls":       {
         "enabled": true,
-        "server_name": "deepl.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
+        "server_name": "hhvl.hhapp.kdns.fr",
+        "alpn": "http/1.1"
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/cbasur",
+        "headers":         {
+          "Host": "hhvl.hhapp.kdns.fr"
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-          "short_id": "c84f"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
