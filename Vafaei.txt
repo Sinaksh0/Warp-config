@@ -169,21 +169,21 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "5.253.66.203",
-      "server_port": 443,
-      "uuid": "c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692",
+      "server": "72.56.81.165",
+      "server_port": 40443,
+      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
       "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "cdn-up.perecbass.ru",
+        "server_name": "deepl.com",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality":         {
           "enabled": true,
-          "public_key": "PDBVcDR6o01XUpdNNZ6rutJ_DBqnF7VcDuWceHIpyE8",
-          "short_id": "8c4d9e1f"
+          "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
+          "short_id": "c84f"
         }
       },
       "packet_encoding": "xudp"
