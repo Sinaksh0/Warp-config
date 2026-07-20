@@ -110,63 +110,10 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "91.107.152.188",
-      "server_port": 40460,
-      "obfs":       {
-        "type": "salamander",
-        "password": "t-me-V2RayyNGvpn"
-      },
-      "password": "D0KVsHbDlj",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.50",
-      "server_port": 443,
-      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
-      "tls":       {
-        "enabled": true,
-        "server_name": "hhvl.hhapp.kdns.fr",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/cbasur",
-        "headers":         {
-          "Host": "hhvl.hhapp.kdns.fr"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 2086,
-      "uuid": "ef07b763-c27e-41f1-424f-671c00000017",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "5.253.66.203",
-      "server_port": 443,
+      "server": "127.0.0.1",
+      "server_port": 12334,
       "uuid": "c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692",
       "flow": "xtls-rprx-vision",
       "tls":       {
