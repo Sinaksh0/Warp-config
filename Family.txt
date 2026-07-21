@@ -3,6 +3,14 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "shadowsocks",
+      "tag": "🇳🇱NL\ud83d\ude80Pars-Online\uD83D\uDEE1\uFE0F",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
