@@ -99,21 +99,22 @@
     {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.50",
+      "server": "de.vrsvpn.com",
       "server_port": 443,
-      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "hhvl.hhapp.kdns.fr",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/cbasur",
-        "headers":         {
-          "Host": "hhvl.hhapp.kdns.fr"
+        "server_name": "web.max.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE",
+          "short_id": "45ba18f429ad1f28"
+        }
       },
       "packet_encoding": "xudp"
     },
