@@ -63,32 +63,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.101",
-      "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-      "tls":       {
-        "enabled": true,
-        "server_name": "vangoghhh.info",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/rdfgtws",
-        "headers":         {
-          "Host": "vangoghhh.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -100,21 +74,22 @@
     {
       "type": "vless",
       "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.16.72.50",
+      "server": "de.vrsvpn.com",
       "server_port": 443,
-      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "flow": "xtls-rprx-vision",
       "tls":       {
         "enabled": true,
-        "server_name": "hhvl.hhapp.kdns.fr",
-        "alpn": "http/1.1"
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/cbasur",
-        "headers":         {
-          "Host": "hhvl.hhapp.kdns.fr"
+        "server_name": "web.max.ru",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "qq"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE",
+          "short_id": "45ba18f429ad1f28"
+        }
       },
       "packet_encoding": "xudp"
     },
