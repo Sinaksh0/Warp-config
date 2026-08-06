@@ -72,21 +72,28 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "static.lotussec.com",
-      "server_port": 443,
-      "uuid": "14b48651-3738-4926-bc09-4c04e87ff80b",
+      "server": "gr005.bamajobin.ir",
+      "server_port": 2053,
+      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
       "tls":       {
         "enabled": true,
+        "server_name": "play.google.com",
         "alpn": "h2",
         "utls":         {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
       },
       "transport":       {
-        "type": "xhttp",
-        "mode": "stream-one",
-        "path": "/Join-JavidnamanIran-on-Telegram"
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
