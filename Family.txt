@@ -119,22 +119,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "ef07b763-c27e-41f1-424f-671c0000000e",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "local_address":       [
