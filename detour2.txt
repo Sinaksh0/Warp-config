@@ -24,28 +24,25 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "gr005.bamajobin.ir",
-      "server_port": 2053,
-      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
+      "server": "hcaptcha.com",
+      "server_port": 2083,
+      "uuid": "c363380b-d9f1-c4b1-e376-a00500000004",
       "tls":       {
         "enabled": true,
-        "server_name": "play.google.com",
-        "alpn": "h2",
+        "server_name": "super-firefly-50d9.sinaksh135.workers.dev",
+        "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
+          "fingerprint": "chrome"
         }
       },
       "transport":       {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "super-firefly-50d9.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
