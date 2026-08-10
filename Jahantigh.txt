@@ -3,6 +3,31 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
+{
+      "type": "vless",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 2083,
+      "uuid": "c363380b-d9f1-c4b1-e376-a00500000004",
+      "tls":       {
+        "enabled": true,
+        "server_name": "super-firefly-50d9.sinaksh135.workers.dev",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "super-firefly-50d9.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Jahantigh\uD83D\uDEE1\uFE0F",
@@ -29,28 +54,6 @@
       "server_port": 5499,
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV"
-    },
-    {
-      "type": "vless",
-      "tag": "Test\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "de.vrsvpn.com",
-      "server_port": 443,
-      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "web.max.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE",
-          "short_id": "45ba18f429ad1f28"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
