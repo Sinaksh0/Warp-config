@@ -80,27 +80,25 @@
       "password": "3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO"
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰HK\ud83d\ude80Rahmanian\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "31.77.149.131",
-      "server_port": 110,
-      "uuid": "5ed7206a-cd8d-4b02-add1-4f7b787178c9",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "vless",
-      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 2086,
-      "uuid": "ef07b763-c27e-41f1-424f-671c00000017",
+      "server_port": 2083,
+      "uuid": "c363380b-d9f1-c4b1-e376-a00500000004",
+      "tls":       {
+        "enabled": true,
+        "server_name": "super-firefly-50d9.sinaksh135.workers.dev",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "purple-feather-4fb1.sinaksh135.workers.dev"
+          "Host": "super-firefly-50d9.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
