@@ -30,22 +30,13 @@
       "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 2083,
-      "uuid": "c363380b-d9f1-c4b1-e376-a00500000004",
-      "tls":       {
-        "enabled": true,
-        "server_name": "super-firefly-50d9.sinaksh135.workers.dev",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server_port": 8080,
+      "uuid": "a2f3c24d-cedd-4b1e-850b-75a900000023",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "super-firefly-50d9.sinaksh135.workers.dev"
+          "Host": "twilight-butterfly-ef3c.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
