@@ -73,13 +73,22 @@
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "a2f3c24d-cedd-4b1e-850b-75a900000023",
+      "server_port": 8443,
+      "uuid": "c9f57b04-3adf-4e33-ab29-21d600000005",
+      "tls":       {
+        "enabled": true,
+        "server_name": "damp-queen-ea36.sinaksh135.workers.dev",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "twilight-butterfly-ef3c.sinaksh135.workers.dev"
+          "Host": "damp-queen-ea36.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
