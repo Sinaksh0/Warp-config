@@ -3,15 +3,15 @@
 #subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=10829272882
 {
   "outbounds": [
-{
+    {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 2083,
-      "uuid": "c363380b-d9f1-c4b1-e376-a00500000004",
+      "server_port": 8443,
+      "uuid": "c9f57b04-3adf-4e33-ab29-21d600000005",
       "tls":       {
         "enabled": true,
-        "server_name": "super-firefly-50d9.sinaksh135.workers.dev",
+        "server_name": "damp-queen-ea36.sinaksh135.workers.dev",
         "alpn": "http/1.1",
         "utls":         {
           "enabled": true,
@@ -22,7 +22,7 @@
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "super-firefly-50d9.sinaksh135.workers.dev"
+          "Host": "damp-queen-ea36.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
