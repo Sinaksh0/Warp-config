@@ -1,6 +1,6 @@
-#profile-title: اشتراک شما به پایان رسید، جهت تمدید مراجعه فرمایید
+#profile-title: 🧑‍💻 Azizi 🔥
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1786372200
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1794493800
 {
   "outbounds": [
     {
@@ -48,26 +48,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "wireguard",
+      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "127.0.0.1",
-      "server_port": 12334,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1280,
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "1-3",
-          "size": "10-30",
-          "delay": "10-30",
-          "mode": "m4"
-        }
-      }
+      "server": "hcaptcha.com",
+      "server_port": 80,
+      "uuid": "f87e29ee-5559-4ced-b570-ea0c00000006",
+      "transport":       {
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
