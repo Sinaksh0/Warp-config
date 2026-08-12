@@ -90,41 +90,16 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "hysteria2",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "91.107.152.188",
-      "server_port": 40460,
-      "obfs":       {
-        "type": "salamander",
-        "password": "t-me-V2RayyNGvpn"
-      },
-      "password": "D0KVsHbDlj",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 8443,
-      "uuid": "c9f57b04-3adf-4e33-ab29-21d600000005",
-      "tls":       {
-        "enabled": true,
-        "server_name": "damp-queen-ea36.sinaksh135.workers.dev",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server_port": 80,
+      "uuid": "f87e29ee-5559-4ced-b570-ea0c00000006",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "damp-queen-ea36.sinaksh135.workers.dev"
+          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
