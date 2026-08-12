@@ -5,24 +5,15 @@
   "outbounds":   [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 2083,
-      "uuid": "c363380b-d9f1-c4b1-e376-a00500000004",
-      "tls":       {
-        "enabled": true,
-        "server_name": "super-firefly-50d9.sinaksh135.workers.dev",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server_port": 80,
+      "uuid": "f87e29ee-5559-4ced-b570-ea0c00000006",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "super-firefly-50d9.sinaksh135.workers.dev"
+          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
