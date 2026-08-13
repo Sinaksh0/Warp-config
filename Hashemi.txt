@@ -51,29 +51,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hashemi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "50.7.197.2",
-      "server_port": 8443,
-      "uuid": "e83af88a-a884-48ba-b462-a1edccff15e7",
-      "tls":       {
-        "enabled": true,
-        "server_name": "apkav-6.bosx.net",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/api/connect",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Hashemi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "xfr.saturn-cloud.net",
@@ -212,14 +189,14 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ancient-snowflake-23ae.sinaksh.workers.dev",
+      "server": "fragrant-sun-87d7.sinaksh135.workers.dev",
       "server_port": 8080,
-      "uuid": "f87e29ee-5559-4ced-b570-ea0c0000000e",
+      "uuid": "c9f57b04-3adf-4e33-ab29-21d600000007",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
+          "Host": "fragrant-sun-87d7.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
