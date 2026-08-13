@@ -6,14 +6,14 @@
     {
       "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ancient-snowflake-23ae.sinaksh.workers.dev",
+      "server": "fragrant-sun-87d7.sinaksh135.workers.dev",
       "server_port": 8080,
-      "uuid": "f87e29ee-5559-4ced-b570-ea0c0000000e",
+      "uuid": "c9f57b04-3adf-4e33-ab29-21d600000007",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
+          "Host": "fragrant-sun-87d7.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
