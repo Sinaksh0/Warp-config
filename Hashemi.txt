@@ -23,7 +23,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hashemi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80Hashemi\uD83D\uDEE1\uFE0F",
       "server": "50.7.197.2",
       "server_port": 8443,
