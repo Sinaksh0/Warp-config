@@ -203,16 +203,22 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "fragrant-sun-87d7.sinaksh135.workers.dev",
-      "server_port": 8080,
-      "uuid": "c9f57b04-3adf-4e33-ab29-21d600000007",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "fragrant-sun-87d7.sinaksh135.workers.dev"
+      "server": "51.158.206.25",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
       },
       "packet_encoding": "xudp"
     },
