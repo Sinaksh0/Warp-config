@@ -13,17 +13,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ancient-snowflake-23ae.sinaksh.workers.dev",
-      "server_port": 8080,
-      "uuid": "f87e29ee-5559-4ced-b570-ea0c0000000e",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
+      "tag": "🇳🇱NL\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "51.158.206.25",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality":         {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
       },
       "packet_encoding": "xudp"
     },
