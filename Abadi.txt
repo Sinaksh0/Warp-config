@@ -155,7 +155,7 @@
     },
     {
       "type": "vless",
-      "tag": "ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
       "uuid": "acd5462e-d469-4414-a36b-08a800000007",
