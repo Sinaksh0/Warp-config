@@ -156,12 +156,12 @@
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "acd5462e-d469-4414-a36b-08a800000007",
+      "uuid": "b0999fcb-9210-4255-80f7-306b00000007",
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/sinaksh",
         "headers":         {
-          "Host": "ancient-base-2ea1.sinaksh135.workers.dev"
+          "Host": "holy-darkness-72bb.sinakafash.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
