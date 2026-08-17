@@ -163,14 +163,14 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ancient-snowflake-23ae.sinaksh.workers.dev",
+      "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "f87e29ee-5559-4ced-b570-ea0c0000000e",
+      "uuid": "b0999fcb-9210-4255-80f7-306b00000007",
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/sinaksh",
         "headers":         {
-          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
+          "Host": "holy-darkness-72bb.sinakafash.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
