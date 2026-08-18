@@ -5,6 +5,22 @@
   "outbounds":  [
     {
       "type": "vless",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
+      "transport":       {
+        "type": "ws",
+        "path": "/kshtest",
+        "headers":         {
+          "Host": "bold-river-60ac.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
