@@ -4,6 +4,22 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
+      "transport":       {
+        "type": "ws",
+        "path": "/kshtest",
+        "headers":         {
+          "Host": "bold-river-60ac.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
