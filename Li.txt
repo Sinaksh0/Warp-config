@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ancient-snowflake-23ae.sinaksh.workers.dev",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "f87e29ee-5559-4ced-b570-ea0c0000000e",
+      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/kshtest",
         "headers":         {
-          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
+          "Host": "bold-river-60ac.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
