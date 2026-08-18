@@ -21,29 +21,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "xfr.saturn-cloud.net",
-      "server_port": 443,
-      "uuid": "95ae0de8-d944-4b1e-b450-d34d80f9a528",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "xfr.saturn-cloud.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI",
-          "short_id": "2762604ed2e0fa2f"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "132.243.223.88",
