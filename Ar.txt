@@ -5,6 +5,22 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
+      "transport":       {
+        "type": "ws",
+        "path": "/kshtest",
+        "headers":         {
+          "Host": "bold-river-60ac.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -50,22 +66,6 @@
           "public_key": "QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE",
           "short_id": "45ba18f429ad1f28"
         }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "ancient-snowflake-23ae.sinaksh.workers.dev",
-      "server_port": 8080,
-      "uuid": "f87e29ee-5559-4ced-b570-ea0c0000000e",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "ancient-snowflake-23ae.sinaksh.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
