@@ -4,22 +4,6 @@
 {
   "outbounds":  [
     {
-      "type": "vless",
-      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
-      "transport":       {
-        "type": "ws",
-        "path": "/kshtest",
-        "headers":         {
-          "Host": "bold-river-60ac.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Kheir Abadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -169,17 +153,17 @@
       },
       "packet_encoding": "xudp"
     },
-    {
+   {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "b0999fcb-9210-4255-80f7-306b00000007",
+      "uuid": "2f2bdfbd-2d8a-4d94-832f-c13300000001",
       "transport":       {
         "type": "ws",
-        "path": "/sinaksh",
+        "path": "/sina",
         "headers":         {
-          "Host": "holy-darkness-72bb.sinakafash.workers.dev"
+          "Host": "weathered-butterfly-2c46.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
