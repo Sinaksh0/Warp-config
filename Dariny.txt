@@ -5,15 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "2f2bdfbd-2d8a-4d94-832f-c13300000001",
+      "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Dariny\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "estproxy4.lockdwn.com",
+      "server_port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "transport":       {
         "type": "ws",
-        "path": "/sina",
+        "path": "/",
         "headers":         {
-          "Host": "weathered-butterfly-2c46.sinaksh135.workers.dev"
+          "Host": "estproxy4.lockdwn.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
