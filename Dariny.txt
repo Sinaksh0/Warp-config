@@ -5,6 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "86387d10-b211-468f-b58c-298500000002",
+      "transport":       {
+        "type": "ws",
+        "path": "/help",
+        "headers":         {
+          "Host": "red-frog-6fe3.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Dariny\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "estproxy4.lockdwn.com",
