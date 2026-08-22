@@ -5,40 +5,17 @@
   "outbounds":  [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "2f2bdfbd-2d8a-4d94-832f-c13300000001",
+      "uuid": "647cb435-e243-e9a8-a5a0-de7900000002",
       "transport":       {
         "type": "ws",
-        "path": "/sina",
+        "path": "/help",
         "headers":         {
-          "Host": "weathered-butterfly-2c46.sinaksh135.workers.dev"
+          "Host": "quiet-mode-23b0.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Vafaei\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "132.243.223.88",
-      "server_port": 443,
-      "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "fin2.freeinternat.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
-          "short_id": "ff776ff77be48b88"
-        }
       },
       "packet_encoding": "xudp"
     },
