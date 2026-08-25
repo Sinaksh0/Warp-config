@@ -6,15 +6,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
+      "uuid": "647cb435-e243-e9a8-a5a0-de7900000002",
       "transport":       {
         "type": "ws",
-        "path": "/kshtest",
+        "path": "/help",
         "headers":         {
-          "Host": "bold-river-60ac.sinaksh135.workers.dev"
+          "Host": "quiet-mode-23b0.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
