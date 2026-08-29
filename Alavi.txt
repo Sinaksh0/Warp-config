@@ -68,7 +68,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
+      "server": "late-field-ff46.phonearenachannel.workers.dev",
       "server_port": 80,
       "uuid": "742df11a-7e86-e1d8-993a-108000000001",
       "transport":       {
