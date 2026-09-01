@@ -52,20 +52,12 @@
       "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "late-field-ff46.phonearenachannel.workers.dev",
-      "server_port": 80,
-      "uuid": "742df11a-7e86-e1d8-993a-108000000001",
-      "transport":       {
-        "type": "ws",
-        "path": "/help",
-        "headers":         {
-          "Host": "late-field-ff46.phonearenachannel.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "server": "198.98.53.130",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
       "type": "shadowsocks",
