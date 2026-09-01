@@ -8,7 +8,7 @@
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
       "server_port": 8080,
-      "uuid": "647cb435-e243-e9a8-a5a0-de7900000002",
+      "uuid": "647cb435-e243-e9a8-a5a0-de7900000004",
       "transport":       {
         "type": "ws",
         "path": "/help",
