@@ -84,17 +84,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "193.23.194.167",
+      "server": "198.98.53.130",
       "server_port": 443,
-      "uuid": "32349ee8-8551-45fa-a265-8704cec72936",
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
       "type": "shadowsocks",
