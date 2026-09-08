@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
+      "server": "quiet-mode-23b0.sinaksh135.workers.dev",
       "server_port": 8080,
       "uuid": "647cb435-e243-e9a8-a5a0-de7900000004",
       "transport":       {
@@ -21,54 +21,8 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Kamrani\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "144.31.168.24",
-      "server_port": 443,
-      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "eu-central.cendora.ru",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
-          "short_id": "00bca5982f82d083"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\udde6\ud83c\uddf9AT\ud83d\ude80Kamrani\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "152.53.114.186",
-      "server_port": 443,
-      "uuid": "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "as.tunnelx.space",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA",
-          "short_id": "4e9b0c2d1a3f5768"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
+      "server": "divine-credit-c9fd.sinaksh12.workers.dev",
       "server_port": 80,
       "uuid": "74a96cd9-760e-4536-98b7-63de00000001",
       "transport":       {
