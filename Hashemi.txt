@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde8\ud83c\udde6CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "quiet-mode-23b0.sinaksh135.workers.dev",
-      "server_port": 8080,
-      "uuid": "647cb435-e243-e9a8-a5a0-de7900000004",
+      "server_port": 8880,
+      "uuid": "647cb435-e243-e9a8-a5a0-de7900000007",
       "transport":       {
         "type": "ws",
         "path": "/help",
