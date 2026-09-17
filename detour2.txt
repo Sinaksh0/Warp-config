@@ -21,6 +21,22 @@
     },
     {
       "type": "vless",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "divine-credit-c9fd.sinaksh12.workers.dev",
+      "server_port": 80,
+      "uuid": "74a96cd9-760e-4536-98b7-63de00000001",
+      "transport":       {
+        "type": "ws",
+        "path": "/help",
+        "headers":         {
+          "Host": "divine-credit-c9fd.sinaksh12.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddec\ud83c\uddf7GR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.126.238.87",
@@ -87,29 +103,6 @@
           "public_key": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
           "short_id": "5606d4a25c99e7af"
         }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "milan.adaspoloandco.com",
-      "server_port": 8443,
-      "uuid": "69ac162b-1643-4acb-9f49-09d8b0fad609",
-      "tls":       {
-        "enabled": true,
-        "server_name": "milan.adaspoloandco.com",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/RoBeRt",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
