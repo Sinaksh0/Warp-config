@@ -6,14 +6,14 @@
     {
       "type": "vless",
       "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "008a09ba-093a-db14-6b71-aaaa00000007",
+      "server": "divine-credit-c9fd.sinaksh12.workers.dev",
+      "server_port": 80,
+      "uuid": "74a96cd9-760e-4536-98b7-63de00000001",
       "transport":       {
         "type": "ws",
-        "path": "/kshtest",
+        "path": "/help",
         "headers":         {
-          "Host": "bold-river-60ac.sinaksh135.workers.dev"
+          "Host": "divine-credit-c9fd.sinaksh12.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
