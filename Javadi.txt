@@ -20,6 +20,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "divine-credit-c9fd.sinaksh12.workers.dev",
+      "server_port": 80,
+      "uuid": "74a96cd9-760e-4536-98b7-63de00000001",
+      "transport":       {
+        "type": "ws",
+        "path": "/help",
+        "headers":         {
+          "Host": "divine-credit-c9fd.sinaksh12.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf1\ud83c\uddf9LT\ud83d\ude80Javadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
