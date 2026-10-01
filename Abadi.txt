@@ -64,29 +64,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Kheir Abadi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "162.35.104.143",
-      "server_port": 443,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sheetpeek.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
-          "short_id": "84be686ea1d16478"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\udde8\ud83c\uddedCH\ud83d\ude80Kheir Abadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
