@@ -5,15 +5,31 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "divine-credit-c9fd.sinaksh12.workers.dev",
-      "server_port": 80,
-      "uuid": "74a96cd9-760e-4536-98b7-63de00000001",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "647cb435-e243-e9a8-a5a0-de7900000004",
       "transport":       {
         "type": "ws",
         "path": "/help",
         "headers":         {
-          "Host": "divine-credit-c9fd.sinaksh12.workers.dev"
+          "Host": "broad-king-aedc.sinaksh135.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 80,
+      "uuid": "f22ddada-33b7-76f6-af2d-557a00000001",
+      "transport":       {
+        "type": "ws",
+        "path": "/help",
+        "headers":         {
+          "Host": "mute-silence-ca04.sinaksh12.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
