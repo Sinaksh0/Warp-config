@@ -5,22 +5,6 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "647cb435-e243-e9a8-a5a0-de7900000004",
-      "transport":       {
-        "type": "ws",
-        "path": "/help",
-        "headers":         {
-          "Host": "broad-king-aedc.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "germa12.ggisopi.su",
@@ -99,13 +83,13 @@
       "type": "vless",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 80,
-      "uuid": "f22ddada-33b7-76f6-af2d-557a00000001",
+      "server_port": 8880,
+      "uuid": "6f82502c-a13c-e7af-64e6-990700000006",
       "transport":       {
         "type": "ws",
         "path": "/help",
         "headers":         {
-          "Host": "mute-silence-ca04.sinaksh12.workers.dev"
+          "Host": "small-hall-ce2d.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
