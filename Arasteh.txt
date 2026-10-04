@@ -7,38 +7,13 @@
       "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 8443,
-      "uuid": "3a116377-f81a-4fb3-8944-bbe40000000a",
-      "tls":       {
-        "enabled": true,
-        "server_name": "curly-shadow-8c16.sinaksh135.workers.dev",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server_port": 8080,
+      "uuid": "505174cb-9b8b-4923-9e7d-e5490000000e",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "curly-shadow-8c16.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8880,
-      "uuid": "f1e1432f-1349-46b5-bdd6-815b00000011",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "red-mode-708f.sinaksh12.workers.dev"
+          "Host": "spring-salad-b5aa.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
