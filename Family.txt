@@ -7,38 +7,13 @@
       "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 8443,
-      "uuid": "3a116377-f81a-4fb3-8944-bbe40000000a",
-      "tls":       {
-        "enabled": true,
-        "server_name": "curly-shadow-8c16.sinaksh135.workers.dev",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server_port": 8080,
+      "uuid": "505174cb-9b8b-4923-9e7d-e5490000000e",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "curly-shadow-8c16.sinaksh135.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8880,
-      "uuid": "f1e1432f-1349-46b5-bdd6-815b00000011",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "red-mode-708f.sinaksh12.workers.dev"
+          "Host": "spring-salad-b5aa.sinaksh135.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -68,24 +43,17 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "162.35.104.143",
-      "server_port": 443,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "flow": "xtls-rprx-vision",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sheetpeek.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "firefox"
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "505174cb-9b8b-4923-9e7d-e5490000000e",
+      "transport":       {
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "spring-salad-b5aa.sinaksh135.workers.dev"
         },
-        "reality":         {
-          "enabled": true,
-          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
-          "short_id": "84be686ea1d16478"
-        }
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
