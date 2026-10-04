@@ -92,7 +92,6 @@
           "reserved": "AAAA"
         }
       ],
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "noise":       {
         "fake_packet":         {
           "enabled": true,
