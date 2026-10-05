@@ -23,7 +23,7 @@
       "type": "vmess",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "216.106.187.60",
+      "server": "185.177.229.129",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
@@ -32,24 +32,25 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "162.35.104.143",
+      "server": "87.58.201.211",
       "server_port": 443,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "flow": "xtls-rprx-vision",
+      "uuid": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
       "tls":       {
         "enabled": true,
-        "server_name": "sheetpeek.com",
+        "server_name": "d3-nl1.cloud-cdn.xyz",
+        "alpn": "h2",
         "utls":         {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
-          "short_id": "84be686ea1d16478"
+          "fingerprint": "edge"
         }
+      },
+      "transport":       {
+        "type": "grpc",
+        "service_name": "vlgrpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": "xudp"
     },
@@ -62,28 +63,6 @@
       "method": "chacha20-ietf-poly1305",
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
-        {
-      "type": "wireguard",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
-      ],
-      "private_key": "KCjQEsNIOKmDuov9MSnp1CkufGh2aAPwkV4NYx/reG4=",
-      "server": "8.6.112.133",
-      "server_port": 903,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1280,
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "1-3",
-          "size": "10-30",
-          "delay": "10-30",
-          "mode": "m4"
-        }
-      }
-    },
     {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
@@ -91,6 +70,39 @@
       "server_port": 8080,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ],
+  "endpoints": [
+     {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "mtu": 1280,
+      "address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8add:4b88:626b:ff71:3018/128"
+      ],
+      "private_key": "4MK5/sW8nalU7o5XR19z4uEVXGt0S405Y756DwkofHs=",
+      "peers":       [
+        {
+          "address": "8.6.112.106",
+          "port": 5279,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "reserved": "AAAA"
+        }
+      ],
+      "noise":       {
+        "fake_packet":         {
+          "enabled": true,
+          "count": "2-10",
+          "size": "30-50",
+          "delay": "30-50",
+          "mode": "m4"
+        }
+      }
     }
   ]
 }
