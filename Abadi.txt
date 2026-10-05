@@ -29,22 +29,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8880,
-      "uuid": "f1e1432f-1349-46b5-bdd6-815b00000011",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "red-mode-708f.sinaksh12.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddee\ud83c\uddf9IT\ud83d\ude80Kheir Abadi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
