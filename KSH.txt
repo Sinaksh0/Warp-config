@@ -97,7 +97,7 @@
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
-      "server_port": 8080,
+      "server_port": 12334,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
     }
