@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tag": "🇨🇦CA\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "505174cb-9b8b-4923-9e7d-e5490000000e",
+      "server_port": 80,
+      "uuid": "418b3072-4a3a-4740-a4a5-3ba90000000d",
       "transport":       {
         "type": "ws",
         "path": "/sync",
         "headers":         {
-          "Host": "spring-salad-b5aa.sinaksh135.workers.dev"
+          "Host": "long-cake-ece8.sinaksh12.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -26,6 +26,17 @@
       "server": "185.177.229.129",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Shariati\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "38.91.107.49",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
       "authenticated_length": true,
       "packet_encoding": "xudp"
@@ -64,28 +75,77 @@
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
-      "type": "vless",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 80,
-      "uuid": "418b3072-4a3a-4740-a4a5-3ba90000000d",
-      "transport":       {
-        "type": "ws",
-        "path": "/sync",
-        "headers":         {
-          "Host": "long-cake-ece8.sinaksh12.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
+    }
+  ],
+  "endpoints": [
+    {
+      "type": "wireguard",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "mtu": 1280,
+      "address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8add:4b88:626b:ff71:3018/128"
+      ],
+      "private_key": "4MK5/sW8nalU7o5XR19z4uEVXGt0S405Y756DwkofHs=",
+      "peers":       [
+        {
+          "address": "8.6.112.109",
+          "port": 5279,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "reserved": "AAAA"
+        }
+      ],
+      "noise":       {
+        "fake_packet":         {
+          "enabled": true,
+          "count": "2-10",
+          "size": "30-50",
+          "delay": "30-50",
+          "mode": "m4"
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "mtu": 1280,
+      "address":       [
+        "172.16.0.2/32",
+        "2606:4700:110:8add:4b88:626b:ff71:3018/128"
+      ],
+      "private_key": "4MK5/sW8nalU7o5XR19z4uEVXGt0S405Y756DwkofHs=",
+      "peers":       [
+        {
+          "address": "8.6.112.12",
+          "port": 2506,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "reserved": "AAAA"
+        }
+      ],
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "noise":       {
+        "fake_packet":         {
+          "enabled": true,
+          "count": "2-10",
+          "size": "30-50",
+          "delay": "30-50",
+          "mode": "m4"
+        }
+      }
     }
   ]
 }
