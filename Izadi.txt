@@ -21,14 +21,6 @@
       "password": "y7KeRTzmH0vXT2kp"
     },
     {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Test\uD83D\uDEE1\uFE0F",
-      "server": "c3.nastuh.link",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "y7KeRTzmH0vXT2kp"
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
