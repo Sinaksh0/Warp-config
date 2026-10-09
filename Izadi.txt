@@ -6,22 +6,6 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "104.243.33.154",
-      "server_port": 45299,
-      "uuid": "261f011c-e97a-4d72-b596-e6329b50b47b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Amsterdam\uD83D\uDEE1\uFE0F",
-      "server": "c3.nastuh.link",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "y7KeRTzmH0vXT2kp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "31.77.148.89",
@@ -141,8 +125,8 @@
       "private_key": "4MK5/sW8nalU7o5XR19z4uEVXGt0S405Y756DwkofHs=",
       "peers":       [
         {
-          "address": "8.6.112.109",
-          "port": 5279,
+          "address": "127.0.0.1",
+          "port": 12334,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "allowed_ips":           [
             "0.0.0.0/0",
