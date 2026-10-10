@@ -22,24 +22,6 @@
       "password": "618a13eda4b4d208a4bcdc85fcb8996df812d59dd48419f75ae3f5f5b46a94fb"
     },
     {
-      "type": "vmess",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Alavizade\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.212.149.7",
-      "server_port": 52080,
-      "uuid": "ec3c8b97-f308-4fee-aa16-95e2c7595acd",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "http",
-        "host": "down-cdn.dingtalk.com",
-        "path": "/3x",
-        "method": "GET",
-        "version": 1
-      }
-    },
-    {
       "type": "vless",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Alavizade\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
