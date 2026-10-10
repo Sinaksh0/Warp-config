@@ -36,24 +36,6 @@
     },
     {
       "type": "vmess",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Hashemi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "185.212.149.7",
-      "server_port": 52080,
-      "uuid": "ec3c8b97-f308-4fee-aa16-95e2c7595acd",
-      "security": "auto",
-      "authenticated_length": true,
-      "packet_encoding": "xudp",
-      "transport":       {
-        "type": "http",
-        "host": "down-cdn.dingtalk.com",
-        "path": "/3x",
-        "method": "GET",
-        "version": 1
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hashemi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "lucas.ehsanazizi-speed-server.com",
