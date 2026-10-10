@@ -143,7 +143,7 @@
           "mode": "m4"
         }
       }
-    }
+    },
     {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
