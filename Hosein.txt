@@ -6,7 +6,49 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde6\ud83c\uddeaAE\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "185.253.116.33",
+      "server_port": 14430,
+      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
+      "transport":       {
+        "type": "ws",
+        "path": "/vless",
+        "headers":         {
+          "Host": "185.253.116.33"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "cf.877771.xyz",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
+      "authenticated_length": true,
+      "tls":       {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "alpn": "http/1.1"
+      },
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "vmess.lbw666.dpdns.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "\ud83c\uddeb\ud83c\uddeeFI\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "95.216.27.15",
       "server_port": 2053,
@@ -28,7 +70,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\udde9\ud83c\uddeaDE\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "31.77.148.89",
       "server_port": 45021,
@@ -37,7 +79,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddf9\ud83c\uddf7TR\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "78.135.73.47",
       "server_port": 443,
@@ -60,7 +102,7 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hosein\uD83D\uDEE1\uFE0F",
+      "tag": "\ud83c\uddec\ud83c\udde7GB\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "51.89.194.151",
       "server_port": 2053,
