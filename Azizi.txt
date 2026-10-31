@@ -16,29 +16,6 @@
     },
     {
       "type": "vless",
-      "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
-      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "tcp_fast_open": true,
-      "server": "ee.h1cloud.net",
-      "server_port": 25895,
-      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
-      "tls":       {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality":         {
-          "enabled": true,
-          "public_key": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-          "short_id": "a73f0410d728c823"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80Azizi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "tcp_fast_open": true,
@@ -122,23 +99,32 @@
   ],
   "endpoints": [
      {
-      "type": "warp",
+      "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "",
+      "mtu": 1280,
+      "address": "172.16.0.2/32",
+      "private_key": "2Jxt6m8whlDwMUh/JWbUWvwWuZsChx1HGQ9+XSDsaFQ=",
+      "peers":       [
+        {
+          "address": "188.114.96.128",
+          "port": 1002,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "lqAw"
+        }
+      ],
       "noise":       {
         "fake_packet":         {
           "enabled": true,
-          "count": "5-10",
+          "count": "5-5",
           "size": "5-10",
           "delay": "2-5",
-          "mode": "m4"
+          "mode": "raw"
         }
-      },
-      "mode": "auto",
-      "mtu": 1280,
-      "scanner":       {
-        "enabled": true,
-        "search_noise": true
       }
     }
   ]
