@@ -120,7 +120,7 @@
           "count": "5-5",
           "size": "5-10",
           "delay": "2-5",
-          "mode": "auto"
+          "mode": "raw"
         }
       }
     }
