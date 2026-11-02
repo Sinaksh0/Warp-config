@@ -4,6 +4,32 @@
 {
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "tcp_fast_open": true,
+      "server": "hcaptcha.com",
+      "server_port": 2096,
+      "uuid": "b8fcf495-e342-4c5c-86d9-e56600000004",
+      "tls":       {
+        "enabled": true,
+        "server_name": "damp-union-07ad.sinaksh1234.workers.dev",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/sync",
+        "headers":         {
+          "Host": "damp-union-07ad.sinaksh1234.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "vmess",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
