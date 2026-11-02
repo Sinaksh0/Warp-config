@@ -1,6 +1,6 @@
 #profile-title: 🧑‍💻 Azizi 🔥
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1794493800
+#subscription-userinfo: upload=0; download=1000000000; total=10737418240000000; expire=1795357800
 {
   "outbounds": [
     {
