@@ -5,6 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
+      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8880,
+      "uuid": "0bff391e-da15-3362-6f38-cc5d00000006",
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiTFhWNXZPTGI1SjEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo2fQ==",
+        "headers":         {
+          "Host": "sky-sky-988.sinaksh0123.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "\ud83c\uddea\ud83c\uddeaEE\ud83d\ude80Family\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "185.225.205.53",
