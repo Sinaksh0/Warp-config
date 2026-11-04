@@ -66,33 +66,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-KSH\u26a1\ufe0f",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "127.0.0.1",
       "server_port": 12334,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
-    }
-  ],
-  "endpoints": [
-     {
-      "type": "warp",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "",
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "5-10",
-          "size": "5-10",
-          "delay": "2-5",
-          "mode": "m4"
-        }
-      },
-      "mode": "auto",
-      "mtu": 1280,
-      "scanner":       {
-        "enabled": true,
-        "search_noise": true
-      }
     }
   ]
 }
