@@ -5,29 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "tcp_fast_open": true,
+      "tag": "🇺🇸US\ud83d\ude80All\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 2096,
-      "uuid": "b8fcf495-e342-4c5c-86d9-e56600000004",
-      "tls":       {
-        "enabled": true,
-        "server_name": "damp-union-07ad.sinaksh1234.workers.dev",
-        "alpn": "http/1.1",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server_port": 8880,
+      "uuid": "0bff391e-da15-3362-6f38-cc5d00000006",
       "transport":       {
         "type": "ws",
-        "path": "/sync",
+        "path": "/eyJqdW5rIjoiTFhWNXZPTGI1SjEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo2fQ==",
         "headers":         {
-          "Host": "damp-union-07ad.sinaksh1234.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+          "Host": "sky-sky-988.sinaksh0123.workers.dev"
+        }
+      }
     },
     {
       "type": "vmess",
