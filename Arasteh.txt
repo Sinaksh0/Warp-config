@@ -7,11 +7,11 @@
       "type": "vless",
       "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "hcaptcha.com",
-      "server_port": 8880,
-      "uuid": "0bff391e-da15-3362-6f38-cc5d00000006",
+      "server_port": 8080,
+      "uuid": "0bff391e-da15-3362-6f38-cc5d00000004",
       "transport":       {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiTFhWNXZPTGI1SjEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo2fQ==",
+        "path": "/eyJqdW5rIjoiMGQwVkpMZ0JjTDEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo0fQ==",
         "headers":         {
           "Host": "sky-sky-988.sinaksh0123.workers.dev"
         }
