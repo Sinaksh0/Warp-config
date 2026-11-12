@@ -5,20 +5,6 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80All\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "0bff391e-da15-3362-6f38-cc5d00000004",
-      "transport":       {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiMGQwVkpMZ0JjTDEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo0fQ==",
-        "headers":         {
-          "Host": "sky-sky-988.sinaksh0123.workers.dev"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "\ud83c\uddf3\ud83c\uddf1NL\ud83d\ude80Hossein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -70,33 +56,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "\uD83E\uDDD1\u200D\uD83D\uDCBBDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
-    }
-  ],
-  "endpoints": [
-    {
-      "type": "warp",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "",
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "5-10",
-          "size": "5-10",
-          "delay": "2-5",
-          "mode": "m4"
-        }
-      },
-      "mode": "auto",
-      "mtu": 1280,
-      "scanner":       {
-        "enabled": true,
-        "search_noise": true
-      }
     }
   ]
 }
