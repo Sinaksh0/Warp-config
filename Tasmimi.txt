@@ -14,6 +14,15 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "\ud83c\uddea\ud83c\uddf8ES\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
+      "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "66.163.118.103",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "\ud83c\uddeb\ud83c\uddf7FR\ud83d\ude80Tasmimi\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
       "server": "172.99.189.142",
