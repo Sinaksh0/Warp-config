@@ -4,20 +4,6 @@
 {
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇸US\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "hcaptcha.com",
-      "server_port": 8080,
-      "uuid": "0bff391e-da15-3362-6f38-cc5d00000004",
-      "transport":       {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiMGQwVkpMZ0JjTDEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo0fQ==",
-        "headers":         {
-          "Host": "sky-sky-988.sinaksh0123.workers.dev"
-        }
-      }
-    },
-    {
       "type": "vmess",
       "tag": "\ud83c\uddfA\ud83c\uddf8US\ud83d\ude80Amir Hossein\uD83D\uDEE1\uFE0F",
       "detour": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
@@ -65,34 +51,26 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
+      "type": "vless",
+      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "server": "hcaptcha.com",
+      "server_port": 8080,
+      "uuid": "0bff391e-da15-3362-6f38-cc5d00000004",
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiMGQwVkpMZ0JjTDEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo0fQ==",
+        "headers":         {
+          "Host": "sky-sky-988.sinaksh0123.workers.dev"
+        }
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "\ud83e\uddd1\u200d\ud83d\udcbbDEVELOPED-BY-SINA-KSH\u26a1\ufe0f",
       "server": "127.0.0.1",
       "server_port": 8080,
       "method": "none",
       "password": "bcaacba-caba-aabc-badc-bcbccbbacaaa"
-    }
-  ],
-  "endpoints": [
-    {
-      "type": "warp",
-      "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "",
-      "noise":       {
-        "fake_packet":         {
-          "enabled": true,
-          "count": "5-10",
-          "size": "5-10",
-          "delay": "2-5",
-          "mode": "m4"
-        }
-      },
-      "mode": "auto",
-      "mtu": 1280,
-      "scanner":       {
-        "enabled": true,
-        "search_noise": true
-      }
     }
   ]
 }
