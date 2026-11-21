@@ -61,23 +61,32 @@
   ],
   "endpoints": [
     {
-      "type": "warp",
+      "type": "wireguard",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "server": "",
+      "mtu": 1280,
+      "address": "172.16.0.2/32",
+      "private_key": "iHxYw9xGOue6FKUtLxayIEk5nqe8bstSQRyC8gisOGI=",
+      "peers":       [
+        {
+          "address": "8.6.112.206",
+          "port": 3854,
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "allowed_ips":           [
+            "0.0.0.0/0",
+            "::/0"
+          ],
+          "persistent_keepalive_interval": 5,
+          "reserved": "+VJD"
+        }
+      ],
       "noise":       {
         "fake_packet":         {
           "enabled": true,
-          "count": "5-10",
+          "count": "5-5",
           "size": "5-10",
           "delay": "2-5",
-          "mode": "m4"
+          "mode": "auto"
         }
-      },
-      "mode": "wg",
-      "mtu": 1280,
-      "scanner":       {
-        "enabled": true,
-        "search_noise": true
       }
     }
   ]
