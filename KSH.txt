@@ -75,32 +75,27 @@
   ],
   "endpoints": [
     {
-      "type": "wireguard",
+      "type": "warp",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
-      "mtu": 1280,
-      "address": "172.16.0.2/32",
-      "private_key": "iHxYw9xGOue6FKUtLxayIEk5nqe8bstSQRyC8gisOGI=",
-      "peers":       [
-        {
-          "address": "8.6.112.154",
-          "port": 1002,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips":           [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "persistent_keepalive_interval": 5,
-          "reserved": "+VJD"
-        }
-      ],
+      "unique_identifier": "aether-73c730cbb2d0-masque",
+      "server": "",
       "noise":       {
         "fake_packet":         {
-          "enabled": true,
           "count": "5-10",
           "size": "5-10",
-          "delay": "2-5",
-          "mode": "auto"
+          "delay": ""
         }
+      },
+      "mode": "masque",
+      "masque":       {
+        "enabled": true,
+        "vhttp": "h2",
+        "server_name": "www.cloudflare.com"
+      },
+      "mtu": 1280,
+      "scanner":       {
+        "enabled": true,
+        "search_noise": true
       }
     }
   ]
