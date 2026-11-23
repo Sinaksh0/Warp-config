@@ -60,20 +60,24 @@
     }
   ],
   "endpoints": [
-     {
+    {
       "type": "warp",
       "tag": "\ud83c\uddee\ud83c\uddf7IR\ud83d\ude80YourIP\uD83D\uDEE1\uFE0F",
+      "unique_identifier": "aether-73c730cbb2d0-masque",
       "server": "",
       "noise":       {
         "fake_packet":         {
-          "enabled": true,
           "count": "5-10",
           "size": "5-10",
-          "delay": "2-5",
-          "mode": "m4"
+          "delay": ""
         }
       },
-      "mode": "auto",
+      "mode": "masque",
+      "masque":       {
+        "enabled": true,
+        "vhttp": "h2",
+        "server_name": "www.cloudflare.com"
+      },
       "mtu": 1280,
       "scanner":       {
         "enabled": true,
